@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Setup Node
         uses: actions/setup-node@v4
 
       - name: Install dependencies
@@ -29,7 +29,7 @@ jobs:
 
       - name: build html files
         run: |
-          npm rungenerate:hexagon:html
+          npm run generate:hexagon:html
 
       - name: Deploy Docs
         uses: peaceiris/actions-gh-pages@v3
