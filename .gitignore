@@ -39,3 +39,5 @@ tramp
 # cask packages
 .cask/
 site/
+
+.DS_Store
