@@ -1,6 +1,6 @@
 node_modules/
 doc/
-docs/
+#docs/
 local/
 npm-debug.log
 *.map
