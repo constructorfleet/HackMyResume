@@ -9,12 +9,13 @@ Definition of the ResumeDetector class.
 @license MIT. See LICENSE.md for details.
 */
 
-module.exports = function( rez ) {
-  if (rez.meta && rez.meta.format) { //&& rez.meta.format.substr(0, 5).toUpperCase() == 'FRESH'
-    return 'fresh';
+module.exports = function (rez) {
+  if (rez.meta && rez.meta.format) {
+    //&& rez.meta.format.substr(0, 5).toUpperCase() == 'FRESH'
+    return "fresh";
   } else if (rez.basics) {
-    return 'jrs';
+    return "jrs";
   } else {
-    return 'unk';
+    return "unk";
   }
 };

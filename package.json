@@ -7,6 +7,7 @@
     "url": "https://github.com/hacksalot/HackMyResume.git"
   },
   "scripts": {
+    "generate:hexagon": "node src/cli/index.js build resume.json to out/resume.all --theme themes/jsonresume-theme-hexagon --no-escape",
     "test": "grunt clean:test && mocha --exit",
     "grunt": "grunt"
   },
@@ -66,6 +67,7 @@
     "is-my-json-valid": "^2.12.4",
     "json-lint": "^0.1.0",
     "jsonlint": "^1.6.2",
+    "jsonresume-theme-hexagon": "^1.0.0",
     "lodash": "^4.17.5",
     "marked": "^0.3.5",
     "mkdirp": "^0.5.1",
@@ -99,9 +101,15 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-eslint": "^20.1.0",
     "grunt-simple-mocha": "*",
+    "jsonresume-theme-8-bit-sheep": "^1.7.0",
     "jsonresume-theme-boilerplate": "^0.1.2",
+    "jsonresume-theme-class": "^0.1.2",
     "jsonresume-theme-classy": "^1.0.9",
+    "jsonresume-theme-elite": "^1.2.0",
+    "jsonresume-theme-even": "^0.22.0",
+    "jsonresume-theme-gitlab": "^1.0.2",
     "jsonresume-theme-modern": "0.0.18",
+    "jsonresume-theme-papirus": "^0.0.5",
     "jsonresume-theme-sceptile": "^1.0.5",
     "mocha": "*",
     "stripcolorcodes": "^0.1.0"
