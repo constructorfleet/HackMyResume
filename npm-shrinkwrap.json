@@ -34,7 +34,7 @@
         "parse-filepath": "^1.0.2",
         "path-exists": "^3.0.0",
         "pinkie-promise": "^2.0.0",
-        "printf": "^0.2.3",
+        "printf": "^0.6.1",
         "recursive-readdir-sync": "^1.0.6",
         "simple-html-tokenizer": "^0.4.3",
         "slash": "^1.0.0",
@@ -6558,9 +6558,9 @@
       }
     },
     "node_modules/printf": {
-      "version": "0.2.5",
-      "resolved": "https://registry.npmjs.org/printf/-/printf-0.2.5.tgz",
-      "integrity": "sha512-XHV6WP6xUvy42gUxdNyPQKCC9j36VzpVQ8Ztoffq0D6+PugiNsZ0FqBladXXPFQWthDDCA9OvGIsjEigMtznOQ==",
+      "version": "0.6.1",
+      "resolved": "https://registry.npmjs.org/printf/-/printf-0.6.1.tgz",
+      "integrity": "sha512-is0ctgGdPJ5951KulgfzvHGwJtZ5ck8l042vRkV6jrkpBzTmb/lueTqguWHy2JfVA+RY6gFVlaZgUS0j7S/dsw==",
       "engines": {
         "node": ">= 0.9.0"
       }
