@@ -28,7 +28,7 @@
         "jsonlint": "^1.6.2",
         "jsonresume-theme-hexagon": "^1.0.0",
         "lodash": "^4.17.5",
-        "marked": "^0.3.5",
+        "marked": "^4.0.10",
         "mkdirp": "^0.5.1",
         "moment": "^2.11.1",
         "parse-filepath": "^1.0.2",
@@ -5633,11 +5633,14 @@
       }
     },
     "node_modules/marked": {
-      "version": "0.3.12",
-      "resolved": "https://registry.npmjs.org/marked/-/marked-0.3.12.tgz",
-      "integrity": "sha512-k4NaW+vS7ytQn6MgJn3fYpQt20/mOgYM5Ft9BYMfQJDz2QT6yEeS9XJ8k2Nw8JTeWK/znPPW2n3UJGzyYEiMoA==",
+      "version": "4.0.10",
+      "resolved": "https://registry.npmjs.org/marked/-/marked-4.0.10.tgz",
+      "integrity": "sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw==",
       "bin": {
-        "marked": "bin/marked"
+        "marked": "bin/marked.js"
+      },
+      "engines": {
+        "node": ">= 12"
       }
     },
     "node_modules/matched": {
