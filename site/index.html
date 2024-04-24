@@ -1,0 +1,1916 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+        <title>CV -</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
+        integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
+        integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css"
+        integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            /* Box sizing rules */
+            *,
+            *::before,
+            *::after {
+            	box-sizing: border-box;
+            }
+            
+            /* Remove default margin */
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            p,
+            figure,
+            blockquote,
+            dl,
+            dd {
+            	margin: 0;
+            }
+            
+            /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+            ul[role='list'],
+            ol[role='list'] {
+            	list-style: none;
+            }
+            
+            /* Set core root defaults */
+            html:focus-within {
+            	scroll-behavior: smooth;
+            }
+            
+            /* Set core body defaults */
+            body {
+            	line-height: 1.5;
+            	min-height: 100vh;
+            	text-rendering: optimizeSpeed;
+            }
+            
+            /* A elements that don't have a class get default styles */
+            a:not([class]) {
+            	text-decoration-skip-ink: auto;
+            }
+            
+            /* Make images easier to work with */
+            img,
+            picture {
+            	max-width: 100%;
+            	display: block;
+            }
+            
+            /* Inherit fonts for inputs and buttons */
+            input,
+            button,
+            textarea,
+            select {
+            	font: inherit;
+            }
+            
+            /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+            @media (prefers-reduced-motion: reduce) {
+            	html:focus-within {
+            		scroll-behavior: auto;
+            	}
+            
+            	*,
+            	*::before,
+            	*::after {
+            		animation-duration: 0.01ms !important;
+            		animation-iteration-count: 1 !important;
+            		transition-duration: 0.01ms !important;
+            		scroll-behavior: auto !important;
+            	}
+            }
+            
+            /* ========================================================================== */
+            :root {
+            	--color-bg: #e9e8ea;
+            	--color-primary: #e9e8ea;
+            	--color-secondary: #101e32;
+            	--color-secondary-alpha: #101e329f;
+            	--color-skill-level: var(--color-primary);
+            	--hex-size: 3rem;
+            	--icon-size: 1.5rem;
+            }
+            
+            @page {
+            	size: A4 portrait;
+            	margin: 0;
+            }
+            
+            @media print {
+            	a {
+            		color: var(--color-secondary);
+            		display: initial;
+            	}
+            
+            	.summary a::after {
+            		content: " (" attr(href) ")";
+            	}
+            
+            	.company {
+            		break-inside: avoid;
+            	}
+            }
+            
+            html,
+            body {
+            	font-size: 12px;
+            }
+            
+            body {
+            	border: none;
+            	display: grid;
+            	color: var(--color-secondary);
+            	background-color: var(--color-bg);
+            	font-family: Roboto, sans-serif;
+            	grid-template-columns: 20rem 2fr;
+            	grid-template-areas: "sidebar main";
+            }
+            
+            main {
+            	border: none;
+            	grid-area: main;
+            	padding-bottom: 2rem;
+            	background-color: var(--color-bg);
+            	--color-hexagon: var(--color-secondary);
+            	--color-icon: var(--color-secondary);
+            }
+            
+            aside {
+            	border: none;
+            	grid-area: sidebar;
+            	color: var(--color-primary);
+            	background-size: cover;
+            	background-color: var(--color-secondary);
+            	--color-hexagon: var(--color-primary);
+            	--color-icon: var(--color-secondary);
+            }
+            
+            aside a {
+            	color: var(--color-primary);
+            }
+            
+            aside li {
+            	display: flex;
+            	align-items: center;
+            	margin: 0.5rem 0;
+            }
+            
+            aside li>div {
+            	padding: 0 0.5rem;
+            }
+            
+            aside .heading {
+            	--color-icon: var(--color-primary);
+            	--hex-size: 3rem;
+            	--icon-size: 1.5rem;
+            }
+            
+            section {
+            	padding-left: 1rem;
+            }
+            
+            summary {
+            	font-size: 1rem;
+            	line-height: 1.125;
+            }
+            
+            a {
+            	text-decoration: none;
+            }
+            
+            a:hover {
+            	text-decoration: underline;
+            }
+            
+            i[class^="fa-"] {
+            	color: var(--color-icon, white);
+            	font-size: var(--icon-size);
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+            	margin: 0;
+            	page-break-after: avoid;
+            }
+            
+            h1 {
+            	font-weight: 700;
+            }
+            
+            h2 {
+            	font-size: 1.1rem;
+            	font-weight: 400;
+            }
+            
+            h3 {
+            	border: none;
+            	display: flex;
+            	align-items: center;
+            	font-weight: 400;
+            	position: relative;
+            	letter-spacing: .125rem;
+            	text-transform: uppercase;
+            }
+            
+            ul {
+            	list-style: none;
+            	margin: 0;
+            	padding: 0;
+            }
+            
+            ul.bullets li:before {
+            	content: '⬡';
+            	margin: 0 1em;
+            	font-size: 1.25rem
+            }
+            
+            ul li p {
+            	display: inline
+            }
+            
+            sup {
+            	display: inline-block;
+            	--color-icon: none;
+            	--icon-size: none;
+            }
+            
+            .dates {
+            	font-size: .9rem;
+            	margin-bottom: 5px;
+            	--color-icon: none;
+            	--icon-size: none;
+            }
+            
+            .dates>i {
+            	margin: .25rem;
+            	opacity: 0.7;
+            }
+            
+            .photo {
+            	display: flex;
+            	align-items: center;
+            	justify-content: center;
+            	margin: 2rem auto 0.5rem;
+            	width: 10rem;
+            	height: 10rem;
+            	position: relative;
+            	--hex-size: none;
+            	--color-hexagon: var(--color-primary);
+            }
+            
+            .name {
+            	color: #fff;
+            	text-align: center;
+            	font-size: 1.75rem;
+            	text-transform: uppercase;
+            }
+            
+            .name>span:first-of-type {
+            	color: var(--color-primary);
+            	font-weight: 300;
+            }
+            
+            .title {
+            	color: var(--color-primary);
+            	font-size: 1.25rem;
+            	font-weight: 300;
+            	text-align: center;
+            }
+            
+            .heading {
+            	display: flex;
+            	align-items: center;
+            	justify-content: space-between;
+            	padding: 2rem 0 1rem;
+            }
+            
+            .heading>h3 {
+            	padding: 0 1rem 0 0.5rem;
+            }
+            
+            .heading>hr {
+            	flex: 1;
+            	border: none;
+            	border-bottom: 2px solid var(--color-icon);
+            }
+            
+            .heading>h4 {
+            	display: flex;
+            	flex-direction: column;
+            	font-size: 1.25rem;
+            }
+            
+            .heading>h4>a {
+            	font-size: .9rem;
+            	opacity: 0.6;
+            }
+            
+            .heading>.hex-icon {
+            	--hex-size: 3rem;
+            	--icon-size: 1.25rem;
+            }
+            
+            .work .company,
+            .education .institution,
+            .projects .project {
+            	padding-right: 1rem;
+            }
+            
+            .work .company .heading,
+            .education .institution .heading,
+            .projects .project .heading {
+            	align-items: unset;
+            }
+            
+            .work>div:nth-child(2) .heading,
+            .education>div:nth-child(2) .heading,
+            .projects>div:nth-child(2) .heading {
+            	padding-top: 0;
+            }
+            
+            .work .position {
+            	font-size: 0.9rem;
+            	opacity: 0.85;
+            	font-weight: bold;
+            }
+            
+            .work .summary {
+            	margin: 8px 0 16px 0;
+            }
+            
+            .work .highlights,
+            .projects .highlights {
+            	display: flex;
+            	flex-wrap: wrap;
+            	gap: 2px;
+            	font-size: .5rem;
+            }
+            
+            .work .highlights>.stack,
+            .projects .highlights>.stack {
+            	color: white;
+            	display: inline;
+            	padding: 2px 8px;
+            	transform: skewX(-15deg);
+            	border-radius: 8px 0 8px 0;
+            	background-color: var(--color-secondary);
+            }
+            
+            blockquote {
+              background: #f9f9f9;
+              border-left: 10px solid #ccc;
+              margin: 1.5em 10px;
+              padding: 0.5em 10px;
+              quotes: "\201C""\201D""\2018""\2019";
+              font: 14px/22px normal helvetica, sans-serif;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              margin-left: 50px;
+              padding-left: 15px;
+              border-left: 3px solid #ccc;
+            }
+            blockquote:before {
+              color: #ccc;
+              content: '\201C';
+              font-size: 4em;
+              line-height: 0.1em;
+              margin-right: 0.25em;
+              vertical-align: -0.4em;
+            }
+            blockquote:after {
+              color: #ccc;
+              content: '\201D';
+              font-size: 4em;
+              line-height: 0.1em;
+              margin-left: 0.25em;
+              vertical-align: -0.4em;
+            }
+            blockquote p {
+              display: inline;
+            }
+            
+            .skill-group {
+            	break-inside: avoid;
+            	padding-top: 1rem;
+            }
+            
+            .skills>div:nth-of-type(2) {
+            	padding-top: 0;
+            }
+            
+            .skills h5 {
+            	opacity: 0.6;
+            }
+            
+            .skill {
+            	display: flex;
+            	align-items: center;
+            	justify-content: space-between;
+            	padding: 0px 1rem 0 0.5rem;
+            }
+            
+            .skill>h3 {
+            	display: inline-block;
+            	margin: 1rem 0;
+            }
+            
+            .skill-level {
+            	height: .5rem;
+            	width: 1rem;
+            	display: inline-block;
+            	transform: skewX(-45deg);
+            	opacity: .25;
+            	background-color: var(--color-skill-level);
+            }
+            
+            .skill-level-active {
+            	opacity: 1;
+            }
+            
+            .hex {
+            	width: var(--hex-size, 2rem);
+            	height: var(--hex-size, 2rem);
+            	mask-repeat: no-repeat;
+            	-webkit-mask-repeat: no-repeat;
+            	mask-position: center center;
+            	-webkit-mask-position: center center;
+            	background-color: var(--color-hexagon, --color-primary);
+            }
+            
+            .hex-border {
+            	mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTA2LjQ0IDEyMi44OCI+CiAgPHBhdGggZmlsbD0iY3VycmVudENvbG9yIgogICAgZD0iTTU1LjA2LDEuMDdsNTEuMzcsMjkuNjZ2NjEuNDNsLTUzLjIyLDMwLjczTDAsOTIuMTVWMzAuNzNMNTMuMjIsMEw1NS4wNiwxLjA3TDU1LjA2LDEuMDd6IE03Ni4xMywyMS43NEw1My4yMiw4LjUxIEw3LjM5LDM0Ljk3djUyLjk0bDQ1LjgzLDI2LjQ2bDQ1LjgzLTI2LjQ2VjM0Ljk3TDc2LjEzLDIxLjc0TDc2LjEzLDIxLjc0eiIgLz4KPC9zdmc+Cg==");
+            	-webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTA2LjQ0IDEyMi44OCI+CiAgPHBhdGggZmlsbD0iY3VycmVudENvbG9yIgogICAgZD0iTTU1LjA2LDEuMDdsNTEuMzcsMjkuNjZ2NjEuNDNsLTUzLjIyLDMwLjczTDAsOTIuMTVWMzAuNzNMNTMuMjIsMEw1NS4wNiwxLjA3TDU1LjA2LDEuMDd6IE03Ni4xMywyMS43NEw1My4yMiw4LjUxIEw3LjM5LDM0Ljk3djUyLjk0bDQ1LjgzLDI2LjQ2bDQ1LjgzLTI2LjQ2VjM0Ljk3TDc2LjEzLDIxLjc0TDc2LjEzLDIxLjc0eiIgLz4KPC9zdmc+Cg==");
+            }
+            
+            .hex-solid {
+            	transform: scale(0.95);
+            	mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzMuMjA1MDgwNzU2ODg3NzIgMjAwIj4KICA8cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiCiAgICBkPSJNODYuNjAyNTQwMzc4NDQzODYgMEwxNzMuMjA1MDgwNzU2ODg3NzIgNTBMMTczLjIwNTA4MDc1Njg4NzcyIDE1MEw4Ni42MDI1NDAzNzg0NDM4NiAyMDBMMCAxNTBMMCA1MFoiPjwvcGF0aD4KPC9zdmc+Cg==");
+            	-webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzMuMjA1MDgwNzU2ODg3NzIgMjAwIj4KICA8cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiCiAgICBkPSJNODYuNjAyNTQwMzc4NDQzODYgMEwxNzMuMjA1MDgwNzU2ODg3NzIgNTBMMTczLjIwNTA4MDc1Njg4NzcyIDE1MEw4Ni42MDI1NDAzNzg0NDM4NiAyMDBMMCAxNTBMMCA1MFoiPjwvcGF0aD4KPC9zdmc+Cg==");
+            }
+            
+            .hex-absolute {
+            	position: absolute;
+            	top: 0;
+            	bottom: 0;
+            	left: 0;
+            	right: 0;
+            }
+            
+            .hex-icon {
+            	display: inline-flex;
+            	align-items: center;
+            	justify-content: center;
+            	--hex-size: 2rem;
+            	--icon-size: 1rem;
+            }
+            
+            .hex-icon>i[class^="fa-"] {
+            	position: absolute;
+            }
+        </style>
+    </head>
+    
+    <body resume>
+        <aside>
+            <div class="photo">
+                <div class="hex hex-border hex-absolute"></div>
+                <div class="hex hex-solid">
+                    <img src="./avatar.png" alt="photo">
+                </div>
+            </div>
+            <div class="name"> <span class="firstName"></span>  <span class="lastName"></span>
+
+            </div>
+            <div class="title">Senior Software Engineer Specializing in IoT and Home Automation</div>
+            <section
+            class="contacts">
+                <div class="heading">
+                    <div class="hex-icon">
+                        <div class="hex hex-border"></div> <i class="fa-solid fa-id-badge"></i>
+
+                    </div>
+                     <h3>CONTACT ME</h3>
+
+                    <hr />
+                </div>
+                <ul>
+                    <li>
+                        <div class="hex-icon">
+                            <div class="hex hex-solid"></div> <i class="fa-solid fa-phone"></i>
+
+                        </div>
+                        <div>(720) 432-5361</div>
+                    </li>
+                    <li>
+                        <div class="hex-icon">
+                            <div class="hex hex-solid"></div> <i class="fa-solid fa-envelope"></i>
+
+                        </div>
+                        <div> <a href="mailto:that@teagantotally.rocks">that@teagantotally.rocks</a>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hex-icon">
+                            <div class="hex hex-solid"></div> <i class="fa-solid fa-globe"></i>
+
+                        </div>
+                        <div> <a target="_blank" href="https://blog.teagantotally.rocks">
+              blog.teagantotally.rocks
+              <sup>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </sup>
+            </a>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="hex-icon">
+                            <div class="hex hex-solid"></div> <i class="fa-solid fa-location-dot"></i>
+
+                        </div>
+                        <div>Morrison, CO, US</div>
+                    </li>
+                </ul>
+                </section>
+                <section class="skills">
+                    <div class="heading">
+                        <div class="hex-icon">
+                            <div class="hex hex-border"></div> <i class="fa-solid fa-code"></i>
+
+                        </div>
+                         <h3>SKILLS</h3>
+
+                        <hr />
+                    </div>
+                    <div class="skill-group">
+                        <h5>Languages</h5> 
+                        <div class="skill">
+                             <h6>Java</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Kotlin</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>C#</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>C/C++</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Embedded C</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>VBA</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Visual Basic</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Visual Basic.Net</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>F#</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Scala</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Hascal</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Bash</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>PHP</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h5>State Managment</h5> 
+                        <div class="skill">
+                             <h6>Ansible</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Salt</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Consol</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h5>DevOps</h5> 
+                        <div class="skill">
+                             <h6>Jenkins</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>AWX</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Drone</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h5>Provisioning</h5> 
+                        <div class="skill">
+                             <h6>Foreman</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>MaaS</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>VMWare</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level "></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h5>IoT/Automation</h5> 
+                        <div class="skill">
+                             <h6>Z-Wave</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>X10</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Zigbee</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Thread</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>MQTT</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>Home-Assistant</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>OpenHAB</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                        <div class="skill">
+                             <h6>ioBroker</h6>
+
+                            <div> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level skill-level-active"></span>
+
+                                <span
+                                class="skill-level skill-level-active"></span> <span class="skill-level skill-level-active"></span>
+ <span class="skill-level "></span>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="social">
+                    <div class="heading">
+                        <div class="hex-icon">
+                            <div class="hex hex-border"></div> <i class="fa-solid fa-share-nodes"></i>
+
+                        </div>
+                         <h3>CONNECT</h3>
+
+                        <hr />
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="hex-icon">
+                                <div class="hex hex-solid"></div> <i class="fa-brands fa-linkedin"></i>
+
+                            </div> <a rel="noreferrer" target="_blank" href="https://linkedin.com/in/teagan42"
+                            title="LinkedIn">
+            linkedin.com/in/teagan42
+            <sup>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </sup>
+          </a>
+
+                        </li>
+                        <li>
+                            <div class="hex-icon">
+                                <div class="hex hex-solid"></div> <i class="fa-brands fa-github"></i>
+
+                            </div> <a rel="noreferrer" target="_blank" href="https://github.com/Teagan42"
+                            title="GitHub">
+            github.com/Teagan42
+            <sup>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </sup>
+          </a>
+
+                        </li>
+                        <li>
+                            <div class="hex-icon">
+                                <div class="hex hex-solid"></div> <i class="fa-brands fa-github"></i>
+
+                            </div> <a rel="noreferrer" target="_blank" href="https://github.com/constructorfleet"
+                            title="GitHub">
+            github.com/constructorfleet
+            <sup>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </sup>
+          </a>
+
+                        </li>
+                    </ul>
+                    </div>
+                </section>
+        </aside>
+        <main>
+            <section class="profile" id="profile">
+                <div class="heading">
+                    <div class="hex-icon">
+                        <div class="hex hex-border"></div> <i class="fa-solid fa-id-badge"></i>
+
+                    </div>
+                     <h3>PROFILE</h3>
+
+                    <hr />
+                </div>
+                <summary>
+                    <p>Dynamic software engineer specializing in IoT and home automation, with
+                        extensive experience in developing and optimizing edge device functionality.
+                        Known for deploying robust, scalable solutions that enhance device connectivity
+                        and automation. Proven track record in driving advancements in the IoT
+                        ecosystem through strategic development and deployment of edge technologies.</p>
+                </summary>
+            </section>
+            <section class="work" id="work">
+                <div class="heading">
+                    <div class="hex-icon">
+                        <div class="hex hex-border"></div> <i class="fa-solid fa-briefcase"></i>
+
+                    </div>
+                     <h3>WORK EXPERIENCE</h3>
+
+                    <hr />
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Resideo
+            <a href="https://resideo.com" target="_blank">resideo.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Advanced Senior GraphQL Engineer</div>
+                    <div class="summary">
+                        <p>Tactical and intentional schema design, along with deep understanding
+                            of the GraphQL SDL, I lead my engineers towards an innovative and novel
+                            approach to domain oriented development that improves the communication
+                            from top to bottom. Using schema to increase velocity and vastly reducing
+                            the chance of bugs in releases.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Led the design and implementation of innovative schema configurations
+                                enhancing communication and functionality across IoT devices.</p>
+                        </li>
+                        <li class="">
+                            <p>Subject matter expert on GraphQL specification and features, capabilities,
+                                best practices responsible for mentoring, demoing, training and guiding
+                                teams in implementation.</p>
+                        </li>
+                        <li class="">
+                            <p>Conducted training and workshops to elevate team capabilities in cutting-edge
+                                IoT solutions, directly impacting project delivery and system optimization.</p>
+                        </li>
+                        <li class="">
+                            <p>Facilitated the migration of all subgraphs and gateways from NexusJS Apollo
+                                Server v2 to NestJS using Apollo Server v4 federation 2.3.</p>
+                        </li>
+                        <li class="">
+                            <p>Implemented patterns of self-validating, self-documenting domain driven
+                                data types using GraphQL scalars and type system.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            World Wide Technology
+            <a href="https://wwt.com" target="_blank">wwt.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Senior Delivery Engineer</div>
+                    <div class="summary">
+                        <p>A Delivery Engineer is a position requiring a deep understanding of software
+                            development patterns and life-cycle, CI/CD pipelines, DevOps tooling, and
+                            mindset. Delivery Engineers are assigned to teams to provide the development
+                            team with what is necessary to deliver the project. Working directly with
+                            developers to remove obstacles, improve throughput, automate SDLC, and
+                            design, implement, and deploy the infrastructure necessary for the project&#39;s
+                            success.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>A top client requested a verifiable report detailing the interconnections
+                                that meet the expected specifications within six weeks to keep the multi-million
+                                dollar per year contract. As one of the few with the skills and knowledge
+                                needed, presented an <a href="#awards">award winning solution</a> designed,
+                                built and deployed within five weeks to the client five weeks later that
+                                utilized Ansible to traverse the network via IP tables, ARP tables, IPMI,
+                                Redfish, iLO, iDRAC, and LLDP allowed automated validation of in-band and
+                                out-of-band network connections between servers, switches, and routers
+                                that the client required.</p>
+                        </li>
+                        <li class="">
+                            <p>Performing validation, remediation, and verification on hundreds of devices
+                                a day is a significant bottleneck in WWT&#39;s supply chain, made even
+                                worse due to each ITC team&#39;s one-off solutions. Working with a solutions
+                                architect, built a framework to discover servers, switches, routers, and
+                                storage devices using mDNS, PXE, iPXE, and DHCP that generates detailed
+                                validation reports. The solution facilitated fully automated validation
+                                of internal hardware against expected build configurations, remediation
+                                of firmware versions, and upgrading the operating system to match order
+                                specifications. Throughput improved from less than 10 devices to over 60
+                                devices a day without errors.</p>
+                        </li>
+                        <li class="">
+                            <p>Initiated a weekly self-paced training session to explore concepts, terminology,
+                                and processes used in both software and DevOps, improving the communication
+                                and cohesion between members of these teams.</p>
+                        </li>
+                        <li class="">
+                            <p>To improve the usability and maintainability of projects used by teams
+                                in the ITC, Created custom Ansible plugins for simplifying complicated
+                                task logic, inventory, and logging requirements. Now used by 11 teams,
+                                it reduced the support requests to developers from 3 a day to once a week
+                                or less.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            KForce
+            <a href="http://kforce.com" target="_blank">kforce.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Automation Engineer @ Charter Advanced Technologies</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Implemented a provisioning pipeline using Foreman and AWX, optimizing
+                                the deployment and management of hardware resources critical for edge computing.</p>
+                        </li>
+                        <li class="">
+                            <p>Pioneered the design of a scalable network architecture for next-generation
+                                VR and gaming services, focusing on low-latency, high-availability edge
+                                computing solutions.</p>
+                        </li>
+                        <li class="">
+                            <p>Implemented robust automation scripts and tools to enhance the efficiency
+                                and reliability of edge device operations in real-time service environments.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Turnberry Solutions
+            <a href="https://turnberrysolutions.com" target="_blank">turnberrysolutions.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Automation Engineer @ Comcast Applied AI</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Responsible for turning poorly designed algorithms into solutions that
+                                facilitate configurable data sources, domain logic, data transformations,
+                                and overall extensibility.</p>
+                        </li>
+                        <li class="">
+                            <p>Created a prototype using Python 3.7 and Tensorflow 1.12 to demonstrate
+                                an algorithm for detecting deliveries of all types, including mail, food,
+                                and parcel deliveries, i.e., Amazon, USPS, FedEx, while trying to account
+                                for camera placement, differences in environment and neighborhood style.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed tools empowering the research teams to rapidly develop, perform
+                                A/B testing, and deploy machine learning models with metrics collection,
+                                monitoring, and failover baked into the solutions.</p>
+                        </li>
+                        <li class="">
+                            <p>Worked with a small DevOps team to standardize automation, infrastructure,
+                                and the Automated Machine Learning Platform stack configuration using Amazon
+                                AWS, EKS, IAM, EC2, and more.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed a universal, plug-in-based library in Python for transparently
+                                gathering internal application metrics with minimal impact on readability
+                                or scalability that pushed metrics to various collection services.</p>
+                        </li>
+                        <li class="">
+                            <p>Worked alongside Comcast manager to improve a library, written in GoLang,
+                                that integrates with nearly any Pub/Sub system, including Kinesis, Kafka,
+                                MQTT, RabbitMQ.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Aetna
+            <a href="https://aetna.com" target="_blank">aetna.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Senior Staff Engineer</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Worked with a small team of senior engineers from different departments
+                                and platforms to plan, design, architect, and implement a complete vertical
+                                stack for integrating with the first CVS API, including the technologies
+                                used, CI/CD pipeline, infrastructure, DevOps, and back-end services.</p>
+                        </li>
+                        <li class="">
+                            <p>Worked closely with product to refine and improve feature sets.</p>
+                        </li>
+                        <li class="">
+                            <p>Spearheaded the transition from Java to Kotlin, enhancing the development
+                                process and maintainability of applications interfacing with IoT devices
+                                for health monitoring.</p>
+                        </li>
+                        <li class="">
+                            <p>Continued to work with the Android architecture team to refine and expand
+                                the unified architecture for the platform.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Aetna
+            <a href="https://aetna.com" target="_blank">aetna.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Senior Android Engineer</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Responsible for mentoring and conducting lessons focused on engineering
+                                best practices, such as Inversion of Control, writing testable code, dependency
+                                injection frameworks, Kotlin basics, Kotlin coroutines, and channels.</p>
+                        </li>
+                        <li class="">
+                            <p>Introduced scalable and maintainable design pattern proofs-of-concept
+                                to the Android engineers, including a decorator pattern for moving metadata
+                                out of core logic, a self-binding RecyclerView library, and a reusable
+                                questionnaire component used by various feature teams.</p>
+                        </li>
+                        <li class="">
+                            <p>Facilitated the transition from Java to Kotlin as the primary development
+                                language on the Android platform.</p>
+                        </li>
+                        <li class="">
+                            <p>Provided preliminary scoping and technical design for integrating the
+                                Aetna Health Android application with Google Fit API.</p>
+                        </li>
+                        <li class="">
+                            <p>Advocated and formed an architecture team to plan, define, document, and
+                                implement a unified architectural framework to facilitate proper application
+                                layer isolation.</p>
+                        </li>
+                        <li class="">
+                            <p>Implemented deep-linking in the EpicMix Android app using <a href="https://github.com/Teagan42/Deepthought-Routing-Android">Deepthought-Routing-Android</a>,
+                                my own open-source Android library for URI interception, processing, and
+                                in-app routing.</p>
+                        </li>
+                        <li class="">
+                            <p>Added permission handling for Android Marshmallow and above, fixed inherited
+                                theme issues and other SDK-related changes that arose due to target SDK
+                                version change.</p>
+                        </li>
+                        <li class="">
+                            <p>Refactored the project so that existing unit tests running and passing,
+                                allowing new feature work backed by unit and integration tests.</p>
+                        </li>
+                        <li class="">
+                            <p>Discovered and reported significant application security risks related
+                                to end-user account data on client devices.</p>
+                        </li>
+                        <li class="">
+                            <p>Fixed concurrency issues with background threads and incorrect use of
+                                lifecycle hooks in Fragments and Activities, causing the application to
+                                crash.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Tek Systems
+            <a href="https://teksystems.com" target="_blank">teksystems.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Senior Android Engineer @ Vail Resorts EpicMix</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Implemented deep-linking in the EpicMix Android app using <a href="https://github.com/Teagan42/Deepthought-Routing-Android">Deepthought-Routing-Android</a>,
+                                my own open-source Android library for URI interception, processing, and
+                                in-app routing.</p>
+                        </li>
+                        <li class="">
+                            <p>Added permission handling for Android Marshmallow and above, fixed inherited
+                                theme issues and other SDK-related changes that arose due to target SDK
+                                version change.</p>
+                        </li>
+                        <li class="">
+                            <p>Refactored the project to get existing unit tests running and passing,
+                                allowing new feature work backed by unit and integration tests.</p>
+                        </li>
+                        <li class="">
+                            <p>Discovered and reported significant application security risks related
+                                to end-user account data on client devices.</p>
+                        </li>
+                        <li class="">
+                            <p>Fixed concurrency issues with background threads and incorrect use of
+                                lifecycle hooks in Fragments and Activities, causing the application to
+                                crash.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            MassRoots
+            <a href="https://massroots.com" target="_blank">massroots.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Native Team Lead</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Green-fielded the Android mobile application rewrite architected around
+                                an asynchronous event bus with highly optimized thread utilization.</p>
+                        </li>
+                        <li class="">
+                            <p>Utilized bi-directional data binding, single activity router, and a home-grown
+                                live data system that allows all views saved to the back-stack to update
+                                from any API request.</p>
+                        </li>
+                        <li class="">
+                            <p>Implemented <a href="https://github.com/constructorfleet/Deepthought-Routing">Deepthought - Routing</a>,
+                                my open-source self-documenting, self-validating API library, into the
+                                NodeJS backend services immediately bringing documentation in line with
+                                the code.</p>
+                        </li>
+                        <li class="">
+                            <p>Worked closely with product, design, and engineering teams to implement
+                                technical feasibility and product feedback sessions, improving communication
+                                and collaboration.</p>
+                        </li>
+                        <li class="">
+                            <p>Acted as a mentor and professionally built out the development team, implementing
+                                better coding standards and practices across the department.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Apto
+            <a href="https://aptotude.com" target="_blank">aptotude.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Salesforce Engineer</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Designed and built a plug-n-play integration system for push, pull, and
+                                bi-directional synchronization with 3rd party data and APIs.</p>
+                        </li>
+                        <li class="">
+                            <p>Implemented a fully dynamic trigger handler factory with trigger execution
+                                controlled through UI settings.</p>
+                        </li>
+                        <li class="">
+                            <p>Worked with designers to implement an Angular-based front-end web application
+                                on top of Salesforce.</p>
+                        </li>
+                        <li class="">
+                            <p>Built out custom back office and HR system for large commercial real estate
+                                brokerages.</p>
+                        </li>
+                        <li class="">
+                            <p>Working with another developer, we introduced a node application to browse
+                                the Salesforce object model and metadata using the Tooling API.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            SourceGas
+            <a href="https://sourcegas.com" target="_blank">sourcegas.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Business Applications Developer</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Used ASP.Net MVC 4 and 5 with an MS SQLServer Backend to build web applications
+                                that track compliance testing and inspections of equipment required by
+                                federal regulations.</p>
+                        </li>
+                        <li class="">
+                            <p>Wrote a C# library for internal developers that includes wrappers around
+                                EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services
+                                from Bing, Yahoo, and Google, and standard datatypes, and logic used throughout
+                                the software development landscape.</p>
+                        </li>
+                        <li class="">
+                            <p>Deployed a time tracking and reporting site with the other developers
+                                used company-wide using ASP.Net MVC 4, jQuery, Durandal, Knockout, and
+                                MVC Web API with an MS SQLServer backend.</p>
+                        </li>
+                        <li class="">
+                            <p>Designed and built a C# application to poll data from HR&#39;s ADP web
+                                service, synchronized with Active Directory.</p>
+                        </li>
+                        <li class="">
+                            <p>Wrote Python scripts using ArcGIS for the GIS teams.</p>
+                        </li>
+                        <li class="">
+                            <p>Maintained the legacy VB 6 codebase, rewriting in C# when appropriate.</p>
+                        </li>
+                        <li class="">
+                            <p>Built out Excel Spreadsheets using VBA macros, database connections, and
+                                event triggers used throughout the company.</p>
+                        </li>
+                        <li class="">
+                            <p>Worked directly with business users to determine requirements and specifications
+                                of solutions.</p>
+                        </li>
+                        <li class="">
+                            <p>Using PIC-C, I created an embedded application to provide on-the-fly QA
+                                on the production machines.</p>
+                        </li>
+                        <li class="">
+                            <p>Using VB.Net and LINQ-SQL, I developed applications for converting customer
+                                data into machine-ready data.</p>
+                        </li>
+                        <li class="">
+                            <p>Updated legacy VB6 applications to the newer .Net frameworks.</p>
+                        </li>
+                        <li class="">
+                            <p>Using MS SQL, implemented new stored procedures to increase productivity
+                                over the VB6 and VB.Net applications.</p>
+                        </li>
+                        <li class="">
+                            <p>Worked with the SharePoint application for help-desk and ticket management.</p>
+                        </li>
+                        <li class="">
+                            <p>Worked with QuickBase to develop customer and project manager portals.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Denver IPS
+            <a href="https://denverips.com" target="_blank">denverips.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Software Engineer</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Using PIC-C, created an embedded application to provide on-the-fly QA
+                                on the production machines.</p>
+                        </li>
+                        <li class="">
+                            <p>Using VB.Net and LINQ-SQL, developed applications for converting customer
+                                data into machine-ready data.</p>
+                        </li>
+                        <li class="">
+                            <p>Updated legacy VB6 applications to the newer .Net frameworks.</p>
+                        </li>
+                        <li class="">
+                            <p>Using MS SQL, implemented new stored procedures to increase productivity
+                                over the VB6 and VB.Net applications.</p>
+                        </li>
+                        <li class="">
+                            <p>Worked with the SharePoint application for help-desk and ticket management.</p>
+                        </li>
+                        <li class="">
+                            <p>Worked with QuickBase to develop customer and project manager portals.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Xcel Energy
+            <a href="https://xcelenergy.com" target="_blank">xcelenergy.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970 - Apr 2024</div>
+                    </div>
+                    <div class="position">Engineering Intern</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>In charge of developing a program, T-Cycle (Teagan-Cycle), for modeling
+                                power plants, that sports a graphical user interface, calculating and tracking
+                                performance, alerting engineers to possible causes of problems in plants,
+                                and calculation corrections for reporting to government agencies.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed a Microsoft Excel Add-In for automating many of the day-to-day
+                                calculations of the team&#39;s engineers that enabled them to release their
+                                reports in half the time.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed an automated data acquisition system with mechanical engineers
+                                and our lab technician that alleviated some of the headaches and difficulties
+                                with performance testing.</p>
+                        </li>
+                        <li class="">
+                            <p>Handled all troubleshooting, debugging, and creation of instruction manuals
+                                for all applications I developed.</p>
+                        </li>
+                        <li class="">
+                            <p>Designed a step-by-step guide for converting Arcom Multiplexers into a
+                                modern Fisher ROC Multiplexer, including wiring and component placement
+                                diagrams.</p>
+                        </li>
+                        <li class="">
+                            <p>Designed and built portable power supplies for use with Rosemount transmitters.</p>
+                        </li>
+                        <li class="">
+                            <p>Took the initiative to create a database for the lab technician to keep
+                                track of equipment reservations and calibrations to allow the lab to get
+                                more done in less time.</p>
+                        </li>
+                        <li class="">
+                            <p>Provided performance engineers on-site assistance with conducting performance
+                                tests and verifying data acquisition system stability.</p>
+                        </li>
+                        <li class="">
+                            <p>Created a database with the asset management group developing for tracking
+                                plant overhauls and other capital expenditure projects.</p>
+                        </li>
+                        <li class="">
+                            <p>Responsible for training engineers in all three operating regions on T-Cycle&#39;s
+                                use, calculations, and features.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="education" id="education">
+                <div class="heading">
+                    <div class="hex-icon">
+                        <div class="hex hex-border"></div> <i class="fa-solid fa-graduation-cap"></i>
+
+                    </div>
+                     <h3>EDUCATION</h3>
+
+                    <hr />
+                </div>
+                <div class="institution">
+                    <div class="heading">
+                         <h4>
+            Metropolitan State University
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970</div>
+                    </div>
+                    <div class="area">Computer Science</div>
+                </div>
+                <div class="institution">
+                    <div class="heading">
+                         <h4>
+            Metropolitan State University
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970</div>
+                    </div>
+                    <div class="area">Applied Physics</div>
+                </div>
+                <div class="institution">
+                    <div class="heading">
+                         <h4>
+            Metropolitan State University
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970</div>
+                    </div>
+                    <div class="area">Applied Mathematics</div>
+                </div>
+            </section>
+            <section class="awards" id="awards">
+                <div class="heading">
+                    <div class="hex-icon">
+                        <div class="hex hex-border"></div> <i class="fa-solid fa-award"></i>
+
+                    </div>
+                     <h3>AWARDS</h3>
+
+                    <hr />
+                </div>
+                <div class="award">
+                    <div class="heading">
+                         <h4>
+            High Performing Employee
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jul 2021</div>
+                    </div>
+                    <div class="position">
+                        <p>Joy Vance - Director, Executive Initiatives - World Wide Technology</p>
+                    </div>
+                    <div class="description">
+                        <p>Award recognizing I was the primary driving force behind the exceptionally
+                            successful cable matrix validation project, securing contracts with one
+                            of WWT&#39;s top five clients.</p>
+                    </div>
+                    <ul class="bullets"></ul>
+                </div>
+                <div class="award">
+                    <div class="heading">
+                         <h4>
+            High Performing Team
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jul 2021</div>
+                    </div>
+                    <div class="position">
+                        <p>Award Committee - World Wide Technology</p>
+                    </div>
+                    <div class="description">
+                        <p>With only six weeks to keep a multi-million dollar client, my team provided
+                            a solution that far exceeded expectations and impressed high-level execs
+                            at WWT and our client.</p>
+                    </div>
+                    <ul class="bullets"></ul>
+                </div>
+                <div class="award">
+                    <div class="heading">
+                         <h4>
+            Red Carpet Awards
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+May 2021</div>
+                    </div>
+                    <div class="position">
+                        <p>Global Engineering - World Wide Technology</p>
+                    </div>
+                    <div class="description">
+                        <p>The Red Carpet Award recognizes and acknowledges teams that invest in
+                            extreme cross-team collaboration. Developing the cable matrix audit validation
+                            required the involvement of the NAIC-ITC, Application Services, and Global
+                            Service Provider, the first collaboration across the larger divisions of
+                            WWT.</p>
+                    </div>
+                    <ul class="bullets"></ul>
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <div class="heading">
+                    <div class="hex-icon">
+                        <div class="hex hex-border"></div> <i class="fa-solid fa-compass-drafting"></i>
+
+                    </div>
+                     <h3>PROJECTS</h3>
+
+                    <hr />
+                </div>
+                <div class="project">
+                    <div class="heading">
+                         <h4>
+            Homebridge Ultimate Govee Plugin
+            <a href="https://github.com/constructorfleet/homebridge-ultimate-govee" target="_blank">github.com/constructorfleet</a>
+          </h4>
+
+                    </div>
+                    <div class="summary">
+                        <p>Homebridge plugin to support all features of Govee devices.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Imports device scenes from Govee API.</p>
+                        </li>
+                        <li class="">
+                            <p>Supports granular control of RGBIC light segments.</p>
+                        </li>
+                        <li class="">
+                            <p>Provides full support for Air Purifiers, Aroma Diffusers, RGB lights,
+                                and RGBIC lights.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <div class="heading">
+                         <h4>
+            ConstructorFleet
+            <a href="https://github.com/constructorfleet" target="_blank">github.com/constructorfleet</a>
+          </h4>
+
+                    </div>
+                    <div class="summary">
+                        <p>Collection of Ansible, automation, and other projects developed with my
+                            spouse.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>1-Touch provisioning build pipeline.</p>
+                        </li>
+                        <li class="">
+                            <p>Tensorflow hardware acceleration tools.</p>
+                        </li>
+                        <li class="">
+                            <p>Configurations, custom components, and other tools for IoT.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <div class="heading">
+                         <h4>
+            Home-Assistant
+            <a href="https://github.com/home-assistant/core" target="_blank">github.com/home-assistant</a>
+          </h4>
+
+                    </div>
+                    <div class="summary">
+                        <p>Platform-agnostic integrations for home automation.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Top 100 contributors out of 1700.</p>
+                        </li>
+                        <li class="">
+                            <p>Implemented first computer vision integration.</p>
+                        </li>
+                        <li class="">
+                            <p>Provided support to end users around the world.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <div class="heading">
+                         <h4>
+            DeepThought - Routing
+            <a href="https://github.com/constructorfleet/Deepthought-Routing" target="_blank">github.com/constructorfleet</a>
+          </h4>
+
+                    </div>
+                    <div class="summary">
+                        <p>Self-documenting, self-validating Express.js API wrapper.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Library to ingest SwaggerDoc, ensuring the API and documentation are always
+                                synchronized.</p>
+                        </li>
+                        <li class="">
+                            <p>Performs permission checks as configurable middle-ware handler.</p>
+                        </li>
+                        <li class="">
+                            <p>All inputs presented to endpoint handlers are guaranteed the correct type
+                                and within specified constraints.</p>
+                        </li>
+                        <li class="">
+                            <p>Ported library to Android for internal, intent-based, routing within an
+                                application.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <div class="heading">
+                         <h4>
+            DeepThought
+            <a href="https://github.com/constructorfleet/Deepthought-Schema" target="_blank">github.com/constructorfleet</a>
+          </h4>
+
+                    </div>
+                    <div class="summary">
+                        <p>Documentation Oriented Development born from DeepThought-Routing and GraphQL.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Documentation written using JSONSchema generates code, validates arguments,
+                                and provides meaningful data modes.</p>
+                        </li>
+                        <li class="">
+                            <p>Utilizes dimensional analysis to validate the correctness of your data
+                                model..</p>
+                        </li>
+                        <li class="">
+                            <p>Eliminates stale and out of date documentation.</p>
+                        </li>
+                        <li class="">
+                            <p>Still a work in progress.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="testimonials" id="testimonials">
+                <div class="heading">
+                    <div class="hex-icon">
+                        <div class="hex hex-border"></div> <i class="fa-solid fa-comments"></i>
+
+                    </div>
+                     <h3>TESTIMONIALS</h3>
+
+                    <hr />
+                </div>
+                <div class="testimonial">
+                    <div class="heading">
+                         <h4>
+            James Gibson
+          </h4>
+
+                    </div>
+                    <blockquote>
+                        <p>Teagan&#39;s ability to look at a complex problem and reduce it, quickly
+                            I might add, into an extendable and reusable architecture is surpassed
+                            by no software engineer I have ever worked with. In the matter of 3 hours
+                            she had designed and beta spec&#39;ed the architecture for a commission/invoice
+                            integration with a financial system; it was approved by the client in ONE
+                            meeting. I have had the pleasure of knowing Teagan for the past three years
+                            now, and have worked side by side with her for the last year. I can say
+                            without a doubt that if she quit her current job, I&#39;d likely be applying
+                            to her new job; She is that great to work with, always honest and always
+                            knowledgeable of the task at hand. Teagan is a relentless scholar, either
+                            from the academic perspective nearly having four degrees to the community
+                            side and her continual contribution to open source. Teagan also is enthralled
+                            with automation and has taken it upon herself to automate her home and
+                            daily life where possible.</p>
+                    </blockquote>
+                </div>
+                <div class="testimonial">
+                    <div class="heading">
+                         <h4>
+            Alan Janis
+          </h4>
+
+                    </div>
+                    <blockquote>
+                        <p>Teagan is the kind of engineer who can be intimidating to work with because
+                            of her breadth and depth of knowledge, and ability to pick up new software,
+                            skills, and practices seemingly overnight. However, she is wiling to share
+                            and even mentor in these areas which I feel increases her value to her
+                            team, the company, and outside members of any project that she is tasked
+                            with. I know that she sometimes struggles with how her message comes across
+                            in conversation, but she is quick to acknowledge a mistake, take it to
+                            heart, apologize and take corrective action. Teagan is a fantastic asset
+                            and addition to any team or project, not just because of her skill set,
+                            but because of her diligence and experience taking point on difficult projects
+                            and tasks, seeing them through to completion. She has technical mastery
+                            of many programming languages, architectures, development methodologies,
+                            and well as significant knowledge of underlying systems (bare metal, KVM,
+                            cloud providers, etc.)</p>
+                    </blockquote>
+                </div>
+                <div class="testimonial">
+                    <div class="heading">
+                         <h4>
+            Aram Hamper
+          </h4>
+
+                    </div>
+                    <blockquote>
+                        <p>Teagan has been a joy to work with. I’ve been on two engagements with
+                            her now, and she consistently brings positive energy. She is intelligent,
+                            confident, outspoken, and opinionated, and I mean those things for the
+                            compliment that they are. Teagan is also humble, caring, kind, and not
+                            afraid to admit when she is wrong. She is considerate of the feelings of
+                            others and quick to resolve conflict. Teagan has a passion for continuous
+                            improvement, particularly when it comes to automation. She loves to share
+                            her work with others whenever given a chance. She loves to teach and has
+                            a lot of good things to share. When I expressed a desire to understand
+                            programming better, she started a class for people like me. On the Psyclops
+                            Team, she paired with developers (regardless of the stack) and QAs and
+                            brought a wealth of value in her first few days as an employee. On the
+                            JPMC-NAIC automation project, she quickly picked up on abstract concepts
+                            she had previously had little experience with.</p>
+                    </blockquote>
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>
