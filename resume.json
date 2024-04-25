@@ -464,8 +464,8 @@
   "education": [
     {
       "institution": "Metropolitan State University",
-      "start": "2014-06-01",
-      "end": "2010-01-01",
+      "startDate": "2014-06-01",
+      "endDate": "2010-01-01",
       "grade": "3.87",
       "summary": "",
       "area": "Applied Physics",
@@ -473,8 +473,8 @@
     },
     {
       "institution": "Metropolitan State University",
-      "start": "2014-06-01",
-      "end": "2010-01-01",
+      "startDate": "2014-06-01",
+      "endDate": "2010-01-01",
       "grade": "4.0",
       "summary": "",
       "area": "Applied Mathematics",
@@ -482,8 +482,8 @@
     },
     {
       "institution": "Metropolitan State University",
-      "start": "2014-06-01",
-      "end": "2010-01-01",
+      "startDate": "2014-06-01",
+      "endDate": "2010-01-01",
       "grade": "3.6",
       "summary": "",
       "area": "Computer Science",
