@@ -28,14 +28,18 @@
       "PHP",
       "Shell scripting (Bash)"
     ],
-    "State Managment": [
-      "Ansible",
-      "Salt",
-      "Consol"
+    "IoT/Automation": [
+      "Z-Wave",
+      "X10",
+      "Zigbee",
+      "Thread",
+      "MQTT",
+      "Home-Assistant",
+      "OpenHAB",
+      "ioBroker"
     ],
-    "Mobile Development": [
-      "React Native"
-    ],
+    "State Managment": ["Ansible", "Salt", "Consol"],
+    "Mobile Development": ["React Native"],
     "Databases": [
       "PostgreSQL",
       "mySQL",
@@ -55,41 +59,10 @@
       "OpenShift",
       "Docker Swarm"
     ],
-    "Provisioning": [
-      "Foreman",
-      "MaaS",
-      "Proxmox",
-      "VMWare"
-    ],
-    "Virtualization": [
-      "Docker",
-      "LXC",
-      "LibVirt"
-    ],
-    "Metrics": [
-      "Telegraf",
-      "Prometheus",
-      "OpenTelemetry"
-    ],
-    "Monitoring": [
-      "Grafana",
-      "Kapacitor",
-      "Monit"
-    ],
-    "IoT/Automation": [
-      "Z-Wave",
-      "X10",
-      "Zigbee",
-      "Thread",
-      "MQTT",
-      "Home-Assistant",
-      "OpenHAB",
-      "ioBroker"
-    ],
-    "Source Control": [
-      "GIT",
-      "SVN",
-      "IBM Rational ClearCase"
-    ]
+    "Provisioning": ["Foreman", "MaaS", "Proxmox", "VMWare"],
+    "Virtualization": ["Docker", "LXC", "LibVirt"],
+    "Metrics": ["Telegraf", "Prometheus", "OpenTelemetry"],
+    "Monitoring": ["Grafana", "Kapacitor", "Monit"],
+    "Source Control": ["GIT", "SVN", "IBM Rational ClearCase"]
   }
 }

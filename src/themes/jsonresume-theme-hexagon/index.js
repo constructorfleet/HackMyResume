@@ -56,10 +56,12 @@ Handlebars.registerHelper("skills", (skills, options) => {
   });
 
   let ret = "";
-  Object.entries(sks).forEach(
-    ([key, val]) =>
-      (ret += `<div class="skill-group"><h5>${key}</h5> ${val}</div>`),
-  );
+  Object.entries(sks)
+    .sort((a, b) => b[1].length - a[1].length)
+    .forEach(
+      ([key, val]) =>
+        (ret += `<div class="skill-group"><h5>${key}</h5> ${val}</div>`),
+    );
 
   return ret;
 });
@@ -83,3 +85,6 @@ function render(resume) {
 module.exports = {
   render: render,
 };
+
+
+
