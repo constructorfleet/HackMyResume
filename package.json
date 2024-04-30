@@ -7,7 +7,7 @@
     "url": "https://github.com/hacksalot/HackMyResume.git"
   },
   "scripts": {
-    "generate:hexagon": "copyfiles avatar.png docs && node src/cli/index.js build resume.json to docs/resume.all --theme src/themes/jsonresume-theme-hexagon --no-escape",
+    "generate:hexagon": "copyfiles avatar.png docs && node src/cli/index.js build resume.json to docs/resume.all --theme src/themes/jsonresume-theme-hexagon",
     "generate:hexagon:html": "copyfiles avatar.png docs && node src/cli/index.js build resume.json to docs/index.html --theme src/themes/jsonresume-theme-hexagon --no-escape",
     "test": "grunt clean:test && mocha --exit",
     "grunt": "grunt"
