@@ -20,6 +20,18 @@ Handlebars.registerHelper("date", (date = "1970-01-01") => {
   return moment(date).format("MMM YYYY");
 });
 
+Handlebars.registerHelper("img64", (img) => {
+  const b64 = fs.readFileSync(img, { encoding: "base64" });
+  return `data:image/png;base64,${b64}`;
+});
+
+Handlebars.registerHelper("img64network", (network) => {
+  const b64 = fs.readFileSync(`${network.toLowerCase()}.hex.png`, {
+    encoding: "base64",
+  });
+  return `data:image/png;base64,${b64}`;
+});
+
 Handlebars.registerHelper("names", (text = "") => {
   var names = [];
   const [first, last] = text.split(" ");
@@ -48,11 +60,12 @@ Handlebars.registerHelper("skills", (skills, options) => {
 
   const sks = {};
   skills.forEach((sk) => {
-    if (mapper[sk.name] === undefined) return;
-    const grp = mapper[sk.name];
-    let values = sks[grp] || "";
-    values += options.fn(sk);
-    sks[grp] = values;
+    const grp =
+      Object.entries(mapper).find(([n, _]) => sk.name.includes(n)) ?? undefined;
+    if (grp === undefined) return;
+    let values = sks[grp[1]] || "";
+    values += options.fn({ name: sk.name.join(", "), level: sk.level });
+    sks[grp[1]] = values;
   });
 
   let ret = "";
@@ -85,6 +98,22 @@ function render(resume) {
 module.exports = {
   render: render,
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

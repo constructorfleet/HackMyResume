@@ -24,14 +24,19 @@
   <aside>
     {{#with basics}}
     <div class="photo">
-      <div class="hex hex-border hex-absolute"></div>
-      <div class="hex hex-solid">
-        {{#if image}}
-          <img src="{{image}}" alt="photo">
+       {{#if image}}
+          <img src="{{img64 image}}" width="120px" height="120px" alt="photo">
         {{else}}
           <img src="https://picsum.photos/200" alt="photo">
         {{/if}}
-      </div>
+      {{!-- <div class="hex hex-border hex-absolute"></div>
+      <div class="hex hex-solid">
+        {{#if image}}
+          <img src="{{img64 image}}" alt="photo">
+        {{else}}
+          <img src="https://picsum.photos/200" alt="photo">
+        {{/if}}
+      </div> --}}
     </div>
 
     <div class="name">
@@ -44,38 +49,38 @@
 
     <section class="contacts">
       <div class="heading">
-        <div class="hex-icon">
-          <div class="hex hex-border"></div>
+        <img class="hex-icon" src="{{img64 'contact.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
           <i class="fa-solid fa-id-badge"></i>
-        </div>
+        </div> --}}
         <h3>CONTACT ME</h3>
         <hr />
       </div>
 
       <ul>
         <li>
-          <div class="hex-icon">
-            <div class="hex hex-solid"></div>
+          <img class="hex-icon" src="{{img64 'phone.hex.png'}}" />
+            {{!-- <div class="hex hex-solid"></div>
             <i class="fa-solid fa-phone"></i>
-          </div>
+          </div> --}}
           <div>
             {{phone}}
           </div>
         </li>
         <li>
-          <div class="hex-icon">
-            <div class="hex hex-solid"></div>
+          <img class="hex-icon" src="{{img64 'email.hex.png'}}" />
+            {{!-- <div class="hex hex-solid"></div>
             <i class="fa-solid fa-envelope"></i>
-          </div>
+          </div> --}}
           <div>
             <a href="mailto:{{email}}">{{email}}</a>
           </div>
         </li>
         <li>
-          <div class="hex-icon">
-            <div class="hex hex-solid"></div>
+          <img class="hex-icon" src="{{img64 'website.hex.png'}}" />
+            {{!-- <div class="hex hex-solid"></div>
             <i class="fa-solid fa-globe"></i>
-          </div>
+          </div> --}}
           <div>
             <a target="_blank" href="{{url}}">
               {{tiny url}}
@@ -86,10 +91,10 @@
           </div>
         </li>
         <li>
-          <div class="hex-icon">
-            <div class="hex hex-solid"></div>
+          <img class="hex-icon" src="{{img64 'pin.hex.png'}}" />
+            {{!-- <div class="hex hex-solid"></div>
             <i class="fa-solid fa-location-dot"></i>
-          </div>
+          </div> --}}
           <div>
             {{location.city}}, {{location.countryCode}}
           </div>
@@ -100,10 +105,10 @@
 
     <section class="skills">
       <div class="heading">
-        <div class="hex-icon">
-          <div class="hex hex-border"></div>
-          <i class="fa-solid fa-code"></i>
-        </div>
+        <img class="hex-icon" src="{{img64 'skills.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
+          <i class="fa-solid fa-code"></i> --}}
+        {{!-- </div> --}}
         <h3>SKILLS</h3>
         <hr />
       </div>
@@ -111,7 +116,7 @@
       {{#skills skills as | sk |}}
         <div class="skill">
           <h6>{{name}}</h6>
-          <div>
+          <div class="level">
           {{#levels level as | lvl |}}
             <span class="skill-level {{#if this}}skill-level-active{{/if}}"></span>
           {{/levels}}
@@ -122,10 +127,10 @@
 
     <section class="social">
       <div class="heading">
-        <div class="hex-icon">
-          <div class="hex hex-border"></div>
+        <img class="hex-icon" src="{{img64 'connect.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
           <i class="fa-solid fa-share-nodes"></i>
-        </div>
+        </div> --}}
         <h3>CONNECT</h3>
         <hr />
       </div>
@@ -133,10 +138,10 @@
       <ul>
         {{#each basics.profiles}}
         <li>
-          <div class="hex-icon">
-            <div class="hex hex-solid"></div>
+          <img class="hex-icon" src="{{img64network network}}" />
+            {{!-- <div class="hex hex-solid"></div>
             <i class="fa-brands fa-{{lowercase network}}"></i>
-          </div>
+          </div> --}}
           <a rel="noreferrer" target="_blank" href="{{url}}" title="{{network}}">
             {{tiny url 2}}
             <sup>
@@ -153,10 +158,10 @@
   <main>
     <section class="profile" id="profile">
       <div class="heading">
-        <div class="hex-icon">
-          <div class="hex hex-border"></div>
+        <img class="hex-icon" src="{{img64 'profile.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
           <i class="fa-solid fa-id-badge"></i>
-        </div>
+        </div> --}}
         <h3>PROFILE</h3>
         <hr />
       </div>
@@ -168,10 +173,10 @@
 
     <section class="work" id="work">
       <div class="heading">
-        <div class="hex-icon">
-          <div class="hex hex-border"></div>
+        <img class="hex-icon" src="{{img64 'work.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
           <i class="fa-solid fa-briefcase"></i>
-        </div>
+        </div> --}}
         <h3>WORK EXPERIENCE</h3>
         <hr />
       </div>
@@ -205,10 +210,10 @@
 
     <section class="education" id="education">
       <div class="heading">
-        <div class="hex-icon">
-          <div class="hex hex-border"></div>
+        <img class="hex-icon" src="{{img64 'education.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
           <i class="fa-solid fa-graduation-cap"></i>
-        </div>
+        </div> --}}
         <h3>EDUCATION</h3>
         <hr />
       </div>
@@ -234,10 +239,10 @@
 
     <section class="awards" id="awards">
       <div class="heading">
-        <div class="hex-icon">
-          <div class="hex hex-border"></div>
+        <img class="hex-icon" src="{{img64 'awards.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
           <i class="fa-solid fa-award"></i>
-        </div>
+        </div> --}}
         <h3>AWARDS</h3>
         <hr />
       </div>
@@ -268,10 +273,10 @@
 
     <section class="projects" id="projects">
       <div class="heading">
-        <div class="hex-icon">
-          <div class="hex hex-border"></div>
+        <img class="hex-icon" src="{{img64 'projects.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
           <i class="fa-solid fa-compass-drafting"></i>
-        </div>
+        </div> --}}
         <h3>PROJECTS</h3>
         <hr />
       </div>
@@ -298,10 +303,10 @@
 
     <section class="testimonials" id="testimonials">
       <div class="heading">
-        <div class="hex-icon">
-          <div class="hex hex-border"></div>
+        <img class="hex-icon" src="{{img64 'testimonial.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
           <i class="fa-solid fa-comments"></i>
-        </div>
+        </div> --}}
         <h3>TESTIMONIALS</h3>
         <hr />
       </div>

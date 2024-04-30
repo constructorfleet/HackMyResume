@@ -3,10 +3,10 @@
   "basics": {
     "name": "Teagan Glenn",
     "label": "Senior Software Engineer Specializing in IoT and Home Automation",
-    "image": "./avatar.png",
-    "picture": "./avatar.png",
-    "brief": "Dynamic software engineer specializing in IoT and home automation, with extensive experience in developing and optimizing edge device functionality. Known for deploying robust, scalable solutions that enhance device connectivity and automation. Proven track record in driving advancements in the IoT ecosystem through strategic development and deployment of edge technologies.",
-    "summary": "Dynamic software engineer specializing in IoT and home automation, with extensive experience in developing and optimizing edge device functionality. Known for deploying robust, scalable solutions that enhance device connectivity and automation. Proven track record in driving advancements in the IoT ecosystem through strategic development and deployment of edge technologies.",
+    "image": "./avatar2.png",
+    "picture": "./avatar2.png",
+    "brief": "Dynamic software engineer specializing in IoT and home automation, with extensive experience in developing and optimizing edge device functionality. Known for deploying robust, scalable solutions that enhance device connectivity and automation. Proven track record in driving advancements in the IoT ecosystem through strategic development and deployment of edge technologies. Driven by passion for electronics and the need to understand 'how?' and 'why?' obtained bachelor's degrees in Physics, Math and Computer Science.",
+    "summary": "Dynamic software engineer specializing in IoT and home automation, with extensive experience in developing and optimizing edge device functionality. Known for deploying robust, scalable solutions that enhance device connectivity and automation. Proven track record in driving advancements in the IoT ecosystem through strategic development and deployment of edge technologies. Driven by passion for electronics and the need to understand 'how?' and 'why?' obtained bachelor's degrees in Physics, Math and Computer Science.",
     "profiles": [
       {
         "label": "LinkedIn",
@@ -521,49 +521,96 @@
     ]
   },
   "skills": [
-    { "name": "Typescript", "level": 5 },
-    { "name": "Typescript", "level": 5 },
-    { "name": "Python", "level": 5 },
-    { "name": "Java", "level": 5 },
-    { "name": "Kotlin", "level": 5 },
-    { "name": "C#", "level": 5 },
-    { "name": "C/C++", "level": 4 },
-    { "name": "Embedded C", "level": 4 },
-    { "name": "VBA", "level": 3 },
-    { "name": "Visual Basic", "level": 3 },
-    { "name": "Visual Basic.Net", "level": 3 },
-    { "name": "F#", "level": 3 },
-    { "name": "Scala", "level": 3 },
-    { "name": "Hascal", "level": 3 },
-    { "name": "Bash", "level": 3 },
-    { "name": "PHP", "level": 3 },
-    { "name": "Ansible", "level": 4 },
-    { "name": "Salt", "level": 4 },
-    { "name": "Consol", "level": 3 },
-    { "name": "Chef", "level": 3 },
-    { "name": "GitLab CI", "level": 4 },
-    { "name": "GitHub Actions", "level": 4 },
-    { "name": "Jenkins", "level": 4 },
-    { "name": "AWX", "level": 4 },
-    { "name": "Drone", "level": 4 },
-    { "name": "Foreman", "level": 3 },
-    { "name": "MaaS", "level": 3 },
-    { "name": "ProxMox", "level": 3 },
-    { "name": "VMWare", "level": 3 },
-    { "name": "Z-Wave", "level": 4 },
-    { "name": "X10", "level": 4 },
-    { "name": "Zigbee", "level": 4 },
-    { "name": "Thread", "level": 4 },
-    { "name": "MQTT", "level": 4 },
-    { "name": "Home-Assistant", "level": 4 },
-    { "name": "OpenHAB", "level": 4 },
-    { "name": "ioBroker", "level": 4 }
+    {
+      "name": [
+        "Typescript",
+        "JavaScript",
+        "Python",
+        "Java",
+        "Kotlin",
+        "C#"
+      ],
+      "level": 5
+    },
+    {
+      "name": [
+        "C/C++",
+        "Embedded C"
+      ],
+      "level": 4
+    },
+    {
+      "name": [
+        "VB",
+        "VBA",
+        "VB.NET",
+        "F#",
+        "Scala",
+        "Hascal",
+        "Bash",
+        "PHP"
+      ],
+      "level": 3
+    },
+    {
+      "name": [
+        "Ansible",
+        "Salt"
+      ],
+      "level": 4
+    },
+    {
+      "name": [
+        "Consol",
+        "Chef"
+      ],
+      "level": 3
+    },
+    {
+      "name": [
+        "GitLab CI",
+        "GitHub Actions",
+        "Jenkins",
+        "AWX",
+        "Drone"
+      ],
+      "level": 4
+    },
+    {
+      "name": [
+        "Foreman",
+        "MaaS",
+        "ProxMox",
+        "VMWare"
+      ],
+      "level": 3
+    },
+    {
+      "name": [
+        "Z-Wave",
+        "X10",
+        "ZigBee",
+        "Thread",
+        "MQTT",
+        "Home-Assistant",
+        "OpenHAB",
+        "ioBroker"
+      ],
+      "level": 4
+    }
   ],
   "skills1": [
     {
       "name": "Languages",
       "level": "Master",
-      "keywords": ["Typescript", "JavaScript", "Python", "Java", "Kotlin", "C#"]
+      "keywords": [
+        "Typescript",
+        "JavaScript",
+        "Python",
+        "Java",
+        "Kotlin",
+        "C#"
+      ]
     },
     {
       "name": "Languages",
@@ -587,42 +634,76 @@
     {
       "name": "Configuration Management",
       "level": "Master",
-      "keywords": ["Ansible", "Salt"]
+      "keywords": [
+        "Ansible",
+        "Salt"
+      ]
     },
     {
       "name": "Configuration Management",
       "level": "Fluent",
-      "keywords": ["Chef", "Consol"]
+      "keywords": [
+        "Chef",
+        "Consol"
+      ]
     },
     {
       "name": "CI/CD",
       "level": "Fluent",
-      "keywords": ["GitLab CI", "GitHub Actions", "Jenkins", "AWX", "Drone"]
+      "keywords": [
+        "GitLab CI",
+        "GitHub Actions",
+        "Jenkins",
+        "AWX",
+        "Drone"
+      ]
     },
     {
       "name": "Provisioning Tools",
       "level": "Fluent",
-      "keywords": ["Foreman", "MaaS", "ProxMox", "VMWare"]
+      "keywords": [
+        "Foreman",
+        "MaaS",
+        "ProxMox",
+        "VMWare"
+      ]
     },
     {
       "name": "Virtualization",
       "level": "Fluent",
-      "keywords": ["Docker", "LXC", "PodMan", "KVM"]
+      "keywords": [
+        "Docker",
+        "LXC",
+        "PodMan",
+        "KVM"
+      ]
     },
     {
       "name": "Orchestration",
       "level": "Proficient",
-      "keywords": ["Swarm", "OpenShift", "Kubernetes"]
+      "keywords": [
+        "Swarm",
+        "OpenShift",
+        "Kubernetes"
+      ]
     },
     {
       "name": "Metrics",
       "level": "Proficient",
-      "keywords": ["Telegraf", "Prometheus", "OpenTelemetry"]
+      "keywords": [
+        "Telegraf",
+        "Prometheus",
+        "OpenTelemetry"
+      ]
     },
     {
       "name": "Monitoring",
       "level": "Proficient",
-      "keywords": ["Grafana", "Kapacitor", "Monit"]
+      "keywords": [
+        "Grafana",
+        "Kapacitor",
+        "Monit"
+      ]
     },
     {
       "name": "IoT/Automation",
@@ -641,7 +722,10 @@
     {
       "name": "Low Level Devices",
       "level": "Fluent",
-      "keywords": ["Embedded Software", "Hardware Prototping"]
+      "keywords": [
+        "Embedded Software",
+        "Hardware Prototping"
+      ]
     }
   ],
   "references": [
@@ -718,7 +802,11 @@
     },
     {
       "name": "Reverse Engineering",
-      "keywords": ["APIs", "Byte Code", "De-compilation"]
+      "keywords": [
+        "APIs",
+        "Byte Code",
+        "De-compilation"
+      ]
     }
   ],
   "testimonials": [
@@ -770,7 +858,11 @@
         "Supports granular control of RGBIC light segments.",
         "Provides full support for Air Purifiers, Aroma Diffusers, RGB lights, and RGBIC lights."
       ],
-      "keywords": ["HomeKit", "Homebridge", "Govee"],
+      "keywords": [
+        "HomeKit",
+        "Homebridge",
+        "Govee"
+      ],
       "url": "https://github.com/constructorfleet/homebridge-ultimate-govee",
       "website": "https://github.com/constructorfleet/homebridge-ultimate-govee"
     },
@@ -782,7 +874,13 @@
         "Tensorflow hardware acceleration tools.",
         "Configurations, custom components, and other tools for IoT."
       ],
-      "keywords": ["Foreman", "AWX", "Ansible", "Home-Assistant", "Homebridge"],
+      "keywords": [
+        "Foreman",
+        "AWX",
+        "Ansible",
+        "Home-Assistant",
+        "Homebridge"
+      ],
       "url": "https://github.com/constructorfleet",
       "website": "https://github.com/constructorfleet"
     },
@@ -794,7 +892,12 @@
         "Implemented first computer vision integration.",
         "Provided support to end users around the world."
       ],
-      "keywords": ["IoT", "Automation", "Smart Home", "Home-Assistant"],
+      "keywords": [
+        "IoT",
+        "Automation",
+        "Smart Home",
+        "Home-Assistant"
+      ],
       "url": "https://github.com/home-assistant/core",
       "website": "https://github.com/home-assistant/core"
     },
@@ -826,7 +929,11 @@
         "Eliminates stale and out of date documentation.",
         "Still a work in progress."
       ],
-      "keywords": ["Self-Documenting", "Self-Validating", "Documentation"],
+      "keywords": [
+        "Self-Documenting",
+        "Self-Validating",
+        "Documentation"
+      ],
       "url": "https://github.com/constructorfleet/Deepthought-Schema",
       "website": "https://github.com/constructorfleet/Deepthought-Schema"
     }
