@@ -134,7 +134,7 @@
           "Facilitated the transition from Java to Kotlin as the primary development language on the Android platform.",
           "Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API.",
           "Advocated and formed an architecture team to plan, define, document, and implement a unified architectural framework to facilitate proper application layer isolation.",
-          "Implemented deep-linking in the EpicMix Android app using [Deepthought-Routing-Android](https://github.com/Teagan42/Deepthought-Routing-Android), my own open-source Android library for URI interception, processing, and in-app routing.",
+          "Implemented deep-linking using [Deepthought-Routing-Android](https://github.com/Teagan42/Deepthought-Routing-Android), my own open-source Android library for URI interception, processing, and in-app routing.",
           "Added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK-related changes that arose due to target SDK version change.",
           "Refactored the project so that existing unit tests running and passing, allowing new feature work backed by unit and integration tests.",
           "Discovered and reported significant application security risks related to end-user account data on client devices.",
@@ -201,13 +201,7 @@
           "Wrote Python scripts using ArcGIS for the GIS teams.",
           "Maintained the legacy VB 6 codebase, rewriting in C# when appropriate.",
           "Built out Excel Spreadsheets using VBA macros, database connections, and event triggers used throughout the company.",
-          "Worked directly with business users to determine requirements and specifications of solutions.",
-          "Using PIC-C, I created an embedded application to provide on-the-fly QA on the production machines.",
-          "Using VB.Net and LINQ-SQL, I developed applications for converting customer data into machine-ready data.",
-          "Updated legacy VB6 applications to the newer .Net frameworks.",
-          "Using MS SQL, implemented new stored procedures to increase productivity over the VB6 and VB.Net applications.",
-          "Worked with the SharePoint application for help-desk and ticket management.",
-          "Worked with QuickBase to develop customer and project manager portals."
+          "Worked directly with business users to determine requirements and specifications of solutions."
         ]
       },
       {
