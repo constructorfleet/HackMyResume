@@ -50,7 +50,7 @@
       {
         "position": "Advanced Senior GraphQL Engineer",
         "employer": "Resideo",
-        "summary": "Tactical and intentional schema design, along with deep understanding of the  GraphQL SDL, I guide my engineers towards an innovative and novel approach to  domain oriented development that improves the communication from top to bottom. Using schema to increase velocity and vastly reducing the chance of bugs  in releases.",
+        "summary": "Tactical and intentional schema design, along with a deep understanding of the GraphQL SDL, I guide my engineers toward an innovative and novel approach to domain-oriented development that improves communication from top to bottom. Using schema to increase velocity and vastly reducing the chance of bugs in releases.",
         "current": true,
         "start": "2022-06-01",
         "url": "https://resideo.com",
@@ -66,7 +66,7 @@
       {
         "position": "Senior Delivery Engineer",
         "employer": "World Wide Technology",
-        "summary": "A Delivery Engineer is a position requiring a deep understanding of software development patterns and life-cycle, CI/CD pipelines, DevOps tooling, and mindset. Delivery Engineers are assigned to teams to provide the development team with what is necessary to deliver the project. Working directly with developers to remove obstacles, improve throughput, automate SDLC, and design, implement, and deploy the infrastructure necessary for the project's success.",
+        "summary": "A Delivery Engineer requires a deep understanding of software development patterns, life-cycle, CI/CD pipelines, DevOps tooling, and mindset. Delivery Engineers are assigned to teams to provide the development team with what is necessary to deliver the project. Working directly with developers to remove obstacles, improve throughput, automate SDLC, and design, implement, and deploy the required infrastructure for the project's success.",
         "start": "2021-01-04",
         "end": "2022-05-31",
         "url": "https://wwt.com",
@@ -133,8 +133,7 @@
           "Introduced scalable and maintainable design pattern proofs-of-concept to the Android engineers, including a decorator pattern for moving metadata out of core logic, a self-binding RecyclerView library, and a reusable questionnaire component used by various feature teams.",
           "Facilitated the transition from Java to Kotlin as the primary development language on the Android platform.",
           "Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API.",
-          "Advocated and formed an architecture team to plan, define, document, and implement a unified architectural framework to facilitate proper application layer isolation.",
-          "Implemented deep-linking using [Deepthought-Routing-Android](https://github.com/Teagan42/Deepthought-Routing-Android), my own open-source Android library for URI interception, processing, and in-app routing."
+          "Advocated and formed an architecture team to plan, define, document, and implement a unified architectural framework to facilitate proper application layer isolation."
         ]
       },
       {
@@ -242,10 +241,9 @@
     {
       "position": "Advanced Senior GraphQL Engineer",
       "employer": "Resideo",
-      "name": "Resideo",
-      "summary": "Tactical and intentional schema design, along with deep understanding of the  GraphQL SDL, I guide my engineers towards an innovative and novel approach to  domain oriented development that improves the communication from top to bottom. Using schema to increase velocity and vastly reducing the chance of bugs  in releases.",
+      "summary": "Tactical and intentional schema design, along with a deep understanding of the GraphQL SDL, I guide my engineers toward an innovative and novel approach to domain-oriented development that improves communication from top to bottom. Using schema to increase velocity and vastly reducing the chance of bugs in releases.",
       "current": true,
-      "startDate": "2022-06-01",
+      "start": "2022-06-01",
       "url": "https://resideo.com",
       "keywords": [],
       "highlights": [
@@ -259,14 +257,13 @@
     {
       "position": "Senior Delivery Engineer",
       "employer": "World Wide Technology",
-      "name": "World Wide Technology",
-      "summary": "A Delivery Engineer is a position requiring a deep understanding of software development patterns and life-cycle, CI/CD pipelines, DevOps tooling, and mindset. Delivery Engineers are assigned to teams to provide the development team with what is necessary to deliver the project. Working directly with developers to remove obstacles, improve throughput, automate SDLC, and design, implement, and deploy the infrastructure necessary for the project's success.",
-      "startDate": "2021-01-04",
-      "endDate": "2022-05-31",
+      "summary": "A Delivery Engineer requires a deep understanding of software development patterns, life-cycle, CI/CD pipelines, DevOps tooling, and mindset. Delivery Engineers are assigned to teams to provide the development team with what is necessary to deliver the project. Working directly with developers to remove obstacles, improve throughput, automate SDLC, and design, implement, and deploy the required infrastructure for the project's success.",
+      "start": "2021-01-04",
+      "end": "2022-05-31",
       "url": "https://wwt.com",
       "keywords": [],
       "highlights": [
-        "A top client requested a verifiable report detailing the interconnections that meet the expected specifications within six weeks to keep the multi-million dollar per year contract. As one of the few with the skills and knowledge needed, presented an <a href=\"#awards\">award winning solution</a> designed, built and deployed within five weeks to the client five weeks later that utilized Ansible to traverse the network via IP tables, ARP tables, IPMI, Redfish, iLO, iDRAC, and LLDP allowed automated validation of in-band and out-of-band network connections between servers, switches, and routers that the client required.",
+        "A top client requested a verifiable report detailing the interconnections that meet the expected specifications within six weeks to keep the multi-million dollar per year contract. As one of the few with the skills and knowledge needed, presented an [award winning solution](#awards) designed, built and deployed within five weeks to the client five weeks later that utilized Ansible to traverse the network via IP tables, ARP tables, IPMI, Redfish, iLO, iDRAC, and LLDP allowed automated validation of in-band and out-of-band network connections between servers, switches, and routers that the client required.",
         "Performing validation, remediation, and verification on hundreds of devices a day is a significant bottleneck in WWT's supply chain, made even worse due to each ITC team's one-off solutions. Working with a solutions architect, built a framework to discover servers, switches, routers, and storage devices using mDNS, PXE, iPXE, and DHCP that generates detailed validation reports.  The solution facilitated fully automated validation of internal hardware against expected build configurations, remediation of firmware versions, and upgrading the operating system to match order specifications. Throughput improved from less than 10 devices to over 60 devices a day without errors.",
         "Initiated a weekly self-paced training session to explore concepts, terminology, and processes used in both software and DevOps, improving the communication and cohesion between members of these teams.",
         "To improve the usability and maintainability of projects used by teams in the ITC, Created custom Ansible plugins for simplifying complicated task logic, inventory, and logging requirements. Now used by 11 teams, it reduced the support requests to developers from 3 a day to once a week or less."
@@ -275,9 +272,8 @@
     {
       "position": "Automation Engineer @ Charter Advanced Technologies",
       "employer": "KForce",
-      "name": "KForce",
-      "startDate": "2020-09-15",
-      "endDate": "2020-12-31",
+      "start": "2020-09-15",
+      "end": "2020-12-31",
       "url": "http://kforce.com",
       "keywords": [],
       "highlights": [
@@ -289,9 +285,8 @@
     {
       "position": "Automation Engineer @ Comcast Applied AI",
       "employer": "Turnberry Solutions",
-      "name": "Turnberry Solutions",
-      "startDate": "2019-05-10",
-      "endDate": "2020-09-15",
+      "start": "2019-05-10",
+      "end": "2020-09-15",
       "url": "https://turnberrysolutions.com",
       "keywords": [],
       "highlights": [
@@ -306,13 +301,12 @@
     {
       "position": "Senior Staff Engineer",
       "employer": "Aetna",
-      "name": "Aetna",
-      "startDate": "2019-04-01",
-      "endDate": "2019-05-19",
+      "start": "2019-04-01",
+      "end": "2019-05-19",
       "url": "https://aetna.com",
       "keywords": [],
       "highlights": [
-        "Worked with a small team of senior engineers from different departments and platforms to plan, design, architect, and implement a complete vertical stack for integrating with the first CVS API, including the technologies used, CI/CD pipeline, infrastructure, DevOps, and back-endDate services.",
+        "Worked with a small team of senior engineers from different departments and platforms to plan, design, architect, and implement a complete vertical stack for integrating with the first CVS API, including the technologies used, CI/CD pipeline, infrastructure, DevOps, and back-end services.",
         "Worked closely with product to refine and improve feature sets.",
         "Spearheaded the transition from Java to Kotlin, enhancing the development process and maintainability of applications interfacing with IoT devices for health monitoring.",
         "Continued to work with the Android architecture team to refine and expand the unified architecture for the platform."
@@ -321,52 +315,44 @@
     {
       "position": "Senior Android Engineer",
       "employer": "Aetna",
-      "name": "Aetna",
-      "startDate": "2017-11-28",
-      "endDate": "2019-03-31",
+      "start": "2017-11-28",
+      "end": "2019-03-31",
       "url": "https://aetna.com",
       "keywords": [],
       "highlights": [
-        "Responsible for mentoring and conducting lessons focused on engineering best practices, such as Inversion of Control, writing testable code, dependDateency injection frameworks, Kotlin basics, Kotlin coroutines, and channels.",
+        "Responsible for mentoring and conducting lessons focused on engineering best practices, such as Inversion of Control, writing testable code, dependency injection frameworks, Kotlin basics, Kotlin coroutines, and channels.",
         "Introduced scalable and maintainable design pattern proofs-of-concept to the Android engineers, including a decorator pattern for moving metadata out of core logic, a self-binding RecyclerView library, and a reusable questionnaire component used by various feature teams.",
         "Facilitated the transition from Java to Kotlin as the primary development language on the Android platform.",
         "Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API.",
-        "Advocated and formed an architecture team to plan, define, document, and implement a unified architectural framework to facilitate proper application layer isolation.",
-        "Implemented deep-linking in the EpicMix Android app using <a href=\"https://github.com/Teagan42/Deepthought-Routing-Android\">Deepthought-Routing-Android</a>, my own open-source Android library for URI interception, processing, and in-app routing.",
-        "Added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK-related changes that arose due to target SDK version change.",
-        "Refactored the project so that existing unit tests running and passing, allowing new feature work backed by unit and integration tests.",
-        "Discovered and reported significant application security risks related to endDate-user account data on client devices.",
-        "Fixed concurrency issues with background threads and incorrect use of lifecycle hooks in Fragments and Activities, causing the application to crash."
+        "Advocated and formed an architecture team to plan, define, document, and implement a unified architectural framework to facilitate proper application layer isolation."
       ]
     },
     {
       "position": "Senior Android Engineer @ Vail Resorts EpicMix",
       "employer": "Tek Systems",
-      "name": "Tek Systems",
-      "startDate": "2017-09-01",
-      "endDate": "2017-11-25",
+      "start": "2017-09-01",
+      "end": "2017-11-25",
       "url": "https://teksystems.com",
       "keywords": [],
       "highlights": [
-        "Implemented deep-linking in the EpicMix Android app using <a href=\"https://github.com/Teagan42/Deepthought-Routing-Android\">Deepthought-Routing-Android</a>, my own open-source Android library for URI interception, processing, and in-app routing.",
+        "Implemented deep-linking in the EpicMix Android app using [Deepthought-Routing-Android](https://github.com/Teagan42/Deepthought-Routing-Android), my own open-source Android library for URI interception, processing, and in-app routing.",
         "Added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK-related changes that arose due to target SDK version change.",
-        "Refactored the project to get existing unit tests running and passing, allowing new feature work backed by unit and integration tests.",
-        "Discovered and reported significant application security risks related to endDate-user account data on client devices.",
+        "I refactored the project to get existing unit tests running and passing, allowing new feature work backed by unit and integration tests.",
+        "Discovered and reported significant application security risks related to user account data on client devices.",
         "Fixed concurrency issues with background threads and incorrect use of lifecycle hooks in Fragments and Activities, causing the application to crash."
       ]
     },
     {
       "position": "Native Team Lead",
       "employer": "MassRoots",
-      "name": "MassRoots",
-      "startDate": "2016-09-01",
-      "endDate": "2017-07-05",
+      "start": "2016-09-01",
+      "end": "2017-07-05",
       "url": "https://massroots.com",
       "keywords": [],
       "highlights": [
         "Green-fielded the Android mobile application rewrite architected around an asynchronous event bus with highly optimized thread utilization.",
         "Utilized bi-directional data binding, single activity router, and a home-grown live data system that allows all views saved to the back-stack to update from any API request.",
-        "Implemented <a href=\"https://github.com/constructorfleet/Deepthought-Routing\">Deepthought - Routing</a>, my open-source self-documenting, self-validating API library, into the NodeJS backendDate services immediately bringing documentation in line with the code.",
+        "Implemented <a href=\"https://github.com/constructorfleet/Deepthought-Routing\">Deepthought - Routing</a>, my open-source self-documenting, self-validating API library, into the NodeJS backend services immediately bringing documentation in line with the code.",
         "Worked closely with product, design, and engineering teams to implement technical feasibility and product feedback sessions, improving communication and collaboration.",
         "Acted as a mentor and professionally built out the development team, implementing better coding standards and practices across the department."
       ]
@@ -374,15 +360,14 @@
     {
       "position": "Salesforce Engineer",
       "employer": "Apto",
-      "name": "Apto",
-      "startDate": "2015-03-01",
-      "endDate": "2016-08-01",
+      "start": "2015-03-01",
+      "end": "2016-08-01",
       "url": "https://aptotude.com",
       "keywords": [],
       "highlights": [
         "Designed and built a plug-n-play integration system for push, pull, and bi-directional synchronization with 3rd party data and APIs.",
         "Implemented a fully dynamic trigger handler factory with trigger execution controlled through UI settings.",
-        "Worked with designers to implement an Angular-based front-endDate web application on top of Salesforce.",
+        "Worked with designers to implement an Angular-based front-end web application on top of Salesforce.",
         "Built out custom back office and HR system for large commercial real estate brokerages.",
         "Working with another developer, we introduced a node application to browse the Salesforce object model and metadata using the Tooling API."
       ]
@@ -390,34 +375,26 @@
     {
       "position": "Business Applications Developer",
       "employer": "SourceGas",
-      "name": "SourceGas",
-      "startDate": "2013-04-15",
-      "endDate": "2015-03-01",
+      "start": "2013-04-15",
+      "end": "2015-03-01",
       "url": "https://sourcegas.com",
       "keywords": [],
       "highlights": [
-        "Used ASP.Net MVC 4 and 5 with an MS SQLServer BackendDate to build web applications that track compliance testing and inspections of equipment required by federal regulations.",
+        "Used ASP.Net MVC 4 and 5 with an MS SQLServer Backend to build web applications that track compliance testing and inspections of equipment required by federal regulations.",
         "Wrote a C# library for internal developers that includes wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services from Bing, Yahoo, and Google, and standard datatypes, and logic used throughout the software development landscape.",
-        "Deployed a time tracking and reporting site with the other developers used company-wide using ASP.Net MVC 4, jQuery, Durandal, Knockout, and MVC Web API with an MS SQLServer backendDate.",
+        "Deployed a time tracking and reporting site with the other developers used company-wide using ASP.Net MVC 4, jQuery, Durandal, Knockout, and MVC Web API with an MS SQLServer backend.",
         "Designed and built a C# application to poll data from HR's ADP web service, synchronized with Active Directory.",
         "Wrote Python scripts using ArcGIS for the GIS teams.",
         "Maintained the legacy VB 6 codebase, rewriting in C# when appropriate.",
         "Built out Excel Spreadsheets using VBA macros, database connections, and event triggers used throughout the company.",
-        "Worked directly with business users to determine requirements and specifications of solutions.",
-        "Using PIC-C, I created an embedded application to provide on-the-fly QA on the production machines.",
-        "Using VB.Net and LINQ-SQL, I developed applications for converting customer data into machine-ready data.",
-        "Updated legacy VB6 applications to the newer .Net frameworks.",
-        "Using MS SQL, implemented new stored procedures to increase productivity over the VB6 and VB.Net applications.",
-        "Worked with the SharePoint application for help-desk and ticket management.",
-        "Worked with QuickBase to develop customer and project manager portals."
+        "Worked directly with business users to determine requirements and specifications of solutions."
       ]
     },
     {
       "position": "Software Engineer",
       "employer": "Denver IPS",
-      "name": "Denver IPS",
-      "startDate": "2011-07-10",
-      "endDate": "2013-04-15",
+      "start": "2011-07-10",
+      "end": "2013-04-15",
       "url": "https://denverips.com",
       "keywords": [],
       "highlights": [
@@ -432,9 +409,8 @@
     {
       "position": "Engineering Intern",
       "employer": "Xcel Energy",
-      "name": "Xcel Energy",
-      "startDate": "2007-05-10",
-      "endDate": "2011-01-01",
+      "start": "2007-05-10",
+      "end": "2011-01-01",
       "url": "https://xcelenergy.com",
       "keywords": [],
       "highlights": [
@@ -446,7 +422,7 @@
         "Designed and built portable power supplies for use with Rosemount transmitters.",
         "Took the initiative to create a database for the lab technician to keep track of equipment reservations and calibrations to allow the lab to get more done in less time.",
         "Provided performance engineers on-site assistance with conducting performance tests and verifying data acquisition system stability.",
-        "Created a database with the asset management group developing for tracking plant overhauls and other capital expendDateiture projects.",
+        "Created a database with the asset management group developing for tracking plant overhauls and other capital expenditure projects.",
         "Responsible for training engineers in all three operating regions on T-Cycle's use, calculations, and features."
       ]
     }
