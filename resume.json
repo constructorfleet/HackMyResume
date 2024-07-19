@@ -240,10 +240,10 @@
   "work": [
     {
       "position": "Advanced Senior GraphQL Engineer",
-      "employer": "Resideo",
+      "name": "Resideo",
       "summary": "Tactical and intentional schema design, along with a deep understanding of the GraphQL SDL, I guide my engineers toward an innovative and novel approach to domain-oriented development that improves communication from top to bottom. Using schema to increase velocity and vastly reducing the chance of bugs in releases.",
       "current": true,
-      "start": "2022-06-01",
+      "startDate": "2022-06-01",
       "url": "https://resideo.com",
       "keywords": [],
       "highlights": [
@@ -256,10 +256,10 @@
     },
     {
       "position": "Senior Delivery Engineer",
-      "employer": "World Wide Technology",
+      "name": "World Wide Technology",
       "summary": "A Delivery Engineer requires a deep understanding of software development patterns, life-cycle, CI/CD pipelines, DevOps tooling, and mindset. Delivery Engineers are assigned to teams to provide the development team with what is necessary to deliver the project. Working directly with developers to remove obstacles, improve throughput, automate SDLC, and design, implement, and deploy the required infrastructure for the project's success.",
-      "start": "2021-01-04",
-      "end": "2022-05-31",
+      "startDate": "2021-01-04",
+      "endDate": "2022-05-31",
       "url": "https://wwt.com",
       "keywords": [],
       "highlights": [
@@ -271,9 +271,9 @@
     },
     {
       "position": "Automation Engineer @ Charter Advanced Technologies",
-      "employer": "KForce",
-      "start": "2020-09-15",
-      "end": "2020-12-31",
+      "name": "KForce",
+      "startDate": "2020-09-15",
+      "endDate": "2020-12-31",
       "url": "http://kforce.com",
       "keywords": [],
       "highlights": [
@@ -284,9 +284,9 @@
     },
     {
       "position": "Automation Engineer @ Comcast Applied AI",
-      "employer": "Turnberry Solutions",
-      "start": "2019-05-10",
-      "end": "2020-09-15",
+      "name": "Turnberry Solutions",
+      "startDate": "2019-05-10",
+      "endDate": "2020-09-15",
       "url": "https://turnberrysolutions.com",
       "keywords": [],
       "highlights": [
@@ -300,9 +300,9 @@
     },
     {
       "position": "Senior Staff Engineer",
-      "employer": "Aetna",
-      "start": "2019-04-01",
-      "end": "2019-05-19",
+      "name": "Aetna",
+      "startDate": "2019-04-01",
+      "endDate": "2019-05-19",
       "url": "https://aetna.com",
       "keywords": [],
       "highlights": [
@@ -314,9 +314,9 @@
     },
     {
       "position": "Senior Android Engineer",
-      "employer": "Aetna",
-      "start": "2017-11-28",
-      "end": "2019-03-31",
+      "name": "Aetna",
+      "startDate": "2017-11-28",
+      "endDate": "2019-03-31",
       "url": "https://aetna.com",
       "keywords": [],
       "highlights": [
@@ -329,9 +329,9 @@
     },
     {
       "position": "Senior Android Engineer @ Vail Resorts EpicMix",
-      "employer": "Tek Systems",
-      "start": "2017-09-01",
-      "end": "2017-11-25",
+      "name": "Tek Systems",
+      "startDate": "2017-09-01",
+      "endDate": "2017-11-25",
       "url": "https://teksystems.com",
       "keywords": [],
       "highlights": [
@@ -344,9 +344,9 @@
     },
     {
       "position": "Native Team Lead",
-      "employer": "MassRoots",
-      "start": "2016-09-01",
-      "end": "2017-07-05",
+      "name": "MassRoots",
+      "startDate": "2016-09-01",
+      "endDate": "2017-07-05",
       "url": "https://massroots.com",
       "keywords": [],
       "highlights": [
@@ -359,9 +359,9 @@
     },
     {
       "position": "Salesforce Engineer",
-      "employer": "Apto",
-      "start": "2015-03-01",
-      "end": "2016-08-01",
+      "name": "Apto",
+      "startDate": "2015-03-01",
+      "endDate": "2016-08-01",
       "url": "https://aptotude.com",
       "keywords": [],
       "highlights": [
@@ -374,9 +374,9 @@
     },
     {
       "position": "Business Applications Developer",
-      "employer": "SourceGas",
-      "start": "2013-04-15",
-      "end": "2015-03-01",
+      "name": "SourceGas",
+      "startDate": "2013-04-15",
+      "endDate": "2015-03-01",
       "url": "https://sourcegas.com",
       "keywords": [],
       "highlights": [
@@ -392,9 +392,9 @@
     },
     {
       "position": "Software Engineer",
-      "employer": "Denver IPS",
-      "start": "2011-07-10",
-      "end": "2013-04-15",
+      "name": "Denver IPS",
+      "startDate": "2011-07-10",
+      "endDate": "2013-04-15",
       "url": "https://denverips.com",
       "keywords": [],
       "highlights": [
@@ -408,9 +408,9 @@
     },
     {
       "position": "Engineering Intern",
-      "employer": "Xcel Energy",
-      "start": "2007-05-10",
-      "end": "2011-01-01",
+      "name": "Xcel Energy",
+      "startDate": "2007-05-10",
+      "endDate": "2011-01-01",
       "url": "https://xcelenergy.com",
       "keywords": [],
       "highlights": [
