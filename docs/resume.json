@@ -2,7 +2,7 @@
   "name": "Teagan Glenn",
   "info": {
     "label": "Senior Software Engineer - Architecture, Automation, Schema, and Design",
-    "image": "./avatar-transparent.png",
+    "image": "./avatar-transparent3.png",
     "brief": "Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. Proven track record in advancing team knowledge, skill and confidence through collaboration and mentorship. Driven by passion for technology, a thirst for for learning, and delivering quality."
   },
   "contact": {
@@ -12,7 +12,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2024-07-23T13:57:15.888Z"
+    "modified": "2024-07-23T15:03:07.640Z"
   },
   "location": {
     "city": "Morrison, CO",
@@ -98,19 +98,7 @@
       {
         "institution": "Metropolitan State University",
         "summary": "",
-        "area": "Applied Physics",
-        "studyType": "Bachelor's"
-      },
-      {
-        "institution": "Metropolitan State University",
-        "summary": "",
-        "area": "Applied Mathematics",
-        "studyType": "Bachelor's"
-      },
-      {
-        "institution": "Metropolitan State University",
-        "summary": "",
-        "area": "Computer Science",
+        "area": "Applied Physics, Applied Mathetmatics, Computer Science",
         "studyType": "Bachelor's"
       }
     ]
