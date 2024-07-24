@@ -29,7 +29,7 @@ jobs:
 
       - name: build html files
         run: |
-          npm run generate:stackoverflow-short:html
+          npm run generate:stackoverflow:html
 
       - name: Deploy Docs
         uses: peaceiris/actions-gh-pages@v3

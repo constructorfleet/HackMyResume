@@ -2,8 +2,7 @@
   "name": "Teagan Glenn",
   "info": {
     "label": "Senior Software Engineer - Architecture, Automation, Schema, and Design",
-    "image": "./avatar-transparent3.png",
-    "brief": "Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. Proven track record in advancing team knowledge, skill and confidence through collaboration and mentorship. Driven by passion for technology, a thirst for for learning, and delivering quality."
+    "brief": "Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. With a proven track record of advancing team knowledge, skill, and confidence through collaboration and mentorship. A deep passion for technology, thirst for learning, and unwavering commitment to delivering quality solutions drive me."
   },
   "contact": {
     "email": "that@teagantotally.rocks",
@@ -12,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2024-07-23T15:03:07.640Z"
+    "modified": "2024-07-24T03:42:01.970Z"
   },
   "location": {
     "city": "Morrison, CO",
@@ -22,26 +21,28 @@
     "history": [
       {
         "position": "Advanced Senior GraphQL Engineer",
-        "summary": "Tactical and intentional schema design, along with a deep understanding of the GraphQL specification and features, guided my team toward an innovative and novel approach to domain-oriented development that improves inter-team collaboration and communication from top to bottom.",
+        "employer": "Resideo",
+        "summary": "Through the use of tactical and intentional schema design, along with a deep understanding of the GraphQL specification and features, guided my team toward an innovative and novel approach to domain-oriented development that improves inter-team collaboration and communication from top to bottom.",
         "start": "2022-06-01",
         "end": "2024-06-28",
         "keywords": [],
         "highlights": [
           "Led the design and implementation of innovative schema configurations, utilizing GraphQL's Scalar system for self-describing, self-validating, and self-documenting types, reducing assumptions and incorrect implementations.",
           "Acted as a subject matter expert on GraphQL, mentoring, demoing, and training teams on best practices, significantly improving implementation quality.",
-          "Conducted training and workshops, directly improving project delivery times and system optimization by 20%.",
+          "Conducted training and workshops, improving project delivery times and system optimization by 20%.",
           "Facilitated the migration of subgraphs and gateways from NexusJS Apollo Server v2 to NestJS using Apollo Server v4 federation 2.3, doubling sprint velocity and enabling faster and higher quality feature delivery.",
-          "Implemented self-validating, self-documenting domain-driven data types using GraphQL scalars, reducing bug reports by 30%."
+          "Implemented self-validating and self-documenting domain-driven data types using GraphQL scalars, reducing bug reports by 25%."
         ]
       },
       {
         "position": "Senior Delivery Engineer",
-        "summary": "A Delivery Engineer requires a deep understanding of software development patterns, life-cycle, CI/CD pipelines, DevOps tooling with a client-centric mindset. Assigned to different teams to provide whatever may be necessary to deliver: working directly with developers to remove obstacles, tools to improve throughput, implementing quality control checks, or deploying the infrastructure to make the project a success.",
+        "employer": "World Wide Technology",
+        "summary": "A Delivery Engineer requires a deep understanding of software development patterns, life-cycle, CI/CD pipelines, DevOps tooling with a client-centric mindset. Assigned to different teams to provide whatever may be necessary to deliver: working directly with developers to remove obstacles, tools to improve throughput, implementing quality control checks, deploying the infrastructure to make the project a success.",
         "start": "2021-01-04",
         "end": "2022-05-31",
         "keywords": [],
         "highlights": [
-          "Designed, built, and deployed an award-winning solution using Ansible to verify rack equipment, increasing throughput from less than 10 to over 60 devices a day, reducing errors to almost 0.",
+          "Designed, built, and deployed an award-winning solution using Ansible to verify rack equipment, increasing throughput from less than 10 to over 60 daily devices, significantly reducing errors.",
           "Developed a framework for automated validation and remediation of hardware configurations, utilizing mDNS, PXE, iPXE, and DHCP, eliminating supply chain bottlenecks and improving efficiency.",
           "Initiated weekly self-paced training sessions, enhancing team communication, cohesion, and project collaboration.",
           "Developed tools using Ansible, Python, Redfish/iDrac, and network protocols, simplifying task logic and reducing developer support requests from 3 per day to less than 1 per week."
@@ -49,26 +50,28 @@
       },
       {
         "position": "Automation Engineer @ Charter Advanced Technologies",
-        "summary": "",
+        "employer": "KForce",
+        "summary": "At Charter Advanced Technologies, my team was tasked with the exploring the feasibility of VR-as-a-service in order to reduce the steep cost barrier to this amazing technology.",
         "start": "2020-09-15",
         "end": "2020-12-31",
         "keywords": [],
         "highlights": [
           "Implemented a provisioning pipeline using Foreman and AWX, reducing deployment time by 30%.",
-          "Pioneered the design of a scalable network architecture for next-gen VR and gaming services, achieving low-latency and high-availability for edge computing solutions.",
+          "Pioneered the design of a scalable network architecture for next-gen VR and gaming services, achieving low latency and high availability for edge computing solutions.",
           "Enhanced edge device operations by developing robust automation scripts and tools, improving efficiency and reducing manual intervention by 40%."
         ]
       },
       {
         "position": "Automation Engineer @ Comcast Applied AI",
-        "summary": "Comcast's Applied AI team built the tooling and pipeline necessary to delievery better home security through the use of computer vision, audio analysis and anomoly detection machine learning models developed by in-house data scientests.",
+        "employer": "Turnberry Solutions",
+        "summary": "Comcast's Applied AI team built the tooling and pipelines necessary to delivery smarter home security through the use of computer vision, audio analysis and anomaly detection using machine learning models developed by in-house data scientists.",
         "start": "2019-05-10",
         "end": "2020-09-15",
         "keywords": [],
         "highlights": [
           "Enhanced machine learning models developed by Comcast's internal data scientist teams, facilitating configurable data sources, domain logic, data transformations, and overall extensibility.",
           "Developed a prototype using Python 3.7 and Tensorflow 1.12 with computer vision to detect various types of deliveries, improving detection accuracy by 25%.",
-          "Developed tools that empowered research teams to rapidly develop, perform A/B testing, and deploy machine learning models with integrated metrics collection, monitoring, and failover, reducing model deployment time by 30%.",
+          "Developed tools that empowered research teams to develop rapidly, perform A/B testing, and deploy machine learning models with integrated metrics collection, monitoring, and failover, reducing model deployment time by 30%.",
           "Collaborated with a DevOps team to standardize automation, infrastructure, and the Automated Machine Learning Platform stack configuration using Amazon AWS, EKS, IAM, and EC2, improving system reliability and scalability.",
           "Created a universal, plug-in-based library in Python to transparently gather internal application metrics, streamlining metrics collection and improving system monitoring.",
           "Enhanced a GoLang library to integrate with various Pub/Sub systems, improving system interoperability and data flow efficiency."
@@ -76,18 +79,99 @@
       },
       {
         "position": "Senior Android Engineer -> Senior Staff Engineer",
-        "start": "2019-04-01",
+        "employer": "Aetna",
+        "start": "2017-12-01",
         "end": "2019-05-19",
         "keywords": [],
         "highlights": [
-          "Planned and implemented a complete vertical stack for integrating with the first CVS API, including technology selection, CI/CD pipeline setup, infrastructure, DevOps, and back-end services, resulting in seamless integration and enhanced system interoperability.",
-          "Collaborated closely with product teams to refine and improve feature sets, leading to increased user satisfaction and feature adoption.",
-          "Continued to work with the Android architecture team to refine and expand the unified architecture for the platform, improving codebase scalability and maintainability.",
-          "Mentored and conducted lessons on engineering best practices, including Inversion of Control, writing testable code, dependency injection frameworks, Kotlin basics, Kotlin coroutines, and channels, resulting in improved code quality and team skill development.",
+          "Mentored and conducted lessons on engineering best practices, including Inversion of Control, writing testable code, dependency injection frameworks, Kotlin basics, Kotlin coroutines, and channels. This team effort resulted in improved code quality and team skill development.",
           "Introduced scalable and maintainable design pattern proofs-of-concept, such as a decorator pattern for moving metadata out of core logic, a self-binding RecyclerView library, and a reusable questionnaire component, improving development efficiency and code maintainability across multiple feature teams.",
-          "Spearheaded and facilitated the transition from Java to Kotlin as the primary development language on the Android platform, improving code readability and reducing bugs by 30%.",
-          "Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API, enhancing app functionality and user engagement.",
+          "Spearheaded and facilitated the transition from Java to Kotlin as the primary development language on the Android platform, improving code readability and reducing bugs by 30%",
+          " Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API, enhancing app functionality and user engagement.",
           "Advocated for and formed an architecture team to plan, define, document, and implement a unified architectural framework, facilitating proper application layer isolation and improving system modularity."
+        ]
+      },
+      {
+        "position": "Senior Android Engineer @ Vail Resorts EpicMix",
+        "employer": "Tek Systems",
+        "start": "2017-09-01",
+        "end": "2017-11-25",
+        "keywords": [],
+        "highlights": [
+          "Implemented deep-linking and enhanced permission handling in the EpicMix Android app using Deepthought-Routing-Android, my open-source library for URI interception, processing, and in-app routing, improving navigation efficiency and app stability.",
+          "Refactored the EpicMix Android project to get existing unit tests running and passing, enabling new feature development backed by unit and integration tests, improving code reliability, and facilitating faster feature rollouts.",
+          "Identified and reported significant application security risks related to user account data on client devices and utilized Android's built-in credentials manager to enhance security, protecting user data integrity."
+        ]
+      },
+      {
+        "position": "Native Team Lead",
+        "employer": "MassRoots",
+        "start": "2016-09-01",
+        "end": "2017-07-05",
+        "keywords": [],
+        "highlights": [
+          "Led the green-field Android mobile application rewrite, architecting it around an asynchronous event bus with optimized thread utilization, improving app performance and responsiveness.",
+          "Implemented bi-directional data binding, single activity router, and a custom live data system, enabling all views saved to the back-stack to update from any API request, enhancing data synchronization and user experience.",
+          "Integrated Deepthought-Routing, my open-source self-documenting and self-validating API library, into the NodeJS backend services, ensuring our API and its documentation never deviated and improving developer efficiency and API reliability.",
+          "Collaborated with product, design, and engineering teams to conduct technical feasibility and product feedback sessions, improving cross-functional communication and product outcomes.",
+          "Mentored and built out the development team, implementing improved coding standards and practices and elevating code quality and team productivity."
+        ]
+      },
+      {
+        "position": "Salesforce Engineer",
+        "employer": "Apto",
+        "start": "2015-03-01",
+        "end": "2016-08-01",
+        "keywords": [],
+        "highlights": [
+          "Designed and built a plug-and-play integration system for push, pull, and bi-directional synchronization with third-party data and APIs, streamlining data integration processes and improving system interoperability.",
+          "Collaborated with designers to develop an Angular-based front-end web application on top of Salesforce, improving user interface and experience.",
+          "Developed a custom back office and HR system for large commercial real estate brokerages, improving operational efficiency and employee management.",
+          "Co-developed a Node.js application for browsing the Salesforce object model and metadata using the Tooling API, enhancing developers' ability to interact with and manage Salesforce data structures."
+        ]
+      },
+      {
+        "position": "Business Applications Developer",
+        "employer": "SourceGas",
+        "start": "2013-04-15",
+        "end": "2015-03-01",
+        "keywords": [],
+        "highlights": [
+          "Developed web applications using ASP.Net MVC 4 and 5 with an MS SQL Server backend to track compliance testing and inspections of equipment required by federal regulations, improving regulatory compliance and reporting efficiency.",
+          "Created a comprehensive C# library for internal developers, including wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), and Geocoding Services from Bing, Yahoo, and Google, standardizing and simplifying development processes.",
+          "Deployed a time tracking and reporting site used company-wide, utilizing ASP.Net MVC 4, jQuery, Durandal, Knockout, and MVC Web API with an MS SQL Server backend, improving time management and reporting accuracy across the company.",
+          "Designed and developed a C# application to poll data from HR's ADP web service and synchronize it with Active Directory, streamlining HR data management and improving data consistency.",
+          "Developed Python scripts using ArcGIS for the GIS teams, enhancing their data processing capabilities and improving workflow efficiency.",
+          "Created a database for tracking equipment reservations and calibrations, improving lab efficiency and equipment management."
+        ]
+      },
+      {
+        "position": "Software Engineer",
+        "employer": "Denver IPS",
+        "start": "2011-07-10",
+        "end": "2013-04-15",
+        "keywords": [],
+        "highlights": [
+          "Developed an embedded application using PIC-C to provide on-the-fly QA on production machines, eliminating material-based errors and ensuring every shipment met the required customer specifications.",
+          "Developed applications using VB.Net and LINQ-SQL to convert customer data into machine-ready data, streamlining data processing and reducing manual intervention.",
+          "Designed and built a dashboard using C# and WPF, displayed in the production area to track every job and provide metrics such as: jobs/hour, jobs remaining, and ETA until complete, improving worker and manager satisfaction and productivity",
+          "Enhanced productivity by implementing new stored procedures using MS SQL, optimizing database performance for VB6 and VB.Net applications."
+        ]
+      },
+      {
+        "position": "Engineering Intern",
+        "employer": "Xcel Energy",
+        "start": "2007-05-10",
+        "end": "2011-01-01",
+        "keywords": [],
+        "highlights": [
+          "Developed T-Cycle (Teagan-Cycle), a program for modeling power plants with a graphical user interface. Used during plant performance tests, it calculated component efficiency and guided maintenance focus to maximize efficiency improvements, enhancing performance monitoring and problem-solving.",
+          "Created a Microsoft Excel Add-In to automate the team's day-to-day calculations, reducing report preparation time by 50% and increasing efficiency.",
+          "Developed an automated data acquisition system with mechanical engineers and lab technicians, streamlining performance testing and reducing manual effort.",
+          "Designed a step-by-step guide for converting Arcom Multiplexers to modern Fisher ROC Multiplexers, complete with wiring and component placement diagrams, facilitating the upgrade process.",
+          "Created a database for tracking equipment reservations and calibrations, improving lab efficiency and equipment management.",
+          "Developed a database with the asset management group to track plant overhauls and capital expenditure projects, improving project tracking and financial management.",
+          "Trained engineers in all three operating regions on T-Cycle's use, calculations, and features, enhancing their ability to monitor and optimize plant performance."
         ]
       }
     ]
@@ -98,7 +182,19 @@
       {
         "institution": "Metropolitan State University",
         "summary": "",
-        "area": "Applied Physics, Applied Mathetmatics, Computer Science",
+        "area": "Applied Physics",
+        "studyType": "Bachelor's"
+      },
+      {
+        "institution": "Metropolitan State University",
+        "summary": "",
+        "area": "Applied Mathematics",
+        "studyType": "Bachelor's"
+      },
+      {
+        "institution": "Metropolitan State University",
+        "summary": "",
+        "area": "Computer Science",
         "studyType": "Bachelor's"
       }
     ]
@@ -201,7 +297,7 @@
     {
       "title": "High Performing Employee",
       "date": "2021-07-01",
-      "summary": "Award recognizing I was the primary driving force behind the exceptionally successful cable matrix validation project, securing contracts with one of WWT's top five clients."
+      "summary": "Award recognizing the primary driving force behind the exceptionally successful cable matrix validation project, securing contracts with one of WWT's top five clients."
     },
     {
       "title": "High Performing Team",
