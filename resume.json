@@ -3,8 +3,6 @@
   "basics": {
     "name": "Teagan Glenn",
     "label": "Senior Software Engineer - Architecture, Automation, Schema, and Design",
-    "image": "./avatar-transparent3.png",
-    "picture": "./avatar-transparent3.png",
     "brief": "Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. Proven track record in advancing team knowledge, skill and confidence through collaboration and mentorship. Driven by passion for technology, a thirst for for learning, and delivering quality.",
     "summary": "Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. Proven track record in advancing team knowledge, skill and confidence through collaboration and mentorship. Driven by passion for technology, a thirst for for learning, and delivering quality.",
     "profiles": [
@@ -559,7 +557,21 @@
       "institution": "Metropolitan State University",
       "grade": "3.87",
       "summary": "",
-      "area": "Applied Physics, Applied Mathetmatics, Computer Science",
+      "area": "Applied Physics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University",
+      "grade": "3.87",
+      "summary": "",
+      "area": "Applied Mathetmatics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University",
+      "grade": "3.87",
+      "summary": "",
+      "area": "Computer Science",
       "studyType": "Bachelor's"
     }
   ],

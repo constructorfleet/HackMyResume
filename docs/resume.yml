@@ -2,8 +2,8 @@ name: 'Teagan Glenn'
 basics:
   name: 'Teagan Glenn'
   label: 'Senior Software Engineer - Architecture, Automation, Schema, and Design'
-  brief: 'Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. With a proven track record of advancing team knowledge, skill, and confidence through collaboration and mentorship. A deep passion for technology, thirst for learning, and unwavering commitment to delivering quality solutions drive me.'
-  summary: 'Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. With a proven track record of advancing team knowledge, skill, and confidence through collaboration and mentorship. A deep passion for technology, thirst for learning, and unwavering commitment to delivering quality solutions drive me.'
+  brief: 'Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. Proven track record in advancing team knowledge, skill and confidence through collaboration and mentorship. Driven by passion for technology, a thirst for for learning, and delivering quality.'
+  summary: 'Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. Proven track record in advancing team knowledge, skill and confidence through collaboration and mentorship. Driven by passion for technology, a thirst for for learning, and delivering quality.'
   profiles:
     -
       label: LinkedIn
@@ -42,8 +42,7 @@ employment:
     -
       position: 'Advanced Senior GraphQL Engineer'
       employer: Resideo
-      company: Resideo
-      summary: 'Through the use of tactical and intentional schema design, along with a deep understanding of the GraphQL specification and features, guided my team toward an innovative and novel approach to domain-oriented development that improves inter-team collaboration and communication from top to bottom.'
+      summary: 'Tactical and intentional schema design, along with a deep understanding of the GraphQL specification and features, guided my team toward an innovative and novel approach to domain-oriented development that improves inter-team collaboration and communication from top to bottom.'
       end: '2024-06-28'
       endDate: '2024-06-28'
       start: '2022-06-01'
@@ -53,14 +52,13 @@ employment:
       highlights:
         - 'Led the design and implementation of innovative schema configurations, utilizing GraphQL''s Scalar system for self-describing, self-validating, and self-documenting types, reducing assumptions and incorrect implementations.'
         - 'Acted as a subject matter expert on GraphQL, mentoring, demoing, and training teams on best practices, significantly improving implementation quality.'
-        - 'Conducted training and workshops, improving project delivery times and system optimization by 20%.'
+        - 'Conducted training and workshops, directly improving project delivery times and system optimization by 20%.'
         - 'Facilitated the migration of subgraphs and gateways from NexusJS Apollo Server v2 to NestJS using Apollo Server v4 federation 2.3, doubling sprint velocity and enabling faster and higher quality feature delivery.'
-        - 'Implemented self-validating and self-documenting domain-driven data types using GraphQL scalars, reducing bug reports by 25%.'
+        - 'Implemented self-validating, self-documenting domain-driven data types using GraphQL scalars, reducing bug reports by 30%.'
     -
       position: 'Senior Delivery Engineer'
       employer: 'World Wide Technology'
-      company: 'World Wide Technology'
-      summary: 'A Delivery Engineer requires a deep understanding of software development patterns, life-cycle, CI/CD pipelines, DevOps tooling with a client-centric mindset. Assigned to different teams to provide whatever may be necessary to deliver: working directly with developers to remove obstacles, tools to improve throughput, implementing quality control checks, deploying the infrastructure to make the project a success.'
+      summary: 'A Delivery Engineer requires a deep understanding of software development patterns, life-cycle, CI/CD pipelines, DevOps tooling with a client-centric mindset. Assigned to different teams to provide whatever may be necessary to deliver: working directly with developers to remove obstacles, tools to improve throughput, implementing quality control checks, or deploying the infrastructure to make the project a success.'
       start: '2021-01-04'
       startDate: '2021-01-04'
       end: '2022-05-31'
@@ -68,63 +66,72 @@ employment:
       url: 'https://wwt.com'
       keywords: []
       highlights:
-        - 'Designed, built, and deployed an award-winning solution using Ansible to verify rack equipment, increasing throughput from less than 10 to over 60 daily devices, significantly reducing errors.'
+        - 'Designed, built, and deployed an award-winning solution using Ansible to verify rack equipment, increasing throughput from less than 10 to over 60 devices a day, reducing errors to almost 0.'
         - 'Developed a framework for automated validation and remediation of hardware configurations, utilizing mDNS, PXE, iPXE, and DHCP, eliminating supply chain bottlenecks and improving efficiency.'
         - 'Initiated weekly self-paced training sessions, enhancing team communication, cohesion, and project collaboration.'
         - 'Developed tools using Ansible, Python, Redfish/iDrac, and network protocols, simplifying task logic and reducing developer support requests from 3 per day to less than 1 per week.'
     -
       position: 'Automation Engineer @ Charter Advanced Technologies'
       employer: KForce
-      company: KForce
       start: '2020-09-15'
       startDate: '2020-09-15'
       end: '2020-12-31'
       endDate: '2020-12-31'
       url: 'http://kforce.com'
       keywords: []
-      summary: 'At Charter Advanced Technologies, my team was tasked with the exploring the feasibility of VR-as-a-service in order to reduce the steep cost barrier to this amazing technology.'
+      summary: 'At Charter Advanced Technologies, to reduce the steep cost of entry, my team was tasked with the exploring the feasibility of VR-as-a-service.'
       highlights:
         - 'Implemented a provisioning pipeline using Foreman and AWX, reducing deployment time by 30%.'
-        - 'Pioneered the design of a scalable network architecture for next-gen VR and gaming services, achieving low latency and high availability for edge computing solutions.'
+        - 'Pioneered the design of a scalable network architecture for next-gen VR and gaming services, achieving low-latency and high-availability for edge computing solutions.'
         - 'Enhanced edge device operations by developing robust automation scripts and tools, improving efficiency and reducing manual intervention by 40%.'
     -
       position: 'Automation Engineer @ Comcast Applied AI'
       employer: 'Turnberry Solutions'
-      company: 'Turnberry Solutions'
       start: '2019-05-10'
       startDate: '2019-05-10'
       end: '2020-09-15'
       endDate: '2020-09-15'
       url: 'https://turnberrysolutions.com'
-      summary: 'Comcast''s Applied AI team built the tooling and pipelines necessary to deliver smarter home security through the use of computer vision, audio analysis and anomaly detection using machine learning models developed by in-house data scientists.'
+      summary: 'Comcast''s Applied AI team built the tooling and pipeline necessary to delievery better home security through the use of computer vision, audio analysis and anomoly detection machine learning models developed by in-house data scientests.'
       keywords: []
       highlights:
         - 'Enhanced machine learning models developed by Comcast''s internal data scientist teams, facilitating configurable data sources, domain logic, data transformations, and overall extensibility.'
         - 'Developed a prototype using Python 3.7 and Tensorflow 1.12 with computer vision to detect various types of deliveries, improving detection accuracy by 25%.'
-        - 'Developed tools that empowered research teams to develop rapidly, perform A/B testing, and deploy machine learning models with integrated metrics collection, monitoring, and failover, reducing model deployment time by 30%.'
+        - 'Developed tools that empowered research teams to rapidly develop, perform A/B testing, and deploy machine learning models with integrated metrics collection, monitoring, and failover, reducing model deployment time by 30%.'
         - 'Collaborated with a DevOps team to standardize automation, infrastructure, and the Automated Machine Learning Platform stack configuration using Amazon AWS, EKS, IAM, and EC2, improving system reliability and scalability.'
         - 'Created a universal, plug-in-based library in Python to transparently gather internal application metrics, streamlining metrics collection and improving system monitoring.'
         - 'Enhanced a GoLang library to integrate with various Pub/Sub systems, improving system interoperability and data flow efficiency.'
     -
-      position: 'Senior Android Engineer -> Senior Staff Engineer'
+      position: 'Senior Staff Engineer'
       employer: Aetna
-      company: Aetna
-      start: '2017-05-01'
-      startDate: '2017-05-01'
+      start: '2019-04-01'
+      startDate: '2019-04-01'
       end: '2019-05-19'
       endDate: '2019-05-19'
       url: 'https://aetna.com'
       keywords: []
       highlights:
-        - 'Mentored and conducted lessons on engineering best practices, including Inversion of Control, writing testable code, dependency injection frameworks, Kotlin basics, Kotlin coroutines, and channels. This team effort resulted in improved code quality and team skill development.'
+        - 'Planned and implemented a complete vertical stack for integrating with the first CVS API, including technology selection, CI/CD pipeline setup, infrastructure, DevOps, and back-end services, resulting in seamless integration and enhanced system interoperability.'
+        - 'Collaborated closely with product teams to refine and improve feature sets, leading to increased user satisfaction and feature adoption.'
+        - 'Continued to work with the Android architecture team to refine and expand the unified architecture for the platform, improving codebase scalability and maintainability.'
+    -
+      position: 'Senior Android Engineer'
+      employer: Aetna
+      start: '2017-11-28'
+      startDate: '2017-11-28'
+      end: '2019-03-31'
+      endDate: '2019-03-31'
+      url: 'https://aetna.com'
+      keywords: []
+      highlights:
+        - 'Mentored and conducted lessons on engineering best practices, including Inversion of Control, writing testable code, dependency injection frameworks, Kotlin basics, Kotlin coroutines, and channels, resulting in improved code quality and team skill development.'
         - 'Introduced scalable and maintainable design pattern proofs-of-concept, such as a decorator pattern for moving metadata out of core logic, a self-binding RecyclerView library, and a reusable questionnaire component, improving development efficiency and code maintainability across multiple feature teams.'
-        - 'Spearheaded and facilitated the transition from Java to Kotlin as the primary development language on the Android platform, improving code readability and reducing bugs by 30%'
-        - ' Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API, enhancing app functionality and user engagement.'
+        - 'Spearheaded and facilitated the transition from Java to Kotlin as the primary development language on the Android platform, improving code readability and reducing bugs by 30%.'
+        - 'Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API, enhancing app functionality and user engagement.'
         - 'Advocated for and formed an architecture team to plan, define, document, and implement a unified architectural framework, facilitating proper application layer isolation and improving system modularity.'
     -
       position: 'Senior Android Engineer @ Vail Resorts EpicMix'
       employer: 'Tek Systems'
-      company: 'Tek Systems'
       start: '2017-09-01'
       startDate: '2017-09-01'
       end: '2017-11-25'
@@ -132,13 +139,12 @@ employment:
       url: 'https://teksystems.com'
       keywords: []
       highlights:
-        - 'Implemented deep-linking and enhanced permission handling in the EpicMix Android app using Deepthought-Routing-Android, my open-source library for URI interception, processing, and in-app routing, improving navigation efficiency and app stability.'
-        - 'Refactored the EpicMix Android project to get existing unit tests running and passing, enabling new feature development backed by unit and integration tests, improving code reliability, and facilitating faster feature rollouts.'
-        - 'Identified and reported significant application security risks related to user account data on client devices and utilized Android''s built-in credentials manager to enhance security, protecting user data integrity.'
+        - 'Implemented deep-linking and enhanced permission handling in the EpicMix Android app using Deepthought-Routing-Android, my personal open-source library for URI interception, processing, and in-app routing, improving navigation efficiency and app stability.'
+        - 'Refactored the EpicMix Android project to get existing unit tests running and passing, enabling new feature development backed by unit and integration tests, improving code reliability and facilitating faster feature rollouts.'
+        - 'Identified and reported significant application security risks related to user account data on client devices, and utilized Android''s built-in credentials manager to enhance security, protecting user data integrity.'
     -
       position: 'Native Team Lead'
       employer: MassRoots
-      company: MassRoots
       start: '2016-09-01'
       startDate: '2016-09-01'
       end: '2017-07-05'
@@ -148,13 +154,12 @@ employment:
       highlights:
         - 'Led the green-field Android mobile application rewrite, architecting it around an asynchronous event bus with optimized thread utilization, improving app performance and responsiveness.'
         - 'Implemented bi-directional data binding, single activity router, and a custom live data system, enabling all views saved to the back-stack to update from any API request, enhancing data synchronization and user experience.'
-        - 'Integrated Deepthought-Routing, my open-source self-documenting and self-validating API library, into the NodeJS backend services, ensuring our API and its documentation never deviated and improving developer efficiency and API reliability.'
-        - 'Collaborated with product, design, and engineering teams to conduct technical feasibility and product feedback sessions, improving cross-functional communication and product outcomes.'
-        - 'Mentored and built out the development team, implementing improved coding standards and practices and elevating code quality and team productivity.'
+        - 'Integrated Deepthought-Routing, my open-source self-documenting, self-validating API library, into the NodeJS backend services, ensuring API documentation was always synchronized with the code, improving developer efficiency and API reliability.'
+        - 'Collaborated with product, design, and engineering teams to conduct technical feasibility and product feedback sessions, improving cross-functional communication and leading to better product outcomes.'
+        - 'Mentored and built out the development team, implementing improved coding standards and practices, elevating code quality and team productivity.'
     -
       position: 'Salesforce Engineer'
       employer: Apto
-      company: Apto
       start: '2015-03-01'
       startDate: '2015-03-01'
       end: '2016-08-01'
@@ -169,7 +174,6 @@ employment:
     -
       position: 'Business Applications Developer'
       employer: SourceGas
-      company: SourceGas
       start: '2013-04-15'
       startDate: '2013-04-15'
       end: '2015-03-01'
@@ -186,7 +190,6 @@ employment:
     -
       position: 'Software Engineer'
       employer: 'Denver IPS'
-      company: 'Denver IPS'
       start: '2011-07-10'
       startDate: '2011-07-10'
       end: '2013-04-15'
@@ -194,14 +197,13 @@ employment:
       url: 'https://denverips.com'
       keywords: []
       highlights:
-        - 'Developed an embedded application using PIC-C to provide on-the-fly QA on production machines, eliminating material-based errors and ensuring every shipment met the required customer specifications.'
+        - 'Developed an embedded application using PIC-C to provide on-the-fly QA on production machines, eliminating material-based errors and ensuring parts always matched by scanning barcodes on packaging, cards, terms of service, and other materials prior to shipment.'
         - 'Developed applications using VB.Net and LINQ-SQL to convert customer data into machine-ready data, streamlining data processing and reducing manual intervention.'
-        - 'Designed and built a dashboard using C# and WPF, displayed in the production area to track every job and provide metrics such as: jobs/hour, jobs remaining, and ETA until complete, improving worker and manager satisfaction and productivity'
+        - 'Designed and built a dashboard using C# and WPF, displayed in the production area to track every job and provide metrics such as ''jobs/hr'', ''jobs remaining'', ''ETA until completion'' improving worker and manager satisfaction and productivity.'
         - 'Enhanced productivity by implementing new stored procedures using MS SQL, optimizing database performance for VB6 and VB.Net applications.'
     -
       position: 'Engineering Intern'
       employer: 'Xcel Energy'
-      company: 'Xcel Energy'
       start: '2007-05-10'
       startDate: '2007-05-10'
       end: '2011-01-01'
@@ -213,15 +215,15 @@ employment:
         - 'Created a Microsoft Excel Add-In to automate the team''s day-to-day calculations, reducing report preparation time by 50% and increasing efficiency.'
         - 'Developed an automated data acquisition system with mechanical engineers and lab technicians, streamlining performance testing and reducing manual effort.'
         - 'Designed a step-by-step guide for converting Arcom Multiplexers to modern Fisher ROC Multiplexers, complete with wiring and component placement diagrams, facilitating the upgrade process.'
+        - 'Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer, including wiring and component placement diagrams.'
         - 'Created a database for tracking equipment reservations and calibrations, improving lab efficiency and equipment management.'
         - 'Developed a database with the asset management group to track plant overhauls and capital expenditure projects, improving project tracking and financial management.'
-        - 'Trained engineers in all three operating regions on T-Cycle''s use, calculations, and features, enhancing their ability to monitor and optimize plant performance.'
+        - 'Trained engineers in all three operating regions on the use, calculations, and features of T-Cycle, enhancing their ability to monitor and optimize plant performance.'
 work:
   -
     position: 'Advanced Senior GraphQL Engineer'
     employer: Resideo
-    company: Resideo
-    summary: 'Through the use of tactical and intentional schema design, along with a deep understanding of the GraphQL specification and features, guided my team toward an innovative and novel approach to domain-oriented development that improves inter-team collaboration and communication from top to bottom.'
+    summary: 'Tactical and intentional schema design, along with a deep understanding of the GraphQL specification and features, guided my team toward an innovative and novel approach to domain-oriented development that improves inter-team collaboration and communication from top to bottom.'
     end: '2024-06-28'
     endDate: '2024-06-28'
     start: '2022-06-01'
@@ -231,13 +233,13 @@ work:
     highlights:
       - 'Led the design and implementation of innovative schema configurations, utilizing GraphQL''s Scalar system for self-describing, self-validating, and self-documenting types, reducing assumptions and incorrect implementations.'
       - 'Acted as a subject matter expert on GraphQL, mentoring, demoing, and training teams on best practices, significantly improving implementation quality.'
-      - 'Conducted training and workshops, improving project delivery times and system optimization by 20%.'
+      - 'Conducted training and workshops, directly improving project delivery times and system optimization by 20%.'
       - 'Facilitated the migration of subgraphs and gateways from NexusJS Apollo Server v2 to NestJS using Apollo Server v4 federation 2.3, doubling sprint velocity and enabling faster and higher quality feature delivery.'
-      - 'Implemented self-validating and self-documenting domain-driven data types using GraphQL scalars, reducing bug reports by 25%.'
+      - 'Implemented self-validating, self-documenting domain-driven data types using GraphQL scalars, reducing bug reports by 30%.'
   -
     position: 'Senior Delivery Engineer'
-    company: 'World Wide Technology'
-    summary: 'A Delivery Engineer requires a deep understanding of software development patterns, life-cycle, CI/CD pipelines, DevOps tooling with a client-centric mindset. Assigned to different teams to provide whatever may be necessary to deliver: working directly with developers to remove obstacles, tools to improve throughput, implementing quality control checks, deploying the infrastructure to make the project a success.'
+    employer: 'World Wide Technology'
+    summary: 'A Delivery Engineer requires a deep understanding of software development patterns, life-cycle, CI/CD pipelines, DevOps tooling with a client-centric mindset. Assigned to different teams to provide whatever may be necessary to deliver: working directly with developers to remove obstacles, tools to improve throughput, implementing quality control checks, or deploying the infrastructure to make the project a success.'
     start: '2021-01-04'
     startDate: '2021-01-04'
     end: '2022-05-31'
@@ -245,63 +247,62 @@ work:
     url: 'https://wwt.com'
     keywords: []
     highlights:
-      - 'Designed, built, and deployed an award-winning solution using Ansible to verify rack equipment, increasing throughput from less than 10 to over 60 daily devices, significantly reducing errors.'
+      - 'Designed, built, and deployed an award-winning solution using Ansible to verify rack equipment, increasing throughput from less than 10 to over 60 devices a day, reducing errors to almost 0.'
       - 'Developed a framework for automated validation and remediation of hardware configurations, utilizing mDNS, PXE, iPXE, and DHCP, eliminating supply chain bottlenecks and improving efficiency.'
       - 'Initiated weekly self-paced training sessions, enhancing team communication, cohesion, and project collaboration.'
       - 'Developed tools using Ansible, Python, Redfish/iDrac, and network protocols, simplifying task logic and reducing developer support requests from 3 per day to less than 1 per week.'
   -
     position: 'Automation Engineer @ Charter Advanced Technologies'
     employer: KForce
-    company: KForce
     start: '2020-09-15'
     startDate: '2020-09-15'
     end: '2020-12-31'
     endDate: '2020-12-31'
     url: 'http://kforce.com'
     keywords: []
-    summary: 'At Charter Advanced Technologies, my team was tasked with the exploring the feasibility of VR-as-a-service in order to reduce the steep cost barrier to this amazing technology.'
+    summary: ""
     highlights:
       - 'Implemented a provisioning pipeline using Foreman and AWX, reducing deployment time by 30%.'
-      - 'Pioneered the design of a scalable network architecture for next-gen VR and gaming services, achieving low latency and high availability for edge computing solutions.'
+      - 'Pioneered the design of a scalable network architecture for next-gen VR and gaming services, achieving low-latency and high-availability for edge computing solutions.'
       - 'Enhanced edge device operations by developing robust automation scripts and tools, improving efficiency and reducing manual intervention by 40%.'
   -
     position: 'Automation Engineer @ Comcast Applied AI'
     employer: 'Turnberry Solutions'
-    company: 'Turnberry Solutions'
     start: '2019-05-10'
     startDate: '2019-05-10'
     end: '2020-09-15'
     endDate: '2020-09-15'
     url: 'https://turnberrysolutions.com'
-    summary: 'Comcast''s Applied AI team built the tooling and pipelines necessary to delivery smarter home security through the use of computer vision, audio analysis and anomaly detection using machine learning models developed by in-house data scientists.'
+    summary: 'Comcast''s Applied AI team built the tooling and pipeline necessary to delievery better home security through the use of computer vision, audio analysis and anomoly detection machine learning models developed by in-house data scientests.'
     keywords: []
     highlights:
       - 'Enhanced machine learning models developed by Comcast''s internal data scientist teams, facilitating configurable data sources, domain logic, data transformations, and overall extensibility.'
       - 'Developed a prototype using Python 3.7 and Tensorflow 1.12 with computer vision to detect various types of deliveries, improving detection accuracy by 25%.'
-      - 'Developed tools that empowered research teams to develop rapidly, perform A/B testing, and deploy machine learning models with integrated metrics collection, monitoring, and failover, reducing model deployment time by 30%.'
+      - 'Developed tools that empowered research teams to rapidly develop, perform A/B testing, and deploy machine learning models with integrated metrics collection, monitoring, and failover, reducing model deployment time by 30%.'
       - 'Collaborated with a DevOps team to standardize automation, infrastructure, and the Automated Machine Learning Platform stack configuration using Amazon AWS, EKS, IAM, and EC2, improving system reliability and scalability.'
       - 'Created a universal, plug-in-based library in Python to transparently gather internal application metrics, streamlining metrics collection and improving system monitoring.'
       - 'Enhanced a GoLang library to integrate with various Pub/Sub systems, improving system interoperability and data flow efficiency.'
   -
     position: 'Senior Android Engineer -> Senior Staff Engineer'
     employer: Aetna
-    company: Aetna
-    start: '2017-12-01'
-    startDate: '2017-12-01'
+    start: '2019-04-01'
+    startDate: '2019-04-01'
     end: '2019-05-19'
     endDate: '2019-05-19'
     url: 'https://aetna.com'
     keywords: []
     highlights:
-      - 'Mentored and conducted lessons on engineering best practices, including Inversion of Control, writing testable code, dependency injection frameworks, Kotlin basics, Kotlin coroutines, and channels. This team effort resulted in improved code quality and team skill development.'
+      - 'Planned and implemented a complete vertical stack for integrating with the first CVS API, including technology selection, CI/CD pipeline setup, infrastructure, DevOps, and back-end services, resulting in seamless integration and enhanced system interoperability.'
+      - 'Collaborated closely with product teams to refine and improve feature sets, leading to increased user satisfaction and feature adoption.'
+      - 'Continued to work with the Android architecture team to refine and expand the unified architecture for the platform, improving codebase scalability and maintainability.'
+      - 'Mentored and conducted lessons on engineering best practices, including Inversion of Control, writing testable code, dependency injection frameworks, Kotlin basics, Kotlin coroutines, and channels, resulting in improved code quality and team skill development.'
       - 'Introduced scalable and maintainable design pattern proofs-of-concept, such as a decorator pattern for moving metadata out of core logic, a self-binding RecyclerView library, and a reusable questionnaire component, improving development efficiency and code maintainability across multiple feature teams.'
-      - 'Spearheaded and facilitated the transition from Java to Kotlin as the primary development language on the Android platform, improving code readability and reducing bugs by 30%'
-      - ' Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API, enhancing app functionality and user engagement.'
+      - 'Spearheaded and facilitated the transition from Java to Kotlin as the primary development language on the Android platform, improving code readability and reducing bugs by 30%.'
+      - 'Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API, enhancing app functionality and user engagement.'
       - 'Advocated for and formed an architecture team to plan, define, document, and implement a unified architectural framework, facilitating proper application layer isolation and improving system modularity.'
   -
     position: 'Senior Android Engineer @ Vail Resorts EpicMix'
     employer: 'Tek Systems'
-    company: 'Tek Systems'
     start: '2017-09-01'
     startDate: '2017-09-01'
     end: '2017-11-25'
@@ -309,13 +310,12 @@ work:
     url: 'https://teksystems.com'
     keywords: []
     highlights:
-      - 'Implemented deep-linking and enhanced permission handling in the EpicMix Android app using Deepthought-Routing-Android, my open-source library for URI interception, processing, and in-app routing, improving navigation efficiency and app stability.'
-      - 'Refactored the EpicMix Android project to get existing unit tests running and passing, enabling new feature development backed by unit and integration tests, improving code reliability, and facilitating faster feature rollouts.'
-      - 'Identified and reported significant application security risks related to user account data on client devices and utilized Android''s built-in credentials manager to enhance security, protecting user data integrity.'
+      - 'Implemented deep-linking and enhanced permission handling in the EpicMix Android app using Deepthought-Routing-Android, my personal open-source library for URI interception, processing, and in-app routing, improving navigation efficiency and app stability.'
+      - 'Refactored the EpicMix Android project to get existing unit tests running and passing, enabling new feature development backed by unit and integration tests, improving code reliability and facilitating faster feature rollouts.'
+      - 'Identified and reported significant application security risks related to user account data on client devices, and utilized Android''s built-in credentials manager to enhance security, protecting user data integrity.'
   -
     position: 'Native Team Lead'
     employer: MassRoots
-    company: MassRoots
     start: '2016-09-01'
     startDate: '2016-09-01'
     end: '2017-07-05'
@@ -325,13 +325,12 @@ work:
     highlights:
       - 'Led the green-field Android mobile application rewrite, architecting it around an asynchronous event bus with optimized thread utilization, improving app performance and responsiveness.'
       - 'Implemented bi-directional data binding, single activity router, and a custom live data system, enabling all views saved to the back-stack to update from any API request, enhancing data synchronization and user experience.'
-      - 'Integrated Deepthought-Routing, my open-source self-documenting and self-validating API library, into the NodeJS backend services, ensuring our API and its documentation never deviated and improving developer efficiency and API reliability.'
-      - 'Collaborated with product, design, and engineering teams to conduct technical feasibility and product feedback sessions, improving cross-functional communication and product outcomes.'
-      - 'Mentored and built out the development team, implementing improved coding standards and practices and elevating code quality and team productivity.'
+      - 'Integrated Deepthought-Routing, my open-source self-documenting, self-validating API library, into the NodeJS backend services, ensuring API documentation was always synchronized with the code, improving developer efficiency and API reliability.'
+      - 'Collaborated with product, design, and engineering teams to conduct technical feasibility and product feedback sessions, improving cross-functional communication and leading to better product outcomes.'
+      - 'Mentored and built out the development team, implementing improved coding standards and practices, elevating code quality and team productivity.'
   -
     position: 'Salesforce Engineer'
     employer: Apto
-    company: Apto
     start: '2015-03-01'
     startDate: '2015-03-01'
     end: '2016-08-01'
@@ -346,7 +345,6 @@ work:
   -
     position: 'Business Applications Developer'
     employer: SourceGas
-    company: SourceGas
     start: '2013-04-15'
     startDate: '2013-04-15'
     end: '2015-03-01'
@@ -363,7 +361,6 @@ work:
   -
     position: 'Software Engineer'
     employer: 'Denver IPS'
-    company: 'Denver IPS'
     start: '2011-07-10'
     startDate: '2011-07-10'
     end: '2013-04-15'
@@ -371,14 +368,13 @@ work:
     url: 'https://denverips.com'
     keywords: []
     highlights:
-      - 'Developed an embedded application using PIC-C to provide on-the-fly QA on production machines, eliminating material-based errors and ensuring every shipment met the required customer specifications.'
+      - 'Developed an embedded application using PIC-C to provide on-the-fly QA on production machines, eliminating material-based errors and ensuring parts always matched by scanning barcodes on packaging, cards, terms of service, and other materials prior to shipment.'
       - 'Developed applications using VB.Net and LINQ-SQL to convert customer data into machine-ready data, streamlining data processing and reducing manual intervention.'
-      - 'Designed and built a dashboard using C# and WPF, displayed in the production area to track every job and provide metrics such as: jobs/hour, jobs remaining, and ETA until complete, improving worker and manager satisfaction and productivity'
+      - 'Designed and built a dashboard using C# and WPF, displayed in the production area to track every job and provide metrics such as ''jobs/hr'', ''jobs remaining'', ''ETA until completion'' improving worker and manager satisfaction and productivity.'
       - 'Enhanced productivity by implementing new stored procedures using MS SQL, optimizing database performance for VB6 and VB.Net applications.'
   -
     position: 'Engineering Intern'
     employer: 'Xcel Energy'
-    company: 'Xcel Energy'
     start: '2007-05-10'
     startDate: '2007-05-10'
     end: '2011-01-01'
@@ -390,9 +386,101 @@ work:
       - 'Created a Microsoft Excel Add-In to automate the team''s day-to-day calculations, reducing report preparation time by 50% and increasing efficiency.'
       - 'Developed an automated data acquisition system with mechanical engineers and lab technicians, streamlining performance testing and reducing manual effort.'
       - 'Designed a step-by-step guide for converting Arcom Multiplexers to modern Fisher ROC Multiplexers, complete with wiring and component placement diagrams, facilitating the upgrade process.'
+      - 'Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer, including wiring and component placement diagrams.'
       - 'Created a database for tracking equipment reservations and calibrations, improving lab efficiency and equipment management.'
       - 'Developed a database with the asset management group to track plant overhauls and capital expenditure projects, improving project tracking and financial management.'
-      - 'Trained engineers in all three operating regions on T-Cycle''s use, calculations, and features, enhancing their ability to monitor and optimize plant performance.'
+      - 'Trained engineers in all three operating regions on the use, calculations, and features of T-Cycle, enhancing their ability to monitor and optimize plant performance.'
+priorExperience:
+  -
+    position: 'Senior Android Engineer @ Vail Resorts EpicMix'
+    employer: 'Tek Systems'
+    start: '2017-09-01'
+    startDate: '2017-09-01'
+    end: '2017-11-25'
+    endDate: '2017-11-25'
+    url: 'https://teksystems.com'
+    keywords: []
+    highlights:
+      - 'Implemented deep-linking and enhanced permission handling in the EpicMix Android app using Deepthought-Routing-Android, my personal open-source library for URI interception, processing, and in-app routing, improving navigation efficiency and app stability.'
+      - 'Refactored the EpicMix Android project to get existing unit tests running and passing, enabling new feature development backed by unit and integration tests, improving code reliability and facilitating faster feature rollouts.'
+      - 'Identified and reported significant application security risks related to user account data on client devices, and utilized Android''s built-in credentials manager to enhance security, protecting user data integrity.'
+  -
+    position: 'Native Team Lead'
+    employer: MassRoots
+    start: '2016-09-01'
+    startDate: '2016-09-01'
+    end: '2017-07-05'
+    endDate: '2017-07-05'
+    url: 'https://massroots.com'
+    keywords: []
+    highlights:
+      - 'Led the green-field Android mobile application rewrite, architecting it around an asynchronous event bus with optimized thread utilization, improving app performance and responsiveness.'
+      - 'Implemented bi-directional data binding, single activity router, and a custom live data system, enabling all views saved to the back-stack to update from any API request, enhancing data synchronization and user experience.'
+      - 'Integrated Deepthought-Routing, my open-source self-documenting, self-validating API library, into the NodeJS backend services, ensuring API documentation was always synchronized with the code, improving developer efficiency and API reliability.'
+      - 'Collaborated with product, design, and engineering teams to conduct technical feasibility and product feedback sessions, improving cross-functional communication and leading to better product outcomes.'
+      - 'Mentored and built out the development team, implementing improved coding standards and practices, elevating code quality and team productivity.'
+  -
+    position: 'Salesforce Engineer'
+    employer: Apto
+    start: '2015-03-01'
+    startDate: '2015-03-01'
+    end: '2016-08-01'
+    endDate: '2016-08-01'
+    url: 'https://aptotude.com'
+    keywords: []
+    highlights:
+      - 'Designed and built a plug-and-play integration system for push, pull, and bi-directional synchronization with third-party data and APIs, streamlining data integration processes and improving system interoperability.'
+      - 'Collaborated with designers to develop an Angular-based front-end web application on top of Salesforce, improving user interface and experience.'
+      - 'Developed a custom back office and HR system for large commercial real estate brokerages, improving operational efficiency and employee management.'
+      - 'Co-developed a Node.js application for browsing the Salesforce object model and metadata using the Tooling API, enhancing developers'' ability to interact with and manage Salesforce data structures.'
+  -
+    position: 'Business Applications Developer'
+    employer: SourceGas
+    start: '2013-04-15'
+    startDate: '2013-04-15'
+    end: '2015-03-01'
+    endDate: '2015-03-01'
+    url: 'https://sourcegas.com'
+    keywords: []
+    highlights:
+      - 'Developed web applications using ASP.Net MVC 4 and 5 with an MS SQL Server backend to track compliance testing and inspections of equipment required by federal regulations, improving regulatory compliance and reporting efficiency.'
+      - 'Created a comprehensive C# library for internal developers, including wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), and Geocoding Services from Bing, Yahoo, and Google, standardizing and simplifying development processes.'
+      - 'Deployed a time tracking and reporting site used company-wide, utilizing ASP.Net MVC 4, jQuery, Durandal, Knockout, and MVC Web API with an MS SQL Server backend, improving time management and reporting accuracy across the company.'
+      - 'Designed and developed a C# application to poll data from HR''s ADP web service and synchronize it with Active Directory, streamlining HR data management and improving data consistency.'
+      - 'Developed Python scripts using ArcGIS for the GIS teams, enhancing their data processing capabilities and improving workflow efficiency.'
+      - 'Created a database for tracking equipment reservations and calibrations, improving lab efficiency and equipment management.'
+  -
+    position: 'Software Engineer'
+    employer: 'Denver IPS'
+    start: '2011-07-10'
+    startDate: '2011-07-10'
+    end: '2013-04-15'
+    endDate: '2013-04-15'
+    url: 'https://denverips.com'
+    keywords: []
+    highlights:
+      - 'Developed an embedded application using PIC-C to provide on-the-fly QA on production machines, eliminating material-based errors and ensuring parts always matched by scanning barcodes on packaging, cards, terms of service, and other materials prior to shipment.'
+      - 'Developed applications using VB.Net and LINQ-SQL to convert customer data into machine-ready data, streamlining data processing and reducing manual intervention.'
+      - 'Designed and built a dashboard using C# and WPF, displayed in the production area to track every job and provide metrics such as ''jobs/hr'', ''jobs remaining'', ''ETA until completion'' improving worker and manager satisfaction and productivity.'
+      - 'Enhanced productivity by implementing new stored procedures using MS SQL, optimizing database performance for VB6 and VB.Net applications.'
+  -
+    position: 'Engineering Intern'
+    employer: 'Xcel Energy'
+    start: '2007-05-10'
+    startDate: '2007-05-10'
+    end: '2011-01-01'
+    endDate: '2011-01-01'
+    url: 'https://xcelenergy.com'
+    keywords: []
+    highlights:
+      - 'Developed T-Cycle (Teagan-Cycle), a program for modeling power plants with a graphical user interface. Used during plant performance tests, it calculated component efficiency and guided maintenance focus to maximize efficiency improvements, enhancing performance monitoring and problem-solving.'
+      - 'Created a Microsoft Excel Add-In to automate the team''s day-to-day calculations, reducing report preparation time by 50% and increasing efficiency.'
+      - 'Developed an automated data acquisition system with mechanical engineers and lab technicians, streamlining performance testing and reducing manual effort.'
+      - 'Designed a step-by-step guide for converting Arcom Multiplexers to modern Fisher ROC Multiplexers, complete with wiring and component placement diagrams, facilitating the upgrade process.'
+      - 'Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer, including wiring and component placement diagrams.'
+      - 'Created a database for tracking equipment reservations and calibrations, improving lab efficiency and equipment management.'
+      - 'Developed a database with the asset management group to track plant overhauls and capital expenditure projects, improving project tracking and financial management.'
+      - 'Trained engineers in all three operating regions on the use, calculations, and features of T-Cycle, enhancing their ability to monitor and optimize plant performance.'
 education:
   -
     institution: 'Metropolitan State University'
@@ -404,7 +492,7 @@ education:
     institution: 'Metropolitan State University'
     grade: '3.87'
     summary: ""
-    area: 'Applied Mathematics'
+    area: 'Applied Mathetmatics'
     studyType: 'Bachelor''s'
   -
     institution: 'Metropolitan State University'
@@ -581,7 +669,7 @@ awards:
     title: 'High Performing Employee'
     date: '2021-07-01'
     from: 'Joy Vance - Director, Executive Initiatives - World Wide Technology'
-    summary: 'Award recognizing the primary driving force behind the exceptionally successful cable matrix validation project, securing contracts with one of WWT''s top five clients.'
+    summary: 'Award recognizing I was the primary driving force behind the exceptionally successful cable matrix validation project, securing contracts with one of WWT''s top five clients.'
   -
     title: 'High Performing Team'
     date: '2021-07-01'

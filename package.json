@@ -11,7 +11,7 @@
     "generate:hexagon:html": "copyfiles avatar.png docs && node src/cli/index.js build resume.json to docs/index.html --theme src/themes/jsonresume-theme-hexagon --no-escape",
     "generate:stackoverflow": "copyfiles avatar-transparent.png docs && node src/cli/index.js build resume.json to docs/resume.all -d --theme src/themes/jsonresume-theme-stackoverflow-long --no-escape",
     "generate:stackoverflow:html": "copyfiles avatar-transparent.png docs && node src/cli/index.js build resume.json to docs/index.html -d --theme src/themes/jsonresume-theme-stackoverflow-long --no-escape",
-    "generate:stackoverflow-short": "copyfiles avatar-transparent*.png docs && node src/cli/index.js build resumes/resume.json to docs/resume.all -d --theme src/themes/jsonresume-theme-stackoverflow --no-escape",
+    "generate:stackoverflow-short": "copyfiles avatar-transparent*.png docs && node src/cli/index.js build resume.json to docs/resume.all -d --theme src/themes/jsonresume-theme-stackoverflow --no-escape",
     "generate:stackoverflow-short:html": "copyfiles avatar-transparent*.png docs && node src/cli/index.js build resume.json to docs/index.html -d --theme src/themes/jsonresume-theme-stackoverflow --no-escape",
     "test": "grunt clean:test && mocha --exit",
     "grunt": "grunt"

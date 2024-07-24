@@ -219,7 +219,7 @@ section .location {
 #header > #profiles,
 #header > #contact,
 #skills,
-#languages,
+#languages
 {
   display: -webkit-box;
   display: -moz-box;
@@ -230,10 +230,14 @@ section .location {
   flex-flow: row wrap;
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
-}
+}.dic
 
 #header > div {
   line-height: 1.5;
+}
+
+#header > div.institution {
+  line-height: 1.1;
 }
 
 #header > div > div {
@@ -390,10 +394,11 @@ section .location {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  justify-content: stretch;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 .skills-container .item .name {
@@ -409,7 +414,7 @@ section .location {
 
 
 .skills-container .item .keywords li {
-  font-size: .9rem !important;
+  font-size: .7rem !important;
 }
 
 .keywords li:hover,
@@ -423,6 +428,7 @@ section .location {
 
 .highlights > li > p {
   margin-bottom: 0.5em;
+  line-height: 1.1;
 }
 
 .item {
@@ -708,6 +714,9 @@ section .location {
 @media print {
   #profiles a:not(.hide-href-print)::after{
     content: " (" attr(href) ") ";
+  }
+  a[href]:after {
+    content: none !important;
   }
   #resume {
     margin: 0.1em;
