@@ -828,4 +828,12 @@ section .location {
   .fa-location-dot:before {
     padding-left: 0.1em;
   }
+
+  .work-item, .item {
+    page-break-inside: avoid;
+    page-break-after: auto;
+    break-inside: avoid;
+    break-after: auto;
+  }
+
 }
