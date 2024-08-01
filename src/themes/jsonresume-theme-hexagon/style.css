@@ -95,6 +95,12 @@ select {
     display: initial;
   }
 
+  aside {
+    height: 100v;
+    page-break-inside: avoid;
+    page-break-after: always;
+  }
+
   .summary a::after {
     content: " (" attr(href) ")";
   }
@@ -187,6 +193,12 @@ aside .heading {
   --color-icon: var(--color-primary);
   --hex-size: 3rem;
   --icon-size: 1.5rem;
+}
+
+aside > div.photo > div.hex.hex-solid > img {
+  padding: 1rem;
+  height: 10rem;
+  background-color: var(--color-secondary);
 }
 
 section {

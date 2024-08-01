@@ -3,9 +3,7 @@
   "basics": {
     "name": "Teagan Glenn",
     "label": "Senior Software Engineer - Architecture, Automation, Schema, and Design",
-    "image": "./avatar-transparent3.png",
-    "picture": "./avatar-transparent3.png",
-    "brief": "Dynamic software engineer specializing in architecture, automation, schema, and design prinicples. Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. Proven track record in advancing team knowledge, skill and confidence through collaboration and mentorship. Driven by passion for technology, a thirst for for learning, and delivering quality.",
+    "brief": "Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. Proven track record in advancing team knowledge, skill and confidence through collaboration and mentorship. Driven by passion for technology, a thirst for for learning, and delivering quality.",
     "summary": "Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. Proven track record in advancing team knowledge, skill and confidence through collaboration and mentorship. Driven by passion for technology, a thirst for for learning, and delivering quality.",
     "profiles": [
       {
@@ -346,6 +344,108 @@
         "Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API, enhancing app functionality and user engagement.",
         "Advocated for and formed an architecture team to plan, define, document, and implement a unified architectural framework, facilitating proper application layer isolation and improving system modularity."
       ]
+    },
+    {
+      "position": "Senior Android Engineer @ Vail Resorts EpicMix",
+      "employer": "Tek Systems",
+      "start": "2017-09-01",
+      "startDate": "2017-09-01",
+      "end": "2017-11-25",
+      "endDate": "2017-11-25",
+      "url": "https://teksystems.com",
+      "keywords": [],
+      "highlights": [
+        "Implemented deep-linking and enhanced permission handling in the EpicMix Android app using Deepthought-Routing-Android, my personal open-source library for URI interception, processing, and in-app routing, improving navigation efficiency and app stability.",
+        "Refactored the EpicMix Android project to get existing unit tests running and passing, enabling new feature development backed by unit and integration tests, improving code reliability and facilitating faster feature rollouts.",
+        "Identified and reported significant application security risks related to user account data on client devices, and utilized Android's built-in credentials manager to enhance security, protecting user data integrity."
+      ]
+    },
+    {
+      "position": "Native Team Lead",
+      "employer": "MassRoots",
+      "start": "2016-09-01",
+      "startDate": "2016-09-01",
+      "end": "2017-07-05",
+      "endDate": "2017-07-05",
+      "url": "https://massroots.com",
+      "keywords": [],
+      "highlights": [
+        "Led the green-field Android mobile application rewrite, architecting it around an asynchronous event bus with optimized thread utilization, improving app performance and responsiveness.",
+        "Implemented bi-directional data binding, single activity router, and a custom live data system, enabling all views saved to the back-stack to update from any API request, enhancing data synchronization and user experience.",
+        "Integrated Deepthought-Routing, my open-source self-documenting, self-validating API library, into the NodeJS backend services, ensuring API documentation was always synchronized with the code, improving developer efficiency and API reliability.",
+        "Collaborated with product, design, and engineering teams to conduct technical feasibility and product feedback sessions, improving cross-functional communication and leading to better product outcomes.",
+        "Mentored and built out the development team, implementing improved coding standards and practices, elevating code quality and team productivity."
+      ]
+    },
+    {
+      "position": "Salesforce Engineer",
+      "employer": "Apto",
+      "start": "2015-03-01",
+      "startDate": "2015-03-01",
+      "end": "2016-08-01",
+      "endDate": "2016-08-01",
+      "url": "https://aptotude.com",
+      "keywords": [],
+      "highlights": [
+        "Designed and built a plug-and-play integration system for push, pull, and bi-directional synchronization with third-party data and APIs, streamlining data integration processes and improving system interoperability.",
+        "Collaborated with designers to develop an Angular-based front-end web application on top of Salesforce, improving user interface and experience.",
+        "Developed a custom back office and HR system for large commercial real estate brokerages, improving operational efficiency and employee management.",
+        "Co-developed a Node.js application for browsing the Salesforce object model and metadata using the Tooling API, enhancing developers' ability to interact with and manage Salesforce data structures."
+      ]
+    },
+    {
+      "position": "Business Applications Developer",
+      "employer": "SourceGas",
+      "start": "2013-04-15",
+      "startDate": "2013-04-15",
+      "end": "2015-03-01",
+      "endDate": "2015-03-01",
+      "url": "https://sourcegas.com",
+      "keywords": [],
+      "highlights": [
+        "Developed web applications using ASP.Net MVC 4 and 5 with an MS SQL Server backend to track compliance testing and inspections of equipment required by federal regulations, improving regulatory compliance and reporting efficiency.",
+        "Created a comprehensive C# library for internal developers, including wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), and Geocoding Services from Bing, Yahoo, and Google, standardizing and simplifying development processes.",
+        "Deployed a time tracking and reporting site used company-wide, utilizing ASP.Net MVC 4, jQuery, Durandal, Knockout, and MVC Web API with an MS SQL Server backend, improving time management and reporting accuracy across the company.",
+        "Designed and developed a C# application to poll data from HR's ADP web service and synchronize it with Active Directory, streamlining HR data management and improving data consistency.",
+        "Developed Python scripts using ArcGIS for the GIS teams, enhancing their data processing capabilities and improving workflow efficiency.",
+        "Created a database for tracking equipment reservations and calibrations, improving lab efficiency and equipment management."
+      ]
+    },
+    {
+      "position": "Software Engineer",
+      "employer": "Denver IPS",
+      "start": "2011-07-10",
+      "startDate": "2011-07-10",
+      "end": "2013-04-15",
+      "endDate": "2013-04-15",
+      "url": "https://denverips.com",
+      "keywords": [],
+      "highlights": [
+        "Developed an embedded application using PIC-C to provide on-the-fly QA on production machines, eliminating material-based errors and ensuring parts always matched by scanning barcodes on packaging, cards, terms of service, and other materials prior to shipment.",
+        "Developed applications using VB.Net and LINQ-SQL to convert customer data into machine-ready data, streamlining data processing and reducing manual intervention.",
+        "Designed and built a dashboard using C# and WPF, displayed in the production area to track every job and provide metrics such as 'jobs/hr', 'jobs remaining', 'ETA until completion' improving worker and manager satisfaction and productivity.",
+        "Enhanced productivity by implementing new stored procedures using MS SQL, optimizing database performance for VB6 and VB.Net applications."
+      ]
+    },
+    {
+      "position": "Engineering Intern",
+      "employer": "Xcel Energy",
+      "start": "2007-05-10",
+      "startDate": "2007-05-10",
+      "end": "2011-01-01",
+      "endDate": "2011-01-01",
+      "url": "https://xcelenergy.com",
+      "keywords": [],
+      "highlights": [
+        "Developed T-Cycle (Teagan-Cycle), a program for modeling power plants with a graphical user interface. Used during plant performance tests, it calculated component efficiency and guided maintenance focus to maximize efficiency improvements, enhancing performance monitoring and problem-solving.",
+        "Created a Microsoft Excel Add-In to automate the team's day-to-day calculations, reducing report preparation time by 50% and increasing efficiency.",
+        "Developed an automated data acquisition system with mechanical engineers and lab technicians, streamlining performance testing and reducing manual effort.",
+        "Designed a step-by-step guide for converting Arcom Multiplexers to modern Fisher ROC Multiplexers, complete with wiring and component placement diagrams, facilitating the upgrade process.",
+        "Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer, including wiring and component placement diagrams.",
+        "Created a database for tracking equipment reservations and calibrations, improving lab efficiency and equipment management.",
+        "Developed a database with the asset management group to track plant overhauls and capital expenditure projects, improving project tracking and financial management.",
+        "Trained engineers in all three operating regions on the use, calculations, and features of T-Cycle, enhancing their ability to monitor and optimize plant performance."
+      ]
     }
   ],
   "priorExperience": [
@@ -457,7 +557,21 @@
       "institution": "Metropolitan State University",
       "grade": "3.87",
       "summary": "",
-      "area": "Applied Physics, Applied Mathetmatics, Computer Science",
+      "area": "Applied Physics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University",
+      "grade": "3.87",
+      "summary": "",
+      "area": "Applied Mathetmatics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University",
+      "grade": "3.87",
+      "summary": "",
+      "area": "Computer Science",
       "studyType": "Bachelor's"
     }
   ],
