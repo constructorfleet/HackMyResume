@@ -1,0 +1,242 @@
+$schema: 'http://json-schema.org/draft-07/schema#'
+basics:
+  name: 'Teagan Glenn'
+  label: 'Senior Software Engineer'
+  email: that@teagantotally.rocks
+  phone: '(720) 432-5361'
+  url: 'http://blog.teagantotally.rocks'
+  summary: 'Accomplished software engineer with over a decade of experience in cloud-based platform engineering and software development. Known for deploying robust, flexible, and scalable solutions through best practices and automated tooling. Proven track record in advancing team knowledge, skill, and confidence through collaboration and mentorship. Passionate about leveraging data science, AI platforms, and advanced infrastructure to drive innovation and excellence in technology.'
+  location:
+    address: ""
+    postalCode: ""
+    city: Morrison
+    countryCode: US
+    region: CO
+  profiles:
+    -
+      network: LinkedIn
+      username: teagan42
+      url: 'http://linkedin.com/in/teagan42'
+    -
+      network: GitHub
+      username: Teagan42
+      url: 'http://github.com/Teagan42'
+work:
+  -
+    name: Resideo
+    company: Resideo
+    organization: Resideo
+    position: 'Advanced Senior GraphQL Lead Engineer'
+    startDate: 2022-06
+    endDate: 2024-06
+    summary: 'Lead the GraphQL Schema and Feature team, driving philosophical and innovative solutions to challenges presented by Resideo''s core platform of professional and consumer connected products.'
+    highlights:
+      - 'Managed a small development team building out schema and new features.'
+      - 'Provided mentoring and education through group and individual sessions.'
+      - 'Lead the migration onto GraphQL Federation 2.0 via NestJS''s suite of frameworks.'
+      - 'Implemented self-documenting, implicitly validated, GraphQL that reduced reported issues and improved confidence in our delivery.'
+      - 'Improved the quality of the codebase through demonstration and enforcing industry best practices.'
+      - 'Implemented policy requiring engineers meet with stakeholders prior to ticket, improving communication, understanding and reducing reported issues.'
+  -
+    name: 'World Wide Technology'
+    company: 'World Wide Technology'
+    organization: 'World Wide Technology'
+    position: 'Senior Delivery Engineer'
+    startDate: 2021-01
+    endDate: 2022-05
+    summary: 'Built an award winning solution validating  inventory, connections and health of customer orders racks.'
+    highlights:
+      - 'Increasing rack validation througpught from less than 10 to over 60 daily, while completely removing the possibility of errors.'
+      - 'Created automated validation and remediation frameworks, eliminating supply chain bottlenecks.'
+      - 'Initiated weekly training sessions, improving team communication and project collaboration.'
+      - 'Developed tools using Ansible, Python, and various frameworks, helping handle or reduce support requests close to 50%.'
+  -
+    name: KForce
+    company: KForce
+    organization: KForce
+    position: 'Automation Engineer for Charter Advanced Technologies'
+    startDate: 2020-09
+    endDate: 2020-12
+    summary: 'To demonstrate the feasibility of VR-as-a-Service, developed the infrastructure for deploying the proof-of-concept.'
+    highlights:
+      - 'Implemented a provisioning pipeline using Foreman and AWX, reducing deployment time by 30%.'
+      - 'Designed a scalable network architecture for highly available edge computing solutions, at less than 5ms latency.'
+      - 'Enhanced edge device operations with robust automation scripts, improving efficiency and reducing manual intervention by 40%.'
+  -
+    name: 'Turnberry Solutions'
+    company: 'Turnberry Solutions'
+    organization: 'Turnberry Solutions'
+    position: 'Automation Engineer for Comcast Applied AI'
+    startDate: 2019-04
+    endDate: 2020-09
+    summary: 'Built the tooling and pipelines necessary to deliever better home security through the use of computer vision, audio analysis and anomaly detection.'
+    highlights:
+      - 'Developed a prototype using Python 3.7 and Tensorflow 1.12 with computer vision to detect various types of deliveries, improving detection accuracy by 25%.'
+      - 'Developed tools that empowered research teams to rapidly develop, perform A/B testing, and deploy machine learning models with integrated metrics collection, monitoring, and failover, reducing model deployment time by 30%.'
+      - 'Collaborated with a DevOps team to standardize automation, infrastructure, and the Automated Machine Learning Platform stack configuration using Amazon AWS, EKS, IAM, and EC2, improving system reliability and scalability.'
+      - 'Created a universal, plug-in-based library in Python to transparently gather internal application metrics, streamlining metrics collection and improving system monitoring.'
+      - 'Enhanced a GoLang library to integrate with various Pub/Sub systems, improving system interoperability and data flow efficiency.'
+  -
+    name: Aetna
+    position: 'Senior Staff Engineer'
+    startDate: 2017-11
+    endDate: 2019-03
+    highlights:
+      - 'Planned and implemented vertical stack integrations with CVS API, enhancing system interoperability.'
+      - 'Collaborated with product teams to refine and improve feature sets, increasing user satisfaction and feature adoption.'
+      - 'Mentored teams on engineering best practices, leading to improved code quality and team skill development.'
+      - 'Introduced scalable and maintainable design pattern proofs-of-concept, improving development efficiency.'
+education:
+  -
+    institution: 'Metropolitan State University'
+    url: ""
+    area: 'Applied Physics'
+    studyType: Bachelor
+    startDate: 2014-06
+    endDate: 2010-01
+    score: ""
+    courses: []
+  -
+    institution: 'Metropolitan State University'
+    url: ""
+    area: 'Applied Mathematics'
+    studyType: Bachelor
+    startDate: 2014-06
+    endDate: 2010-01
+    score: ""
+    courses: []
+  -
+    institution: 'Metropolitan State University'
+    url: ""
+    area: 'Computer Science'
+    studyType: Bachelor
+    startDate: 2014-06
+    endDate: 2010-01
+    score: ""
+    courses: []
+skills:
+  -
+    name: 'Programming Languages'
+    level: Expert
+    keywords:
+      - Typescript
+      - JavaScript
+      - Python
+      - Java
+      - Kotlin
+      - 'C#'
+      - C/C++
+      - 'Embedded C'
+      - VB
+      - VBA
+      - VB.NET
+      - 'F#'
+      - Scala
+      - Haskell
+      - Bash
+      - PHP
+  -
+    name: 'Automation Tools'
+    level: Expert
+    keywords:
+      - Ansible
+      - Salt
+      - Consol
+      - Chef
+  -
+    name: 'IoT Protocols'
+    level: Expert
+    keywords:
+      - Z-Wave
+      - X10
+      - ZigBee
+      - Thread
+      - MQTT
+      - Home-Assistant
+      - OpenHAB
+      - ioBroker
+  -
+    name: 'CI/CD Tools'
+    level: Expert
+    keywords:
+      - 'GitLab CI'
+      - 'GitHub Actions'
+      - Jenkins
+      - AWX
+      - Drone
+  -
+    name: Virtualization
+    level: Expert
+    keywords:
+      - Foreman
+      - MaaS
+      - ProxMox
+      - VMWare
+projects:
+  -
+    name: 'Homebridge Ultimate Govee Plugin'
+    description: 'Homebridge plugin to support all features of Govee devices.'
+    highlights:
+      - 'Imports device scenes from Govee API.'
+      - 'Supports granular control of RGBIC light segments.'
+      - 'Provides full support for Air Purifiers, Aroma Diffusers, RGB lights, and RGBIC lights.'
+    keywords: []
+    startDate: ""
+    endDate: ""
+    url: 'http://github.com/constructorMeet'
+    roles: []
+    entity: ""
+    type: ""
+  -
+    name: ConstructorFleet
+    description: 'Collection of Ansible, automation, and other projects developed with my spouse.'
+    highlights:
+      - '1-Touch provisioning build pipeline.'
+      - 'TensorMow hardware acceleration tools.'
+      - 'Configurations, custom components, and other tools for IoT.'
+    keywords: []
+    startDate: ""
+    endDate: ""
+    url: 'http://github.com/constructorMeet'
+    roles: []
+    entity: ""
+    type: ""
+  -
+    name: Home-Assistant
+    description: 'Platform-agnostic integrations for home automation.'
+    highlights:
+      - 'Top 100 contributors out of 1700.'
+      - 'Implemented first computer vision integration.'
+      - 'Provided support to end users around the world.'
+    keywords: []
+    startDate: ""
+    endDate: ""
+    url: 'http://github.com/home-assistant'
+    roles: []
+    entity: ""
+    type: ""
+  -
+    name: 'DeepThought - Routing'
+    description: 'Self-documenting, self-validating Express.js API wrapper.'
+    highlights:
+      - 'Library to ingest SwaggerDoc, ensuring the API and documentation are always synchronized.'
+      - 'Performs permission checks as configurable middleware handler.'
+      - 'All inputs presented to endpoint handlers are guaranteed the correct type and within specified constraints.'
+      - 'Ported library to Android for internal, intent-based, routing within an application.'
+    keywords: []
+    startDate: ""
+    endDate: ""
+    url: 'http://github.com/constructorfleet'
+    roles: []
+    entity: ""
+    type: ""
+references:
+  -
+    name: 'James Gibson'
+    reference: "Teagan's ability to look at a complex problem and reduce it, quickly I might add, into an extendable and reusable architecture is surpassed by no software engineer I have ever worked with. In the matter of 3 hours she had designed and beta spec'ed the architecture for a commission/invoice integration with a financial system; it was approved by the client in ONE meeting. \nI have had the pleasure of knowing Teagan for the past three years now, and have worked side by side with her for the last year. I can say without a doubt that if she quit her current job, I'd likely be applying to her new job; She is that great to work with, always honest and always knowledgeable of the task at hand. \nTeagan is a relentless scholar, either from the academic perspective nearly having four degrees to the community side and her continual contribution to open source. Teagan also is enthralled with automation and has taken it upon herself to automate her home and daily life where possible."
+  -
+    name: 'Alan Janis'
+    reference: 'Teagan is the kind of engineer who can be intimidating to work with  because of her breadth and depth of knowledge, and ability to pick up new  software, skills, and practices seemingly overnight. However, she is wiling to share and even mentor in these areas which I feel increases her value to her team,  the company, and outside members of any project that she is tasked with.  I know that she sometimes struggles with how her message comes across in conversation, but she is quick to acknowledge a mistake, take it to heart, apologize and take  corrective action. Teagan is a fantastic asset and addition to any team or project, not just because of her skill set, but because of her diligence and experience taking point on difficult projects and tasks, seeing them through to completion.  She has technical mastery of many programming languages, architectures, development  methodologies, and well as significant knowledge of underlying systems  (bare metal, KVM, cloud providers, etc.)'
+  -
+    name: 'Aram Hamper'
+    reference: 'Teagan has been a joy to work with. I’ve been on two engagements with her now, and she  consistently brings positive energy. She is intelligent, confident, outspoken, and  opinionated, and I mean those things for the compliment that they are. Teagan is also  humble, caring, kind, and not afraid to admit when she is wrong. She is considerate  of the feelings of others and quick to resolve conflict. Teagan has a passion for  continuous improvement, particularly when it comes to automation. She loves to share  her work with others whenever given a chance. She loves to teach and has a lot of good  things to share. When I expressed a desire to understand programming better, she started  a class for people like me. On the Psyclops Team, she paired with developers (regardless  of the stack) and QAs and brought a wealth of value in her first few days as an employee.  On the JPMC-NAIC automation project, she quickly picked up on abstract concepts she had  previously had little experience with.'

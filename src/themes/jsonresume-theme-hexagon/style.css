@@ -96,7 +96,7 @@ select {
   }
 
   aside {
-    height: 100v;
+    height: 100vp;
     page-break-inside: avoid;
     page-break-after: always;
   }

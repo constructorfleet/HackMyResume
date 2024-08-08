@@ -4,21 +4,34 @@
     <head>
         <meta charset="utf-8">
         <title>Teagan Glenn</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <style>
             html, body, main, section, header, ul, p, h1, h2, h3 {
-              font-family: 'Calibri', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'sans-serif';
-              font-size: 12px;
-              margin: 0; padding: 0;
+              font-family: 'Open Sans', 'sans-serif';
+              font-size: 14px;
+              line-height: 1.4;
+              margin: 0;
+              padding: 0;
               display: block;
             }
-
-            h1 {
-                font-size: 18px;
+            
+            ::selection {
+              color: #fff;
+              background: #e48a8a; /* WebKit/Blink Browsers */
+            }
+            ::-moz-selection {
+              color: #fff;
+              background: #e48a8a; /* Gecko Browsers */
+            }
+            
+            p::selection {
+              color: #fff;
             }
             
             a {
-              color: #0064BD;
+              color: #C00000;
               text-decoration: none;
             }
             
@@ -30,27 +43,86 @@
               text-decoration: underline;
             }
             
+            h1 {
+              text-transform: uppercase;
+              font-size: 2.5em;
+            }
+            
             h2 {
               text-transform: uppercase;
+              color: #898989;
+              font-size: 2em;
+              position: relative;
+              font-weight: 400;
+            }
+            
+            h3, .tenure {
+              font-size: 1.5em;
+              font-weight: 400;
             }
             
             h3 {
-              font-size: 1em;
+              margin-top: 0;
+              margin-bottom: 5px;
+              /*width: 85%;*/
+              float: left;
+            }
+
+            h3 > a {
+                display: block;
+            }
+            
+            table {
+              width: 100%;
+              text-transform: uppercase;
+            }
+            
+            td:first-child {
+              letter-spacing: 2px;
+              color: #bd5b5b;
+              font-size: 20px;
+            }
+            
+            td:last-child {
+              text-align: justify; /* HTML justification sucks, but in this case... */
             }
             
             hr {
-              border: none;
-              border-top: 1px solid #B3B3B3;
+              display: none;
             }
             
             main {
               padding: 15px;
-              max-width: 90%;
+              max-width: 87%;
               margin: 0 auto;
             }
             
             section {
-              margin-top: 1em;
+              margin-top: 2em;
+            }
+            
+            section > div {
+              margin-top: 16px;
+              overflow: hidden; /* Clear floated children */
+              page-break-inside: avoid;
+              -webkit-break-inside: avoid;
+              break-inside: avoid;
+            }
+            
+            section > div p {
+              clear: both;
+            }
+            
+            section > header {
+              position: relative;
+            }
+            
+            p + ul {
+              margin: 1em;
+            }
+            
+            ul {
+              clear: both;
             }
             
             li {
@@ -59,11 +131,36 @@
             
             p, li {
               text-align: justify;
-              clear: both;
             }
             
             .tenure {
               float: right;
+              color: #6F6F6F;
+              background-color: #F5F5F5;
+              border-radius: 6px;
+              padding: 4px 6px;
+              font-size: 85%;
+              font-weight: 600;
+              margin-top: 3px;
+            }
+            
+            .location {
+              border: #e2aaaa dashed 1px;
+              background-color: #ffffff;
+              padding: 3px 6px;
+              border-radius: 6px;
+              float: right;
+              margin-right: 5px;
+              float: right;
+              font-size: 85%;
+              color: #717171;
+              font-weight: 600;
+              margin-top: 3px;
+            }
+            
+            span.keywords {
+              font-size: 12px;
+              color: #B16666;
             }
             
             thead {
@@ -73,76 +170,94 @@
             main > header {
               width: 100%;
               float: left;
-              margin-bottom: 8px;
-              position: relative;
-            }
-
-            header {
-                margin-bottom: 8px;
-            }
-
-            main > header > div {
-                font-size: 14px;
+              margin-bottom: 1em;
             }
             
-            
-            h3 {
-              display: inline-block;
-              line-height: 1;
-            }
-            #contact {
-              float: right;
-              position: absolute;
-              right: 0;
-              bottom: 0;
-            }
-            
-            #contact > div {
-              display: inline-block;
-              margin-left: 5px;
-            }
-            
-            span.fa {
-              text-align: left;
-              margin-right: 3px;
+            h1 {
               float: left;
             }
             
-            section > div {
-              margin-bottom: 1em;
-              clear: both;
+            h1, h2, .label {
+              font-size: 24px;
+              text-transform: uppercase;
+              font-weight: 300;
+              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Lato', 'sans-serif'
             }
             
-            span.keywords {
-              font-size: 10px;
-              color: gray;
-              text-align: right;
+            #contact {
+             clear: both;
+             float: left;
+             margin-top: 2px;
+            }
+            
+            #contact span + span {
+              margin-left: 10px;
+            }
+            
+            header > span.fa {
+              text-align: center;
+              margin-right: 3px;
+              position: absolute;
+              width: 40px;
+              top: 14px;
+              font-size: 30px;
+              /*transform: translateX(-110%); PDF no likey */
+              margin-left: -50px;
+              color: #DADADA;
             }
 
-            div {
-                break-inside: avoid;
+            header > h2 {
+                top: 6px;
             }
-
-            section#testimonials {
+            
+            .label {
+              float: right;
+              color: #DADADA;
+            }
+            
+            #summary {
+              color: #717171;
+              font-size: 1.25em;
+              margin-top: 4em;
+            }
+            
+            #skills td {
+              padding-top: 7px;
+              padding-bottom: 7px;
+            }
+            
+            #references > p, #references > p > a {
+              color: #961e1e;
+              text-align: center;
+              margin: 30px;
+              font-weight: bold;
+              letter-spacing: 2px;
+              text-transform: uppercase;
+            }
+            span.label {
+                color: #999;
+                float: left;
+                font-size: 20px;
+                margin-left: 20px;
+                margin-top: 2px;
+                margin-bottom: 2px;
+            }
+            #testimonials {
                 display: none;
             }
-
         </style>
     </head>
     
     <body>
         <main>
             <header>
-                 <h1>Teagan Glenn</h1>
-                <div id="contact">
-                    <div class="email"><a href="mailto:teagan.glenn@icloud.com">teagan.glenn@icloud.com</a>
-                    </div>
-                    <div class="phone">(720) 432-5361</div>
-                    <div class="website"><a href="https://blog.teagantotally.rocks">https://blog.teagantotally.rocks</a>
-                    </div>
-                </div>
+                 <h1>Teagan <span style="color: #C00000;">Glenn</span></h1>
+ <span class="label">Expert Software Engineer Delivering Innovative Solutions</span>
+                <p id="contact"> <span class="email"><a href="mailto:that@teagantotally.rocks"><a href="mailto:that@teagantotally.rocks">that@teagantotally.rocks</a></a></span>
+                    <span
+                    class="phone">(720) 432-5361</span> <span class="website"><a href="https://blog.teagantotally.rocks"><a href="https://blog.teagantotally.rocks">https://blog.teagantotally.rocks</a></a></span>
+                </p>
             </header>
-            <hr>
             <section id="summary">As an engineer with over 20 years in the industry, I leverage my extensive
                 expertise in automating complex processes to deliver innovative and efficient
                 solutions. With a robust background in software development and a reputation
@@ -154,16 +269,16 @@
                 forward-thinking organization.</section>
             <hr>
             <section id="employment">
-                <header> <span class="fa fa-building"></span> 
-                     <h2>History</h2>
+                <header> <span class="fa fa-lg fa-building"></span> 
+                     <h2>Employment History</h2>
 
                 </header>
                 <div>
-                     <h3><em>Advanced Senior GraphQL Lead Engineer</em>,
+                     <h3><em>Advanced Senior GraphQL Lead Engineer</em>
 
-    <a href="https://www.resideo.com">Resideo</a>
+              <a href="https://www.resideo.com">Resideo</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2022-05 — 2024-06</span>
                     <p></p>
                     <ul>
@@ -177,11 +292,11 @@
                     </ul> <span class="keywords">GraphQL • Schema • Typescript • Microservices • Team Leadership • DevOps </span>
                 </div>
                 <div>
-                     <h3><em>Senior Delivery Engineer</em>,
+                     <h3><em>Senior Delivery Engineer</em>
 
-    <a href="https://www.wwt.com">World Wide Technology</a>
+              <a href="https://www.wwt.com">World Wide Technology</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2021-01 — 2022-05</span>
                     <p></p>
                     <ul>
@@ -193,11 +308,11 @@
                     </ul> <span class="keywords">DevOps • Java Spring • System Automation • Ansible • Network Automation • QA Automation • Python • NXOS </span>
                 </div>
                 <div>
-                     <h3><em>Senior Automation/DevOps Engineer for Charter Advanced Technologies</em>,
+                     <h3><em>Senior Automation Engineer for Charter Advanced Technologies</em>
 
-    <a href="https://www.kforce.com">KForce</a>
+              <a href="https://www.kforce.com">KForce</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2020-09 — 2020-12</span>
                     <p></p>
                     <ul>
@@ -206,11 +321,11 @@
                     </ul> <span class="keywords">OpenShift • Infrastructure as Code • Ansible • Linux KVM </span>
                 </div>
                 <div>
-                     <h3><em>Senior Automation Engineer for Comcast Applied AI</em>,
+                     <h3><em>Senior Automation Engineer for Comcast Applied AI</em>
 
-    <a href="https://www.turnberrysolutions.com">Turnberry Solutions</a>
+              <a href="https://www.turnberrysolutions.com">Turnberry Solutions</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2019-05 — 2020-09</span>
                     <p></p>
                     <ul>
@@ -223,11 +338,11 @@
                     </ul> <span class="keywords">MLOps • Java • Angular • Kinesis • Kafka • Python • Computer Vision • Anomaly Detection • Machine Learning • GoLang • C++ </span>
                 </div>
                 <div>
-                     <h3><em>Senior Staff Engineer</em>,
+                     <h3><em>Senior Staff Engineer</em>
 
-    <a href="https://www.aetna.com">Aetna</a>
+              <a href="https://www.aetna.com">Aetna</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2019-04 — 2019-05</span>
                     <p></p>
                     <ul>
@@ -239,11 +354,11 @@
                     </ul> <span class="keywords">Docker • DevOps • Java • Jenkins • Software Architecture • C/C++ • Ruby on Rails • Kotlin • Java </span>
                 </div>
                 <div>
-                     <h3><em>Senior Android Engineer</em>,
+                     <h3><em>Senior Android Engineer</em>
 
-    <a href="https://www.aetna.com">Aetna</a>
+              <a href="https://www.aetna.com">Aetna</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2017-11 — 2019-04</span>
                     <p></p>
                     <ul>
@@ -256,11 +371,11 @@
                     </ul> <span class="keywords">Android • Java • Software Architecture • Kotlin • Mentoring </span>
                 </div>
                 <div>
-                     <h3><em>Senior Android Engineer for Vail Resorts - EpicMix</em>,
+                     <h3><em>Senior Android Engineer for Vail Resorts - EpicMix</em>
 
-    <a href="https://www.teksystems.com">TEKSystems</a>
+              <a href="https://www.teksystems.com">TEKSystems</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2017-09 — 2017-11</span>
                     <p></p>
                     <ul>
@@ -272,11 +387,11 @@
                     </ul> <span class="keywords">Android • Java </span>
                 </div>
                 <div>
-                     <h3><em>Native Team Lead</em>,
+                     <h3><em>Native Team Lead</em>
 
-    <a href="https://www.massroots.com">MassRoots, Inc.</a>
+              <a href="https://www.massroots.com">MassRoots, Inc.</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2016-09 — 2017-07</span>
                     <p></p>
                     <ul>
@@ -288,11 +403,11 @@
                     </ul> <span class="keywords">Team Leadership • Android • Java • Mentoring • Inter-departmental collaboration • Feature Planning </span>
                 </div>
                 <div>
-                     <h3><em>Salesforce Engineer</em>,
+                     <h3><em>Salesforce Engineer</em>
 
-    <a href="https://www.aptotude.com">Apto</a>
+              <a href="https://www.aptotude.com">Apto</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2015-03 — 2017-02</span>
                     <p></p>
                     <ul>
@@ -304,17 +419,17 @@
                     </ul> <span class="keywords">Apex Programming • Salesforce.com Development • Node.js • Ionic Framework • SOAP </span>
                 </div>
                 <div>
-                     <h3><em>Analyst - Business Applications Developer</em>,
+                     <h3><em>Analyst - Business Applications Developer</em>
 
-    <a href="https://www.sourcegas.com">SourceGas</a>
+              <a href="https://www.sourcegas.com">SourceGas</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2013-04 — 2015-02</span>
                     <p></p>
                     <ul>
                         <li>Worked with business users to determine application requirements and specifications.</li>
                         <li>Designed and built web applications, using ASP.Net MVC 4 and 5 with an MS SQLServer backend, to track compliance testing and inspections of equipment as required by federal regulations</li>
-                        <li>Built a C# library for SourceGas developers to use that includes wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services from Bing, Yahoo, and Google, and standard datatypes and functionality used throughout the software development landscape.</li>
+                        <li>Built a C# library for SourceGas developers to use that includes wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services from Bing, Yahoo, and Google, and standard data types and functionality used throughout the software development landscape.</li>
                         <li>Worked with other developers to design and build a time tracking and reporting site used company-wide using ASP.Net, MVC 4, JQuery, Durandal, Knockout,  with MS SQL server as the backend.</li>
                         <li>Designed and built a C# application to poll data from an ADP (HR System) web service and sync with Active Directory.</li>
                         <li>Wrote Python scripts for the GIS team using ArcGIS.</li>
@@ -323,11 +438,11 @@
                     </ul> <span class="keywords">C# • Visual Basic.NET • ASP.NET MVC • Microsoft SQL Server • Windows Presentation Foundation (WPF) • Windows Communication Foundation (WCF) • Python </span>
                 </div>
                 <div>
-                     <h3><em>Software Engineer</em>,
+                     <h3><em>Software Engineer</em>
 
-    <a href="https://www.denverips.com">Denver Integrated Printing Solutions</a>
+              <a href="https://www.denverips.com">Denver Integrated Printing Solutions</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2011-07 — 2013-04</span>
                     <p></p>
                     <ul>
@@ -340,11 +455,11 @@
                     </ul> <span class="keywords">C# • Visual Basic.NET • Embedded C • Microsoft SQL Server • Windows Presentation Foundation (WPF) • Windows Communication Foundation (WCF) • Subversion </span>
                 </div>
                 <div>
-                     <h3><em>Engineering Intern/Software Developer</em>,
+                     <h3><em>Engineering Intern/Software Developer</em>
 
-    <a href="https://www.xcelenergy.com">Xcel Energy</a>
+              <a href="https://www.xcelenergy.com">Xcel Energy</a>
 
-    </h3>
+              </h3>
  <span class="tenure">2007-05 — 2011-01</span>
                     <p></p>
                     <ul>
@@ -363,29 +478,26 @@
             </section>
             <hr>
             <section id="education">
-                <header> <span class="fa fa-mortar-board"></span> 
+                <header> <span class="fa fa-lg fa-mortar-board"></span> 
                      <h2>Education</h2>
 
                 </header>
                 <div>
                      <h3>Bachelor's in Applied Physics - Metropolitan State University of Denver</h3>
  <span class="tenure">2005-08 — 2010-04</span>
-
                 </div>
                 <div>
                      <h3>Bachelor's in Applied Mathematics - Metropolitan State University of Denver</h3>
  <span class="tenure">2005-08 — 2010-04</span>
-
                 </div>
                 <div>
                      <h3>Bachelor's in Computer Science - Metropolitan State University of Denver</h3>
  <span class="tenure">2005-08 — 2010-04</span>
-
                 </div>
             </section>
             <hr>
             <section id="speaking">
-                <header> <span class="fa fa-users"></span> 
+                <header> <span class="fa fa-lg fa-users"></span> 
                      <h2>Speaking Engagements</h2>
 
                 </header>
@@ -419,13 +531,12 @@
             </section>
             <hr>
             <section id="testimonials">
-                <header> <span class="fa fa-quote-right"></span> 
+                <header> <span class="fa fa-lg fa-quote-left"></span> 
                      <h2>testimonials</h2>
 
                 </header>
                 <div>
                      <h3><em>James Gibson</em></h3>
-
                     <p>Teagan&#39;s ability to look at a complex problem and reduce it, quickly
                         I might add, into an extendable and reusable architecture is surpassed
                         by no software engineer I have ever worked with. In the matter of 3 hours
@@ -443,7 +554,6 @@
                 </div>
                 <div>
                      <h3><em>Alan Janis</em></h3>
-
                     <p>Teagan is the kind of engineer who can be intimidating to work with because
                         of her breadth and depth of knowledge, and ability to pick up new software,
                         skills, and practices seemingly overnight. However, she is wiling to share
@@ -461,7 +571,6 @@
                 </div>
                 <div>
                      <h3><em>Aram Hamper</em></h3>
-
                     <p>Teagan has been a joy to work with. I’ve been on two engagements with
                         her now, and she consistently brings positive energy. She is intelligent,
                         confident, outspoken, and opinionated, and I mean those things for the
@@ -479,7 +588,6 @@
                 </div>
                 <div>
                      <h3><em>Brandon Dorris</em></h3>
-
                     <p>Teagan is eager to learn and even more eager to help others. While at
                         Metropolitan State College of Denver, I had the opportunity to be in a
                         few classes with Teagan. She was always on top of her work and always had
@@ -489,7 +597,6 @@
                 </div>
                 <div>
                      <h3><em>Kurt Dageforde</em></h3>
-
                     <p>Teagan is a highly intelligent, creative, and driven software engineer.
                         We shared an office for over a year and worked on several projects together.
                         She had created a highly complex heat balance program from scratch, and

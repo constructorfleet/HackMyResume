@@ -1,0 +1,1390 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+        <title>CV - Teagan Glenn</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
+        integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
+        integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css"
+        integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            /* Box sizing rules */
+            *,
+            *::before,
+            *::after {
+              box-sizing: border-box;
+            }
+            
+            /* Remove default margin */
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            p,
+            figure,
+            blockquote,
+            dl,
+            dd {
+              margin: 0;
+            }
+            
+            /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+            ul[role="list"],
+            ol[role="list"] {
+              list-style: none;
+            }
+            
+            /* Set core root defaults */
+            html:focus-within {
+              scroll-behavior: smooth;
+            }
+            
+            /* Set core body defaults */
+            body {
+              line-height: 1.5;
+              min-height: 100vh;
+              text-rendering: optimizeSpeed;
+            }
+            
+            /* A elements that don't have a class get default styles */
+            a:not([class]) {
+              text-decoration-skip-ink: auto;
+            }
+            
+            /* Make images easier to work with */
+            img,
+            picture {
+              max-width: 100%;
+              display: block;
+            }
+            
+            /* Inherit fonts for inputs and buttons */
+            input,
+            button,
+            textarea,
+            select {
+              font: inherit;
+            }
+            
+            /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+            @media (prefers-reduced-motion: reduce) {
+              html:focus-within {
+                scroll-behavior: auto;
+              }
+            
+              *,
+              *::before,
+              *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+              }
+            }
+            
+            /* ========================================================================== */
+            :root {
+              --color-bg: #e9e8ea;
+              --color-primary: #e9e8ea;
+              --color-secondary: #101e32;
+              --color-secondary-alpha: #101e329f;
+              --color-skill-level: var(--color-primary);
+              --hex-size: 3rem;
+              --icon-size: 1.5rem;
+            }
+            
+            @page {
+              size: A4 portrait;
+              margin: 0;
+            }
+            
+            @media print {
+              a {
+                color: var(--color-secondary);
+                display: initial;
+              }
+            
+              aside {
+                height: 100v;
+                page-break-inside: avoid;
+                page-break-after: always;
+              }
+            
+              .summary a::after {
+                content: " (" attr(href) ")";
+              }
+            
+              .company {
+                page-break-inside: avoid;
+                page-break-after: auto;
+                break-inside: avoid;
+                break-after: auto;
+              }
+            
+              .institution {
+                page-break-inside: avoid;
+                page-break-after: auto;
+                break-inside: avoid;
+                break-after: auto;
+              }
+            
+              .award {
+                page-break-inside: avoid;
+                page-break-after: auto;
+                break-inside: avoid;
+                break-after: auto;
+              }
+            
+              .project {
+                page-break-inside: avoid;
+                page-break-after: auto;
+                break-inside: avoid;
+                break-after: auto;
+              }
+            
+              .testimonial {
+                page-break-inside: avoid;
+                page-break-after: auto;
+                break-inside: avoid;
+                break-after: auto;
+              }
+            }
+            
+            html,
+            body {
+              font-size: 12px;
+            }
+            
+            body {
+              border: none;
+              display: grid;
+              color: var(--color-secondary);
+              background-color: var(--color-bg);
+              font-family: Roboto, sans-serif;
+              grid-template-columns: 20rem 2fr;
+              grid-template-areas: "sidebar main";
+            }
+            
+            main {
+              border: none;
+              grid-area: main;
+              padding-bottom: 2rem;
+              background-color: var(--color-bg);
+              --color-hexagon: var(--color-secondary);
+              --color-icon: var(--color-secondary);
+            }
+            
+            aside {
+              border: none;
+              grid-area: sidebar;
+              color: var(--color-primary);
+              background-size: cover;
+              background-color: var(--color-secondary);
+              --color-hexagon: var(--color-primary);
+              --color-icon: var(--color-secondary);
+            }
+            
+            aside a {
+              color: var(--color-primary);
+            }
+            
+            aside li {
+              display: flex;
+              align-items: center;
+              margin: 0.5rem 0;
+            }
+            
+            aside li > div {
+              padding: 0 0.5rem;
+            }
+            
+            aside .heading {
+              --color-icon: var(--color-primary);
+              --hex-size: 3rem;
+              --icon-size: 1.5rem;
+            }
+            
+            aside > div.photo > div.hex.hex-solid > img {
+              padding: 1rem;
+              height: 10rem;
+              background-color: var(--color-secondary);
+            }
+            
+            section {
+              padding-left: 1rem;
+            }
+            
+            summary {
+              font-size: 1.3rem;
+              line-height: 1.125;
+            }
+            
+            a {
+              text-decoration: none;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            i[class^="fa-"] {
+              color: var(--color-icon, white);
+              font-size: var(--icon-size);
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+              margin: 0;
+              page-break-after: avoid;
+            }
+            
+            h1 {
+              font-weight: 700;
+            }
+            
+            h2 {
+              font-size: 1.1rem;
+              font-weight: 400;
+            }
+            
+            h3 {
+              border: none;
+              display: flex;
+              align-items: center;
+              font-weight: 400;
+              position: relative;
+              letter-spacing: 0.125rem;
+              text-transform: uppercase;
+            }
+            
+            ul {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            }
+            
+            ul.bullets li:before {
+              content: "⬡";
+              margin: 0 1em;
+              font-size: 1.25rem;
+            }
+            
+            ul li p {
+              display: inline;
+            }
+            
+            sup {
+              display: inline-block;
+              --color-icon: none;
+              --icon-size: none;
+            }
+            
+            .dates {
+              font-size: 0.9rem;
+              margin-bottom: 5px;
+              --color-icon: none;
+              --icon-size: none;
+            }
+            
+            .dates > i {
+              margin: 0.25rem;
+              opacity: 0.7;
+            }
+            
+            .photo {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin: 2rem auto 0.5rem;
+              width: 10rem;
+              height: 10rem;
+              position: relative;
+              --hex-size: none;
+              --color-hexagon: var(--color-primary);
+            }
+            
+            .name {
+              color: #fff;
+              text-align: center;
+              font-size: 1.75rem;
+              text-transform: uppercase;
+            }
+            
+            .name > span:first-of-type {
+              color: var(--color-primary);
+              font-weight: 300;
+            }
+            
+            .title {
+              color: var(--color-primary);
+              font-size: 1.25rem;
+              font-weight: 300;
+              text-align: center;
+            }
+            
+            .heading {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 2rem 0 1rem;
+            }
+            
+            .heading > h3 {
+              padding: 0 1rem 0 0.5rem;
+            }
+            
+            .heading > hr {
+              flex: 1;
+              border: none;
+              border-bottom: 2px solid var(--color-icon);
+            }
+            
+            .heading > h4 {
+              display: flex;
+              flex-direction: column;
+              font-size: 1.25rem;
+            }
+            
+            .heading > h4 > a {
+              font-size: 0.9rem;
+              font-weight: lighter;
+            }
+            
+            .heading > .hex-icon {
+              --hex-size: 3rem;
+              --icon-size: 1.25rem;
+            }
+            
+            .work .company,
+            .education .institution,
+            .projects .project {
+              padding-right: 1rem;
+            }
+            
+            .work .company .heading,
+            .education .institution .heading,
+            .projects .project .heading {
+              align-items: unset;
+            }
+            
+            .work > div:nth-child(2) .heading,
+            .education > div:nth-child(2) .heading,
+            .projects > div:nth-child(2) .heading {
+              padding-top: 0;
+            }
+            
+            .work .position {
+              font-size: 0.9rem;
+              /* opacity: 0.85; */
+              font-weight: bold;
+            }
+            
+            .work .summary {
+              margin: 8px 0 16px 0;
+            }
+            
+            .work .highlights,
+            .projects .highlights {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 2px;
+              font-size: 0.5rem;
+            }
+            
+            .work .highlights > .stack,
+            .projects .highlights > .stack {
+              color: white;
+              display: inline;
+              padding: 2px 8px;
+              transform: skewX(-15deg);
+              border-radius: 8px 0 8px 0;
+              background-color: var(--color-secondary);
+            }
+            
+            blockquote {
+              background: #f9f9f9;
+              border-left: 10px solid #ccc;
+              margin: 1.5em 10px;
+              padding: 0.5em 10px;
+              quotes: "\201C" "\201D" "\2018" "\2019";
+              font:
+                14px/22px normal helvetica,
+                sans-serif;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              margin-left: 50px;
+              padding-left: 15px;
+              border-left: 3px solid #ccc;
+            }
+            blockquote:before {
+              color: #ccc;
+              content: "\201C";
+              font-size: 4em;
+              line-height: 0.1em;
+              margin-right: 0.25em;
+              vertical-align: -0.4em;
+            }
+            blockquote:after {
+              color: #ccc;
+              content: "\201D";
+              font-size: 4em;
+              line-height: 0.1em;
+              margin-left: 0.25em;
+              vertical-align: -0.4em;
+            }
+            blockquote p {
+              display: inline;
+            }
+            
+            .skill-group {
+              break-inside: avoid;
+              padding-top: 1rem;
+            }
+            
+            .skills > div:nth-of-type(2) {
+              padding-top: 0;
+            }
+            
+            .skills h6 {
+              width: 60%;
+            }
+            
+            .skills > div.level {
+              width: 40%;
+            }
+            
+            .skills h5 {
+              opacity: 0.6;
+            }
+            
+            .skill {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 0px 1rem 0 0.5rem;
+            }
+            
+            .skill > h3 {
+              display: inline-block;
+              margin: 1rem 0;
+            }
+            
+            .skill-level {
+              height: 0.5rem;
+              width: 1rem;
+              display: inline-block;
+              transform: skewX(-45deg);
+              opacity: 0.25;
+              background-color: var(--color-skill-level);
+            }
+            
+            .skill-level-active {
+              opacity: 1;
+            }
+            
+            .hex {
+              width: var(--hex-size, 2rem);
+              height: var(--hex-size, 2rem);
+              mask-repeat: no-repeat;
+              -webkit-mask-repeat: no-repeat;
+              mask-position: center center;
+              -webkit-mask-position: center center;
+              background-color: var(--color-hexagon, --color-primary);
+            }
+            
+            .hex-border {
+              mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTA2LjQ0IDEyMi44OCI+CiAgPHBhdGggZmlsbD0iY3VycmVudENvbG9yIgogICAgZD0iTTU1LjA2LDEuMDdsNTEuMzcsMjkuNjZ2NjEuNDNsLTUzLjIyLDMwLjczTDAsOTIuMTVWMzAuNzNMNTMuMjIsMEw1NS4wNiwxLjA3TDU1LjA2LDEuMDd6IE03Ni4xMywyMS43NEw1My4yMiw4LjUxIEw3LjM5LDM0Ljk3djUyLjk0bDQ1LjgzLDI2LjQ2bDQ1LjgzLTI2LjQ2VjM0Ljk3TDc2LjEzLDIxLjc0TDc2LjEzLDIxLjc0eiIgLz4KPC9zdmc+Cg==");
+              -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMTA2LjQ0IDEyMi44OCI+CiAgPHBhdGggZmlsbD0iY3VycmVudENvbG9yIgogICAgZD0iTTU1LjA2LDEuMDdsNTEuMzcsMjkuNjZ2NjEuNDNsLTUzLjIyLDMwLjczTDAsOTIuMTVWMzAuNzNMNTMuMjIsMEw1NS4wNiwxLjA3TDU1LjA2LDEuMDd6IE03Ni4xMywyMS43NEw1My4yMiw4LjUxIEw3LjM5LDM0Ljk3djUyLjk0bDQ1LjgzLDI2LjQ2bDQ1LjgzLTI2LjQ2VjM0Ljk3TDc2LjEzLDIxLjc0TDc2LjEzLDIxLjc0eiIgLz4KPC9zdmc+Cg==");
+            }
+            
+            .hex-solid {
+              transform: scale(0.95);
+              mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzMuMjA1MDgwNzU2ODg3NzIgMjAwIj4KICA8cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiCiAgICBkPSJNODYuNjAyNTQwMzc4NDQzODYgMEwxNzMuMjA1MDgwNzU2ODg3NzIgNTBMMTczLjIwNTA4MDc1Njg4NzcyIDE1MEw4Ni42MDI1NDAzNzg0NDM4NiAyMDBMMCAxNTBMMCA1MFoiPjwvcGF0aD4KPC9zdmc+Cg==");
+              -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzMuMjA1MDgwNzU2ODg3NzIgMjAwIj4KICA8cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiCiAgICBkPSJNODYuNjAyNTQwMzc4NDQzODYgMEwxNzMuMjA1MDgwNzU2ODg3NzIgNTBMMTczLjIwNTA4MDc1Njg4NzcyIDE1MEw4Ni42MDI1NDAzNzg0NDM4NiAyMDBMMCAxNTBMMCA1MFoiPjwvcGF0aD4KPC9zdmc+Cg==");
+            }
+            
+            .hex-absolute {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+            }
+            
+            .hex-icon {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              --hex-size: 2rem;
+              --icon-size: 1rem;
+            }
+            
+            .hex-icon > i[class^="fa-"] {
+              position: absolute;
+            }
+        </style>
+    </head>
+    
+    <body resume>
+        <aside>
+            <div class="photo">
+                <div class="hex hex-border hex-absolute"></div>
+                <div class="hex hex-solid">
+                    <img src="https://picsum.photos/200" alt="photo">
+                </div>
+            </div>
+            <div class="name"> <span class="firstName">Teagan</span>  <span class="lastName">Glenn</span>
+
+            </div>
+            <div class="title">Leading Automation and Software Engineer</div>
+            <section class="contacts">
+                <div class="heading">
+                    <img class="hex-icon" src="data:image/png;base64,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&#x3D;"
+                    />
+                     <h3>CONTACT ME</h3>
+
+                    <hr />
+                </div>
+                <ul>
+                    <li>
+                        <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAYCAYAAACSuF9OAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAGAAAAABcAphlAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAACnElEQVRIDWMUkDP6zzCIABOlbtFUU2ZYPKMLjKUlxSk1joGR3BACWZ6TGsMQ5OOK4oh1W3YztPfPZPj0+QuKOLEckh3Ex8vDEBcRwBAPxCA2NgByzMIVGxgWATGpDiPJQaDQqCxMx+kQdMc9ff6SYfKsxQzrt+5Bl8LJJ8pBZkZ6DB31xQzkppHrt+4ytPXNZDh17hJOh8AkCDoIlGBBDkIG9x8+YTh/+RqDhooSg5aGCrIUXjbIQbEZZXjVsOCVBUqiOyYOaOBJqE+5ODkYDm1dysDLw03IGLA8ulnYNJGc7e8+fAw359v3HwzrtuyC86nBINlBstISKPZu33MIhU8ph2QHKcnLwu1kZGRkCPRGLYfgkmQySHZQAJIDAr1cGMIDvci0Grs2kh1kZqTLoKGqCDZtw/a9DOcuXsVuMpmiJDsIZE9JTgrYun///jGU1HczPHn2Am79mQtXGG7evQ/nk8ogy0G2lsbgegxk2VOgYwJishk279zPsGbTTobotBIGv8hMBnDxcPYiqe4hXLnePLUDq6Gg0Kltmwh2BEwBKJH//49ozUhLijHs27gIJg2m1c08UPjoHLJCCGQIExMTQ2tNIUNLdQEDOzsb2Fxkx4AEJMREweKkEAQdRKj+CfX3YNixeg5DWlwYgwA/H4rdRvpaKHxCZoEUE6zLQIpARX5nQwmDlIQYiIsT/Pj5k+HOvUcMj54+Y3j99j1DiK87AzcXJ8ON2/cYWntnUKdyRbYd1PyoKsoguu569uIVuPkBarQRC4gKIWTDQI0yUOMsPjIQp8M+f/nKsHD5enAjjaYNNGSHgdpGuWmxwKrDBVkY3Bhr65tBcksRZgjJIQTTCKNBjfyqonQwt6KxlwHUSqQEUOwgSizHphcAoIbZKhMqgAcAAAAASUVORK5CYII&#x3D;"
+                        />
+                        <div>(720) 432-5361</div>
+                    </li>
+                    <li>
+                        <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAYCAYAAACSuF9OAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAGAAAAABcAphlAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAACPklEQVRIDWMUkDP6zzCIABOlbtFUU2ZYPKMLjKUlxSk1joGR3BACWZ6TGsMQ5OOK4oh1W3YztPfPZPj0+QuKOLEckh3Ex8vDEBcRwBAPxCA2NgByzMIVGxgWATGpDiPJQaDQqCxMx+kQdMc9ff6SYfKsxQzrt+5Bl8LJJ8pBZkZ6DB31xQzkppHrt+4ytPXNZDh17hJOh8AkCDoIlGBBDqIGADkoNqMMr1EEcxm1HANyBTFmseB1LhbJ0vpuhk3b92KRwRTy83Rm6G4sxZTAI0IwhND13r73AF0IJ58UtTBDSHZQQ3kOg56WOkw/ThqkBqSWVECyg7JKGsEFYnxEIE67QHKgQhOkllRAsoPevvvAkF5Ux8DDw8Uwsa0aWCZxw+0EsSe114DlQGpAakkFJCdqkAX///9nmDpnKYO5sT7DzL4mhgkzFoHtLciIY5gwfSHDSSLKG1wOJctBMMNOnr3IkF3WzJCVHAUWArHfvSc9VGDmgWiSHcTNxcnw9dt3uBkgB7T0TIPzkRkgtaQCktNQPjBaiLEIpCY/PY5U9xAOIVBxj1zCgnIQvhyGzwVUqctAFoAc1NlQwiAlIYbPPpxyN27fY2jtnUGdyhXZFlDzo6oog4GXB5HVkeXR2c9evAI3P0CNNmIBwdoe3SBQowzUOIuPDMTpsM9fvjIsXL4e3EijaQMN2XGgtlFuWixDoLcLsjC4MdbWN4PkliLMEJJDCKYRRoMa+VVF6WBuRWMvA6iVSAmg2EGUWI5NLwAM1rtIJiIciAAAAABJRU5ErkJggg&#x3D;&#x3D;"
+                        />
+                        <div> <a href="mailto:that@teagantotally.rocks">that@teagantotally.rocks</a>
+
+                        </div>
+                    </li>
+                    <li>
+                        <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAYCAYAAACSuF9OAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAGAAAAABcAphlAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAAC9UlEQVRIDWMUkDP6zzCIABOlbtFUU2ZYPKMLjKUlxSk1joGR3BACWZ6TGsMQ5OOK4oh1W3YztPfPZPj0+QuKOLEckh3Ex8vDEBcRwBAPxCA2NgByzMIVGxgWATGpDiPJQaDQqCxMx+kQdMc9ff6SYfKsxQzrt+5Bl8LJJ8pBZkZ6DB31xQzkppHrt+4ytPXNZDh17hJOh8AkCDoIlGBBDsIFPn36wnDn/kOwtIqiPAMfH/ZoBCkAOSg2owyXUWBxgrkMl2OOn77AEAc0/O6DRwxJOdVgDHIYSAwkhw3gMgtZLUEHISuGsbfvOcSQkF3BICsjybBt9yGG7z9/gPH2PYfBYiA5kBpyAMkOevn6LUN9x2SwXRYm+gyHjp+G2wtig8RAAKQGpJZUwEKqhr9//zJM7qwBa9NSV2EQExWGG8HIwMigqa7MsGh6J1gMpJZUQLKDYtJLGJ4+fwW2B2RxXGY5ip3IYtKSYgz7Ni5CkSfEITnKXr99DzaTkZGR4d8/zGoQFEowAFML4xNDk+wgUWFBsLn///9nYGJCWA6z7D8DwpEwtTA5YmiC5dDNUztQzHn24hXD46fPwWKgNHTt5h24PCwNwcRkpSUZpCTE4PIghrqZBwofnUNyGmJmZmbILW9h+PjpM0NPUxnDlDlLGR48ego2V0FOmiEnJZqhpK6LgZ+Pl2Hz8hno9hHkkxxl4sBc1ViRCzb4xJmLDHaWpnBLQGyQGAiA1IDUkgoIOghb/ePpYsewYGoHw+Mnzxm8XO0YONk5wNjTxRYsBpIDqUEH2MxCV0MwDYE0gIr8zoYSjPQAkgPVZbeBVQYTMNeB6jJeXm6QMAq4cfseQ2vvDOpUrsgmg5ofVUUZDLw8mJYiq4OxQRkA1PwANdqIBUSFELJhoEYZqHEWHxmI02Gfv3xlWLh8PbiRRtMGGrLDQG2j3LRYhkBvF2RhcGOsrW8GyS1FmCEkhxBMI4wGNfKritLB3IrGXmC18hImRRZNsYPIshWPJgA3zQp3bciWdQAAAABJRU5ErkJggg&#x3D;&#x3D;"
+                        />
+                        <div> <a target="_blank" href="https://blog.teagantotally.rocks">
+              blog.teagantotally.rocks
+              <sup>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </sup>
+            </a>
+
+                        </div>
+                    </li>
+                    <li>
+                        <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAYCAYAAACSuF9OAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAGAAAAABcAphlAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAACaklEQVRIDWMUkDP6zzCIABOlbtFUU2ZYPKMLjKUlxSk1joGR3BACWZ6TGsMQ5OOK4oh1W3YztPfPZPj0+QuKOLEckh3Ex8vDEBcRwBAPxCA2NgByzMIVGxgWATGpDiPJQaDQqCxMx+kQdMc9ff6SYfKsxQzrt+5Bl8LJJ8pBZkZ6DB31xQzkppHrt+4ytPXNZDh17hJOh8AkCDoIlGBBDsIFbty6x3Dx6g2wtL62BoOGmhIupWAHxWaU4ZQHSbDglQVK4nLM589fGeo7JzNs3XUAxQhvNweGxopcBl4ebhRxEAeXWcgKyc722BwDMhjkwPqOych2kMQmy0GgaEIOGTsrEwYQhgGQHEgNOYAsB8HSDMhCkENmT2gBY2RHIashxWFkOYibm4ugHcSowWYIwUSNTZO9pSkDCwsLw58/fxgOHTvDkFpQA1YGYoMASA6khhxAVgjx8nIzONiYwe0DOQTmGJAgSA6khhxAloNAFpXnpTKws7Nh2MnBzs5QkZ+CIU6sANkOkpORZEiNC8OwJyMxgkFWWgpDnFgBsh0EsiAN6CBNdWW4XTqaqgzJMSFwPjkMgg7CV/+AomxiWzUDDzDXgfCEtkoGNjZWnO7AZxZME8G6DKQQVOR3NpQwSEmIwfSh0Jev3WJgZGRkAIUQNnDj9j2G1t4Z1KlckS0ANT+qijKw1lPI6mDsZy9egZsfoEYbsYCoEEI2DNQoAzXO4iMDcTrs85evDAuXrwc30mjaQEN2GKhtlJsWyxDo7YIsDG6MtfXNILmlCDOE5BCCaYTRoEZ+VVE6mFvR2MsAaiVSAih2ECWWY9MLAJ6pwDTl2EBoAAAAAElFTkSuQmCC"
+                        />
+                        <div>Morrison, US</div>
+                    </li>
+                </ul>
+            </section>
+            <section class="skills">
+                <div class="heading">
+                    <img class="hex-icon" src="data:image/png;base64,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&#x3D;"
+                    />
+                     <h3>SKILLS</h3>
+
+                    <hr />
+                </div>
+            </section>
+            <section class="social">
+                <div class="heading">
+                    <img class="hex-icon" src="data:image/png;base64,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&#x3D;"
+                    />
+                     <h3>CONNECT</h3>
+
+                    <hr />
+                </div>
+                <ul>
+                    <li>
+                        <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAYCAYAAACSuF9OAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAGAAAAABcAphlAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAACbUlEQVRIDWMUkDP6zzCIABOlbtFUU2ZYPKMLjKUlxSk1joGR3BACWZ6TGsMQ5OOK4oh1W3YztPfPZPj0+QuKOLEckh3Ex8vDEBcRwBAPxCA2NgByzMIVGxgWATGpDiPJQaDQqCxMx+kQdMc9ff6SYfKsxQzrt+5Bl8LJJ8pBZkZ6DB31xQzkppHrt+4ytPXNZDh17hJOh8AkCDoIlGBBDqIGADkoNqMMr1EseGWBkuiOeff+I0NVcx/D12/f8Grl5uJiaKstYhAS5IerQzcLLoHEIOggJLVg5u17Dxj2HznJwMnBDk5LL1+/RVcC54PUmhvrw/nEMMguhxor8hg2LZtOjB0kqSE5hGCmL1m1ieHIyXMwLtVosh1kbWHEYKSnzXDo2GmGaT31DGcuXGEwNdBhuPfwCcO0ecsZnj57QZYjyY4yeVlpBgMdDQZWVhYGY31thmBgGfXo6XNwyR0X5keWY0CayA4hdBtXbdjBMHHmIgZdTXUGFSV5dGmi+WSHELoN375/BwuBaFCokQuo5iByHYCuj2yvzFq4kmHVhm0MHz5+Apa+pQyPn0IScV3HJIZ/f/+i20M0n6CDQMU9cgmrqqTA4GhjzvDtGySKjHS1wJbJSUsygDAMgNSA1CIDqtRlIANBDupsKGGQkhBDNp9o9o3b9xhae2dQp3JFthXU/KgqymDg5eFGFsbJfvbiFbj5AWq0EQsI1vboBoEaZaDGWXxkIE6Hff7ylWHh8vXgRhpNG2jIjgO1jXLTYhkCvV2QhcGNsba+GSS3FGGGkBxCMI0wGtTIrypKB3MrGnsZQK1ESgDFDqLEcmx6AUOYx6w1cBnsAAAAAElFTkSuQmCC"
+                        /> <a rel="noreferrer" target="_blank" href="https://linkedin.com/in/teagan42"
+                        title="LinkedIn">
+            linkedin.com/in/teagan42
+            <sup>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </sup>
+          </a>
+
+                    </li>
+                    <li>
+                        <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAYCAYAAACSuF9OAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAGAAAAABcAphlAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAAC/klEQVRIDWMUkDP6zzCIABOlbtFUU2ZYPKMLjKUlxSk1joGR3BACWZ6TGsMQ5OOK4oh1W3YztPfPZPj0+QuKOLEckh3Ex8vDEBcRwBAPxCA2NgByzMIVGxgWATGpDiPJQaDQqCxMx+kQdMc9ff6SYfKsxQzrt+5Bl8LJJ8pBZkZ6DB31xQzkppHrt+4ytPXNZDh17hJOh8AkCDoIlGBBDsIFvn3/wXDrzn0GDnZ2BnVVRQZGRkZcSsEOis0owykPkmDBKwuUxOWYJ89eMDR0TmY4cuIcw///kJKDn4+XwdRIl6E0J5lBQU4aw2hcZiErJCvbn7t4lcE3MoPh8PGzcMeADP346TPDngPHGKLTSxhu33uIbA/RbIIhhG7S9x8/GCqaehlYWFkYFvR0MICyORMwllhYWRk+f/nCEB7gyTBhxmKGOGDUbF05i0FIkB/dCLx8kh20bfchhoePnzHIyUgyWJoagDG6DUtWbWa4dPUGMDrPMPh5OqNL4+WTHGXXbtwGG+jj7ojT4GBfSGF57NR5nGpwSZDsoMdPX4DN4uHixGUmAxdU7sr1OzjV4JIg2UGwsujIyXO4zGQ4fOIsWE5KQhSnGlwSJDvI1FiXgZ2dDVzuRKYWMSxYtg5u9q59RxmKajoY5i1ZCxYzNtSByxHLINlBHk62DDJS4uBo8XV3YuDgYIfbdfr8JYatuw6A+Xx8PAxRwT5wOWIZJDuIiYmJYUpnHcOJMxcYNu/cx/Dr9x+4XWKiImA2JzsHw1SgGl4ebrgcsQyCDsJW/ygpyDKsmjuBQU5akuHxk2dwu3i4ORlsLY0ZVsztYzAzxqxusJkF1wxlEKzLQOpARX5nQwmDlIQYun6i+Ddu32No7Z1BncoV2UZQ86OqKIPoqHj24hW4+QEqzYkFRIUQsmGgRhmocRYfGYjTYZ+/fGVYuHw9uJFG0wYassNA5VFuWixDoLcLsjC4MdbWN4PkliLMEJJDCKYRRoMa+VVF6WBuRWMvA6iVSAmg2EGUWI5NLwCXau8CwtiEdQAAAABJRU5ErkJggg&#x3D;&#x3D;"
+                        /> <a rel="noreferrer" target="_blank" href="https://github.com/Teagan42"
+                        title="GitHub">
+            github.com/Teagan42
+            <sup>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </sup>
+          </a>
+
+                    </li>
+                    <li>
+                        <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAYCAYAAACSuF9OAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAGAAAAABcAphlAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAAC/klEQVRIDWMUkDP6zzCIABOlbtFUU2ZYPKMLjKUlxSk1joGR3BACWZ6TGsMQ5OOK4oh1W3YztPfPZPj0+QuKOLEckh3Ex8vDEBcRwBAPxCA2NgByzMIVGxgWATGpDiPJQaDQqCxMx+kQdMc9ff6SYfKsxQzrt+5Bl8LJJ8pBZkZ6DB31xQzkppHrt+4ytPXNZDh17hJOh8AkCDoIlGBBDsIFvn3/wXDrzn0GDnZ2BnVVRQZGRkZcSsEOis0owykPkmDBKwuUxOWYJ89eMDR0TmY4cuIcw///kJKDn4+XwdRIl6E0J5lBQU4aw2hcZiErJCvbn7t4lcE3MoPh8PGzcMeADP346TPDngPHGKLTSxhu33uIbA/RbIIhhG7S9x8/GCqaehlYWFkYFvR0MICyORMwllhYWRk+f/nCEB7gyTBhxmKGOGDUbF05i0FIkB/dCLx8kh20bfchhoePnzHIyUgyWJoagDG6DUtWbWa4dPUGMDrPMPh5OqNL4+WTHGXXbtwGG+jj7ojT4GBfSGF57NR5nGpwSZDsoMdPX4DN4uHixGUmAxdU7sr1OzjV4JIg2UGwsujIyXO4zGQ4fOIsWE5KQhSnGlwSJDvI1FiXgZ2dDVzuRKYWMSxYtg5u9q59RxmKajoY5i1ZCxYzNtSByxHLINlBHk62DDJS4uBo8XV3YuDgYIfbdfr8JYatuw6A+Xx8PAxRwT5wOWIZJDuIiYmJYUpnHcOJMxcYNu/cx/Dr9x+4XWKiImA2JzsHw1SgGl4ebrgcsQyCDsJW/ygpyDKsmjuBQU5akuHxk2dwu3i4ORlsLY0ZVsztYzAzxqxusJkF1wxlEKzLQOpARX5nQwmDlIQYun6i+Ddu32No7Z1BncoV2UZQ86OqKIPoqHj24hW4+QEqzYkFRIUQsmGgRhmocRYfGYjTYZ+/fGVYuHw9uJFG0wYassNA5VFuWixDoLcLsjC4MdbWN4PkliLMEJJDCKYRRoMa+VVF6WBuRWMvA6iVSAmg2EGUWI5NLwCXau8CwtiEdQAAAABJRU5ErkJggg&#x3D;&#x3D;"
+                        /> <a rel="noreferrer" target="_blank" href="https://github.com/constructorfleet"
+                        title="GitHub">
+            github.com/constructorfleet
+            <sup>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </sup>
+          </a>
+
+                    </li>
+                </ul>
+                </div>
+            </section>
+        </aside>
+        <main>
+            <section class="profile" id="profile">
+                <div class="heading">
+                    <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAJAAAAAA4083iAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAAD0UlEQVRYCa1YaUhUURQ+E5HVOKMlLbZYjktGm8owWSBlGEhKpNFGln9ygRRKoc3C/FGKYCAauARhWgmBC0xhpS1/Kv1R0J82KggsNVNnRilxa86z85r35r55mwdm7jl3Oee73z28d88z9PX2T4MO6fnRB1V1jZyH86ezwWzy1+ENwKAVkNM1AreaWqHe/UMdBcFkHN4Hx90/rcA0AWq53wGVtQ2A7KCsWL6Ua7/39nPtyuBlkJd1DFKTEzlbzZ8qQN2v38LVazXw7uNnLobJ3wh5memQcSSVs+vvtkCl+/hcI6OcvT4yDC7kZ4MtdrNiTIoAIRPnissBAZHkIhDG0eDx4TFSXuF8BFRaVADInJz4BITOq27cBtw5CR4DHoecc9wEHiseLwkymXviqM/8kgSEO/RMWNxlXla6KvoRCLJaWdvIs0uJjwyzxAsQK2GRkbSU3az1ivua7Y85xuQSnwck3gkmLFKMSTubgkmPKUCJL2aeB7TOlsTHxecIAtH6LOEdSSiYmwgMn2MkH7rbOXUudVB7vawIEnduI5PZulyj4HC5mGPUuSRoMfj5zSNT0OJGC/NzYGvsFjh5plgw5gXIbDYKJoiNFncuXCqpgPHxCfGQwA4MMENDTRlEWtYK+j0NViwvQJ4LWHpb+xMBmLDQ1RC0KJCb+vVbD/wcGOT0YYcTOp+99AmI5V81oMkJITMH9iZByKpgznfH81fQbH/Ex5mYnOR1pYpqQGLHpRV14i5d9hxdq/8t3m6LgQgfuaImhm5Al8/mws2qErA3VcOexB1qYjPn6gaUEB/HO06It/G6VkU3oHttMw+0P2Nj0PqgUysOfp3upMaXsP3hU3A4R2Bo2ME71qroAhQeGgKH0pIhKjwUpqan4EXXG0DGBnUA0wwIXwt36sohwGziyYizRoM1ZhNknrrI96lVNOdQ9IYoARgKbI3ZCAv85pOputXMUJf74mXdtR8MBmFMfMf9die4VlENyN/4/+VLdxqp4CbjQqkhyX4vQE7nTMUgtSIr4yAM/BqCwaFhqSlcf7hlDaQkJficw4rFvKApuYz7jCQzyCoe6ILGAxJfYeUu4zIxJYfligceEHlQehmn+UpbpcWDFyAKIHcZp3lyrZh5ueJBEhAGYl3GsRzCmkpJoYjHg4yTKCkefAIiR6xSGqsS1lcO3ARWE8gwyayV0uSQWqT/Snk1vP/0hevCxCdg2EFAEBRKVIQFCgtyVFW7ihjivHv8sRIfhz0/z2itdjUBwuDIAtb+nlUoJSzrqwiuUSKaAZFz+sqBtpKvIrROqv0LAUrumtXJTKkAAAAASUVORK5CYII&#x3D;"
+                    />
+                     <h3>PROFILE</h3>
+
+                    <hr />
+                </div>
+                <summary>
+                    <p>Known for deploying robust, flexible, and scalable solutions through best
+                        practices and automated tooling. Proven track record in advancing team
+                        knowledge, skill and confidence through collaboration and mentorship. Driven
+                        by passion for technology, a thirst for for learning, and delivering quality.</p>
+                </summary>
+            </section>
+            <section class="work" id="work">
+                <div class="heading">
+                    <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAJAAAAAA4083iAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAADx0lEQVRYCa2YXUgUURTHj6EV6W5UZpZRopb5UJKB4ksUGAX2kL1UVOpDfpRaqGB+UGKSfYBGaZTai2ZYL1lQIGghQUWGgkX0paaV5Vdu7epDmtX+R++w87Ezd2Y9sHvnnLn33N899+zsPeM1NDj8jzyQge9DVFXbIHgoyE4jq8XPA29EXmaB7I5xqr99j+qcH1xDAJO0fw8lOj9mwUwBNT1spcqam4ToQFYFBgjtt8FhoQ1auYKyUg9TQnycoBv5MgTU3vmKyiqq6e2HHmEOi58vZaUcoqQDCYJe19hElc7tc4xPCHrE+lAqzEmj6KhN3ExcQIhEfkk5AYhJJkBUtgbbh21keYX+ADpfnEuInJ5oAsF51Y1bhJUzwTZgO/ScYxHYVmwvE0Qy88hBzfxyC4QVuiYsVpmVeshQ+AGCqFbWNIjRZYmPCKuJAkgtYRGRvbt3qI3ntt190CJETC/xRSD5SpCwCDGSdi4FSY8UYIkvj7wIFB69S5wXzxGAmH2WiI7cXCA3AYbnGJP37c3CpTczsPbqxWKK2xbLVM3W4ZigXw6HpM9ii4UsFl+JTa5goUU56RQTFUkZeSWS2wogq1XbGRvd5MyJU+cu09TUH2YSWh8fbyotOEEJHDmnNpcCSOJdQ7nf/Jg2b4yglMR9kl619XcI93iAJANnFUNAfZ8HqLu3Txg6OjJGVqsfTU7+lvidnv5LNtsYtbY9FexhIcEUvCZI0kdL4QZ60dFFiUdPKnx1dL1R2GDIyCsV7fXXLlDMlkhR17qYp3XT9d7LzteuqqFrI2O5gTw5NBkZyw1kKCQedObOobitsbSa499ajWXDuhA1s6qNG6in/wu1tD1TODlTeJz8ly4R7KNjNjpddkXRx2e+D0WEhyrsagZuoE/9X+nRk+cKH9nHkkUg20+7ah9eGDjnBlKQzBqSM/Jp+bKZCI38sLnrxm33GGjUCYHPXAn3r2zRwgWm5zQyljtC8Tu3U6szh7p7+w2BhYWsJYzlFQWQ3T5TMcgdBAb4U2Nthdzska42l2LLcD4pu1QtFn8ezehmMA5omEN+FkJ38cQoP8LqHcbdzKVr1iseRCDmifcwzvrztrzFgwKITaB3GGf99Fp55PWKB7dAmEjtMI5yCDUVT6GI7UHEmfAUD5pAzJFaKY2qRO0tBxaBagIRZjJnpTRzyFqE/2z5dXr3sVcwIfEZGAwMBFAQ/MsX5aYbqna5IiR4d/lSS3zcdn09Y7baNQWEyREF1P6uVShLWLW3IhjDI6aBmHP2lgM6z1sRNs5d+x+CpObUO2UqNgAAAABJRU5ErkJggg&#x3D;&#x3D;"
+                    />
+                     <h3>WORK EXPERIENCE</h3>
+
+                    <hr />
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Resideo
+            <a href="https://resideo.com" target="_blank">resideo.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jun 2022 - Jun 2024</div>
+                    </div>
+                    <div class="position">Advanced Senior GraphQL Engineer - Team Lead</div>
+                    <div class="summary">
+                        <p>Lead the GraphQL Schema and Feature team, driving philosophical and innovative
+                            solutions to challenges presented by Resideo&#39;s core platform of professional
+                            and consumer connected products.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Managed a small development team building new features and developing
+                                the Resideo federated data schema.</p>
+                        </li>
+                        <li class="">
+                            <p>Lead the migration onto GraphQL Federation 2.0 via NestJS&#39;s suite
+                                of frameworks.</p>
+                        </li>
+                        <li class="">
+                            <p>Implemented self-documenting, implicitly validated, GraphQL that reduced
+                                reported issues and improved confidence in our delivery.</p>
+                        </li>
+                        <li class="">
+                            <p>Improved the quality of the codebase through demonstration and enforcing
+                                industry best practices.</p>
+                        </li>
+                        <li class="">
+                            <p>Implemented policy requiring engineers meet with stakeholders prior to
+                                ticket, improving communication, understanding and reducing reported issues.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            World Wide Technology
+            <a href="https://wwt.com" target="_blank">wwt.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 2021 - May 2022</div>
+                    </div>
+                    <div class="position">Senior Delivery Engineer</div>
+                    <div class="summary">
+                        <p>Built an award winning solution A Delivery Engineer requires a deep understanding
+                            of software development patterns, life-cycle, CI/CD pipelines, DevOps tooling
+                            with a client-centric mindset. Assigned to different teams to provide whatever
+                            may be necessary to deliver: working directly with developers to remove
+                            obstacles, tools to improve throughput, implementing quality control checks,
+                            or deploying the infrastructure to make the project a success.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Designed, built, and deployed an award-winning solution using Ansible
+                                to verify rack equipment, increasing throughput from less than 10 to over
+                                60 devices a day, reducing errors to almost 0.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed a framework for automated validation and remediation of hardware
+                                configurations, utilizing mDNS, PXE, iPXE, and DHCP, eliminating supply
+                                chain bottlenecks and improving efficiency.</p>
+                        </li>
+                        <li class="">
+                            <p>Initiated weekly self-paced training sessions, enhancing team communication,
+                                cohesion, and project collaboration.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed tools using Ansible, Python, Redfish/iDrac, and network protocols,
+                                simplifying task logic and reducing developer support requests from 3 per
+                                day to less than 1 per week.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            KForce
+            <a href="http://kforce.com" target="_blank">kforce.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Sep 2020 - Dec 2020</div>
+                    </div>
+                    <div class="position">Automation Engineer @ Charter Advanced Technologies</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Implemented a provisioning pipeline using Foreman and AWX, reducing deployment
+                                time by 30%.</p>
+                        </li>
+                        <li class="">
+                            <p>Pioneered the design of a scalable network architecture for next-gen VR
+                                and gaming services, achieving low-latency and high-availability for edge
+                                computing solutions.</p>
+                        </li>
+                        <li class="">
+                            <p>Enhanced edge device operations by developing robust automation scripts
+                                and tools, improving efficiency and reducing manual intervention by 40%.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Turnberry Solutions
+            <a href="https://turnberrysolutions.com" target="_blank">turnberrysolutions.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+May 2019 - Sep 2020</div>
+                    </div>
+                    <div class="position">Automation Engineer @ Comcast Applied AI</div>
+                    <div class="summary">
+                        <p>Comcast&#39;s Applied AI team built the tooling and pipeline necessary
+                            to delievery better home security through the use of computer vision, audio
+                            analysis and anomoly detection machine learning models developed by in-house
+                            data scientests.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Enhanced machine learning models developed by Comcast&#39;s internal data
+                                scientist teams, facilitating configurable data sources, domain logic,
+                                data transformations, and overall extensibility.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed a prototype using Python 3.7 and Tensorflow 1.12 with computer
+                                vision to detect various types of deliveries, improving detection accuracy
+                                by 25%.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed tools that empowered research teams to rapidly develop, perform
+                                A/B testing, and deploy machine learning models with integrated metrics
+                                collection, monitoring, and failover, reducing model deployment time by
+                                30%.</p>
+                        </li>
+                        <li class="">
+                            <p>Collaborated with a DevOps team to standardize automation, infrastructure,
+                                and the Automated Machine Learning Platform stack configuration using Amazon
+                                AWS, EKS, IAM, and EC2, improving system reliability and scalability.</p>
+                        </li>
+                        <li class="">
+                            <p>Created a universal, plug-in-based library in Python to transparently
+                                gather internal application metrics, streamlining metrics collection and
+                                improving system monitoring.</p>
+                        </li>
+                        <li class="">
+                            <p>Enhanced a GoLang library to integrate with various Pub/Sub systems, improving
+                                system interoperability and data flow efficiency.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Aetna
+            <a href="https://aetna.com" target="_blank">aetna.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Apr 2019 - May 2019</div>
+                    </div>
+                    <div class="position">Senior Android Engineer -&gt; Senior Staff Engineer</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Planned and implemented a complete vertical stack for integrating with
+                                the first CVS API, including technology selection, CI/CD pipeline setup,
+                                infrastructure, DevOps, and back-end services, resulting in seamless integration
+                                and enhanced system interoperability.</p>
+                        </li>
+                        <li class="">
+                            <p>Collaborated closely with product teams to refine and improve feature
+                                sets, leading to increased user satisfaction and feature adoption.</p>
+                        </li>
+                        <li class="">
+                            <p>Continued to work with the Android architecture team to refine and expand
+                                the unified architecture for the platform, improving codebase scalability
+                                and maintainability.</p>
+                        </li>
+                        <li class="">
+                            <p>Mentored and conducted lessons on engineering best practices, including
+                                Inversion of Control, writing testable code, dependency injection frameworks,
+                                Kotlin basics, Kotlin coroutines, and channels, resulting in improved code
+                                quality and team skill development.</p>
+                        </li>
+                        <li class="">
+                            <p>Introduced scalable and maintainable design pattern proofs-of-concept,
+                                such as a decorator pattern for moving metadata out of core logic, a self-binding
+                                RecyclerView library, and a reusable questionnaire component, improving
+                                development efficiency and code maintainability across multiple feature
+                                teams.</p>
+                        </li>
+                        <li class="">
+                            <p>Spearheaded and facilitated the transition from Java to Kotlin as the
+                                primary development language on the Android platform, improving code readability
+                                and reducing bugs by 30%.</p>
+                        </li>
+                        <li class="">
+                            <p>Provided preliminary scoping and technical design for integrating the
+                                Aetna Health Android application with Google Fit API, enhancing app functionality
+                                and user engagement.</p>
+                        </li>
+                        <li class="">
+                            <p>Advocated for and formed an architecture team to plan, define, document,
+                                and implement a unified architectural framework, facilitating proper application
+                                layer isolation and improving system modularity.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Tek Systems
+            <a href="https://teksystems.com" target="_blank">teksystems.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Sep 2017 - Nov 2017</div>
+                    </div>
+                    <div class="position">Senior Android Engineer @ Vail Resorts EpicMix</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Implemented deep-linking and enhanced permission handling in the EpicMix
+                                Android app using Deepthought-Routing-Android, my personal open-source
+                                library for URI interception, processing, and in-app routing, improving
+                                navigation efficiency and app stability.</p>
+                        </li>
+                        <li class="">
+                            <p>Refactored the EpicMix Android project to get existing unit tests running
+                                and passing, enabling new feature development backed by unit and integration
+                                tests, improving code reliability and facilitating faster feature rollouts.</p>
+                        </li>
+                        <li class="">
+                            <p>Identified and reported significant application security risks related
+                                to user account data on client devices, and utilized Android&#39;s built-in
+                                credentials manager to enhance security, protecting user data integrity.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            MassRoots
+            <a href="https://massroots.com" target="_blank">massroots.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Sep 2016 - Jul 2017</div>
+                    </div>
+                    <div class="position">Native Team Lead</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Led the green-field Android mobile application rewrite, architecting it
+                                around an asynchronous event bus with optimized thread utilization, improving
+                                app performance and responsiveness.</p>
+                        </li>
+                        <li class="">
+                            <p>Implemented bi-directional data binding, single activity router, and a
+                                custom live data system, enabling all views saved to the back-stack to
+                                update from any API request, enhancing data synchronization and user experience.</p>
+                        </li>
+                        <li class="">
+                            <p>Integrated Deepthought-Routing, my open-source self-documenting, self-validating
+                                API library, into the NodeJS backend services, ensuring API documentation
+                                was always synchronized with the code, improving developer efficiency and
+                                API reliability.</p>
+                        </li>
+                        <li class="">
+                            <p>Collaborated with product, design, and engineering teams to conduct technical
+                                feasibility and product feedback sessions, improving cross-functional communication
+                                and leading to better product outcomes.</p>
+                        </li>
+                        <li class="">
+                            <p>Mentored and built out the development team, implementing improved coding
+                                standards and practices, elevating code quality and team productivity.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Apto
+            <a href="https://aptotude.com" target="_blank">aptotude.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Mar 2015 - Aug 2016</div>
+                    </div>
+                    <div class="position">Salesforce Engineer</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Designed and built a plug-and-play integration system for push, pull,
+                                and bi-directional synchronization with third-party data and APIs, streamlining
+                                data integration processes and improving system interoperability.</p>
+                        </li>
+                        <li class="">
+                            <p>Collaborated with designers to develop an Angular-based front-end web
+                                application on top of Salesforce, improving user interface and experience.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed a custom back office and HR system for large commercial real
+                                estate brokerages, improving operational efficiency and employee management.</p>
+                        </li>
+                        <li class="">
+                            <p>Co-developed a Node.js application for browsing the Salesforce object
+                                model and metadata using the Tooling API, enhancing developers&#39; ability
+                                to interact with and manage Salesforce data structures.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            SourceGas
+            <a href="https://sourcegas.com" target="_blank">sourcegas.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Apr 2013 - Mar 2015</div>
+                    </div>
+                    <div class="position">Business Applications Developer</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Developed web applications using ASP.Net MVC 4 and 5 with an MS SQL Server
+                                backend to track compliance testing and inspections of equipment required
+                                by federal regulations, improving regulatory compliance and reporting efficiency.</p>
+                        </li>
+                        <li class="">
+                            <p>Created a comprehensive C# library for internal developers, including
+                                wrappers around EntityFramework 6.1, Active Directory, ADP (HR System),
+                                and Geocoding Services from Bing, Yahoo, and Google, standardizing and
+                                simplifying development processes.</p>
+                        </li>
+                        <li class="">
+                            <p>Deployed a time tracking and reporting site used company-wide, utilizing
+                                ASP.Net MVC 4, jQuery, Durandal, Knockout, and MVC Web API with an MS SQL
+                                Server backend, improving time management and reporting accuracy across
+                                the company.</p>
+                        </li>
+                        <li class="">
+                            <p>Designed and developed a C# application to poll data from HR&#39;s ADP
+                                web service and synchronize it with Active Directory, streamlining HR data
+                                management and improving data consistency.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed Python scripts using ArcGIS for the GIS teams, enhancing their
+                                data processing capabilities and improving workflow efficiency.</p>
+                        </li>
+                        <li class="">
+                            <p>Created a database for tracking equipment reservations and calibrations,
+                                improving lab efficiency and equipment management.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Denver IPS
+            <a href="https://denverips.com" target="_blank">denverips.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jul 2011 - Apr 2013</div>
+                    </div>
+                    <div class="position">Software Engineer</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Developed an embedded application using PIC-C to provide on-the-fly QA
+                                on production machines, eliminating material-based errors and ensuring
+                                parts always matched by scanning barcodes on packaging, cards, terms of
+                                service, and other materials prior to shipment.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed applications using VB.Net and LINQ-SQL to convert customer data
+                                into machine-ready data, streamlining data processing and reducing manual
+                                intervention.</p>
+                        </li>
+                        <li class="">
+                            <p>Designed and built a dashboard using C# and WPF, displayed in the production
+                                area to track every job and provide metrics such as &#39;jobs/hr&#39;,
+                                &#39;jobs remaining&#39;, &#39;ETA until completion&#39; improving worker
+                                and manager satisfaction and productivity.</p>
+                        </li>
+                        <li class="">
+                            <p>Enhanced productivity by implementing new stored procedures using MS SQL,
+                                optimizing database performance for VB6 and VB.Net applications.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <div class="heading">
+                         <h4>
+            Xcel Energy
+            <a href="https://xcelenergy.com" target="_blank">xcelenergy.com</a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+May 2007 - Jan 2011</div>
+                    </div>
+                    <div class="position">Engineering Intern</div>
+                    <div class="summary"></div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Developed T-Cycle (Teagan-Cycle), a program for modeling power plants
+                                with a graphical user interface. Used during plant performance tests, it
+                                calculated component efficiency and guided maintenance focus to maximize
+                                efficiency improvements, enhancing performance monitoring and problem-solving.</p>
+                        </li>
+                        <li class="">
+                            <p>Created a Microsoft Excel Add-In to automate the team&#39;s day-to-day
+                                calculations, reducing report preparation time by 50% and increasing efficiency.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed an automated data acquisition system with mechanical engineers
+                                and lab technicians, streamlining performance testing and reducing manual
+                                effort.</p>
+                        </li>
+                        <li class="">
+                            <p>Designed a step-by-step guide for converting Arcom Multiplexers to modern
+                                Fisher ROC Multiplexers, complete with wiring and component placement diagrams,
+                                facilitating the upgrade process.</p>
+                        </li>
+                        <li class="">
+                            <p>Designed a step-by-step guide for converting Arcom Multiplexers into a
+                                modern Fisher ROC Multiplexer, including wiring and component placement
+                                diagrams.</p>
+                        </li>
+                        <li class="">
+                            <p>Created a database for tracking equipment reservations and calibrations,
+                                improving lab efficiency and equipment management.</p>
+                        </li>
+                        <li class="">
+                            <p>Developed a database with the asset management group to track plant overhauls
+                                and capital expenditure projects, improving project tracking and financial
+                                management.</p>
+                        </li>
+                        <li class="">
+                            <p>Trained engineers in all three operating regions on the use, calculations,
+                                and features of T-Cycle, enhancing their ability to monitor and optimize
+                                plant performance.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="education" id="education">
+                <div class="heading">
+                    <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAJAAAAAA4083iAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAAExUlEQVRYCbVYfUyVVRj/GcRHV25IDDGWDiTRsbRpQ3TBboAGiSWtlS2MrZWyJX+kW/nxh7kWozZzDWpJ9oeo06385ENE48rUFSxrsVqmfISVcLlckAtcwTHwPMfO7eW9773nvBd9tvee85z3Oc/zO895zrnP885w9PROYhr0b7cDFV8f4hq2v7cJ1qiZ09AGzAgWkHtoGFVHT+IAe6hPRGCK1q/Dm+wJFlhQgE7Unkd55UGQd4gej4/j7c2eXt4mzJmNko0bULAmh/NmfkwBavm5FaWf7cMf19q5jaiZFpS8U4ii1ws4f+DICZSz7RsaHuH8ogXzsWPLJqQtXayMSQkQeWLb7j0gQII2ExCDraHto20UcUXyBKhs11aQ52QUEBApr9h/GLRyQbQNtB0y5bQI2lbaXkHkyc1vvxEwvvwCohVqA5ZWWbKx0JT7CQh5tbzykNe7IvDJw0bkA8goYMkjL+evMpqvPHa85hz3mCzwvYD0K6GAJRdT0N5PoqCnEBCBr/e8F1BKWq7XLt0jBCTYu8SryE+HYpOA0T0m6M+Wet4NFQOi/eLTXcixrRDsA2lpoTu3FGP50iV49/3dU2w8NIVjjNVq0Q9J+aGhEXhuj0rl9AJGtnw8pJ/kj3c4Xag9a8fp+kZ2UXYgNDQUGenLsDYvC1kZyxEZEeFvasBxU4CGRzxosF/CqTONaP7pV0xO/v+/PD4+DvulZv5YHonEKttKvMjApT/zNEJCQgKC0L6UApqYmID9cgtqztjRePFHjI6Naecb9kc8t3Gy7nv+xD42C2tW21DwQg4Wpcw3lNcOSgGdv/ADSrZ9pJ1jqt/nGuDH/PC31WiqOYjYmFkB5/sEtV7a9mwadmwtRkpyov6VEk+xlZWRjs9Lt0vBkEKph8LCHkbRa+vQ3ePEsiWpiImJRjUL5K6/bwYERLJrc59DXk4moh+1BpTVvpQCIuG+/gEcqz6Lhu++gcczipfysjEwOIiaejtqzzXB1X+L60xOnIv83Czkr85kC+jDU6kLTJ82JUANjZfhdg/DyYBd+eU3fPhJBRanLmTGbTheVYFbg26Eh4Vh7M4d7r0NxR+g2+FE7dFKJCfN1TpA2lcCJDLChPjZqHM2caWtv18FPWV7mdHEecxzHvzzXwYprDr7XA8GUFvHDW6jvfMGHL0uYY+3dC1ca++cMiaYHnZ5miXpKSOFbZ1/cb1tnV3oH7gXL3xA8tPPttgsKQG63tHF9VL7akEeIsPlfwsJc+LwfHaGWTzyY08aLRYLS0Us/MRkZ65A/bH9qGu4gOYrrazy6OUnLtoahaTEJ3g8JSfNQ3ZmOiLCw6cPyO2+VzFoNVV9WaZlER8Xi7cKX+HPlBcmGSNbPltG+Unp3n3e4s+kDSVxStDIhj4XosnejFGfwsqScSXLBkKy4sELSMxVTcaFvGqrWjz4ABIGZMm4kJO1es/Lige/gMiQUTJO5RDVVCqFIm0PeVyQSvEQEJBQZFRKU1Vi9JWDFkHVBHlY0H0rpYVC0ZL7P97zFa5e7+BDFPgCGA0IIASKaOGTSdjJcikCpEpKHtIrMwp8ktF+ngm22g0KEBknL1Dtr61CRcAafRWhOSoUNCChXHzlIF7lq4iY56+9C4w+WuDs92kLAAAAAElFTkSuQmCC"
+                    />
+                     <h3>EDUCATION</h3>
+
+                    <hr />
+                </div>
+                <div class="institution">
+                    <div class="heading">
+                         <h4>
+            Metropolitan State University
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970</div>
+                    </div>
+                    <div class="area">Applied Physics</div>
+                </div>
+                <div class="institution">
+                    <div class="heading">
+                         <h4>
+            Metropolitan State University
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970</div>
+                    </div>
+                    <div class="area">Applied Mathetmatics</div>
+                </div>
+                <div class="institution">
+                    <div class="heading">
+                         <h4>
+            Metropolitan State University
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jan 1970</div>
+                    </div>
+                    <div class="area">Computer Science</div>
+                </div>
+            </section>
+            <section class="awards" id="awards">
+                <div class="heading">
+                    <img class="hex-icon" src="data:image/png;base64,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&#x3D;&#x3D;"
+                    />
+                     <h3>AWARDS</h3>
+
+                    <hr />
+                </div>
+                <div class="award">
+                    <div class="heading">
+                         <h4>
+            High Performing Employee
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jul 2021</div>
+                    </div>
+                    <div class="position"></div>
+                    <div class="description">
+                        <p>Award recognizing I was the primary driving force behind the exceptionally
+                            successful cable matrix validation project, securing contracts with one
+                            of WWT&#39;s top five clients.</p>
+                    </div>
+                    <ul class="bullets"></ul>
+                </div>
+                <div class="award">
+                    <div class="heading">
+                         <h4>
+            High Performing Team
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+Jul 2021</div>
+                    </div>
+                    <div class="position"></div>
+                    <div class="description">
+                        <p>With only six weeks to keep a multi-million dollar client, my team provided
+                            a solution that far exceeded expectations and impressed high-level execs
+                            at WWT and our client.</p>
+                    </div>
+                    <ul class="bullets"></ul>
+                </div>
+                <div class="award">
+                    <div class="heading">
+                         <h4>
+            Red Carpet Awards
+            <a href="" target="_blank"></a>
+          </h4>
+
+                        <div class="dates"> <i class="fa-solid fa-calendar-days"></i>
+May 2021</div>
+                    </div>
+                    <div class="position"></div>
+                    <div class="description">
+                        <p>The Red Carpet Award recognizes and acknowledges teams that invest in
+                            extreme cross-team collaboration. Developing the cable matrix audit validation
+                            required the involvement of the NAIC-ITC, Application Services, and Global
+                            Service Provider, the first collaboration across the larger divisions of
+                            WWT.</p>
+                    </div>
+                    <ul class="bullets"></ul>
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <div class="heading">
+                    <img class="hex-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAFBlWElmTU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAABAAAAJgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJKADAAQAAAABAAAAJAAAAAA4083iAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgoZXuEHAAAEi0lEQVRYCa1Ya2xURRT+6DaW7WOBgghUUGioVo1NKuFhaIRQX5SEFiMpUltR6DbsNg0tKyqhFRMNIYGQtGgpxLA8UqSBIo9QfJTERwwYNeGHCij6g0cLRmApFOoavd/QmWx37+6de8tJZmfmzJlzvjnnZHbOHdLddfk/DIIuXOpG09ZdQsPbK7zwZKQPQhswxCmg0I0e7NhzAEGjcUwimIrSYpQbzSkwR4Daj3yBxpadoHdI48aMFv3Frsuizxr7AKorX0VJUaGY2/mxBejkj6fwwcYt+OXM78JGRnoaqpeVoWJRiZgHW9vRaITvRs9NMc/NycY7tV5MzX9SG5MWIHrirbUbQECS/ARiEhqGj2GUeUV5AlrXUAd6zooSAqLypm27wZNLYhgYDivlPATDyvBKoif9SxcnzK+4gHjCyITlKasry2y5n0Do1caWXcq7MvHpYTOKAWSWsPTIgnnPmu3X5u0//LnwmFXiK0DRJ2HC0sVM2ntJTHqmgEz8aM8rQI9MfUHZ5T1CIE7vEqUozoC5SWC8xySdPtkhhsmSIfvN6xtQOGuGnGr14XBYyCUnx6gz3c+Drq6twrT8PPjeXDtAJkaDx5M2QCDRhEA+/LgVew8cFWILi1/E8tcXQRuYia2kRAat1jq/OoHNxrUQDv8rGsfkDYYGBWjfoWPCdvCjdWAjSZ6YOPiJCZkdHR5PhhDfGmxT2yRPMWwOHAO61Xsb3/f/lRzq6FRmyeNaqnuo4tkZOA7Ztp1tuNR9RdjKHD4Mw/q9RR7XnJItQD+d+hl79h/B+YtdA4zWVJWjxluuMHzW+S36+v5B677D4B47ZCtkW7Z/guPfnMD9ozJx506fsJOTPREvz797qbYbfw8FT0/BKy/Nw/LAu/j6ux8we+Y0NG8ceNckAmjLQyv9b2CEEZ4rf/2tdK6qWQqXyyVa4/o1yMl+GGVVAQHm8dzJWBPwKVmdgS0PTXwoC6MN71y9dl3p9gXew4QHx+HW7V6cv9Cl+MVz56B+lR/ulBTF0xnYAtT2aQdO//aH0JuSch8KZkzBGWN+9tyfxu3sQt4TucjPewzTn8pDenoqFi+rQ+mCItF0wFBGG1Ao1INNzTuU3tdKS1DrWyLmN3t74UpKwtB+bxw8+iW8tfVijXvmFj4Dj0evGtHOoYPHjqtQjRo5At4lpQpcmtutwJA5u2A6RmYOF+sML/fqkjaga/15k2R4on6lD2mp7rg2+JZqCPhBWZLcG3dDxEJMyEKhuxVDhIwYjs8ai6LnZqGyYiEenTwpejlm/vycmWif0ISW4F5wrxmZ2TJ9oOk8xs0M6PLMigf5QFOAop+wVo9xXePRclbFgwIkN+o+xqW8bq9bPMQAkgasHuNSzqqP9rxV8RAXEA2ZPcZZDrGm0ikUGR56XJJO8ZAQkFRkVkqzKjH7ysFDsJqghyXds1JaKpQ93f/+hmb8evacYDHxJTAyJBCCIvF6WF1XZava1fKQ0B7xY5b4XI78POO02nUEiMbpBdb+kVWoTFizryLco0OOAUnl8isH5zpfReS+eP3/N0c623s9CygAAAAASUVORK5CYII&#x3D;"
+                    />
+                     <h3>PROJECTS</h3>
+
+                    <hr />
+                </div>
+                <div class="project">
+                    <div class="heading">
+                         <h4>
+            Homebridge Ultimate Govee Plugin
+            <a href="https://github.com/constructorfleet/homebridge-ultimate-govee" target="_blank">github.com/constructorfleet</a>
+          </h4>
+
+                    </div>
+                    <div class="summary">
+                        <p>Homebridge plugin to support all features of Govee devices.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Imports device scenes from Govee API.</p>
+                        </li>
+                        <li class="">
+                            <p>Supports granular control of RGBIC light segments.</p>
+                        </li>
+                        <li class="">
+                            <p>Provides full support for Air Purifiers, Aroma Diffusers, RGB lights,
+                                and RGBIC lights.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <div class="heading">
+                         <h4>
+            ConstructorFleet
+            <a href="https://github.com/constructorfleet" target="_blank">github.com/constructorfleet</a>
+          </h4>
+
+                    </div>
+                    <div class="summary">
+                        <p>Collection of Ansible, automation, and other projects developed with my
+                            spouse.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>1-Touch provisioning build pipeline.</p>
+                        </li>
+                        <li class="">
+                            <p>Tensorflow hardware acceleration tools.</p>
+                        </li>
+                        <li class="">
+                            <p>Configurations, custom components, and other tools for IoT.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <div class="heading">
+                         <h4>
+            Home-Assistant
+            <a href="https://github.com/home-assistant/core" target="_blank">github.com/home-assistant</a>
+          </h4>
+
+                    </div>
+                    <div class="summary">
+                        <p>Platform-agnostic integrations for home automation.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Top 100 contributors out of 1700.</p>
+                        </li>
+                        <li class="">
+                            <p>Implemented first computer vision integration.</p>
+                        </li>
+                        <li class="">
+                            <p>Provided support to end users around the world.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <div class="heading">
+                         <h4>
+            DeepThought - Routing
+            <a href="https://github.com/constructorfleet/Deepthought-Routing" target="_blank">github.com/constructorfleet</a>
+          </h4>
+
+                    </div>
+                    <div class="summary">
+                        <p>Self-documenting, self-validating Express.js API wrapper.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Library to ingest SwaggerDoc, ensuring the API and documentation are always
+                                synchronized.</p>
+                        </li>
+                        <li class="">
+                            <p>Performs permission checks as configurable middle-ware handler.</p>
+                        </li>
+                        <li class="">
+                            <p>All inputs presented to endpoint handlers are guaranteed the correct type
+                                and within specified constraints.</p>
+                        </li>
+                        <li class="">
+                            <p>Ported library to Android for internal, intent-based, routing within an
+                                application.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <div class="heading">
+                         <h4>
+            DeepThought
+            <a href="https://github.com/constructorfleet/Deepthought-Schema" target="_blank">github.com/constructorfleet</a>
+          </h4>
+
+                    </div>
+                    <div class="summary">
+                        <p>Documentation Oriented Development born from DeepThought-Routing and GraphQL.</p>
+                    </div>
+                    <ul class="bullets">
+                        <li class="">
+                            <p>Documentation written using JSONSchema generates code, validates arguments,
+                                and provides meaningful data modes.</p>
+                        </li>
+                        <li class="">
+                            <p>Utilizes dimensional analysis to validate the correctness of your data
+                                model..</p>
+                        </li>
+                        <li class="">
+                            <p>Eliminates stale and out of date documentation.</p>
+                        </li>
+                        <li class="">
+                            <p>Still a work in progress.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="testimonials" id="testimonials">
+                <div class="heading">
+                    <img class="hex-icon" src="data:image/png;base64,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&#x3D;&#x3D;"
+                    />
+                     <h3>TESTIMONIALS</h3>
+
+                    <hr />
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>

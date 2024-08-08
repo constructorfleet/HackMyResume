@@ -1,0 +1,19 @@
+{
+    "yaml.schemas": {
+        "/Users/tglenn/src/HackMyResume/assets/fresh-resume-schema.json": [
+            ".resume.yaml",
+            "file:///Users/tglenn/src/HackMyResume/resumes/base.resume.yaml"
+        ]
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "resume.json"
+            ],
+            "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json"
+        }
+    ],
+    "json-yaml-schema-selector.additionalSchemas": [
+        "/Users/tglenn/src/HackMyResume/assets/fresh-resume-schema.json"
+    ]
+}

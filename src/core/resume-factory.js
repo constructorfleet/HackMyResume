@@ -16,6 +16,7 @@ const HMS    = require('./status-codes');
 const HME             = require('./event-codes');
 const ResumeConverter = require('fresh-jrs-converter');
 const resumeDetect    = require('../utils/resume-detector');
+const YAML            = require('yamljs');
 require('string.prototype.startswith');
 
 
@@ -108,7 +109,12 @@ var _parse = function( fileName, opts, eve ) {
 
     // Parse the file
     eve && eve.stat(HME.beforeParse, { data: rawData });
-    const ret = { json: JSON.parse( rawData ) };
+    const ret = {};
+    try {
+      ret.json = JSON.parse( rawData );
+    } catch(e) {
+      ret.json = YAML.parse( rawData );
+    }
     const orgFormat =
       ret.json.meta && ret.json.meta.format && ret.json.meta.format.startsWith('FRESH@')
       ? 'fresh' : 'jrs';

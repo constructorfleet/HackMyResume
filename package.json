@@ -7,8 +7,8 @@
     "url": "https://github.com/hacksalot/HackMyResume.git"
   },
   "scripts": {
-    "generate:hexagon": "copyfiles avatar*.png docs && node src/cli/index.js build resume.hexagon.json to docs/resume.all --theme src/themes/jsonresume-theme-hexagon",
-    "generate:hexagon:html": "copyfiles avatar*.png docs && node src/cli/index.js build resume.json to docs/index.html --theme src/themes/jsonresume-theme-hexagon --no-escape",
+    "generate:hexagon": "copyfiles *.png docs && node src/cli/index.js build resume.hexagon.json to docs/resume.all --theme src/themes/jsonresume-theme-hexagon",
+    "generate:hexagon:html": "copyfiles *.png docs && node src/cli/index.js build resume.json to docs/index.html --theme src/themes/jsonresume-theme-hexagon --no-escape",
     "generate:stackoverflow": "copyfiles avatar*.png docs && node src/cli/index.js build resume.stackoverflow.json to docs/resume.all -d --theme src/themes/jsonresume-theme-stackoverflow-long --no-escape",
     "generate:stackoverflow:html": "copyfiles avatar*.png docs && node src/cli/index.js build resume.json to docs/index.html -d --theme src/themes/jsonresume-theme-stackoverflow-long --no-escape",
     "generate:stackoverflow-short": "copyfiles avatar*.png docs && node src/cli/index.js build resume.json to docs/resume.all -d --theme src/themes/jsonresume-theme-stackoverflow --no-escape",

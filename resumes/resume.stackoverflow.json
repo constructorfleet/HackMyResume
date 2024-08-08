@@ -1,0 +1,315 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "basics": {
+    "name": "Teagan Glenn",
+    "label": "Senior Software Engineer",
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "url": "https://blog.teagantotally.rocks",
+    "location": {
+      "address": "11838 W Marlowe Ave",
+      "city": "Morrison",
+      "countryCode": "US",
+      "region": "CO"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "teagan42",
+        "url": "https://linkedin.com/in/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "Teagan42",
+        "url": "https://github.com/Teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "constructorfleet",
+        "url": "https://github.com/constructorfleet"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Resideo",
+      "company": "Resideo",
+      "organization": "Resideo",
+      "location": "Morrison, CO",
+      "description": "Home Automation Company",
+      "position": "Advanced Senior GraphQL Lead Engineer",
+      "url": "https://resideo.com",
+      "startDate": "2022-06",
+      "endDate": "2024-07",
+      "summary": "Lead the GraphQL Schema and Feature team, driving philosophical and innovative solutions to challenges presented by Resideo's core platform of professional and consumer connected products.",
+      "highlights": [
+        "Led the design and implementation of innovative schema configurations enhancing communication and functionality across IoT devices.",
+        "Mentored and guided teams in implementing GraphQL best practices.",
+        "Conducted training and workshops to elevate team capabilities in cutting-edge IoT solutions.",
+        "Facilitated the migration of all subgraphs and gateways from NexusJS Apollo Server v2 to NestJS using Apollo Server v4 federation 2.3.",
+        "Implemented patterns of self-validating, self-documenting domain driven data types using GraphQL scalars and type system."
+      ]
+    },
+    {
+      "name": "World Wide Technology",
+      "company": "World Wide Technology",
+      "organization": "World Wide Technology",
+      "location": "St. Louis, MO",
+      "description": "Technology Service Provider",
+      "position": "Senior Delivery Engineer",
+      "url": "https://wwt.com",
+      "startDate": "2021-01",
+      "endDate": "2022-05",
+      "summary": "Built an award winning solution validating  inventory, connections and health of customer orders racks.",
+      "highlights": [
+        "Increasing rack validation througpught from less than 10 to over 60 daily, while completely removing the possibility of errors.",
+        "Built a framework to discover servers, switches, routers, and storage devices using mDNS, PXE, iPXE, and DHCP that generates detailed validation reports.",
+        "Initiated a weekly self-paced training session to explore concepts, terminology, and processes used in both software and DevOps.",
+        "Created custom Ansible plugins for simplifying complicated task logic, inventory, and logging requirements, reducing support requests to developers from 3 a day to once a week."
+      ]
+    },
+    {
+      "name": "KForce",
+      "company": "KForce",
+      "organization": "KForce",
+      "location": "Remote",
+      "description": "Staffing and Solutions Firm",
+      "position": "Automation Engineer @ Charter Advanced Technologies",
+      "url": "http://kforce.com",
+      "startDate": "2020-09",
+      "endDate": "2020-12",
+      "summary": "To demonstrate the feasibility of VR-as-a-Service, developed the infrastructure for deploying the proof-of-concept.",
+      "highlights": [
+        "Pioneered the design of a scalable network architecture for next-generation VR and gaming services.",
+        "Implemented robust automation scripts and tools to enhance the efficiency and reliability of edge device operations in real-time service environments."
+      ]
+    },
+    {
+      "name": "Turnberry Solutions",
+      "company": "Turnberry Solutions",
+      "organization": "Turnberry Solutions",
+      "location": "Blue Bell, PA",
+      "description": "Consulting and Professional Services",
+      "position": "Automation Engineer @ Comcast Applied AI",
+      "url": "https://turnberrysolutions.com",
+      "startDate": "2019-05",
+      "endDate": "2020-09",
+      "summary": "Built the tooling and pipelines necessary to deliever better home security through the use of computer vision, audio analysis and anomaly detection.",
+      "highlights": [
+        "Created a prototype using Python 3.7 and Tensorflow 1.12 to demonstrate an algorithm for detecting deliveries of all types.",
+        "Developed tools empowering the research teams to rapidly develop, perform A/B testing, and deploy machine learning models with metrics collection, monitoring, and failover.",
+        "Worked with a small DevOps team to standardize automation, infrastructure, and the Automated Machine Learning Platform stack configuration using Amazon AWS, EKS, IAM, EC2, and more.",
+        "Improved a library, written in GoLang, that integrates with nearly any Pub/Sub system, including Kinesis, Kafka, MQTT, RabbitMQ."
+      ]
+    },
+    {
+      "position": "Senior Staff Engineer",
+      "name": "Aetna",
+      "startDate": "2019-04-01",
+      "endDate": "2019-05-19",
+      "url": "https://aetna.com",
+      "keywords": [],
+      "highlights": [
+        "Worked with a small team of senior engineers from different departments and platforms to plan, design, architect, and implement a complete vertical stack for integrating with the first CVS API, including the technologies used, CI/CD pipeline, infrastructure, DevOps, and back-end services.",
+        "Worked closely with product to refine and improve feature sets.",
+        "Spearheaded the transition from Java to Kotlin, enhancing the development process and maintainability of applications interfacing with IoT devices for health monitoring.",
+        "Continued to work with the Android architecture team to refine and expand the unified architecture for the platform."
+      ]
+    },
+    {
+      "position": "Senior Android Engineer",
+      "name": "Aetna",
+      "startDate": "2017-11-28",
+      "endDate": "2019-03-31",
+      "url": "https://aetna.com",
+      "keywords": [],
+      "highlights": [
+        "Responsible for mentoring and conducting lessons focused on engineering best practices, such as Inversion of Control, writing testable code, dependency injection frameworks, Kotlin basics, Kotlin coroutines, and channels.",
+        "Introduced scalable and maintainable design pattern proofs-of-concept to the Android engineers, including a decorator pattern for moving metadata out of core logic, a self-binding RecyclerView library, and a reusable questionnaire component used by various feature teams.",
+        "Facilitated the transition from Java to Kotlin as the primary development language on the Android platform.",
+        "Provided preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API.",
+        "Advocated and formed an architecture team to plan, define, document, and implement a unified architectural framework to facilitate proper application layer isolation."
+      ]
+    },
+    {
+      "position": "Senior Android Engineer @ Vail Resorts EpicMix",
+      "name": "Tek Systems",
+      "startDate": "2017-09-01",
+      "endDate": "2017-11-25",
+      "url": "https://teksystems.com",
+      "keywords": [],
+      "highlights": [
+        "Implemented deep-linking in the EpicMix Android app using [Deepthought-Routing-Android](https://github.com/Teagan42/Deepthought-Routing-Android), my own open-source Android library for URI interception, processing, and in-app routing.",
+        "Added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK-related changes that arose due to target SDK version change.",
+        "I refactored the project to get existing unit tests running and passing, allowing new feature work backed by unit and integration tests.",
+        "Discovered and reported significant application security risks related to user account data on client devices.",
+        "Fixed concurrency issues with background threads and incorrect use of lifecycle hooks in Fragments and Activities, causing the application to crash."
+      ]
+    },
+    {
+      "position": "Native Team Lead",
+      "name": "MassRoots",
+      "startDate": "2016-09-01",
+      "endDate": "2017-07-05",
+      "url": "https://massroots.com",
+      "keywords": [],
+      "highlights": [
+        "Green-fielded the Android mobile application rewrite architected around an asynchronous event bus with highly optimized thread utilization.",
+        "Utilized bi-directional data binding, single activity router, and a home-grown live data system that allows all views saved to the back-stack to update from any API request.",
+        "Implemented <a href=\"https://github.com/constructorfleet/Deepthought-Routing\">Deepthought - Routing</a>, my open-source self-documenting, self-validating API library, into the NodeJS backend services immediately bringing documentation in line with the code.",
+        "Worked closely with product, design, and engineering teams to implement technical feasibility and product feedback sessions, improving communication and collaboration.",
+        "Acted as a mentor and professionally built out the development team, implementing better coding standards and practices across the department."
+      ]
+    },
+    {
+      "position": "Salesforce Engineer",
+      "name": "Apto",
+      "startDate": "2015-03-01",
+      "endDate": "2016-08-01",
+      "url": "https://aptotude.com",
+      "keywords": [],
+      "highlights": [
+        "Designed and built a plug-n-play integration system for push, pull, and bi-directional synchronization with 3rd party data and APIs.",
+        "Implemented a fully dynamic trigger handler factory with trigger execution controlled through UI settings.",
+        "Worked with designers to implement an Angular-based front-end web application on top of Salesforce.",
+        "Built out custom back office and HR system for large commercial real estate brokerages.",
+        "Working with another developer, we introduced a node application to browse the Salesforce object model and metadata using the Tooling API."
+      ]
+    },
+    {
+      "position": "Business Applications Developer",
+      "name": "SourceGas",
+      "startDate": "2013-04-15",
+      "endDate": "2015-03-01",
+      "url": "https://sourcegas.com",
+      "keywords": [],
+      "highlights": [
+        "Used ASP.Net MVC 4 and 5 with an MS SQLServer Backend to build web applications that track compliance testing and inspections of equipment required by federal regulations.",
+        "Wrote a C# library for internal developers that includes wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services from Bing, Yahoo, and Google, and standard datatypes, and logic used throughout the software development landscape.",
+        "Deployed a time tracking and reporting site with the other developers used company-wide using ASP.Net MVC 4, jQuery, Durandal, Knockout, and MVC Web API with an MS SQLServer backend.",
+        "Designed and built a C# application to poll data from HR's ADP web service, synchronized with Active Directory.",
+        "Wrote Python scripts using ArcGIS for the GIS teams.",
+        "Maintained the legacy VB 6 codebase, rewriting in C# when appropriate.",
+        "Built out Excel Spreadsheets using VBA macros, database connections, and event triggers used throughout the company.",
+        "Worked directly with business users to determine requirements and specifications of solutions."
+      ]
+    },
+    {
+      "position": "Software Engineer",
+      "name": "Denver IPS",
+      "startDate": "2011-07-10",
+      "endDate": "2013-04-15",
+      "url": "https://denverips.com",
+      "keywords": [],
+      "highlights": [
+        "Using PIC-C, created an embedded application to provide on-the-fly QA on the production machines.",
+        "Using VB.Net and LINQ-SQL, developed applications for converting customer data into machine-ready data.",
+        "Updated legacy VB6 applications to the newer .Net frameworks.",
+        "Using MS SQL, implemented new stored procedures to increase productivity over the VB6 and VB.Net applications.",
+        "Worked with the SharePoint application for help-desk and ticket management.",
+        "Worked with QuickBase to develop customer and project manager portals."
+      ]
+    },
+    {
+      "position": "Engineering Intern",
+      "name": "Xcel Energy",
+      "startDate": "2007-05-10",
+      "endDate": "2011-01-01",
+      "url": "https://xcelenergy.com",
+      "keywords": [],
+      "highlights": [
+        "In charge of developing a program, T-Cycle (Teagan-Cycle), for modeling power plants, that sports a graphical user interface, calculating and tracking performance, alerting engineers to possible causes of problems in plants, and calculation corrections for reporting to government agencies.",
+        "Developed a Microsoft Excel Add-In for automating many of the day-to-day calculations of the team's engineers that enabled them to release their reports in half the time.",
+        "Developed an automated data acquisition system with mechanical engineers and our lab technician that alleviated some of the headaches and difficulties with performance testing.",
+        "Handled all troubleshooting, debugging, and creation of instruction manuals for all applications I developed.",
+        "Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer, including wiring and component placement diagrams.",
+        "Designed and built portable power supplies for use with Rosemount transmitters.",
+        "Took the initiative to create a database for the lab technician to keep track of equipment reservations and calibrations to allow the lab to get more done in less time.",
+        "Provided performance engineers on-site assistance with conducting performance tests and verifying data acquisition system stability.",
+        "Created a database with the asset management group developing for tracking plant overhauls and other capital expenditure projects.",
+        "Responsible for training engineers in all three operating regions on T-Cycle's use, calculations, and features."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Metropolitan State University",
+      "area": "Applied Physics",
+      "studyType": "Bachelor",
+      "startDate": "2004-06",
+      "endDate": "2010-01"
+    },
+    {
+      "institution": "Metropolitan State University",
+      "area": "Applied Mathematics",
+      "studyType": "Bachelor",
+      "startDate": "2004-06",
+      "endDate": "2010-01"
+    },
+    {
+      "institution": "Metropolitan State University",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2004-06",
+      "endDate": "2010-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Expert",
+      "keywords": ["TypeScript", "JavaScript", "Python", "Java", "Kotlin", "C#", "C/C++", "Embedded C", "VB", "VBA", "VB.NET", "F#", "Scala", "Haskell", "Bash", "PHP"]
+    },
+    {
+      "name": "IoT/Automation",
+      "level": "Expert",
+      "keywords": ["Z-Wave", "X10", "ZigBee", "Thread", "MQTT", "Home-Assistant", "OpenHAB", "ioBroker"]
+    },
+    {
+      "name": "DevOps",
+      "level": "Expert",
+      "keywords": ["Ansible", "Salt", "Consol", "Chef", "GitLab CI", "GitHub Actions", "Jenkins", "AWX", "Drone", "Foreman", "MaaS", "ProxMox", "VMWare"]
+    },
+    {
+      "name": "State Management",
+      "level": "Expert",
+      "keywords": ["CI/CD Pipelines", "Docker", "Kubernetes"]
+    },
+    {
+      "name": "Provisioning",
+      "level": "Expert",
+      "keywords": ["Foreman", "AWX"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Homebridge Ultimate Govee Plugin",
+      "description": "Homebridge plugin to support all features of Govee devices.",
+      "highlights": [
+        "Imports device scenes from Govee API.",
+        "Supports granular control of RGBIC light segments.",
+        "Provides full support for Air Purifiers, Aroma Diffusers, RGB lights, and RGBIC lights."
+      ],
+      "keywords": ["Homebridge", "Govee", "IoT"],
+      "url": "https://github.com/constructorfleet/homebridge-ultimate-govee",
+      "roles": ["Developer"],
+      "entity": "ConstructorFleet",
+      "type": "application"
+    },
+    {
+      "name": "DeepThought - Routing",
+      "description": "Self-documenting, self-validating Express.js API wrapper.",
+      "highlights": [
+        "Library to ingest SwaggerDoc, ensuring the API and documentation are always synchronized.",
+        "Performs permission checks as configurable middle-ware handler.",
+        "All inputs presented to endpoint handlers are guaranteed the correct type and within specified constraints.",
+        "Ported library to Android for internal, intent-based, routing within an application."
+      ],
+      "keywords": ["Express.js", "API", "Documentation"],
+      "url": "https://github.com/constructorfleet/Deepthought-Routing",
+      "roles": ["Developer"],
+      "entity": "ConstructorFleet",
+      "type": "application"
+    }
+  ]
+}
