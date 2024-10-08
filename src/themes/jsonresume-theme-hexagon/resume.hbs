@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>CV - {{basics.name}}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
+    integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
+    integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css"
+    integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>{{{_.styles}}}</style>
+</head>
+
+<body resume>
+  <aside>
+    {{#with basics}}
+    <div class="photo">
+      <div class="hex hex-border hex-absolute"></div>
+      <div class="hex hex-solid">
+        {{#if image}}
+          <img src="{{img64 image}}" alt="photo">
+        {{else}}
+          <img src="https://picsum.photos/200" alt="photo">
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="name">
+      {{names name}}
+    </div>
+
+    <div class="title">
+      {{label}}
+    </div>
+
+    <section class="contacts">
+      <div class="heading">
+        <img class="hex-icon" src="{{img64 'contact.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
+          <i class="fa-solid fa-id-badge"></i>
+        </div> --}}
+        <h3>CONTACT ME</h3>
+        <hr />
+      </div>
+
+      <ul>
+        <li>
+          <img class="hex-icon" src="{{img64 'phone.hex.png'}}" />
+            {{!-- <div class="hex hex-solid"></div>
+            <i class="fa-solid fa-phone"></i>
+          </div> --}}
+          <div>
+            {{phone}}
+          </div>
+        </li>
+        <li>
+          <img class="hex-icon" src="{{img64 'email.hex.png'}}" />
+            {{!-- <div class="hex hex-solid"></div>
+            <i class="fa-solid fa-envelope"></i>
+          </div> --}}
+          <div>
+            <a href="mailto:{{email}}">{{email}}</a>
+          </div>
+        </li>
+        <li>
+          <img class="hex-icon" src="{{img64 'website.hex.png'}}" />
+            {{!-- <div class="hex hex-solid"></div>
+            <i class="fa-solid fa-globe"></i>
+          </div> --}}
+          <div>
+            <a target="_blank" href="{{url}}">
+              {{tiny url}}
+              <sup>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </sup>
+            </a>
+          </div>
+        </li>
+        <li>
+          <img class="hex-icon" src="{{img64 'pin.hex.png'}}" />
+            {{!-- <div class="hex hex-solid"></div>
+            <i class="fa-solid fa-location-dot"></i>
+          </div> --}}
+          <div>
+            {{location.city}}, {{location.countryCode}}
+          </div>
+        </li>
+      </ul>
+    </section>
+    {{/with}}
+
+    <section class="skills">
+      <div class="heading">
+        <img class="hex-icon" src="{{img64 'skills.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
+          <i class="fa-solid fa-code"></i> --}}
+        {{!-- </div> --}}
+        <h3>SKILLS</h3>
+        <hr />
+      </div>
+
+      {{#skills skills as | sk |}}
+        <div class="skill">
+          <h6>{{name}}</h6>
+          <div class="level">
+          {{#levels level as | lvl |}}
+            <span class="skill-level {{#if this}}skill-level-active{{/if}}"></span>
+          {{/levels}}
+          </div>
+        </div>
+      {{/skills}}
+    </section>
+
+    <section class="social">
+      <div class="heading">
+        <img class="hex-icon" src="{{img64 'connect.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div> --}}
+        <h3>CONNECT</h3>
+        <hr />
+      </div>
+
+      <ul>
+        {{#each basics.profiles}}
+        <li>
+          <img class="hex-icon" src="{{img64network network}}" />
+            {{!-- <div class="hex hex-solid"></div>
+            <i class="fa-brands fa-{{lowercase network}}"></i>
+          </div> --}}
+          <a rel="noreferrer" target="_blank" href="{{url}}" title="{{network}}">
+            {{tiny url 2}}
+            <sup>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </sup>
+          </a>
+        </li>
+        {{/each}}
+      </ul>
+      </div>
+    </section>
+  </aside>
+
+  <main>
+    <section class="main profile" id="profile">
+      <div class="heading">
+        <img class="hex-icon" src="{{img64 'profile.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
+          <i class="fa-solid fa-id-badge"></i>
+        </div> --}}
+        <h3>PROFILE</h3>
+        <hr />
+      </div>
+
+      {{#with basics}}
+      <summary>{{{md summary}}}</summary>
+      {{/with}}
+    </section>
+
+    <section class="main work" id="work">
+      <div class="heading">
+        <img class="hex-icon" src="{{img64 'work.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
+          <i class="fa-solid fa-briefcase"></i>
+        </div> --}}
+        <h3>WORK EXPERIENCE</h3>
+        <hr />
+      </div>
+
+      {{#each work}}
+      <div class="company">
+
+        <div class="heading">
+          <h4>
+            {{position}} @ {{name}}
+            <a href="{{url}}" target="_blank">{{tiny url}}</a>
+          </h4>
+
+          <div class="dates">
+            <i class="fa-solid fa-calendar-days"></i>
+            {{date startDate}} - {{#if endDate}}{{date endDate}}{{else}}{{date }}{{/if}}
+          </div>
+        </div>
+        {{#if summary}}
+        <div class="summary">{{{md summary}}}</div>
+        {{/if}}
+        {{#if keywords}}
+        <ul class="keywords">
+          {{#each keywords as | keyword |}}
+          <li class="tag">{{loud keyword}}</li>
+          {{/each}}
+        </ul>
+        {{/if}}
+
+        <ul class="bullets">
+          {{#each highlights as | stack |}}
+          <li class="">{{{md stack}}}</li>
+          {{/each}}
+        </ul>
+      </div>
+      {{/each}}
+    </section>
+
+    <section class="main education" id="education">
+      <div class="heading">
+        <img class="hex-icon" src="{{img64 'education.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div> --}}
+        <h3>EDUCATION</h3>
+        <hr />
+      </div>
+
+      {{#each education as | e |}}
+      <div class="institution">
+        <div class="heading">
+          <h4>
+            {{institution}}
+            <a href="{{url}}" target="_blank">{{tiny url}}</a>
+          </h4>
+
+          <div class="dates">
+            <i class="fa-solid fa-calendar-days"></i>
+            {{date startDate}}{{#if endDate}} - {{date endDate}}{{/if}}
+          </div>
+        </div>
+        <div><span class="studyType">{{studyType}}</span> in <span class="studyArea">{{area}}</span></div>
+      </div>
+      {{/each}}
+    </section>
+
+    <section class="main awards" id="awards">
+      <div class="heading">
+        <img class="hex-icon" src="{{img64 'awards.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
+          <i class="fa-solid fa-award"></i>
+        </div> --}}
+        <h3>AWARDS</h3>
+        <hr />
+      </div>
+
+      {{#each awards}}
+      <div class="award">
+        <div class="heading">
+          <h4>
+            {{title}}
+            <a href="{{url}}" target="_blank">{{tiny url}}</a>
+          </h4>
+          <div class="dates">
+            <i class="fa-solid fa-calendar-days"></i>
+            {{date date}}
+          </div>
+        </div>
+        <div class="position"><b>{{{md awarder}}}</b></div>
+        <div class="description">{{{md summary}}}</div>
+
+        <ul class="bullets">
+          {{#each highlights as | stack |}}
+          <li class="">{{stack}}</li>
+          {{/each}}
+        </ul>
+      </div>
+      {{/each}}
+    </section>
+
+    <section class="main projects" id="projects">
+      <div class="heading">
+        <img class="hex-icon" src="{{img64 'projects.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
+          <i class="fa-solid fa-compass-drafting"></i>
+        </div> --}}
+        <h3>PROJECTS</h3>
+        <hr />
+      </div>
+
+      {{#each projects}}
+      <div class="project">
+        <div class="heading">
+          <h4>
+            {{name}}
+            <a href="{{url}}" target="_blank">{{tiny url}}</a>
+          </h4>
+        </div>
+
+        <div class="summary">{{{md description}}}</div>
+
+        <ul class="bullets">
+          {{#each highlights as | stack |}}
+          <li class="">{{{md stack}}}</li>
+          {{/each}}
+        </ul>
+      </div>
+      {{/each}}
+    </section>
+<!--
+    <section class="testimonials" id="testimonials">
+      <div class="heading">
+        <img class="hex-icon" src="{{img64 'testimonial.hex.png'}}" />
+          {{!-- <div class="hex hex-border"></div>
+          <i class="fa-solid fa-comments"></i>
+        </div> --}}
+        <h3>TESTIMONIALS</h3>
+        <hr />
+      </div>
+
+      {{#each testimonials}}
+      <div class="testimonial">
+        <div class="heading">
+          <h4>
+            {{name}}
+          </h4>
+        </div>
+
+        {{!-- <div class="quote"> --}}
+          {{!-- <blockquote> --}}
+            {{{md quote}}}
+          {{!-- </blockquote> --}}
+        {{!-- </div> --}}
+      </div>
+      {{/each}}
+    </section> -->
+  </main>
+</body>
+
+</html>

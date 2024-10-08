@@ -1,0 +1,119 @@
+name: Teagan Glenn
+info:
+  image: teagan-memoji-computer.png
+  label: Senior Software Engineer | Large-Scale Systems & Automation Expert
+  brief: |-
+    With over 20 years of experience in software engineering, I excel in building large-scale distributed systems and automation platforms. Skilled in leading cross-functional teams and driving product experimentation, I have a deep background in cloud computing, A/B testing, and data pipelines. My expertise spans Python, SQL, and Typescript, making me an asset to innovative technology companies looking to scale and improve their platforms.
+skills:
+  sets:
+    - name: Programming Languages
+      skills:
+        - Python
+        - Typescript
+        - SQL
+        - C#
+    - name: Cloud & Data
+      skills:
+        - Google Cloud Platform
+        - Relational Databases (SQL)
+        - NoSQL Databases
+        - Data Pipelines
+        - A/B Testing
+    - name: Software & Tools
+      skills:
+        - DevOps
+        - CI/CD
+        - Automation
+        - Machine Learning
+        - Airflow
+    - name: Soft Skills
+      skills:
+        - Leadership
+        - Cross-Discipline Collaboration
+        - Problem Solving in Ambiguous Environments
+social:
+  - network: LinkedIn
+    user: Teagan42
+    url: https://www.linkedin.com/in/teagan42
+  - network: GitHub
+    user: Teagan42
+    url: https://www.github.com/teagan42
+  - network: GitHub
+    user: ConstructorFleet
+    url: https://www.github.com/constructorfleet
+contact:
+  email: that@teagantotally.rocks
+  phone: (720) 432-5361
+  website: https://blog.teagantotally.rocks
+location:
+  address: 11838 W Marlowe Ave
+  city: Morrison
+  region: CO
+  code: "80465"
+employment:
+  history:
+    - employer: Resideo
+      start: 2022-05-01
+      end: 2024-06-28
+      position: Advanced Senior GraphQL Lead Engineer
+      url: https://www.resideo.com
+      highlights:
+        - Migrated core platform to Apollo Server v4 using NestJS, improving system scalability.
+        - Led a team to implement self-validating and self-documenting GraphQL patterns, increasing productivity and reducing errors.
+        - Worked cross-functionally with engineering and product teams to enhance platform experimentation.
+      keywords:
+        - GraphQL
+        - Typescript
+        - Microservices
+        - Automation
+    - employer: World Wide Technology
+      start: 2021-01-01
+      end: 2022-05-01
+      position: Senior Delivery Engineer
+      url: https://www.wwt.com
+      highlights:
+        - Delivered end-to-end solutions across UX, QA, DevOps, and engineering to streamline product development.
+        - Led the development of automation systems for network and server validation using Python and Ansible.
+        - Improved multi-million dollar projects through innovative automation and cross-functional collaboration.
+      keywords:
+        - Python
+        - Ansible
+        - Automation
+        - Cloud Solutions
+    - employer: Turnberry Solutions
+      start: 2019-05-01
+      end: 2020-09-14
+      position: Senior Automation Engineer for Comcast Applied AI
+      url: https://www.turnberrysolutions.com
+      highlights:
+        - Designed and implemented A/B testing frameworks integrated with ML platforms, supporting large-scale data experiments.
+        - Built Python-based data pipelines, enabling fast deployment of models and experimentation.
+        - Leveraged Airflow for complex data orchestration and machine learning workflows.
+      keywords:
+        - Python
+        - A/B Testing
+        - Machine Learning
+        - Data Pipelines
+        - Airflow
+education:
+  level: Bachelor's
+  history:
+    - institution: Metropolitan State University of Denver - Bachelor's in Applied Physics
+      area: Applied Physics
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+    - institution: Metropolitan State University of Denver - Bachelor's in Applied Mathematics
+      area: Applied Mathematics
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+    - institution: Metropolitan State University of Denver - Bachelor's in Computer Science
+      area: Computer Science
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+meta:
+  format: FRESH@0.6.1
+  version: 1.0.0
+

@@ -1,0 +1,146 @@
+{
+  "basics": {
+    "label": "Expert in Scalable Systems & Automation",
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "website": "https://blog.teagantotally.rocks",
+    "name": "Teagan Glenn",
+    "summary": "Senior Software Engineer with over 20 years of experience in building scalable, high-performance automated systems. \nI specialize in designing and delivering low-latency, high-throughput solutions across multiple industries. My expertise \nin system architecture, cloud infrastructure, and DevOps practices ensures continuous delivery and high availability of\ncomplex, large-scale applications.",
+    "picture": "teagan-memoji-computer.png",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Teagan42",
+        "url": "https://www.linkedin.com/in/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "Teagan42",
+        "url": "https://www.github.com/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "ConstructorFleet",
+        "url": "https://www.github.com/constructorfleet"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Resideo",
+      "website": "https://www.resideo.com",
+      "position": "Advanced Senior GraphQL Lead Engineer",
+      "startDate": "2022-05-01",
+      "endDate": "2024-06-28",
+      "highlights": [
+        "Led the design and implementation of scalable systems capable of processing large volumes of real-time data, ensuring high availability and performance.",
+        "Developed automated systems within the connected home ecosystem, ensuring real-time data processing and integrations with external APIs.",
+        "Introduced self-validating patterns to enhance system reliability in a distributed, automated environment.",
+        "Collaborated with cross-functional teams to align system architecture with business objectives and technical requirements."
+      ]
+    },
+    {
+      "company": "World Wide Technology",
+      "website": "https://www.wwt.com",
+      "position": "Senior Delivery Engineer",
+      "startDate": "2021-01-01",
+      "endDate": "2022-05-01",
+      "highlights": [
+        "Built and optimized automated systems for handling complex data processing workflows, ensuring continuous availability and scaling for large user bases.",
+        "Led automation efforts by optimizing failover systems and implementing monitoring tools to ensure uninterrupted operations."
+      ]
+    },
+    {
+      "company": "KForce",
+      "website": "https://www.kforce.com",
+      "position": "Senior Automation/DevOps Engineer for Charter Advanced Technologies",
+      "startDate": "2020-09-15",
+      "endDate": "2020-12-31",
+      "highlights": [
+        "Led the development of automation systems for edge devices in environments requiring real-time processing and low latency.",
+        "Deployed CI/CD pipelines to ensure seamless integration of new system components with real-time monitoring."
+      ]
+    },
+    {
+      "company": "Turnberry Solutions",
+      "website": "https://www.turnberrysolutions.com",
+      "position": "Senior Automation Engineer for Comcast Applied AI",
+      "startDate": "2019-05-01",
+      "endDate": "2020-09-14",
+      "highlights": [
+        "Designed and implemented high-throughput, low-latency systems for handling large volumes of data in real-time, supporting automated decision-making processes.",
+        "Developed machine learning algorithms for pattern recognition and anomaly detection in real-time data streams.",
+        "Worked on scaling the data processing system to support high transaction volumes across multiple applications."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Applied Physics",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Applied Physics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Applied Mathematics",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Applied Mathematics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Computer Science",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Computer Science",
+      "studyType": "Bachelor's"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "C#",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "System Architecture & Automation",
+      "keywords": [
+        "Low-Latency Systems",
+        "High-Throughput Systems",
+        "Distributed Systems",
+        "Continuous Availability",
+        "CI/CD",
+        "DevOps Practices"
+      ]
+    },
+    {
+      "name": "Scalability & Performance",
+      "keywords": [
+        "Large-Scale Systems Optimization",
+        "Real-Time Data Processing",
+        "System Monitoring & Reliability"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Infrastructure as Code (IaC)"
+      ]
+    },
+    {
+      "name": "Soft",
+      "keywords": [
+        "Team Leadership",
+        "Cross-Discipline Collaboration",
+        "Attention to Detail",
+        "Agile Methodologies (Scrum)"
+      ]
+    }
+  ]
+}

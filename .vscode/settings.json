@@ -1,0 +1,24 @@
+{
+    "yaml.schemas": {
+        "/Users/tglenn/src/HackMyResume/assets/fresh-resume-schema.json": [
+            ".resume.yaml",
+            "file:///Users/tglenn/src/HackMyResume/resumes/base.resume.yaml"
+        ]
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "resume.json"
+            ],
+            "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json"
+        }
+    ],
+    "json-yaml-schema-selector.additionalSchemas": [
+        "/Users/tglenn/src/HackMyResume/assets/fresh-resume-schema.json"
+    ],
+    "markdown-pdf.omitBackground": true,
+    "markdown-pdf.styles": [
+        "docs/compact.css",
+        "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    ]
+}

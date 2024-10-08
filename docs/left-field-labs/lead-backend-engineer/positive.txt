@@ -1,0 +1,61 @@
+Teagan Glenn
+Email: that@teagantotally.rocks
+Tel: (720) 432-5361
+Web: https://blog.teagantotally.rocks
+================================================================================
+
+
+Expert Backend Software Developer with over 20 years of experience in designing, developing, and deploying scalable backend systems. Proven track record in creating robust APIs and microservices architecture, with deep expertise in Python, Flask, Django, and cloud platforms like Google Cloud Platform (GCP). Skilled in developing backend architecture, session management, authentication, and scaling systems with a focus on security and reliability. I thrive in collaborative environments, driving technical direction, and solving complex challenges through empathy and innovation.
+
+
+SKILLS -------------------------------------------------------------------------
+
+- Backend Development: Python Flask Django REST API Development MySQL PostgreSQL 
+- Cloud & DevOps: Docker Kubernetes Microservices DevOps CI/CD 
+- Tools & Automation: Docker Kubernetes E2E Testing Unit Testing 
+- Soft: Team Leadership Collaboration Problem-Solving 
+
+
+History ---------------------------------------------------------------------
+
+Advanced Senior GraphQL Lead Engineer, Resideo (2022-05 — 2024-06)
+
+- Led backend development initiatives, improving the architecture of a widely used platform with focus on GraphQL.
+- Implemented microservices and scalable architecture using Docker and Kubernetes, improving the platform's resilience and scalability.
+- Guided cross-functional teams on implementing secure and testable backend systems.
+- Migrated critical components from monolithic to microservices architecture.
+
+Senior Delivery Engineer, World Wide Technology (2021-01 — 2022-05)
+
+- Developed and deployed REST APIs and backend services using Python, enhancing system interoperability.
+- Architected a solution that integrated cloud platforms with on-premise services for large-scale data management.
+- Led the development of containerized applications using Docker and Kubernetes.
+- Deployed services on Google Cloud Platform (GCP) ensuring scalability and reliability.
+
+Senior Automation Engineer for Comcast Applied AI, Turnberry Solutions (2019-05 — 2020-09)
+
+- Developed REST APIs and backend microservices using Python, Flask, and SQL databases.
+- Designed and deployed containerized environments using Docker and Kubernetes on Google Cloud Platform.
+- Created infrastructure automation solutions using Ansible, improving deployment efficiency.
+- Integrated NoSQL databases like MongoDB into backend services for real-time data handling.
+
+
+
+
+Education ----------------------------------------------------------------------
+
+Metropolitan State University of Denver - Bachelor's in Physics (2005-08 — 2010-04)
+
+Metropolitan State University of Denver - Bachelor's in Mathematics (2005-08 — 2010-04)
+
+Metropolitan State University of Denver - Bachelor's in Computer Science (2005-08 — 2010-04)
+
+
+
+
+
+
+
+
+
+

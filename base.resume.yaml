@@ -1,0 +1,379 @@
+name: Teagan Glenn
+info:
+  image: teagan-memoji-computer.png
+  label: Expert Software Engineer | Delivering Innovative Automated Solutions
+  brief: |-
+    As an engineer with over 20 years in the industry, I leverage my extensive 
+    expertise in automating complex processes to deliver innovative and efficient 
+    solutions. With a robust background in software development and a reputation 
+    for technical brilliance, I thrive in environments where cutting-edge 
+    technology meets real-world applications. My proficiency extends beyond coding; 
+    I bring a visionary approach to automation, ensuring seamless integration and 
+    exceptional performance, characterized by a blend of technical acumen and a 
+    deep understanding of user needs, making me an asset to any forward-thinking 
+    organization.
+disposition:
+  travel: 25
+  remote: true
+  commitment:
+    - contract
+    - permanent
+  relocation:
+    willing: false
+  authorization: citizen
+skills:
+  - Typescript
+  - Python
+  - Java
+  - C#
+  - Team Leadership
+  - Cross-Disicpline Collaboration
+social:
+  - network: LinkedIn
+    user: Teagan42
+    url: https://www.linkedin.com/in/teagan42
+  - network: GitHub
+    user: Teagan42
+    url: https://www.github.com/teagan42
+  - network: GitHub
+    user: ConstructorFleet
+    url: https://www.github.com/constructorfleet
+contact:
+  email: that@teagantotally.rocks
+  phone: (720) 432-5361
+  website: https://blog.teagantotally.rocks
+location:
+  address: 11838 W Marlowe Ave
+  city: Morrison
+  region: CO
+  code: "80465"
+speaking:
+  - event: Develop Denver
+    title: Presenter
+    date: 2017-07-01
+    location: Denver, CO
+    summary: Popular request for an update to previous presentation that focused on the technical and security aspects of Internet-of-Things and Automation platforms.
+    highlights:
+      - Presented to an audience of over 100.
+      - IoT protocols, security, and mitigating risks.
+      - Demonstrated implementing a Python-based rules engine.
+      - Compared the various Voice Assistants available to the general public.
+  - event: Develop Denver
+    title: Presenter
+    date: 2016-07-01
+    location: Denver, CO
+    summary: Asked to present an introduction to home and life automation at Develop Denver, a conference for developers, by developers.
+    highlights:
+      - Presented to an audience of over 100.
+      - Provided basic automated solutions to water and energy conservation.
+      - Walked through improving home security using Internet-of-Things and automated tools.
+employment:
+  history:
+    - employer: Resideo
+      start: 2022-05-01
+      end: 2024-06-28
+      position: Advanced Senior GraphQL Lead Engineer
+      url: https://www.resideo.com
+      highlights:
+        - Leading innovative technical and philosophical changes to Resideo's core platform of widely used professional and consumer-connected home products.
+        - Migrated all subgraphs and gateways from Apollo Server 2 using NexusJs to Apollo Server v4 using NestJS.
+        - Worked with engineers from various teams to improve their understanding and use of GraphQL, software design patterns, and other SDLC areas.
+        - Implemented a self-validating, self-documenting pattern via GraphQL custom scalars and types.
+        - Led a team of 3 in developing new features and leading changes toward best practices.
+        - To improve the quality of team deliverables, instituted guidelines and tooling around the review process, testing patterns and implementation, and code style.
+        - Initiated group and individual lessons that enabled a cohesive understanding of frameworks, tools, and patterns.
+      keywords:
+        - Typescript
+        - GraphQL
+        - Schema
+        - Microservices
+        - Team Leadership
+        - DevOps
+    - employer: World Wide technology
+      start: 2021-01-01
+      end: 2022-05-01
+      position: Senior Delivery Engineer
+      url: https://www.wwt.com
+      highlights:
+        - Found solutions to deliver the product, from development, UX, QA, DevOps and more.
+        - Initiated a working group to facilitate cross-functional best practices and to reduce “imposter syndrome”.
+        - Work on an internal sales tool that allows clients to assess their current state and where WWT can help improve/educate.
+        - A top client, to keep the multi-million dollar per year contract, requested a verifiable report detailing the interconnections match the explicit specifications within 6 weeks. Tasked to me, as one of the few who had the skills and knowledge needed. I presented to the client, 5 weeks later, the solution I had designed, built, and deployed; which later received 3 separate awards for its success. - A service that utilized in-band and out-of-band connections matching source ports to their destination port through the use of IP tables, ARP tables, IPMI, Redfish, iLO, iDRAC, and LLDP automated validation of in-band and out-of-band network connections between servers, switches, and routers using Ansible to traverse the network connections.
+      keywords:
+        - DevOps
+        - System Automation
+        - Ansible
+        - Network Automation
+        - QA Automation
+        - Python
+        - NXOS
+    - employer: KForce
+      start: 2020-09-15
+      end: 2020-12-31
+      position: Senior Automation/DevOps Enginner for Charter Advanced Technologies
+      url: https://www.kforce.com
+      highlights:
+        - Team was put together to demonstrate the feasibility of VR-as-a-Service using edge hardware.
+        - Implemented robust automation scripts and tools to enhance the efficiency and reliability of edge device operations in real-time service environments.
+      keywords:
+        - OpenShift
+        - Infrastructure as Code
+        - Ansible
+        - Linux KVM
+    - employer: Turnberry Solutions
+      start: 2019-05-01
+      end: 2020-09-14
+      position: Senior Automation Enginner for Comcast Applied AI
+      url: https://www.turnberrysolutions.com
+      highlights:
+        - Built a full-featured NLP training, processing, and annotating application with pluggable data sources, and declarative logic provided through configuration files that was used by around 80% of the ML teams.
+        - Created a prototype, using Python 3.7 and Tensorflow 1.12, to demonstrate the efficacy of an algorithm for detecting deliveries to customer's homes of all types, including food and parcel deliveries, i.e. Amazon, USPS, FedEx, etc. all the while trying to account for camera placement, differences in environment and neighborhood style.
+        - Developed Ansible playbooks and roles that worked in conjunction with Terraform to facilitate provisioning, deployment, and configuration of the components that comprised the in-house developed Automation Machine Learning Platform (AMP) designed to empower research teams to rapidly deploy models, perform A/B testing and deployment of new, up-to-date deep learning models with metrics, monitoring, and failover baked into the solution.
+        - Worked with a small DevOps team to standardize automation, infrastructure, and the configuration of components of the AMP stack using Amazon AWS EKS, IAM, EC2, and more.
+        - Developed a universal, plug-in based, library in Python for transparently gathering internal application metrics without any impact on readability or scalability of the package and pushed metrics gathered to services such as Influx, Prometheus, and others.
+        - Work alongside Comcast manager to improve a library, written in GoLang, that integrates with, essentially any and all Pub/Sub systems, including Kinesis, Kafka, MQTT, RabbitMQ.
+      keywords:
+        - MLOps
+        - Angular
+        - Kinesis
+        - Kafka
+        - Python
+        - Computer Vision
+        - Anomaly Detection
+        - Machine Learning
+        - GoLang
+        - C++
+    - employer: Aetna
+      start: 2019-04-01
+      end: 2019-05-01
+      position: Senior Staff Engineer
+      url: https://www.aetna.com
+      highlights:
+        - Designed and implemented full vertical stack CI/CD for first feature integrating with CVS API.
+        - Work closely with product to refine requirements and feasibility of feature sets.
+        - Assisted with implementing features in React Javascript, iOS Swift and Kotlin Android.
+        - Worked with the architecture team to refine and expand the unified architecture for the Android platform.
+      keywords:
+        - Docker
+        - DevOps
+        - Jenkins
+        - Software Architecture
+        - C/C++
+        - Ruby on Rails
+        - Kotlin
+        - Java
+    - employer: Aetna
+      start: 2017-11-01
+      end: 2019-04-01
+      position: Senior Android Engineer
+      url: https://www.aetna.com
+      highlights:
+        - Responsible for mentoring and conducting engineering best practices lessons.
+        - Introduced scalable and maintainable design pattern proof of concepts, including Decorator Patterns for moving meta data outside of code logic, self-binding RecyclerView.
+        - Preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API.
+        - Together with the architecture team defined and implemented a unified architecture for the application.
+      keywords:
+        - Android
+        - Kotlin
+        - Java
+        - Software Architecture
+        - Mentoring
+    - employer: TEKSystems
+      start: 2017-09-01
+      end: 2017-11-01
+      position: Senior Android Engineer for Vail Resorts - EpicMix
+      url: https://www.teksystems.com
+      highlights:
+        - Implemented deep-linking in the EpicMix Android app using Uri interception and processing.
+        - Due to target SDK version change, added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK related changes.
+        - Refactored project to get existing unit tests running and passing, implemented unit and integration tests around new features added.
+        - Discovered and fixed application security issues, utilizing the operating system account manager for managing user accounts.
+        - Added new resort to the application.
+        - Bug fixes around concurrency issues with background threads and issues with Fragment and Activity lifecycle hooks being used incorrectly.
+      keywords:
+        - Android
+        - Java
+    - employer: MassRoots, Inc.
+      start: 2016-09-01
+      end: 2017-07-01
+      position: Native Team Lead
+      url: https://www.massroots.com
+      highlights:
+        - Re-wrote the Android mobile application architected around an asynchronous event bus with highly optimized thread utilization and a single-activity router.
+        - The new android application made use of bi-directional data binding, single activity router and a home-grown live data system allowing all views saved to the backstack to update from any API request.
+        - Implemented my open source self-documenting, self-validating API library into Node.js backend services.
+        - Worked closely with product, design and engineering teams to implement technical feasibility and product feedback sessions to improve communication and collaboration between them.
+        - Acted to mentor and grew teams professionally, implementing better coding standards and engineering practices across the engineering department.
+      keywords:
+        - Team Leadership
+        - Android
+        - Kotlin
+        - Java
+        - Mentoring
+        - Inter-departmental collaboration
+        - Feature Planning
+    - employer: Apto
+      start: 2015-03-01
+      end: 2017-02-01
+      position: Salesforce Engineer
+      url: https://www.aptotude.com
+      highlights:
+        - Designed and built a plug-n-play integration system for push, pull and bi-directional synchronization with 3rd parties.
+        - Implemented a fully dynamic trigger handler factory with trigger execution control through custom settings.
+        - Worked with designers to implement angular-based front-end pages on top of Salesforce.
+        - As a team, built out custom back-office and HR system for large commercial real estate brokerage.
+        - Working with another developer, build out a node application to browse the Salesforce object model and meta data using the Tooling API.
+      keywords:
+        - Apex Programming
+        - Salesforce.com Development
+        - Node.js
+        - Ionic Framework
+        - SOAP
+    - employer: SourceGas
+      start: 2013-04-01
+      end: 2015-02-01
+      position: Analyst - Business Applications Developer
+      url: https://www.sourcegas.com
+      highlights:
+        - Work with business users to determine application requirements and specifications.
+        - Design and built web applications, using ASP.Net MVC 4 and 5 with a MS SQLServer backend, for tracking compliance testing and inspections of equipment as required by federal regulations.
+        - Built a C# library for SourceGas developers to use that includes wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services from Bing, Yahoo and Google. As well as common datatypes and functionality used throughout the software development landscape.
+        - Worked with other developers to design and build a time tracking and reporting site that is used company-wide using ASP.Net MVC 4, JQuery, Durandal, Knockout and MVC Web Api with a MS SQLServer backend.
+        - Designed and built a C# application to poll data from an ADP (HR System) web service and sync with Active Directory.
+        - Wrote python scripts for the GIS team using ArcGIS.
+        - Maintain VisualBasic 6 codebase, rewriting in C# when appropriate.
+        - Build complex Excel spreadsheets used throughout the company utilizing VBA macros, database connections and event triggers.
+      keywords:
+        - C#
+        - Visual Basic.NET
+        - ASP.NET MVC
+        - Microsoft SQL Server
+        - Windows Presentation Foundation (WPF)
+        - Windows Communication Foundation (WCF)
+        - Python
+    - employer: Denver Integrated Printing Solutions
+      start: 2011-07-01
+      end: 2013-04-01
+      position: Software Engineer
+      url: https://www.denverips.com
+      highlights:
+        - Using PIC-C, developed an embedded application to provide on-the-fly QA on the production machines.
+        - Using VB.Net and LINQ-SQL, developed applications for converting customer data into machine-formatted data.
+        - Updated legacy VB6 applications to the newer .Net framework.
+        - Using MS SQL, implemented new stored procedures to increase productivity over the VB6 and VB.Net applications currently in use.
+        - Worked with the SharePoint application for help-desk and ticket management.
+        - Worked with QuickBase to help develop a customer and project manager portal.
+      keywords:
+        - C#
+        - Visual Basic.NET
+        - Embedded C
+        - Microsoft SQL Server
+        - Windows Presentation Foundation (WPF)
+        - Windows Communication Foundation (WCF)
+        - Subversion
+    - employer: Xcel Engergy
+      start: 2007-05-01
+      end: 2011-01-01
+      position: Engineering Intern/Software Developer
+      url: https://www.xcelenergy.com
+      highlights:
+        - Placed in charge of developing a program, T-Cycle, for modeling power plants using a graphical user interface, calculating performance, tracking performance history, alerting engineers to possible causes of problems in plant and calculation corrections for reporting to government agencies.
+        - Developed a Microsoft Excel add-in for automating many of the day-to-day calculations of the team's engineers that enabled them to release their reports quicker.
+        - Worked with mechanical engineers and our lab technician to develop a mostly automated data acquisition system that alleviated some of the headaches and difficulties setting up and during performance tests.
+        - Handled all troubleshooting, debugging and creating instruction manuals for all applications developed.
+        - Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer including wiring and configuration.
+        - Designed and built portable power supplies for use with Rosemount transmitters.
+        - Took initiative to create a database for the lab technician for keeping track of equipment reservations and calibration tracking in an attempt to allow the lab to get more done in less time.
+        - Assisted with conducting performance tests and verifying data acquisition system stability.
+        - Assisted the asset management group with developing a database for tracking plant overhaul and other capital projects.
+        - Responsible for training engineers in all three operating regions on how to T-Cycle's use and calculations.
+      keywords:
+        - VBA
+        - Microsoft Excel
+        - Microsoft Access
+        - Process Engineering
+education:
+  level: Bachelor's
+  history:
+    - institution: Metropolitan State University of Denver
+      area: Applied Physics
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+    - institution: Metropolitan State University of Denver
+      area: Applied Mathematics
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+    - institution: Metropolitan State University of Denver
+      area: Computer Science
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+testimonials:
+  - name: James Gibson
+    quote: >-
+      Teagan's ability to look at a complex problem and reduce it, quickly I
+      might add, into an extendable and reusable architecture is surpassed by no
+      software engineer I have ever worked with. In the matter of 3 hours she
+      had designed and beta spec'ed the architecture for a commission/invoice
+      integration with a financial system; it was approved by the client in ONE
+      meeting. 
+
+      I have had the pleasure of knowing Teagan for the past three years now,
+      and have worked side by side with her for the last year. I can say without
+      a doubt that if she quit her current job, I'd likely be applying to her
+      new job; She is that great to work with, always honest and always
+      knowledgeable of the task at hand. 
+
+      Teagan is a relentless scholar, either from the academic perspective
+      nearly having four degrees to the community side and her continual
+      contribution to open source. Teagan also is enthralled with automation and
+      has taken it upon herself to automate her home and daily life where
+      possible.
+  - name: Alan Janis
+    quote: >-
+      Teagan is the kind of engineer who can be intimidating to work with 
+      because of her breadth and depth of knowledge, and ability to pick up new 
+      software, skills, and practices seemingly overnight. However, she is wiling to
+      share and even mentor in these areas which I feel increases her value to her team, 
+      the company, and outside members of any project that she is tasked with. 
+      I know that she sometimes struggles with how her message comes across in conversation,
+      but she is quick to acknowledge a mistake, take it to heart, apologize and take 
+      corrective action. Teagan is a fantastic asset and addition to any team or project,
+      not just because of her skill set, but because of her diligence and experience taking
+      point on difficult projects and tasks, seeing them through to completion. 
+      She has technical mastery of many programming languages, architectures, development 
+      methodologies, and well as significant knowledge of underlying systems 
+      (bare metal, KVM, cloud providers, etc.)
+  - name: Aram Hamper
+    quote: >-
+      Teagan has been a joy to work with. I’ve been on two engagements with her now, and she 
+      consistently brings positive energy. She is intelligent, confident, outspoken, and 
+      opinionated, and I mean those things for the compliment that they are. Teagan is also 
+      humble, caring, kind, and not afraid to admit when she is wrong. She is considerate 
+      of the feelings of others and quick to resolve conflict. Teagan has a passion for 
+      continuous improvement, particularly when it comes to automation. She loves to share 
+      her work with others whenever given a chance. She loves to teach and has a lot of good 
+      things to share. When I expressed a desire to understand programming better, she started 
+      a class for people like me. On the Psyclops Team, she paired with developers (regardless 
+      of the stack) and QAs and brought a wealth of value in her first few days as an employee. 
+      On the JPMC-NAIC automation project, she quickly picked up on abstract concepts she had 
+      previously had little experience with.
+  - name: Brandon Dorris
+    quote: >-
+      Teagan is eager to learn and even more eager to help others. While at Metropolitan State 
+      College of Denver, I had the opportunity to be in a few classes with Teagan. She was 
+      always on top of her work and always had innovative solutions for problems we worked on 
+      together. Teagan would be a great addition to any team given her excellent work ethic and 
+      her willingness to take on a leadership role.
+  - name: Kurt Dageforde
+    quote: >-
+      Teagan is a highly intelligent, creative, and driven software engineer. We shared an office 
+      for over a year and worked on several projects together. She had created a highly complex 
+      heat balance program from scratch, and I was constantly impressed with her ability to 
+      troubleshoot and improve the software. I can confidently endorse Teagan's ability as a 
+      software engineer and have no doubt that she would be an asset to any company.
+meta:
+  format: FRESH@0.6.1
+  version: 1.0.0

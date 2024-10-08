@@ -1,0 +1,179 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "basics": {
+    "name": "Teagan Glenn",
+    "label": "Senior Software Engineer",
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "url": "https://blog.teagantotally.rocks",
+    "location": {
+      "address": "Morrison, CO, US",
+      "city": "Morrison",
+      "countryCode": "US",
+      "region": "CO"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "teagan42",
+        "url": "https://linkedin.com/in/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "Teagan42",
+        "url": "https://github.com/Teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "constructorfleet",
+        "url": "https://github.com/constructorfleet"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Resideo",
+      "location": "Morrison, CO",
+      "description": "Home Automation Company",
+      "position": "Advanced Senior GraphQL Lead Engineer",
+      "url": "https://resideo.com",
+      "startDate": "2022-06",
+      "endDate": "2024-07",
+      "summary": "Lead the GraphQL Schema and Feature team, driving philosophical and innovative solutions to challenges presented by Resideo's core platform of professional and consumer connected products.",
+      "highlights": [
+        "Led the design and implementation of innovative schema configurations enhancing communication and functionality across IoT devices.",
+        "Mentored and guided teams in implementing GraphQL best practices.",
+        "Conducted training and workshops to elevate team capabilities in cutting-edge IoT solutions.",
+        "Facilitated the migration of all subgraphs and gateways from NexusJS Apollo Server v2 to NestJS using Apollo Server v4 federation 2.3.",
+        "Implemented patterns of self-validating, self-documenting domain driven data types using GraphQL scalars and type system."
+      ]
+    },
+    {
+      "name": "World Wide Technology",
+      "location": "St. Louis, MO",
+      "description": "Technology Service Provider",
+      "position": "Senior Delivery Engineer",
+      "url": "https://wwt.com",
+      "startDate": "2021-01",
+      "endDate": "2022-05",
+      "summary": "Built an award winning solution validating  inventory, connections and health of customer orders racks.",
+      "highlights": [
+        "Increasing rack validation througpught from less than 10 to over 60 daily, while completely removing the possibility of errors.",
+        "Built a framework to discover servers, switches, routers, and storage devices using mDNS, PXE, iPXE, and DHCP that generates detailed validation reports.",
+        "Initiated a weekly self-paced training session to explore concepts, terminology, and processes used in both software and DevOps.",
+        "Created custom Ansible plugins for simplifying complicated task logic, inventory, and logging requirements, reducing support requests to developers from 3 a day to once a week."
+      ]
+    },
+    {
+      "name": "KForce",
+      "location": "Remote",
+      "description": "Staffing and Solutions Firm",
+      "position": "Automation Engineer @ Charter Advanced Technologies",
+      "url": "http://kforce.com",
+      "startDate": "2020-09",
+      "endDate": "2020-12",
+      "summary": "To demonstrate the feasibility of VR-as-a-Service, developed the infrastructure for deploying the proof-of-concept.",
+      "highlights": [
+        "Pioneered the design of a scalable network architecture for next-generation VR and gaming services.",
+        "Implemented robust automation scripts and tools to enhance the efficiency and reliability of edge device operations in real-time service environments."
+      ]
+    },
+    {
+      "name": "Turnberry Solutions",
+      "location": "Blue Bell, PA",
+      "description": "Consulting and Professional Services",
+      "position": "Automation Engineer @ Comcast Applied AI",
+      "url": "https://turnberrysolutions.com",
+      "startDate": "2019-05",
+      "endDate": "2020-09",
+      "summary": "Built the tooling and pipelines necessary to deliever better home security through the use of computer vision, audio analysis and anomaly detection.",
+      "highlights": [
+        "Created a prototype using Python 3.7 and Tensorflow 1.12 to demonstrate an algorithm for detecting deliveries of all types.",
+        "Developed tools empowering the research teams to rapidly develop, perform A/B testing, and deploy machine learning models with metrics collection, monitoring, and failover.",
+        "Worked with a small DevOps team to standardize automation, infrastructure, and the Automated Machine Learning Platform stack configuration using Amazon AWS, EKS, IAM, EC2, and more.",
+        "Improved a library, written in GoLang, that integrates with nearly any Pub/Sub system, including Kinesis, Kafka, MQTT, RabbitMQ."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Metropolitan State University",
+      "area": "Applied Physics",
+      "studyType": "Bachelor",
+      "startDate": "2004-06",
+      "endDate": "2010-01"
+    },
+    {
+      "institution": "Metropolitan State University",
+      "area": "Applied Mathematics",
+      "studyType": "Bachelor",
+      "startDate": "2004-06",
+      "endDate": "2010-01"
+    },
+    {
+      "institution": "Metropolitan State University",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2004-06",
+      "endDate": "2010-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Expert",
+      "keywords": ["TypeScript", "JavaScript", "Python", "Java", "Kotlin", "C#", "C/C++", "Embedded C", "VB", "VBA", "VB.NET", "F#", "Scala", "Haskell", "Bash", "PHP"]
+    },
+    {
+      "name": "IoT/Automation",
+      "level": "Expert",
+      "keywords": ["Z-Wave", "X10", "ZigBee", "Thread", "MQTT", "Home-Assistant", "OpenHAB", "ioBroker"]
+    },
+    {
+      "name": "DevOps",
+      "level": "Expert",
+      "keywords": ["Ansible", "Salt", "Consol", "Chef", "GitLab CI", "GitHub Actions", "Jenkins", "AWX", "Drone", "Foreman", "MaaS", "ProxMox", "VMWare"]
+    },
+    {
+      "name": "State Management",
+      "level": "Expert",
+      "keywords": ["CI/CD Pipelines", "Docker", "Kubernetes"]
+    },
+    {
+      "name": "Provisioning",
+      "level": "Expert",
+      "keywords": ["Foreman", "AWX"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Homebridge Ultimate Govee Plugin",
+      "description": "Homebridge plugin to support all features of Govee devices.",
+      "highlights": [
+        "Imports device scenes from Govee API.",
+        "Supports granular control of RGBIC light segments.",
+        "Provides full support for Air Purifiers, Aroma Diffusers, RGB lights, and RGBIC lights."
+      ],
+      "keywords": ["Homebridge", "Govee", "IoT"],
+      "url": "https://github.com/constructorfleet/homebridge-ultimate-govee",
+      "roles": ["Developer"],
+      "entity": "ConstructorFleet",
+      "type": "application"
+    },
+    {
+      "name": "DeepThought - Routing",
+      "description": "Self-documenting, self-validating Express.js API wrapper.",
+      "highlights": [
+        "Library to ingest SwaggerDoc, ensuring the API and documentation are always synchronized.",
+        "Performs permission checks as configurable middle-ware handler.",
+        "All inputs presented to endpoint handlers are guaranteed the correct type and within specified constraints.",
+        "Ported library to Android for internal, intent-based, routing within an application."
+      ],
+      "keywords": ["Express.js", "API", "Documentation"],
+      "url": "https://github.com/constructorfleet/Deepthought-Routing",
+      "roles": ["Developer"],
+      "entity": "ConstructorFleet",
+      "type": "application"
+    }
+  ]
+}

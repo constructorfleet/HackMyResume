@@ -1,6 +1,6 @@
 node_modules/
 doc/
-docs/
+#docs/
 local/
 npm-debug.log
 *.map
@@ -38,4 +38,5 @@ tramp
 
 # cask packages
 .cask/
-site/
+
+.DS_Store

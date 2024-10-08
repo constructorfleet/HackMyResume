@@ -1,0 +1,208 @@
+{
+  "name": "Teagan Glenn",
+  "info": {
+    "label": "Senior Software Engineer - Architecture, Automation, Schema, and Design"
+  },
+  "contact": {
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "website": "https://blog.teagantotally.rocks"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2024-08-01T20:07:12.211Z"
+  },
+  "location": {
+    "address": "Morrison, CO, US"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Advanced Senior GraphQL Engineer",
+        "summary": "Lead the GraphQL Schema and Feature team, driving philosophical and innovative solutions to challenges presented by Resideo's core platform of professional and consumer connected products.",
+        "start": "2022-06",
+        "end": "2024-06",
+        "keywords": [],
+        "highlights": [
+          "Managed a small development team building out schema and new features.",
+          "Provided mentoring and education through group and individual sessions.",
+          "Lead the migration onto GraphQL Federation 2.0 via NestJS's suite of frameworks.",
+          "Implemented self-documenting, implicitly validated, GraphQL that reduced reported issues and improved confidence in our delivery.",
+          "Improved the quality of the codebase through demonstration and enforcing industry best practices.",
+          "Implemented policy requiring engineers meet with stakeholders prior to ticket, improving communication, understanding and reducing reported issues."
+        ]
+      },
+      {
+        "position": "Senior Delivery Engineer",
+        "summary": "Built an award winning solution validating  inventory, connections and health of customer orders racks.",
+        "start": "2021-01",
+        "end": "2022-05",
+        "keywords": [],
+        "highlights": [
+          "Increasing rack validation througpught from less than 10 to over 60 daily, while completely removing the possibility of errors.",
+          "Created automated validation and remediation frameworks, eliminating supply chain bottlenecks.",
+          "Initiated weekly training sessions, improving team communication and project collaboration.",
+          "Developed tools using Ansible, Python, and various frameworks, helping handle or reduce support requests close to 50%."
+        ]
+      },
+      {
+        "position": "Automation Engineer for Charter Advanced Technologies",
+        "summary": "To demonstrate the feasibility of VR-as-a-Service, developed the infrastructure for deploying the proof-of-concept.",
+        "start": "2020-09",
+        "end": "2020-12",
+        "keywords": [],
+        "highlights": [
+          "Implemented a provisioning pipeline using Foreman and AWX, reducing deployment time by 30%.",
+          "Designed a scalable network architecture for highly available edge computing solutions, at less than 5ms latency.",
+          "Enhanced edge device operations with robust automation scripts, improving efficiency and reducing manual intervention by 40%."
+        ]
+      },
+      {
+        "position": "Automation Engineer for Comcast Applied AI",
+        "summary": "Built the tooling and pipelines necessary to deliever better home security through the use of computer vision, audio analysis and anomaly detection.",
+        "start": "2019-04",
+        "end": "2020-09",
+        "keywords": [],
+        "highlights": [
+          "Developed a prototype using Python 3.7 and Tensorflow 1.12 with computer vision to detect various types of deliveries, improving detection accuracy by 25%.",
+          "Developed tools that empowered research teams to rapidly develop, perform A/B testing, and deploy machine learning models with integrated metrics collection, monitoring, and failover, reducing model deployment time by 30%.",
+          "Collaborated with a DevOps team to standardize automation, infrastructure, and the Automated Machine Learning Platform stack configuration using Amazon AWS, EKS, IAM, and EC2, improving system reliability and scalability.",
+          "Created a universal, plug-in-based library in Python to transparently gather internal application metrics, streamlining metrics collection and improving system monitoring.",
+          "Enhanced a GoLang library to integrate with various Pub/Sub systems, improving system interoperability and data flow efficiency."
+        ]
+      },
+      {
+        "position": "Senior Staff Engineer",
+        "start": "2017-11",
+        "end": "2019-03",
+        "keywords": [],
+        "highlights": [
+          "Planned and implemented vertical stack integrations with CVS API, enhancing system interoperability.",
+          "Collaborated with product teams to refine and improve feature sets, increasing user satisfaction and feature adoption.",
+          "Mentored teams on engineering best practices, leading to improved code quality and team skill development.",
+          "Introduced scalable and maintainable design pattern proofs-of-concept, improving development efficiency."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "Metropolitan State University",
+        "start": "2004-08",
+        "end": "2010-04",
+        "summary": "",
+        "area": "Applied Physics, Applied Mathematics, and Computer Science",
+        "studyType": "Bachelor"
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Languages",
+        "skills": [
+          "Java",
+          "Kotlin",
+          "Typescript",
+          "Python",
+          "Groovy",
+          "YAML"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "skills": [
+          "Spring Boot"
+        ]
+      },
+      {
+        "name": "Cloud",
+        "skills": [
+          "AWS (EKS, S3, SNS, SQS, KMS)"
+        ]
+      },
+      {
+        "name": "CI/CD",
+        "skills": [
+          "Jenkins",
+          "GitLab"
+        ]
+      },
+      {
+        "name": "Container Orchestration",
+        "skills": [
+          "Kubernetes",
+          "Helm"
+        ]
+      },
+      {
+        "name": "Repositories",
+        "skills": [
+          "Bitbucket",
+          "JFrog Artifactory"
+        ]
+      },
+      {
+        "name": "Virtualization",
+        "skills": [
+          "VMWare"
+        ]
+      },
+      {
+        "name": "Authentication",
+        "skills": [
+          "Atlassian Crowd"
+        ]
+      },
+      {
+        "name": "Databases",
+        "skills": [
+          "PostgreSQL"
+        ]
+      },
+      {
+        "name": "Messaging",
+        "skills": [
+          "Kafka"
+        ]
+      },
+      {
+        "name": "Orchestration",
+        "skills": [
+          "Kubernetes",
+          "Istio"
+        ]
+      }
+    ]
+  },
+  "social": [
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://linkedin.com/in/Teagan42",
+      "user": "Teagan42"
+    },
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/Teagan42",
+      "user": "Teagan42"
+    },
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/constructorfleet",
+      "user": "ConstructorFleet"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Automation and AI/ML"
+    },
+    {
+      "name": "Software Architecture and Patterns"
+    }
+  ]
+}

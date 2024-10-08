@@ -34,9 +34,9 @@ class FreshResume {// extends AbstractResume
 
 
   /** Initialize the the FreshResume from JSON string data. */
-  parse( stringData, opts ) {
-    this.imp = this.imp != null ? this.imp : {raw: stringData};
-    return this.parseJSON(JSON.parse( stringData ), opts);
+  parse(stringData, opts) {
+    this.imp = this.imp != null ? this.imp : { raw: stringData };
+    return this.parseJSON(JSON.parse(stringData), opts);
   }
 
 
@@ -54,7 +54,7 @@ class FreshResume {// extends AbstractResume
     compute: Prepare computed resume totals.
   }
   */
-  parseJSON( rep, opts ) {
+  parseJSON(rep, opts) {
 
     let scrubbed;
     if (opts && opts.privatize) {
@@ -71,9 +71,9 @@ class FreshResume {// extends AbstractResume
     // the .dupe method, and there's no need to do any post processing
     if (!(this.imp != null ? this.imp.processed : undefined)) {
       // Set up metadata TODO: Clean up metadata on the object model.
-      opts = opts || { };
+      opts = opts || {};
       if ((opts.imp === undefined) || opts.imp) {
-        this.imp = this.imp || { };
+        this.imp = this.imp || {};
         this.imp.title = (opts.title || this.imp.title) || this.name;
         if (!this.imp.raw) {
           this.imp.raw = JSON.stringify(rep);
@@ -81,11 +81,11 @@ class FreshResume {// extends AbstractResume
       }
       this.imp.processed = true;
       // Parse dates, sort dates, and calculate computed values
-      ((opts.date === undefined) || opts.date) && _parseDates.call( this );
+      ((opts.date === undefined) || opts.date) && _parseDates.call(this);
       ((opts.sort === undefined) || opts.sort) && this.sort();
       ((opts.compute === undefined) || opts.compute) && (this.computed = {
-         numYears: this.duration(),
-         keywords: this.keywords()
+        numYears: this.duration(),
+        keywords: this.keywords()
       });
     }
 
@@ -95,7 +95,7 @@ class FreshResume {// extends AbstractResume
 
 
   /** Save the sheet to disk (for environments that have disk access). */
-  save( filename ) {
+  save(filename) {
     this.imp.file = filename || this.imp.file;
     FS.writeFileSync(this.imp.file, this.stringify(), 'utf8');
     return this;
@@ -106,7 +106,7 @@ class FreshResume {// extends AbstractResume
   /**
   Save the sheet to disk in a specific format, either FRESH or JSON Resume.
   */
-  saveAs( filename, format ) {
+  saveAs(filename, format) {
 
     // If format isn't specified, default to FRESH
     const safeFormat = (format && format.trim()) || 'FRESH';
@@ -124,10 +124,10 @@ class FreshResume {// extends AbstractResume
 
     } else if (parts[0] === 'JRS') {
       const useEdgeSchema = parts.length > 1 ? parts[1] === '1' : false;
-      const newRep = CONVERTER.toJRS(this, {edge: useEdgeSchema});
-      FS.writeFileSync(filename, JRSResume.stringify( newRep ), 'utf8');
+      const newRep = CONVERTER.toJRS(this, { edge: useEdgeSchema });
+      FS.writeFileSync(filename, JRSResume.stringify(newRep), 'utf8');
     } else {
-      throw {badVer: safeFormat};
+      throw { badVer: safeFormat };
     }
     return this;
   }
@@ -142,9 +142,9 @@ class FreshResume {// extends AbstractResume
   of the associated processing.
   */
   dupe() {
-    const jso = extend(true, { }, this);
+    const jso = extend(true, {}, this);
     const rnew = new FreshResume();
-    rnew.parseJSON(jso, { });
+    rnew.parseJSON(jso, {});
     return rnew;
   }
 
@@ -163,7 +163,7 @@ class FreshResume {// extends AbstractResume
   a transformation function (such as a Markdown filter or XML encoder).
   TODO: Move this out of FRESHResume.
   */
-  transformStrings( filt, transformer ) {
+  transformStrings(filt, transformer) {
     const ret = this.dupe();
     const trx = require('../utils/string-transformer');
     return trx(ret, filt, transformer);
@@ -177,16 +177,16 @@ class FreshResume {// extends AbstractResume
   */
   markdownify() {
 
-    const MDIN =  txt  => MD(txt || '' ).replace(/^\s*<p>|<\/p>\s*$/gi, '');
+    const MDIN = txt => MD(txt || '').replace(/^\s*<p>|<\/p>\s*$/gi, '');
 
-    const trx = function( key, val ) {
+    const trx = function (key, val) {
       if (key === 'summary') {
         return MD(val);
       }
       return MDIN(val);
     };
 
-    return this.transformStrings(['skills','url','start','end','date'], trx);
+    return this.transformStrings(['skills', 'url', 'start', 'end', 'date'], trx);
   }
 
 
@@ -210,7 +210,7 @@ class FreshResume {// extends AbstractResume
   /**
   Return internal metadata. Create if it doesn't exist.
   */
-  i() { return this.imp = this.imp || { }; }
+  i() { return this.imp = this.imp || {}; }
 
 
 
@@ -236,9 +236,14 @@ class FreshResume {// extends AbstractResume
     let flatSkills = [];
     if (this.skills) {
       if (this.skills.sets) {
-        flatSkills = this.skills.sets.map(sk => sk.skills).reduce( (a,b) => a.concat(b));
+        flatSkills = this.skills.sets.map(sk => sk.skills).reduce((a, b) => a.concat(b));
       } else if (this.skills.list) {
-        flatSkills = flatSkills.concat( this.skills.list.map(sk => sk.name) );
+        flatSkills = flatSkills.concat(this.skills.list.map(sk => sk.name));
+      } else if (Array.isArray(this.skills)) {
+        console.dir(
+          this.skills
+        );
+        flatSkills = this.skills;
       }
       flatSkills = _.uniq(flatSkills);
     }
@@ -250,7 +255,7 @@ class FreshResume {// extends AbstractResume
   /**
   Reset the sheet to an empty state. TODO: refactor/review
   */
-  clear( clearMeta ) {
+  clear(clearMeta) {
     clearMeta = ((clearMeta === undefined) && true) || clearMeta;
     if (clearMeta) { delete this.imp; }
     delete this.computed; // Don't use Object.keys() here
@@ -270,7 +275,7 @@ class FreshResume {// extends AbstractResume
   /**
   Get a safe count of the number of things in a section.
   */
-  count( obj ) {
+  count(obj) {
     if (!obj) { return 0; }
     if (obj.history) { return obj.history.length; }
     if (obj.sets) { return obj.sets.length; }
@@ -280,23 +285,23 @@ class FreshResume {// extends AbstractResume
 
 
   /** Add work experience to the sheet. */
-  add( moniker ) {
+  add(moniker) {
     const defSheet = FreshResume.default();
     const newObject =
       defSheet[moniker].history
-      ? extend( true, {}, defSheet[ moniker ].history[0] )
-      :
+        ? extend(true, {}, defSheet[moniker].history[0])
+        :
         moniker === 'skills'
-        ? extend( true, {}, defSheet.skills.sets[0] )
-        : extend( true, {}, defSheet[ moniker ][0] );
+          ? extend(true, {}, defSheet.skills.sets[0])
+          : extend(true, {}, defSheet[moniker][0]);
 
-    this[ moniker ] = this[ moniker ] || [];
-    if (this[ moniker ].history) {
-      this[ moniker ].history.push(newObject);
+    this[moniker] = this[moniker] || [];
+    if (this[moniker].history) {
+      this[moniker].history.push(newObject);
     } else if (moniker === 'skills') {
       this.skills.sets.push(newObject);
     } else {
-      this[ moniker ].push(newObject);
+      this[moniker].push(newObject);
     }
     return newObject;
   }
@@ -306,7 +311,7 @@ class FreshResume {// extends AbstractResume
   /**
   Determine if the sheet includes a specific social profile (eg, GitHub).
   */
-  hasProfile( socialNetwork ) {
+  hasProfile(socialNetwork) {
     socialNetwork = socialNetwork.trim().toLowerCase();
     return this.social && _.some(this.social, p => p.network.trim().toLowerCase() === socialNetwork);
   }
@@ -314,7 +319,7 @@ class FreshResume {// extends AbstractResume
 
 
   /** Return the specified network profile. */
-  getProfile( socialNetwork ) {
+  getProfile(socialNetwork) {
     socialNetwork = socialNetwork.trim().toLowerCase();
     return this.social && _.find(this.social, sn => sn.network.trim().toLowerCase() === socialNetwork);
   }
@@ -325,7 +330,7 @@ class FreshResume {// extends AbstractResume
   Return an array of profiles for the specified network, for when the user
   has multiple eg. GitHub accounts.
   */
-  getProfiles( socialNetwork ) {
+  getProfiles(socialNetwork) {
     socialNetwork = socialNetwork.trim().toLowerCase();
     return this.social && _.filter(this.social, sn => sn.network.trim().toLowerCase() === socialNetwork);
   }
@@ -333,7 +338,7 @@ class FreshResume {// extends AbstractResume
 
 
   /** Determine if the sheet includes a specific skill. */
-  hasSkill( skill ) {
+  hasSkill(skill) {
     skill = skill.trim().toLowerCase();
     return this.skills && _.some(this.skills, sk =>
       sk.keywords && _.some(sk.keywords, kw => kw.trim().toLowerCase() === skill)
@@ -346,12 +351,12 @@ class FreshResume {// extends AbstractResume
   isValid() {
     const schemaObj = require('fresh-resume-schema');
     validator = require('is-my-json-valid');
-    const validate = validator( schemaObj, { // See Note [1].
+    const validate = validator(schemaObj, { // See Note [1].
       formats: { date: /^\d{4}(?:-(?:0[0-9]{1}|1[0-2]{1})(?:-[0-9]{2})?)?$/ }
     });
     const ret = validate(this);
     if (!ret) {
-      this.imp = this.imp || { };
+      this.imp = this.imp || {};
       this.imp.validationErrors = validate.errors;
     }
     return ret;
@@ -373,17 +378,17 @@ class FreshResume {// extends AbstractResume
   */
   sort() {
 
-    const byDateDesc = function(a,b) {
+    const byDateDesc = function (a, b) {
       if (a.safe.start.isBefore(b.safe.start)) {
-      return 1;
-      } else {  if (a.safe.start.isAfter(b.safe.start)) { return -1; } else { return 0; }  }
+        return 1;
+      } else { if (a.safe.start.isAfter(b.safe.start)) { return -1; } else { return 0; } }
     };
 
-    const sortSection = function( key ) {
+    const sortSection = function (key) {
       const ar = __.get(this, key);
       if (ar && ar.length) {
         const datedThings = ar.filter(o => o.start);
-        return datedThings.sort( byDateDesc );
+        return datedThings.sort(byDateDesc);
       }
     };
 
@@ -392,10 +397,10 @@ class FreshResume {// extends AbstractResume
     sortSection('service.history');
     sortSection('projects');
 
-    return this.writing && this.writing.sort(function(a, b) {
+    return this.writing && this.writing.sort(function (a, b) {
       if (a.safe.date.isBefore(b.safe.date)) {
-      return 1;
-      } else { return ( a.safe.date.isAfter(b.safe.date) && -1 ) || 0; }
+        return 1;
+      } else { return (a.safe.date.isAfter(b.safe.date) && -1) || 0; }
     });
   }
 }
@@ -413,12 +418,13 @@ FreshResume.default = () => new FreshResume().parseJSON(require('fresh-resume-st
 Convert the supplied FreshResume to a JSON string, sanitizing meta-properties
 along the way.
 */
-FreshResume.stringify = function( obj ) {
-  const replacer = function( key,value ) { // Exclude these keys from stringification
+FreshResume.stringify = function (obj) {
+  const replacer = function (key, value) { // Exclude these keys from stringification
     const exKeys = ['imp', 'warnings', 'computed', 'filt', 'ctrl', 'index',
       'safe', 'result', 'isModified', 'htmlPreview', 'display_progress_bar'];
-    if (_.some( exKeys, val => key.trim() === val)) {
-    return undefined; } else { return value; }
+    if (_.some(exKeys, val => key.trim() === val)) {
+      return undefined;
+    } else { return value; }
   };
   return JSON.stringify(obj, replacer, 2);
 };
@@ -432,27 +438,27 @@ the Moment-ified date as a separate property with a prefix of .safe. For ex:
 job.startDate is the date as entered by the user. job.safeStartDate is the
 parsed Moment.js date that we actually use in processing.
 */
-var _parseDates = function() {
+var _parseDates = function () {
 
   const _fmt = require('./fluent-date').fmt;
   const that = this;
 
   // TODO: refactor recursion
-  var replaceDatesInObject = function( obj ) {
+  var replaceDatesInObject = function (obj) {
 
     if (!obj) { return; }
-    if (Object.prototype.toString.call( obj ) === '[object Array]') {
-      obj.forEach(elem => replaceDatesInObject( elem ));
+    if (Object.prototype.toString.call(obj) === '[object Array]') {
+      obj.forEach(elem => replaceDatesInObject(elem));
       return;
     } else if (typeof obj === 'object') {
       if (obj._isAMomentObject || obj.safe) {
         return;
       }
-      Object.keys( obj ).forEach(key => replaceDatesInObject(obj[key]));
-      ['start','end','date'].forEach(function(val) {
+      Object.keys(obj).forEach(key => replaceDatesInObject(obj[key]));
+      ['start', 'end', 'date'].forEach(function (val) {
         if ((obj[val] !== undefined) && (!obj.safe || !obj.safe[val])) {
-          obj.safe = obj.safe || { };
-          obj.safe[ val ] = _fmt(obj[val]);
+          obj.safe = obj.safe || {};
+          obj.safe[val] = _fmt(obj[val]);
           if (obj[val] && (val === 'start') && !obj.end) {
             obj.safe.end = _fmt('current');
             return;
@@ -462,7 +468,7 @@ var _parseDates = function() {
       return;
     }
   };
-  Object.keys( this ).forEach(function(member) {
+  Object.keys(this).forEach(function (member) {
     replaceDatesInObject(that[member]);
   });
 };

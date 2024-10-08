@@ -1,0 +1,165 @@
+{
+  "basics": {
+    "label": "Senior Software Architect | Expertise in Distributed Systems & Automation",
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "website": "https://blog.teagantotally.rocks",
+    "name": "Teagan Glenn",
+    "summary": "A Senior Software Architect with over 20 years of experience, specializing in designing and delivering scalable,\ncloud-based solutions. With a proven track record in software architecture, DevOps, and automation, I bring a blend of \ntechnical expertise and visionary leadership to drive innovation. I have led cross-functional teams in high-profile \norganizations, integrating complex systems and ensuring continuous delivery. My expertise spans cloud platforms, \narchitecture modeling, and modern development frameworks, ensuring top-quality results in fast-paced, Agile environments.",
+    "picture": "teagan-memoji-computer.png",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Teagan42",
+        "url": "https://www.linkedin.com/in/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "Teagan42",
+        "url": "https://www.github.com/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "ConstructorFleet",
+        "url": "https://www.github.com/constructorfleet"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Resideo",
+      "website": "https://www.resideo.com",
+      "position": "Advanced Senior GraphQL Lead Engineer",
+      "startDate": "2022-05-01",
+      "endDate": "2024-06-28",
+      "highlights": [
+        "Led architectural changes to Resideo's core platform for connected home products, including migration to Apollo Server v4 using NestJS.",
+        "Introduced automated, self-documenting patterns using GraphQL, optimizing microservices integration and scalability.",
+        "Mentored engineers on software design patterns and system architecture best practices.",
+        "Spearheaded DevOps practices for continuous integration and deployment, improving product development speed and reliability."
+      ]
+    },
+    {
+      "company": "World Wide Technology",
+      "website": "https://www.wwt.com",
+      "position": "Senior Delivery Engineer",
+      "startDate": "2021-01-01",
+      "endDate": "2022-05-01",
+      "highlights": [
+        "Developed automation frameworks and led cross-functional teams to deliver solutions for clients across multiple industries.",
+        "Delivered a network automation system for a multi-million dollar client, reducing manual intervention by 70% using Ansible and other infrastructure-as-code tools.",
+        "Worked closely with product and DevOps teams, ensuring scalable and secure deployment practices in cloud-based environments."
+      ]
+    },
+    {
+      "company": "Turnberry Solutions",
+      "website": "https://www.turnberrysolutions.com",
+      "position": "Senior Automation Engineer for Comcast Applied AI",
+      "startDate": "2019-05-01",
+      "endDate": "2020-09-14",
+      "highlights": [
+        "Designed and deployed a fully automated machine learning platform (AMP) for rapid model deployment and monitoring in AWS.",
+        "Collaborated with ML teams to integrate AI-driven solutions using Python and TensorFlow.",
+        "Built infrastructure for monitoring, logging, and automated failover using AWS tools and Python."
+      ]
+    },
+    {
+      "company": "KForce",
+      "website": "https://www.kforce.com",
+      "position": "Senior Automation/DevOps Engineer for Charter Advanced Technologies",
+      "startDate": "2020-09-15",
+      "endDate": "2020-12-31",
+      "highlights": [
+        "Led efforts to implement VR-as-a-Service on edge devices, with robust automation scripts improving deployment times by 50%.",
+        "Deployed CI/CD pipelines and automated cloud provisioning using Ansible and Terraform."
+      ]
+    },
+    {
+      "company": "Aetna",
+      "website": "https://www.aetna.com",
+      "position": "Senior Staff Engineer",
+      "startDate": "2019-04-01",
+      "endDate": "2019-05-01",
+      "highlights": [
+        "Led the architecture and CI/CD implementation for Aetna's first cloud-integrated API feature.",
+        "Collaborated closely with the architecture team to implement an integrated platform architecture across multiple platforms (iOS, Android)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Applied Physics",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Applied Physics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Applied Mathematics",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Applied Mathematics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Computer Science",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Computer Science",
+      "studyType": "Bachelor's"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Typescript",
+        "Python",
+        "C#",
+        ".NET"
+      ]
+    },
+    {
+      "name": "Cloud & Architecture",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Draw.io"
+      ]
+    },
+    {
+      "name": "Version Control & CI/CD",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Jenkins",
+        "Infrastructure as Code (IaC)"
+      ]
+    },
+    {
+      "name": "Design Patterns & Architectural Styles",
+      "keywords": [
+        "Microservices",
+        "MVC",
+        "Event-Driven Architecture"
+      ]
+    },
+    {
+      "name": "Product Development Tools",
+      "keywords": [
+        "Jira",
+        "Confluence",
+        "Slack"
+      ]
+    },
+    {
+      "name": "Soft",
+      "keywords": [
+        "Team Leadership",
+        "Cross-Discipline Collaboration",
+        "Mentoring",
+        "Agile Methodologies (Scrum)"
+      ]
+    }
+  ]
+}

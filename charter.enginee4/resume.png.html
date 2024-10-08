@@ -1,0 +1,1345 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"
+        />
+        <title>Teagan Glenn</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            /********************************************
+            * 	reset from
+            * 	http://meyerweb.com/eric/tools/css/reset/
+            *******************************************/
+            
+            html,
+            body,
+            div,
+            span,
+            applet,
+            object,
+            iframe,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            blockquote,
+            pre,
+            a,
+            abbr,
+            acronym,
+            address,
+            big,
+            cite,
+            code,
+            del,
+            dfn,
+            em,
+            img,
+            ins,
+            kbd,
+            q,
+            s,
+            samp,
+            small,
+            strike,
+            strong,
+            sub,
+            sup,
+            tt,
+            var,
+            b,
+            u,
+            i,
+            center,
+            dl,
+            dt,
+            dd,
+            ol,
+            ul,
+            li,
+            fieldset,
+            form,
+            label,
+            legend,
+            table,
+            caption,
+            tbody,
+            tfoot,
+            thead,
+            tr,
+            th,
+            td,
+            article,
+            aside,
+            canvas,
+            details,
+            embed,
+            figure,
+            figcaption,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            output,
+            ruby,
+            section,
+            summary,
+            time,
+            mark,
+            audio,
+            video {
+              margin: 0;
+              padding: 0;
+              border: 0;
+              font-size: 100%;
+              vertical-align: baseline;
+            }
+            
+            article,
+            aside,
+            details,
+            figcaption,
+            figure,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            section {
+              display: block;
+            }
+            
+            body {
+              line-height: 1;
+            }
+            
+            ol,
+            ul {
+              list-style: none;
+            }
+            
+            blockquote,
+            q {
+              quotes: none;
+            }
+            
+            blockquote:before,
+            blockquote:after,
+            q:before,
+            q:after {
+              content: none;
+            }
+            
+            table {
+              border-collapse: collapse;
+              border-spacing: 0;
+            }
+            
+            /****************
+            *	COMMONS
+            ****************/
+            
+            body,
+            html {
+              font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+              font-size: 13px;
+              color: #40484f;
+              font-weight: 400;
+              letter-spacing: 0;
+              line-height: 1.46153846;
+              text-align: left;
+            }
+            
+            p {
+              display: block;
+            }
+            
+            a {
+              color: #0095ff;
+              text-decoration: none;
+            }
+            
+            a:hover {
+              color: #0c65a5;
+              text-decoration: underline;
+            }
+            
+            li {
+              list-style-type: square;
+              list-style-position: outside;
+              margin-left: 1.3em;
+            }
+            
+            h1 {
+              font-size: 2rem;
+            }
+            
+            h2 {
+              font-size: 1.67rem;
+            }
+            
+            h3 {
+              font-size: 1.27rem;
+            }
+            
+            em {
+              color: #757575;
+            }
+            
+            blockquote {
+              margin-bottom: 1em;
+            }
+            
+            strong {
+              font-weight: 700;
+            }
+            
+            /* main container */
+            
+            #resume {
+              padding: 1.5rem;
+            }
+            
+            /* every section wrapper */
+            
+            .section {
+              margin-bottom: 1rem;
+            }
+            
+            section .location {
+              margin-right: 0.5em;
+              color: #606d76;
+              font-weight: 700;
+            }
+            
+            #contact {
+              margin-top: 0.5rem;
+            }
+            
+            #profiles .item {
+              padding: 0;
+            }
+            
+            #header > #profiles,
+            #header > #contact,
+            #skills,
+            #languages
+            {
+              display: -webkit-box;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-flex-flow: row wrap;
+              flex-flow: row wrap;
+              -webkit-justify-content: flex-start;
+              justify-content: flex-start;
+            }.dic
+            
+            #header > div {
+              line-height: 1.5;
+            }
+            
+            #header > div.institution {
+              line-height: 1.1;
+            }
+            
+            #header > div > div {
+              margin-right: 1.2em;
+            }
+            
+            #header h1.name {
+              font-size: 2.8rem;
+              font-weight: 100;
+              line-height: 100%;
+            }
+            
+            #header h2.label {
+              color: #202931;
+              font-size: 1.47rem;
+              font-weight: 300;
+            }
+            
+            #header .image {
+              width: 11em;
+              float: right;
+              border-radius: 4px;
+            }
+            
+            .main-summary {
+              background: #f1f8ff;
+              padding: 1.2em 1em;
+              margin-top: 1rem;
+            }
+            
+            .main-summary p {
+              margin: 0;
+            }
+            
+            .section-title {
+              display: inline-block;
+              background: #fff;
+              padding: 0 1em 0.3em 0;
+              color: #ff6d1f;
+              text-transform: uppercase;
+              font-weight: 600;
+              border: none;
+              font-size: 0.9rem;
+            }
+            
+            .section > header {
+              position: relative;
+            }
+            
+            .fa {
+              margin-right: 0.25em;
+            }
+            
+            .section > header::after {
+              position: absolute;
+              left: 0;
+              top: 0.7em;
+              height: 1px;
+              background: #ccc;
+              content: "";
+              width: 100%;
+              z-index: -100;
+              display: block;
+            }
+            
+            .section.main-summary > section {
+              margin: 0;
+            }
+            
+            .section > section > header {
+              font-size: 1.38rem;
+              position: relative;
+              margin-top: 0.7em;
+            }
+            
+            .section > section > header:first-of-type {
+              margin: 0;
+            }
+            
+            .section > section > header .space-left {
+              position: absolute;
+              left: -1.56rem;
+              top: 5px;
+              color: #aaa;
+              line-height: 1;
+              opacity: 0;
+            }
+            
+            .position,
+            .company,
+            .organization,
+            .institution,
+            .date,
+            .area,
+            .studyType,
+            .title,
+            .awarder {
+              display: inline;
+            }
+            
+            .position,
+            .studyType,
+            .area,
+            .title,
+            .language,
+            .name {
+              font-weight: 600;
+            }
+            
+            .company::before,
+            .institution::before,
+            .organization::before,
+            .awarder::before {
+              content: "at ";
+            }
+            
+            .company,
+            .institution,
+            .organization,
+            .awarder {
+              color: #606d76;
+              font-weight: 400;
+            }
+            
+            .section header .date {
+              display: block;
+              font-size: 1rem;
+              padding: 0.1em 0;
+              color: #606d76;
+              font-weight: 400;
+            }
+            
+            .keywords,
+            .courses {
+              margin: 0.5em 0;
+            }
+            
+            .keywords li,
+            .courses li {
+              display: inline-block;
+              margin: 2px 2px 2px 0;
+              padding: 4px 5px 5px;
+              font-size: 0.9rem;
+              line-height: 1;
+              color: #3e6d8e;
+              background-color: #dfeaf1;
+              border: 0 solid #dfeaf1;
+              white-space: nowrap;
+            }
+            
+            .skills-container {
+              display: -webkit-box;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              justify-content: stretch;
+              -webkit-flex-flow: row wrap;
+              flex-flow: row wrap;
+              -webkit-justify-content: center;
+              justify-content: center;
+            }
+            
+            .skills-container .item .name {
+              font-style: bold;
+              font-size: .9rem
+            }
+            
+            .skills-container .item .level {
+              font-weight: normal;
+              font-style: italic;
+              font-size: 1rem;
+            }
+            
+            
+            .skills-container .item .keywords li {
+              font-size: .7rem !important;
+            }
+            
+            .keywords li:hover,
+            .courses li:hover {
+              background: #dfeaf0;
+            }
+            
+            .highlights {
+              margin: 1em 0 0 0;
+            }
+            
+            .highlights > li > p {
+              margin-bottom: 0.5em;
+              line-height: 1.1;
+            }
+            
+            .item {
+              overflow: hidden;
+            }
+            
+            .gpa {
+              clear: both;
+              padding-bottom: 0.5em;
+            }
+            
+            .fa.social {
+              font-size: 1.1em;
+            }
+            
+            /* Social Media Brand Colors */
+            
+            .google-plus {
+              color: #dd4b39;
+            }
+            
+            .tumblr {
+              color: #32506d;
+            }
+            
+            .foursquare {
+              color: #0072b1;
+            }
+            
+            .facebook {
+              color: #3b5998;
+            }
+            
+            .linkedin {
+              color: #007bb6;
+            }
+            
+            .pinterest {
+              color: #cb2027;
+            }
+            
+            .dribbble {
+              color: #ea4c89;
+            }
+            
+            .instagram {
+              color: #517fa4;
+            }
+            
+            .twitter {
+              color: #00aced;
+            }
+            
+            .soundcloud {
+              color: #ff3a00;
+            }
+            
+            .wordpress {
+              color: #21759b;
+            }
+            
+            .youtube {
+              color: #bb0000;
+            }
+            
+            .github {
+              color: #171515;
+            }
+            
+            .stack-overflow {
+              color: #828386;
+              position: relative;
+            }
+            
+            .flickr {
+              color: #ff0084;
+            }
+            
+            .reddit {
+              color: #ff4500;
+            }
+            
+            .hacker-news {
+              color: #ff6600;
+            }
+            
+            .stack-overflow::after {
+              position: absolute;
+              left: 0;
+              content: "\f16c";
+              color: #f68a1f;
+              overflow: hidden;
+              height: 100%;
+            }
+            
+            .telegram {
+              color: #2291c3;
+            }
+            
+            #languages .item,
+            #skills .item,∂
+            #interests .item {
+              width: 15em;
+              padding: 0 0.5em 0.5em 0;
+              border-bottom: none;
+            }
+            
+            .interests-container {
+              display: -webkit-box;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-flex-flow: row wrap;
+              flex-flow: row wrap;
+              -webkit-justify-content: flex-start;
+              justify-content: flex-start;
+            }
+            
+            .interests-container .item .name {
+              font-style: bold;
+              font-size: .9rem
+            }
+            
+            #interests .item {
+              width: 100% !important;
+            }
+            
+            #interests .item .keywords {
+              width: 100% !important;
+            }
+            
+            .interests-container .item .level {
+              font-weight: normal !important;
+              font-style: italic !important;
+              font-size: 1rem !important;
+            }
+            
+            
+            .interests-container .item .keywords li {
+              font-size: .9rem !important;
+            }
+            
+            #skills .item {
+              width: 9rem !important;
+            }
+            
+            #skills .item .keywords {
+              width: 100% !important;
+            }
+            
+            /* Skill chart */
+            
+            .level {
+              margin-bottom: 0.5em;
+            }
+            
+            .level em {
+              padding-left: 0.2em;
+            }
+            
+            .level .bar {
+              border: 1px solid #ddd;
+              display: block;
+              width: 100%;
+              height: 5px;
+              position: relative;
+            }
+            
+            .level .bar::after {
+              position: absolute;
+              content: " ";
+              top: 0;
+              left: 0;
+              background: black;
+              height: 5px;
+            }
+            
+            .level.beginner .bar::after {
+              background: #eb5f51;
+              width: 25%;
+            }
+            
+            .level.intermediate .bar::after {
+              background: #ffdf1f;
+              width: 50%;
+            }
+            
+            .level.advanced .bar::after,
+            .level.fluent .bar::after {
+              background: #5cb85c;
+              width: 75%;
+            }∂ajukk
+            
+            .level.master .bar::after,
+            .level.native.speaker .bar::after {
+              background: #59c596;
+              width: 100%;
+            }
+            
+            #references .item {
+              padding-left: 0.5em;
+              border-left: 5px solid #ff6d1f;
+              margin-bottom: 2rem;
+            }
+            
+            .section > section > section {
+              margin-bottom: 1rem;
+            }
+            
+            /******************
+            *	HELPER CLASSES
+            ******************/
+            
+            .clear::after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            .display {
+              display: block;
+              opacity: 1 !important;
+            }
+            
+            /****************
+            *		TABLET
+            ****************/
+            
+            @media screen and (min-width: 602px) {
+              #resume {
+                width: 80%;
+                margin: 0 auto;
+              }
+              .section header .date {
+                float: right;
+                font-weight: 600;
+                color: #000;
+              }
+            }
+            
+            /****************
+            *		LAPTOP
+            ****************/
+            
+            @media screen and (min-width: 1025px) {
+              li {
+                margin-left: 1.5em;
+              }
+              #resume {
+                width: 820px;
+                margin: 2rem auto;
+              }
+              .section > section > header .space-left {
+                opacity: 1;
+                cursor: pointer;
+              }
+              .section > section:not(.main-summary) {
+                margin-left: 1.67rem;
+              }
+              .company::before,
+              .institution::before,
+              .organization::before,
+              .awarder::before {
+                content: "| ";
+              }
+              .header-left {
+                float: left;
+                width: 70%;
+                word-break: normal;
+              }
+              .section header .date {
+                padding: 0.2em;
+              }
+              .display {
+                display: none;
+              }
+              .display:not(.none) {
+                display: block;
+              }
+            }
+            
+            @media print {
+              #profiles a:not(.hide-href-print)::after{
+                content: " (" attr(href) ") ";
+              }
+              a[href]:after {
+                content: none !important;
+              }
+              #resume {
+                margin: 0.1em;
+                padding: 0.1em;
+                -ms-word-wrap: break-word;
+                word-wrap: break-word;
+                line-height: 1.25;
+              }
+              @page {
+                margin: 1cm 1.4cm;
+              }
+              .item-count {
+                display: none;
+              }
+              .company::before,
+              .institution::before,
+              .organization::before,
+              .awarder::before {
+                content: "at ";
+              }
+              .main-summary {
+                padding: 0;
+                background: transparent;
+              }
+              .section {
+                margin: 0.8rem 0;
+                padding: 0;
+              }
+              .section header {
+                padding-bottom: 0.15rem;
+              }
+              .section .location {
+                padding-bottom: 0.15rem;
+              }
+              .section > section > section {
+                margin: 0 0 1em 0;
+              }
+              .section > section > section:last-of-type {
+                margin: 0;
+              }
+              .stack-overflow::after {
+                content: "";
+              }
+              .fa.social {
+                color: #828386;
+              }
+              ul {
+                margin-top: 0.4em;
+              }
+              ul,
+              li {
+                padding: 0;
+              }
+              ul.keywords li,
+              ul.courses li {
+                margin: 0;
+                padding: 0;
+                font-size: 0.8rem;
+                background: transparent;
+              }
+              ul.keywords li::after,
+              ul.courses li::after {
+                padding: 0 0 0 0.1rem;
+                content: " |";
+              }
+              ul.keywords::before,
+              ul.courses::before {
+                font-size: 0.8rem;
+                font-weight: 600;
+              }
+              #skills .item {
+                width: calc(100% / 3);
+                padding: 0;
+              }
+              .highlights {
+                margin: 0.5em 0 0 0;
+              }
+              ul.keywords::before {
+                content: "Skills acquired: ";
+              }
+              #skills .keywords::before {
+                content: none;
+              }
+              .section p {
+                margin: 0;
+                padding: 0;
+              }
+              ul.courses::before {
+                content: "Major courses: ";
+              }
+              ul.keywords li:last-of-type::after,
+              ul.courses li:last-of-type::after {
+                content: "";
+              }
+              .level em {
+                font-style: normal;
+                padding: 0.1em 0;
+              }
+              .level .bar {
+                display: none;
+              }
+              #profiles .item {
+                padding: 0;
+              }
+              .item.display {
+                display: block;
+                opacity: 1 !important;
+              }
+              .fa-location-dot:before {
+                padding-left: 0.1em;
+              }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="resume">
+            <header id="header" class="clear">
+                <div>
+                    	<h1 class="name">Teagan Glenn</h1>
+
+                    	<h2 class="label">Senior Software Engineer</h2>
+
+                </div>	<span class="location">
+    			<span class="address">Morrison, CO, US,</span>
+	<span class="city">Morrison,</span>
+
+                <span
+                class="region">CO</span>	<span class="countryCode">US</span>
+</span>
+                    <div id="contact">
+                        <div class="email">	<a class="hide-href-print" href="mailto:that@teagantotally.rocks">that@teagantotally.rocks</a>
+
+                        </div>
+                        <div class="phone">	<a class="hide-href-print" href="tel:(720) 432-5361">(720) 432-5361</a>
+
+                        </div>
+                    </div>
+                    <div id="profiles">
+                        <div class="item">
+                            <div class="username">	<span class="fa-brands fa-linkedin linkedin social"></span>
+	<span class="url">
+    						<a class"hide-href-print" target="_blank" href="https://linkedin.com/in/teagan42">teagan42</a>
+    					</span>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="username">	<span class="fa-brands fa-github github social"></span>
+	<span class="url">
+    						<a class"hide-href-print" target="_blank" href="https://github.com/Teagan42">Teagan42</a>
+    					</span>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="username">	<span class="fa-brands fa-github github social"></span>
+	<span class="url">
+    						<a class"hide-href-print" target="_blank" href="https://github.com/constructorfleet">constructorfleet</a>
+    					</span>
+
+                            </div>
+                        </div>
+                    </div>
+            </header>
+            <section class="section">
+                <header>
+                    	<h2 class='section-title'>Skills</h2>
+
+                </header>
+                <section id="skills" class="skills-container">
+                    <div class="item">	<b class="name">
+    				Programming Languages
+    			</b>
+
+                        <div class="level expert">	<em>Expert</em>
+
+                            <div class="bar"></div>
+                        </div>
+                        <ul class="keywords">
+                            <li>TypeScript</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>Kotlin</li>
+                            <li>C#</li>
+                            <li>C/C++</li>
+                            <li>Embedded C</li>
+                            <li>VB</li>
+                            <li>VBA</li>
+                            <li>VB.NET</li>
+                            <li>F#</li>
+                            <li>Scala</li>
+                            <li>Haskell</li>
+                            <li>Bash</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
+                    <div class="item">	<b class="name">
+    				IoT/Automation
+    			</b>
+
+                        <div class="level expert">	<em>Expert</em>
+
+                            <div class="bar"></div>
+                        </div>
+                        <ul class="keywords">
+                            <li>Z-Wave</li>
+                            <li>X10</li>
+                            <li>ZigBee</li>
+                            <li>Thread</li>
+                            <li>MQTT</li>
+                            <li>Home-Assistant</li>
+                            <li>OpenHAB</li>
+                            <li>ioBroker</li>
+                        </ul>
+                    </div>
+                    <div class="item">	<b class="name">
+    				DevOps
+    			</b>
+
+                        <div class="level expert">	<em>Expert</em>
+
+                            <div class="bar"></div>
+                        </div>
+                        <ul class="keywords">
+                            <li>Ansible</li>
+                            <li>Salt</li>
+                            <li>Consol</li>
+                            <li>Chef</li>
+                            <li>GitLab CI</li>
+                            <li>GitHub Actions</li>
+                            <li>Jenkins</li>
+                            <li>AWX</li>
+                            <li>Drone</li>
+                            <li>Foreman</li>
+                            <li>MaaS</li>
+                            <li>ProxMox</li>
+                            <li>VMWare</li>
+                        </ul>
+                    </div>
+                    <div class="item">	<b class="name">
+    				State Management
+    			</b>
+
+                        <div class="level expert">	<em>Expert</em>
+
+                            <div class="bar"></div>
+                        </div>
+                        <ul class="keywords">
+                            <li>CI/CD Pipelines</li>
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                        </ul>
+                    </div>
+                    <div class="item">	<b class="name">
+    				Provisioning
+    			</b>
+
+                        <div class="level expert">	<em>Expert</em>
+
+                            <div class="bar"></div>
+                        </div>
+                        <ul class="keywords">
+                            <li>Foreman</li>
+                            <li>AWX</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <section class="section">
+                <header>
+                     <h2 class='section-title'>Work Experience <span class="item-count">(4)</span></h2>
+
+                </header>
+                <section id="work">
+                    <section class="work-item">
+                        <label for="work-item-0"></label>
+                        <header class="clear">
+                            <div class="date"> <span class="startDate">Jun 2022</span>
+ <span class="endDate">- Jul 2024</span>
+
+                            </div>
+                            <div class="position">Advanced Senior GraphQL Lead Engineer</div>
+                            <div class="company"></div>
+                        </header> <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+</span>
+                        <span
+                        class="url"> <span class="fa-solid fa-up-right-from-square"></span>
+ <a target="_blank"
+                            href="https://resideo.com">https://resideo.com</a>
+
+                            </span>
+                            <div class="item" id="work-item">
+                                <div class="summary">
+                                    <p>
+                                        <p>Lead the GraphQL Schema and Feature team, driving philosophical and innovative
+                                            solutions to challenges presented by Resideo's core platform of professional
+                                            and consumer connected products.</p>
+                                    </p>
+                                </div>
+                                <ul class="highlights">
+                                    <li>
+                                        <p>
+                                            <p>Led the design and implementation of innovative schema configurations
+                                                enhancing communication and functionality across IoT devices.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Mentored and guided teams in implementing GraphQL best practices.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Conducted training and workshops to elevate team capabilities in cutting-edge
+                                                IoT solutions.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Facilitated the migration of all subgraphs and gateways from NexusJS Apollo
+                                                Server v2 to NestJS using Apollo Server v4 federation 2.3.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Implemented patterns of self-validating, self-documenting domain driven
+                                                data types using GraphQL scalars and type system.</p>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                    </section>
+                    <section class="work-item">
+                        <label for="work-item-1"></label>
+                        <header class="clear">
+                            <div class="date"> <span class="startDate">Jan 2021</span>
+ <span class="endDate">- May 2022</span>
+
+                            </div>
+                            <div class="position">Senior Delivery Engineer</div>
+                            <div class="company"></div>
+                        </header> <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+</span>
+                        <span
+                        class="url"> <span class="fa-solid fa-up-right-from-square"></span>
+ <a target="_blank"
+                            href="https://wwt.com">https://wwt.com</a>
+
+                            </span>
+                            <div class="item" id="work-item">
+                                <div class="summary">
+                                    <p>
+                                        <p>Built an award winning solution validating inventory, connections and
+                                            health of customer orders racks.</p>
+                                    </p>
+                                </div>
+                                <ul class="highlights">
+                                    <li>
+                                        <p>
+                                            <p>Increasing rack validation througpught from less than 10 to over 60 daily,
+                                                while completely removing the possibility of errors.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Built a framework to discover servers, switches, routers, and storage
+                                                devices using mDNS, PXE, iPXE, and DHCP that generates detailed validation
+                                                reports.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Initiated a weekly self-paced training session to explore concepts, terminology,
+                                                and processes used in both software and DevOps.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Created custom Ansible plugins for simplifying complicated task logic,
+                                                inventory, and logging requirements, reducing support requests to developers
+                                                from 3 a day to once a week.</p>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                    </section>
+                    <section class="work-item">
+                        <label for="work-item-2"></label>
+                        <header class="clear">
+                            <div class="date"> <span class="startDate">Sep 2020</span>
+ <span class="endDate">- Dec 2020</span>
+
+                            </div>
+                            <div class="position">Automation Engineer @ Charter Advanced Technologies</div>
+                            <div class="company"></div>
+                        </header> <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+</span>
+                        <span
+                        class="url"> <span class="fa-solid fa-up-right-from-square"></span>
+ <a target="_blank"
+                            href="http://kforce.com">http://kforce.com</a>
+
+                            </span>
+                            <div class="item" id="work-item">
+                                <div class="summary">
+                                    <p>
+                                        <p>To demonstrate the feasibility of VR-as-a-Service, developed the infrastructure
+                                            for deploying the proof-of-concept.</p>
+                                    </p>
+                                </div>
+                                <ul class="highlights">
+                                    <li>
+                                        <p>
+                                            <p>Pioneered the design of a scalable network architecture for next-generation
+                                                VR and gaming services.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Implemented robust automation scripts and tools to enhance the efficiency
+                                                and reliability of edge device operations in real-time service environments.</p>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                    </section>
+                    <section class="work-item">
+                        <label for="work-item-3"></label>
+                        <header class="clear">
+                            <div class="date"> <span class="startDate">May 2019</span>
+ <span class="endDate">- Sep 2020</span>
+
+                            </div>
+                            <div class="position">Automation Engineer @ Comcast Applied AI</div>
+                            <div class="company"></div>
+                        </header> <span class="location">
+            <span class="fa-solid fa-location-dot"></span>
+</span>
+                        <span
+                        class="url"> <span class="fa-solid fa-up-right-from-square"></span>
+ <a target="_blank"
+                            href="https://turnberrysolutions.com">https://turnberrysolutions.com</a>
+
+                            </span>
+                            <div class="item" id="work-item">
+                                <div class="summary">
+                                    <p>
+                                        <p>Built the tooling and pipelines necessary to deliever better home security
+                                            through the use of computer vision, audio analysis and anomaly detection.</p>
+                                    </p>
+                                </div>
+                                <ul class="highlights">
+                                    <li>
+                                        <p>
+                                            <p>Created a prototype using Python 3.7 and Tensorflow 1.12 to demonstrate
+                                                an algorithm for detecting deliveries of all types.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Developed tools empowering the research teams to rapidly develop, perform
+                                                A/B testing, and deploy machine learning models with metrics collection,
+                                                monitoring, and failover.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Worked with a small DevOps team to standardize automation, infrastructure,
+                                                and the Automated Machine Learning Platform stack configuration using Amazon
+                                                AWS, EKS, IAM, EC2, and more.</p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <p>Improved a library, written in GoLang, that integrates with nearly any
+                                                Pub/Sub system, including Kinesis, Kafka, MQTT, RabbitMQ.</p>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                    </section>
+                </section>
+            </section>
+            <section class="section">
+                <header>
+                     <h2 class='section-title'>Projects <span class="item-count">(2)</span></h2>
+
+                </header>
+                <section id="projects">
+                    <section class="project-item">
+                        <header class="clear">
+                            <div class="position">Homebridge Ultimate Govee Plugin</div>
+                        </header> <span class="website">
+            <span class="fa-solid fa-up-right-from-square"></span>
+ <a target="_blank"
+                        href="https://github.com/constructorfleet/homebridge-ultimate-govee">https://github.com/constructorfleet/homebridge-ultimate-govee</a>
+
+                        </span>
+                        <ul class="keywords">
+                            <li>Homebridge</li>
+                            <li>Govee</li>
+                            <li>IoT</li>
+                        </ul>
+                        <div class="item">
+                            <ul class="highlights">
+                                <li>
+                                    <p>
+                                        <p>Imports device scenes from Govee API.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <p>Supports granular control of RGBIC light segments.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <p>Provides full support for Air Purifiers, Aroma Diffusers, RGB lights,
+                                            and RGBIC lights.</p>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="project-item">
+                        <header class="clear">
+                            <div class="position">DeepThought - Routing</div>
+                        </header> <span class="website">
+            <span class="fa-solid fa-up-right-from-square"></span>
+ <a target="_blank"
+                        href="https://github.com/constructorfleet/Deepthought-Routing">https://github.com/constructorfleet/Deepthought-Routing</a>
+
+                        </span>
+                        <ul class="keywords">
+                            <li>Express.js</li>
+                            <li>API</li>
+                            <li>Documentation</li>
+                        </ul>
+                        <div class="item">
+                            <ul class="highlights">
+                                <li>
+                                    <p>
+                                        <p>Library to ingest SwaggerDoc, ensuring the API and documentation are always
+                                            synchronized.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <p>Performs permission checks as configurable middle-ware handler.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <p>All inputs presented to endpoint handlers are guaranteed the correct type
+                                            and within specified constraints.</p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <p>Ported library to Android for internal, intent-based, routing within an
+                                            application.</p>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+            </section>
+            <section class="section">
+                <header>
+                     <h2 class='section-title'>Education <span class="item-count">(3)</span></h2>
+
+                </header>
+                <section id="education">
+                    <section class="education-item">
+                        <header class="clear">
+                            <div class="header-left">
+                                <div class="studyType">Bachelor</div>
+                                <div class="area">Applied Physics</div>
+                                <div class="institution">Metropolitan State University</div>
+                            </div>
+                        </header>
+                        <div class="item"></div>
+                    </section>
+                    <section class="education-item">
+                        <header class="clear">
+                            <div class="header-left">
+                                <div class="studyType">Bachelor</div>
+                                <div class="area">Applied Mathematics</div>
+                                <div class="institution">Metropolitan State University</div>
+                            </div>
+                        </header>
+                        <div class="item"></div>
+                    </section>
+                    <section class="education-item">
+                        <header class="clear">
+                            <div class="header-left">
+                                <div class="studyType">Bachelor</div>
+                                <div class="area">Computer Science</div>
+                                <div class="institution">Metropolitan State University</div>
+                            </div>
+                        </header>
+                        <div class="item"></div>
+                    </section>
+                </section>
+            </section>
+    </body>
+
+</html>

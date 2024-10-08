@@ -1,0 +1,197 @@
+{
+  "name": "Teagan Glenn",
+  "info": {
+    "image": "teagan-memoji-computer.png",
+    "label": "Data-Intensive Applications & Machine Learning Platforms",
+    "brief": "A Senior Software Engineer with over 20 years of experience developing scalable, data-intensive applications and machine \nlearning platforms. I have a deep understanding of Python, algorithm development, and optimizing code for performance in \nproduction environments. I thrive in roles that involve infrastructure improvements, automation, and mentoring, and am \npassionate about building reliable, scalable systems that drive innovation."
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Programming Languages",
+        "skills": [
+          "Python",
+          "C#",
+          "C",
+          "Java"
+        ]
+      },
+      {
+        "name": "Data Science & Machine Learning",
+        "skills": [
+          "NumPy",
+          "Pandas",
+          "Scikit-Learn",
+          "Algorithm Development",
+          "Machine Learning Platforms"
+        ]
+      },
+      {
+        "name": "Infrastructure & Optimization",
+        "skills": [
+          "Docker",
+          "AWS",
+          "CI/CD",
+          "Unix",
+          "Git"
+        ]
+      },
+      {
+        "name": "Software Development Practices",
+        "skills": [
+          "Agile",
+          "Automation",
+          "Continuous Delivery"
+        ]
+      },
+      {
+        "name": "Soft",
+        "skills": [
+          "Team Leadership",
+          "Mentoring",
+          "Cross-Discipline Collaboration"
+        ]
+      }
+    ]
+  },
+  "social": [
+    {
+      "network": "LinkedIn",
+      "user": "Teagan42",
+      "url": "https://www.linkedin.com/in/teagan42"
+    },
+    {
+      "network": "GitHub",
+      "user": "Teagan42",
+      "url": "https://www.github.com/teagan42"
+    },
+    {
+      "network": "GitHub",
+      "user": "ConstructorFleet",
+      "url": "https://www.github.com/constructorfleet"
+    }
+  ],
+  "contact": {
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "website": "https://blog.teagantotally.rocks"
+  },
+  "location": {
+    "address": "11838 W Marlowe Ave",
+    "city": "Morrison",
+    "region": "CO",
+    "code": "80465"
+  },
+  "employment": {
+    "history": [
+      {
+        "employer": "Resideo",
+        "start": "2022-05-01",
+        "end": "2024-06-28",
+        "position": "Advanced Senior GraphQL Lead Engineer",
+        "url": "https://www.resideo.com",
+        "highlights": [
+          "Developed scalable, data-intensive systems processing large amounts of real-time data, optimizing infrastructure for performance and reliability.",
+          "Improved runtime and memory usage for internal applications, ensuring they met high performance standards.",
+          "Mentored team members on software engineering best practices, increasing overall team efficiency and collaboration.",
+          "Led infrastructure improvements by automating deployment processes with Docker and AWS."
+        ],
+        "keywords": [
+          "Python",
+          "AWS",
+          "Docker",
+          "Real-Time Data",
+          "Mentoring",
+          "Algorithm Optimization"
+        ]
+      },
+      {
+        "employer": "World Wide Technology",
+        "start": "2021-01-01",
+        "end": "2022-05-01",
+        "position": "Senior Delivery Engineer",
+        "url": "https://www.wwt.com",
+        "highlights": [
+          "Led the development of automated solutions for large-scale data processing applications, ensuring high performance in production environments.",
+          "Built internal libraries for data processing and optimization, enabling scalable deployment across multiple environments.",
+          "Worked closely with cross-functional teams to align system development with business goals and technical requirements."
+        ],
+        "keywords": [
+          "Python",
+          "Docker",
+          "Data Optimization",
+          "Infrastructure Scaling",
+          "Algorithm Development"
+        ]
+      },
+      {
+        "employer": "KForce",
+        "start": "2020-09-15",
+        "end": "2020-12-31",
+        "position": "Senior Automation/DevOps Engineer for Charter Advanced Technologies",
+        "url": "https://www.kforce.com",
+        "highlights": [
+          "Led efforts to deploy dockerized services in AWS, optimizing infrastructure for edge devices and real-time processing.",
+          "Developed automation scripts to improve system runtime and memory usage in high-throughput environments."
+        ],
+        "keywords": [
+          "Docker",
+          "AWS",
+          "CI/CD Pipelines",
+          "Automation"
+        ]
+      },
+      {
+        "employer": "Turnberry Solutions",
+        "start": "2019-05-01",
+        "end": "2020-09-14",
+        "position": "Senior Automation Engineer for Comcast Applied AI",
+        "url": "https://www.turnberrysolutions.com",
+        "highlights": [
+          "Designed and optimized machine learning and data processing systems that handled high-volume, real-time data.",
+          "Worked on improving system scalability and reliability, enhancing performance through memory optimization and efficient algorithms.",
+          "Collaborated with data scientists to build algorithms that supported predictive analysis and automated decision-making.",
+          "Integrated CI/CD pipelines with Docker for efficient deployment and scaling of machine learning models in AWS."
+        ],
+        "keywords": [
+          "Machine Learning Platforms",
+          "CI/CD Pipelines",
+          "Data-Intensive Applications",
+          "AWS",
+          "Python",
+          "Scikit-Learn"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "Bachelor's",
+    "history": [
+      {
+        "institution": "Metropolitan State University of Denver - Bachelor's in Applied Physics",
+        "area": "Applied Physics",
+        "studyType": "Bachelor's",
+        "start": "2005-08-01",
+        "end": "2010-04-01"
+      },
+      {
+        "institution": "Metropolitan State University of Denver - Bachelor's in Applied Mathematics",
+        "area": "Applied Mathematics",
+        "studyType": "Bachelor's",
+        "start": "2005-08-01",
+        "end": "2010-04-01"
+      },
+      {
+        "institution": "Metropolitan State University of Denver - Bachelor's in Computer Science",
+        "area": "Computer Science",
+        "studyType": "Bachelor's",
+        "start": "2005-08-01",
+        "end": "2010-04-01"
+      }
+    ]
+  },
+  "meta": {
+    "format": "FRESH@0.6.1",
+    "version": "1.0.0"
+  }
+}

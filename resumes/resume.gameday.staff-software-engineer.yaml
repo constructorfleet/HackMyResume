@@ -1,0 +1,146 @@
+name: Teagan Glenn
+info:
+  image: teagan-memoji-computer.png
+  label: Delivering Scalable Solutions
+  brief: |-
+    With over 20 years of experience in software engineering, I specialize in building and scaling backend services using 
+    modern technologies like TypeScript and Node.js. My career has been marked by leading high-impact teams, architecting 
+    robust solutions, and driving innovative projects from conception to deployment. I thrive in fast-paced, dynamic 
+    environments and have a passion for solving complex problems, mentoring teams, and delivering exceptional user-facing 
+    features.
+
+skills:
+  sets:
+    - name: Languages
+      skills:
+        - TypeScript
+        - Node.js
+        - Python
+        - C#
+    - name: Databases
+      skills:
+        - PostgreSQL
+        - Redis
+    - name: Cloud Technologies
+      skills:
+        - AWS
+        - Docker
+        - Kubernetes
+    - name: Operations
+      skills:
+        - DevOps
+        - CI/CD
+    - name: Leadership
+      skills:
+        - Team Leadership
+        - Cross-functional Collaboration
+    - name: API & SDK Development
+      skills:
+        - GraphQL
+        - RESTful APIs
+social:
+  - network: LinkedIn
+    user: Teagan42
+    url: https://www.linkedin.com/in/teagan42
+  - network: GitHub
+    user: Teagan42
+    url: https://www.github.com/teagan42
+  - network: GitHub
+    user: ConstructorFleet
+    url: https://www.github.com/constructorfleet
+contact:
+  email: that@teagantotally.rocks
+  phone: (720) 432-5361
+  website: https://blog.teagantotally.rocks
+location:
+  address: 11838 W Marlowe Ave
+  city: Morrison
+  region: CO
+  code: "80465"
+employment:
+  history:
+    - employer: Resideo
+      start: 2022-05-01
+      end: 2024-06-28
+      position: Advanced Senior GraphQL Lead Engineer
+      url: https://www.resideo.com
+      highlights:
+        - Led critical backend initiatives, including migrating all subgraphs to Apollo Server v4 using NestJS and improving system performance, reliability, and scalability.
+        - Implemented custom GraphQL solutions, ensuring self-validating and self-documenting patterns for seamless server/client communication.
+        - Led architectural decisions, enhancing team productivity and codebase scalability across distributed services.
+      keywords:
+        - TypeScript
+        - GraphQL
+        - Node.js
+        - NestJS
+        - AWS
+        - Redis
+        - PostgreSQL
+
+    - employer: World Wide Technology
+      start: 2021-01-01
+      end: 2022-05-01
+      position: Senior Delivery Engineer
+      url: https://www.wwt.com
+      highlights:
+        - Delivered scalable solutions for high-impact projects, leading cross-functional teams across engineering, UX, QA, and DevOps.
+        - Spearheaded critical architectural changes that significantly improved system reliability and efficiency.
+      keywords:
+        - Node.js
+        - Ansible
+        - AWS
+        - PostgreSQL
+        - Redis
+
+    - employer: KForce
+      start: 2020-09-15
+      end: 2020-12-31
+      position: Senior Automation/DevOps Engineer for Charter Advanced Technologies
+      url: https://www.kforce.com
+      highlights:
+        - Developed automation frameworks and improved infrastructure reliability for edge devices.
+        - Collaborated with engineers and architects to refine backend systems deployed in AWS.
+      Keywords:
+        - Node.js,
+        - OpenShift
+        - AWS
+        - Redis
+        - PostgreSQL
+
+    - employer: Turnberry Solutions
+      start: 2019-05-01
+      end: 2020-09-14
+      position: Senior Automation Engineer for Comcast Applied AI
+      url: https://www.turnberrysolutions.com
+      highlights:
+        - Designed and deployed scalable backend systems supporting machine learning and anomaly detection, leveraging AWS infrastructure.
+        - Led efforts to integrate backend systems with RESTful and GraphQL APIs.
+      Keywords:
+        - TypeScript
+        - Node.js
+        - AWS
+        - PostgreSQL
+        - Redis
+
+education:
+  level: Bachelor's
+  history:
+    - institution: Metropolitan State University of Denver - Bachelor's in Applied Physics
+      area: Applied Physics
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+    - institution: Metropolitan State University of Denver - Bachelor's in Applied Mathematics
+      area: Applied Mathematics
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+    - institution: Metropolitan State University of Denver - Bachelor's in Computer Science
+      area: Computer Science
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+
+meta:
+  format: FRESH@0.6.1
+  version: 1.0.0

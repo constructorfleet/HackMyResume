@@ -1,0 +1,18 @@
+education:
+  level: Bachelor's
+  history:
+    - institution: Metropolitan State University of Denver - Bachelor's in Applied Physics
+      area: Applied Physics
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+    - institution: Metropolitan State University of Denver - Bachelor's in Mathematics
+      area: Applied Mathematics
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01
+    - institution: Metropolitan State University of Denver - Bachelor's in Computer Science
+      area: Computer Science
+      studyType: Bachelor's
+      start: 2005-08-01
+      end: 2010-04-01

@@ -38,7 +38,7 @@ class TemplateGenerator extends BaseGenerator {
   generator. Will usually be called by a derived generator such as
   HTMLGenerator or MarkdownGenerator. */
 
-  constructor( outputFormat, templateFormat/*, cssFile */) {
+  constructor(outputFormat, templateFormat/*, cssFile */) {
     super(outputFormat);
     this.tplFormat = templateFormat || outputFormat;
   }
@@ -53,19 +53,19 @@ class TemplateGenerator extends BaseGenerator {
   @returns {Array} An array of objects representing the generated output
   files. */
 
-  invoke( rez, opts ) {
+  invoke(rez, opts) {
 
     opts =
       opts
-      ? (this.opts = EXTEND( true, { }, _defaultOpts, opts ))
-      : this.opts;
+        ? (this.opts = EXTEND(true, {}, _defaultOpts, opts))
+        : this.opts;
 
     // Sort such that CSS files are processed before others
-    const curFmt = opts.themeObj.getFormat( this.format );
+    const curFmt = opts.themeObj.getFormat(this.format);
     curFmt.files = _.sortBy(curFmt.files, fi => fi.ext !== 'css');
 
     // Run the transformation!
-    const results = curFmt.files.map(function( tplInfo, idx ) {
+    const results = curFmt.files.map(function (tplInfo, idx) {
       let trx;
       if (tplInfo.action === 'transform') {
         trx = this.transform(rez, tplInfo.data, this.format, opts, opts.themeObj, curFmt);
@@ -73,18 +73,18 @@ class TemplateGenerator extends BaseGenerator {
           curFmt.files[idx].data = trx;
         } else { tplInfo.ext === 'html'; }
       }
-          //tplInfo.css contains the CSS data loaded by theme
-          //tplInfo.cssPath contains the absolute path to the source CSS File
+      //tplInfo.css contains the CSS data loaded by theme
+      //tplInfo.cssPath contains the absolute path to the source CSS File
       //else {}
-        // Images and non-transformable binary files
+      // Images and non-transformable binary files
       if (typeof opts.onTransform === 'function') {
         opts.onTransform(tplInfo);
       }
-      return {info: tplInfo, data: trx};
+      return { info: tplInfo, data: trx };
     }
-    , this);
+      , this);
 
-    return {files: results};
+    return { files: results };
   }
 
 
@@ -96,20 +96,20 @@ class TemplateGenerator extends BaseGenerator {
   @param f Full path to the output resume file to generate.
   @param opts Generator options. */
 
-  generate( rez, f, opts ) {
+  generate(rez, f, opts) {
 
     // Prepare
-    this.opts = EXTEND(true, { }, _defaultOpts, opts);
+    this.opts = EXTEND(true, {}, _defaultOpts, opts);
 
     // Call the string-based generation method
     const genInfo = this.invoke(rez, null);
-    const outFolder = parsePath( f ).dirname;
+    const outFolder = parsePath(f).dirname;
     const curFmt = opts.themeObj.getFormat(this.format);
 
     // Process individual files within this format. For example, the HTML
     // output format for a theme may have multiple HTML files, CSS files,
     // etc. Process them here.
-    genInfo.files.forEach(function( file ) {
+    genInfo.files.forEach(function (file) {
 
       // console.dir _.omit(file.info,'cssData','data','css' )
 
@@ -117,8 +117,8 @@ class TemplateGenerator extends BaseGenerator {
       file.info.orgPath = file.info.orgPath || '';
       const thisFilePath =
         file.info.primary
-        ? f
-        : PATH.join(outFolder, file.info.orgPath);
+          ? f
+          : PATH.join(outFolder, file.info.orgPath);
 
       if ((file.info.action !== 'copy') && this.onBeforeSave) {
         file.data = this.onBeforeSave({
@@ -135,26 +135,26 @@ class TemplateGenerator extends BaseGenerator {
 
       // Write the file
       if (typeof opts.beforeWrite === 'function') {
-        opts.beforeWrite({data: thisFilePath});
+        opts.beforeWrite({ data: thisFilePath });
       }
-      MKDIRP.sync(PATH.dirname( thisFilePath ));
+      MKDIRP.sync(PATH.dirname(thisFilePath), { recursive: true });
 
       if (file.info.action !== 'copy') {
-        FS.writeFileSync(thisFilePath, file.data, {encoding: 'utf8', flags: 'w'});
+        FS.writeFileSync(thisFilePath, file.data, { encoding: 'utf8', flags: 'w' });
       } else {
         FS.copySync(file.info.path, thisFilePath);
       }
       if (typeof opts.afterWrite === 'function') {
-        opts.afterWrite({data: thisFilePath});
+        opts.afterWrite({ data: thisFilePath });
       }
 
       // Post-processing
       if (this.onAfterSave) {
-        return this.onAfterSave({outputFile: thisFilePath, mk: file.data, opts: this.opts});
+        return this.onAfterSave({ outputFile: thisFilePath, mk: file.data, opts: this.opts });
       }
     }
 
-    , this);
+      , this);
 
     // Some themes require a symlink structure. If so, create it.
     createSymLinks(curFmt, outFolder);
@@ -172,7 +172,7 @@ class TemplateGenerator extends BaseGenerator {
   @param cssInfo Needs to be refactored.
   @param opts Options and passthrough data. */
 
-  transform( json, jst, format, opts, theme, curFmt ) {
+  transform(json, jst, format, opts, theme, curFmt) {
     if (this.opts.freezeBreaks) {
       jst = freeze(jst);
     }
@@ -190,14 +190,14 @@ module.exports = TemplateGenerator;
 
 
 
-var createSymLinks = function( curFmt, outFolder ) {
+var createSymLinks = function (curFmt, outFolder) {
   // Some themes require a symlink structure. If so, create it.
   if (curFmt.symLinks) {
-    Object.keys( curFmt.symLinks ).forEach(function(loc) {
+    Object.keys(curFmt.symLinks).forEach(function (loc) {
       const absLoc = PATH.join(outFolder, loc);
       const absTarg = PATH.join(PATH.dirname(absLoc), curFmt.symLinks[loc]);
       // Set type to 'file', 'dir', or 'junction' (Windows only)
-      const type = parsePath( absLoc ).extname ? 'file' : 'junction';
+      const type = parsePath(absLoc).extname ? 'file' : 'junction';
 
       try {
         return FS.symlinkSync(absTarg, absLoc, type);
@@ -223,15 +223,15 @@ var createSymLinks = function( curFmt, outFolder ) {
 
 
 /** Freeze newlines for protection against errant JST parsers. */
-var freeze = function( markup ) {
-  markup.replace( _reg.regN, _defaultOpts.nSym );
-  return markup.replace( _reg.regR, _defaultOpts.rSym );
+var freeze = function (markup) {
+  markup.replace(_reg.regN, _defaultOpts.nSym);
+  return markup.replace(_reg.regR, _defaultOpts.rSym);
 };
 
 
 
 /** Unfreeze newlines when the coast is clear. */
-var unfreeze = function( markup ) {
+var unfreeze = function (markup) {
   markup.replace(_reg.regSymR, '\r');
   return markup.replace(_reg.regSymN, '\n');
 };
@@ -252,32 +252,32 @@ var _defaultOpts = {
     comment: /\{#(.+?)#\}/g
   },
   filters: {
-    out( txt ) { return txt; },
-    raw( txt ) { return txt; },
-    xml( txt ) { return XML(txt); },
-    md( txt ) { return MD( txt || '' ); },
-    mdin( txt ) { return MD(txt || '' ).replace(/^\s*<p>|<\/p>\s*$/gi, ''); },
-    lower( txt ) { return txt.toLowerCase(); },
-    link( name, url ) {
+    out(txt) { return txt; },
+    raw(txt) { return txt; },
+    xml(txt) { return XML(txt); },
+    md(txt) { return MD(txt || ''); },
+    mdin(txt) { return MD(txt || '').replace(/^\s*<p>|<\/p>\s*$/gi, ''); },
+    lower(txt) { return txt.toLowerCase(); },
+    link(name, url) {
       if (url) { return `<a href="${url}">${name}</a>`; } else { return name; }
     }
   },
   prettify: { // ← See https://github.com/beautify-web/js-beautify#options
     indent_size: 2,
-    unformatted: ['em','strong','a'],
+    unformatted: ['em', 'strong', 'a'],
     max_char: 80
   } // ← See lib/html.js in above-linked repo
 };
-    //wrap_line_length: 120, <-- Don't use this
+//wrap_line_length: 120, <-- Don't use this
 
 
 
 /** Regexes for linebreak preservation. */
 /* eslint-disable no-control-regex */
 var _reg = {
-  regN: new RegExp( '\n', 'g' ),
-  regR: new RegExp( '\r', 'g' ),
-  regSymN: new RegExp( _defaultOpts.nSym, 'g' ),
-  regSymR: new RegExp( _defaultOpts.rSym, 'g' )
+  regN: new RegExp('\n', 'g'),
+  regR: new RegExp('\r', 'g'),
+  regSymN: new RegExp(_defaultOpts.nSym, 'g'),
+  regSymR: new RegExp(_defaultOpts.rSym, 'g')
 };
 /* eslint-enable no-control-regex */

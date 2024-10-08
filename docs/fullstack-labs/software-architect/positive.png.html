@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Teagan Glenn</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <style>
+            html,
+            body,
+            main,
+            section,
+            header,
+            ul,
+            p,
+            h1,
+            h2,
+            h3 {
+              font-family: "Open Sans", "sans-serif";
+              font-size: 14px;
+              line-height: 1.4;
+              margin: 0;
+              padding: 0;
+              display: block;
+            }
+            
+            ::selection {
+              color: #fff;
+              background: #e48a8a; /* WebKit/Blink Browsers */
+            }
+            ::-moz-selection {
+              color: #fff;
+              background: #e48a8a; /* Gecko Browsers */
+            }
+            
+            p::selection {
+              color: #fff;
+            }
+            
+            a {
+              color: #c00000;
+              text-decoration: none;
+            }
+            
+            a:visited {
+              color: #7b0796;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            h1 {
+              text-transform: uppercase;
+              font-size: 2.5em;
+            }
+            
+            h2 {
+              text-transform: uppercase;
+              color: #898989;
+              font-size: 2em;
+              position: relative;
+              font-weight: 400;
+            }
+            
+            h3,
+            .tenure {
+              font-size: 1.1em;
+              font-weight: 400;
+            }
+            
+            h3 {
+              margin-top: 0;
+              margin-bottom: 5px;
+              /*width: 85%;*/
+              float: left;
+            }
+            
+            h3 > a {
+              display: block;
+            }
+            
+            table {
+              margin-top: 12px;
+              text-transform: uppercase;
+            }
+            
+            tr {
+              margin-bottom: 10px;
+            }
+            
+            td:first-child {
+              letter-spacing: 1.5px;
+              color: #bd5b5b;
+              font-size: 0.8em;
+              font-weight: 400;
+            }
+            
+            td:last-child {
+              text-align: left; 
+              font-size: 0.7em;/* HTML justification sucks, but in this case... */
+            }
+            
+            hr {
+              display: none;
+            }
+            
+            main {
+              padding: 15px;
+              max-width: 87%;
+              margin: 0 auto;
+            }
+            
+            section {
+              margin-top: 0.5em;
+            }
+            
+            section > div {
+              margin-top: 12px;
+              overflow: hidden; /* Clear floated children */
+              page-break-inside: avoid;
+              -webkit-break-inside: avoid;
+              break-inside: avoid;
+            
+              ul {
+                font-size: 0.9em;
+              }
+            }
+            
+            section#education > header {
+              margin-bottom: 10px;
+            } 
+            
+            section#education > div {
+              margin-top: 2px !important;
+            }
+            
+            section#education p {
+              font-size: 0.7em;
+            }
+            
+            section#education > div > h3 {
+              font-size: 0.9em;
+            }
+            
+            section > div p {
+              clear: both;
+            }
+            
+            section > header {
+              position: relative;
+              h2 {
+                font-size: 1.2em;
+              }
+            }
+            
+            p + ul {
+              margin-left: 1em;
+              margin-top: 0.5em;
+              margin-right: 1em;
+              margin-bottom: 0.2em;
+            }
+            
+            ul {
+              clear: both;
+            }
+            
+            li {
+              margin-left: 2em;
+            }
+            
+            p,
+            li {
+              text-align: justify;
+            }
+            
+            .tenure {
+              float: right;
+              color: #6f6f6f;
+              background-color: #f5f5f5;
+              border-radius: 6px;
+              padding: 4px 6px;
+              font-size: 85%;
+              font-weight: 600;
+              margin-top: 3px;
+            }
+            
+            .location {
+              border: #e2aaaa dashed 1px;
+              background-color: #ffffff;
+              padding: 3px 6px;
+              border-radius: 6px;
+              float: right;
+              margin-right: 5px;
+              float: right;
+              font-size: 85%;
+              color: #717171;
+              font-weight: 600;
+              margin-top: 3px;
+            }
+            
+            span.keywords {
+              font-size: 12px;
+              color: #b16666;
+              margin-bottom: 0.8em;
+            }
+            
+            thead {
+              display: none;
+            }
+            
+            main > header {
+              width: 100%;
+              float: left;
+              margin-bottom: 1em;
+            }
+            
+            h1 {
+              float: left;
+            }
+            
+            h1,
+            h2,
+            .label {
+              font-size: 24px;
+              text-transform: uppercase;
+              font-weight: 300;
+              font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Lato", "sans-serif";
+            }
+            
+            #contact {
+              clear: both;
+              float: left;
+              margin-top: 2px;
+            }
+            
+            #contact span + span {
+              margin-left: 10px;
+            }
+            
+            main > header {
+              h1 {
+                font-size: 1.4em;
+              }
+              span.label {
+                font-size: 1.1em;
+                color: #6f6f6f;
+                margin-top: 0.2em;
+              }
+            }
+            
+            header > span.fa {
+              text-align: center;
+              margin-right: 3px;
+              position: absolute;
+              width: 40px;
+              top: 10px;
+              font-size: 30px;
+              /*transform: translateX(-110%); PDF no likey */
+              margin-left: -50px;
+              color: #dadada;
+            }
+            
+            header > h2 {
+              top: 6px;
+            }
+            
+            .label {
+              float: right;
+              color: #dadada;
+            }
+            
+            #summary {
+              color: #717171;
+              font-size: 1em;
+              margin-top: 4em;
+            }
+            
+            #references > p,
+            #references > p > a {
+              color: #961e1e;
+              text-align: center;
+              margin: 30px;
+              font-weight: bold;
+              letter-spacing: 2px;
+              text-transform: uppercase;
+            }
+            span.label {
+              color: #999;
+              float: left;
+              font-size: 20px;
+              margin-left: 20px;
+              margin-top: 2px;
+              margin-bottom: 2px;
+            }
+            #testimonials {
+              display: none;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                 <h1>Teagan <span style="color: #C00000;">Glenn</span></h1> <span class="label">Senior Software Architect | Expertise in Distributed Systems &amp; Automation</span>
+                <p
+                id="contact"> <span class="email"><a href="mailto:that@teagantotally.rocks"><a href="mailto:that@teagantotally.rocks">that@teagantotally.rocks</a></a></span>
+                    <span
+                    class="phone">(720) 432-5361</span> <span class="website"><a href="https://blog.teagantotally.rocks"><a href="https://blog.teagantotally.rocks">https://blog.teagantotally.rocks</a></a></span>
+                        </p>
+            </header>
+            <section id="summary">A Senior Software Architect with over 20 years of experience, specializing
+                in designing and delivering scalable, cloud-based solutions. With a proven
+                track record in software architecture, DevOps, and automation, I bring
+                a blend of technical expertise and visionary leadership to drive innovation.
+                I have led cross-functional teams in high-profile organizations, integrating
+                complex systems and ensuring continuous delivery. My expertise spans cloud
+                platforms, architecture modeling, and modern development frameworks, ensuring
+                top-quality results in fast-paced, Agile environments.</section>
+            <hr>
+            <section id="skills">
+                <header> <span class="fa fa-lg fa-code"></span> 
+                     <h2>skills</h2>
+
+                </header>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Keywords</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="width: 25%;">Languages</td>
+                            <td class="keywords">Typescript Python C# .NET</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Cloud &amp; Architecture</td>
+                            <td class="keywords">AWS Azure Draw.io</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Version Control &amp; CI/CD</td>
+                            <td class="keywords">Git GitHub Jenkins Infrastructure as Code (IaC)</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Design Patterns &amp; Architectural Styles</td>
+                            <td class="keywords">Microservices MVC Event-Driven Architecture</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Product Development Tools</td>
+                            <td class="keywords">Jira Confluence Slack</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Soft</td>
+                            <td class="keywords">Team Leadership Cross-Discipline Collaboration Mentoring Agile Methodologies
+                                (Scrum)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+            <section id="employment">
+                <header> <span class="fa fa-lg fa-building"></span> 
+                     <h2>History</h2>
+
+                </header>
+                <div>
+                     <h3><em>Advanced Senior GraphQL Lead Engineer</em>,
+
+              <a href="https://www.resideo.com">Resideo</a>
+
+              </h3> <span class="tenure">2022-05 — 2024-06</span>
+                    <p></p>
+                    <ul>
+                        <li>Led architectural changes to Resideo&#39;s core platform for connected
+                            home products, including migration to Apollo Server v4 using NestJS.</li>
+                        <li>Introduced automated, self-documenting patterns using GraphQL, optimizing
+                            microservices integration and scalability.</li>
+                        <li>Mentored engineers on software design patterns and system architecture
+                            best practices.</li>
+                        <li>Spearheaded DevOps practices for continuous integration and deployment,
+                            improving product development speed and reliability.</li>
+                    </ul> <span class="keywords">Typescript GraphQL Microservices Team Leadership DevOps CI/CD </span>
+                </div>
+                <div>
+                     <h3><em>Senior Delivery Engineer</em>,
+
+              <a href="https://www.wwt.com">World Wide Technology</a>
+
+              </h3> <span class="tenure">2021-01 — 2022-05</span>
+                    <p></p>
+                    <ul>
+                        <li>Developed automation frameworks and led cross-functional teams to deliver
+                            solutions for clients across multiple industries.</li>
+                        <li>Delivered a network automation system for a multi-million dollar client,
+                            reducing manual intervention by 70% using Ansible and other infrastructure-as-code
+                            tools.</li>
+                        <li>Worked closely with product and DevOps teams, ensuring scalable and secure
+                            deployment practices in cloud-based environments.</li>
+                    </ul> <span class="keywords">DevOps System Automation Network Automation Python Infrastructure as Code (IaC) Ansible </span>
+                </div>
+                <div>
+                     <h3><em>Senior Automation Engineer for Comcast Applied AI</em>,
+
+              <a href="https://www.turnberrysolutions.com">Turnberry Solutions</a>
+
+              </h3> <span class="tenure">2019-05 — 2020-09</span>
+                    <p></p>
+                    <ul>
+                        <li>Designed and deployed a fully automated machine learning platform (AMP)
+                            for rapid model deployment and monitoring in AWS.</li>
+                        <li>Collaborated with ML teams to integrate AI-driven solutions using Python
+                            and TensorFlow.</li>
+                        <li>Built infrastructure for monitoring, logging, and automated failover using
+                            AWS tools and Python.</li>
+                    </ul> <span class="keywords">AWS TensorFlow Machine Learning Python Automation DevOps </span>
+                </div>
+                <div>
+                     <h3><em>Senior Automation/DevOps Engineer for Charter Advanced Technologies</em>,
+
+              <a href="https://www.kforce.com">KForce</a>
+
+              </h3> <span class="tenure">2020-09 — 2020-12</span>
+                    <p></p>
+                    <ul>
+                        <li>Led efforts to implement VR-as-a-Service on edge devices, with robust
+                            automation scripts improving deployment times by 50%.</li>
+                        <li>Deployed CI/CD pipelines and automated cloud provisioning using Ansible
+                            and Terraform.</li>
+                    </ul> <span class="keywords">OpenShift Ansible Infrastructure as Code Linux KVM </span>
+                </div>
+                <div>
+                     <h3><em>Senior Staff Engineer</em>,
+
+              <a href="https://www.aetna.com">Aetna</a>
+
+              </h3> <span class="tenure">2019-04 — 2019-05</span>
+                    <p></p>
+                    <ul>
+                        <li>Led the architecture and CI/CD implementation for Aetna&#39;s first cloud-integrated
+                            API feature.</li>
+                        <li>Collaborated closely with the architecture team to implement an integrated
+                            platform architecture across multiple platforms (iOS, Android).</li>
+                    </ul> <span class="keywords">CI/CD Cloud Architecture Docker Jenkins Kotlin Java </span>
+                </div>
+            </section>
+            <hr>
+            <section id="education">
+                <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                     <h2>Education</h2>
+
+                </header>
+                <div>
+                     <h3>Metropolitan State University of Denver - Bachelor&#39;s in Applied Physics</h3> <span class="tenure">2005-08 — 2010-04</span>
+                </div>
+                <div>
+                     <h3>Metropolitan State University of Denver - Bachelor&#39;s in Applied Mathematics</h3> <span class="tenure">2005-08 — 2010-04</span>
+                </div>
+                <div>
+                     <h3>Metropolitan State University of Denver - Bachelor&#39;s in Computer Science</h3> <span class="tenure">2005-08 — 2010-04</span>
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>

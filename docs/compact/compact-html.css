@@ -1,0 +1,131 @@
+html,
+body,
+main,
+section,
+header,
+ul,
+p,
+h1,
+h2,
+h3 {
+  font-family: "Calibri", "Helvetica Neue", "Helvetica", "Segoe UI",
+    "sans-serif";
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+a {
+  color: #0064bd;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7b0796;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #b3b3b3;
+}
+
+main {
+  padding: 15px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 1em;
+}
+
+li {
+  margin-left: 2em;
+}
+
+p,
+li {
+  text-align: justify;
+  clear: both;
+}
+
+.tenure {
+  float: right;
+}
+
+thead {
+  display: none;
+}
+
+main > header {
+  width: 100%;
+  float: left;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+header {
+  margin-bottom: 8px;
+}
+
+main > header > div {
+  font-size: 14px;
+}
+
+h3 {
+  display: inline-block;
+  line-height: 1;
+}
+#contact {
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#contact > div {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+span.fa div.fa {
+  text-align: left;
+  margin-right: 3px;
+  float: left;
+}
+
+section > div {
+  margin-bottom: 1em;
+  clear: both;
+}
+
+span.keywords {
+  font-size: 10px;
+  color: gray;
+  text-align: right;
+}
+
+div {
+  break-inside: avoid;
+}
+
+section#testimonials {
+  display: none;
+}

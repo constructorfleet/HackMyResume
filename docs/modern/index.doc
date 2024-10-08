@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Word.Document"?>
+<w:wordDocument xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve">
+  <w:ignoreSubtree w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
+
+
+  <o:DocumentProperties>
+    <o:Title>Resume for Teagan Glenn</o:Title>
+    <o:Author>Teagan Glenn</o:Author>
+    <o:Keywords>resume;CV</o:Keywords>
+    <o:LastAuthor>Teagan Glenn</o:LastAuthor>
+    <o:Revision>1</o:Revision>
+    <o:TotalTime>60</o:TotalTime>
+    <o:Created>2015-12-16T17:38:00Z</o:Created>
+    <o:LastSaved>2015-12-16T18:32:00Z</o:LastSaved>
+    <o:Pages>1</o:Pages>
+    <o:Words>241</o:Words>
+    <o:Characters>1379</o:Characters>
+    <o:Lines>11</o:Lines>
+    <o:Paragraphs>3</o:Paragraphs>
+    <o:CharactersWithSpaces>1617</o:CharactersWithSpaces>
+    <o:Version>15</o:Version>
+  </o:DocumentProperties>
+  
+  <w:fonts>
+    <w:defaultFonts w:ascii="Calibri" w:fareast="Calibri" w:h-ansi="Calibri" w:cs="Calibri"/>
+  
+  
+    <w:font w:name="Calibri">
+      <w:panose-1 w:val="02020603050405020304"/>
+      <w:charset w:val="00"/>
+      <w:family w:val="Roman"/>
+      <w:pitch w:val="variable"/>
+      <w:sig w:usb-0="E0002AFF" w:usb-1="C0007841" w:usb-2="00000009" w:usb-3="00000000" w:csb-0="000001FF" w:csb-1="00000000"/>
+    </w:font>
+  
+  
+    <w:font w:name="Calibri">
+      <w:panose-1 w:val="020F0502020204030204"/>
+      <w:charset w:val="00"/>
+      <w:family w:val="Swiss"/>
+      <w:pitch w:val="variable"/>
+      <w:sig w:usb-0="A00002EF" w:usb-1="4000207B" w:usb-2="00000000" w:usb-3="00000000" w:csb-0="0000009F" w:csb-1="00000000"/>
+    </w:font>
+  
+  </w:fonts>
+  <w:lists>
+    <w:listDef w:listDefId="1">
+      <w:lsid w:val="602C53DD"/>
+      <w:plt w:val="HybridMultilevel"/>
+      <w:tmpl w:val="61849B8C"/>
+      <w:lvl w:ilvl="0" w:tplc="DD7ED086">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val="•"/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="720" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="1" w:tplc="04090003" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val="o"/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="1440" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Courier New" w:h-ansi="Courier New" w:cs="Courier New" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="2" w:tplc="04090005" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val=""/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="2160" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Marlett" w:h-ansi="Marlett" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="3" w:tplc="04090001" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val=""/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="2880" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Symbol" w:h-ansi="Symbol" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="4" w:tplc="04090003" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val="o"/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="3600" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Courier New" w:h-ansi="Courier New" w:cs="Courier New" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="5" w:tplc="04090005" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val=""/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="4320" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Marlett" w:h-ansi="Marlett" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="6" w:tplc="04090001" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val=""/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="5040" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Symbol" w:h-ansi="Symbol" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="7" w:tplc="04090003" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val="o"/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="5760" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Courier New" w:h-ansi="Courier New" w:cs="Courier New" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="8" w:tplc="04090005" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val=""/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="6480" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Marlett" w:h-ansi="Marlett" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+    </w:listDef>
+    <w:list w:ilfo="1">
+      <w:ilst w:val="1"/>
+    </w:list>
+  </w:lists>
+
+
+  <w:styles>
+    <w:style w:type="paragraph" w:default="on" w:styleId="Normal">
+      <w:name w:val="Normal"/>
+      <w:rsid w:val="002743C8"/>
+      <w:rPr>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <wx:font wx:val="Calibri"/>
+        <w:sz-cs w:val="24"/>
+        <w:lang w:val="EN-US" w:fareast="EN-US" w:bidi="AR-SA"/>
+      </w:rPr>
+      <w:pPr>
+        <w:jc w:val="both"/>
+      </w:pPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Heading1">
+      <w:name w:val="heading 1"/>
+      <wx:uiName wx:val="Heading 1"/>
+      <w:basedOn w:val="Normal"/>
+      <w:link w:val="Heading1Char"/>
+      <w:rsid w:val="00505903"/>
+      <w:pPr>
+        <w:spacing w:before="100" w:before-autospacing="on"/>
+        <w:outlineLvl w:val="0"/>
+        <w:pBdr>
+          <w:top w:val="single" w:sz="6" w:space="1" w:color="#EEEEEE" />
+        </w:pBdr>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Trebuchet MS"/>
+        <w:rFonts w:ascii="Trebuchet MS" w:h-ansi="Trebuchet MS"/>
+        <w:color w:val="AEAAAA"/>
+        <w:kern w:val="36"/>
+        <w:sz w:val="40"/>
+        <w:sz-cs w:val="40"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Heading2">
+      <w:name w:val="heading 2"/>
+      <wx:uiName wx:val="Heading 2"/>
+      <w:basedOn w:val="Normal"/>
+      <w:link w:val="Heading2Char"/>
+      <w:rsid w:val="00505903"/>
+      <w:pPr>
+        <w:spacing w:before="600"/>
+        <w:outlineLvl w:val="1"/>
+      </w:pPr>
+      <w:rPr>
+        <w:color w:val="595959"/>
+        <wx:font wx:val="Calibri"/>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:b/>
+        <w:b-cs/>
+        <!-- <w:caps/> -->
+        <w:sz-cs w:val="28"/>
+        <w:sz w:val="28"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Heading3">
+      <w:name w:val="heading 3"/>
+      <wx:uiName wx:val="Heading 3"/>
+      <w:basedOn w:val="Normal"/>
+      <w:link w:val="Heading3Char"/>
+      <w:rsid w:val="001B7422"/>
+      <w:pPr>
+        <w:spacing w:before="240" w:after="100" w:after-autospacing="on"/>
+        <w:outlineLvl w:val="2"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+        <w:b/>
+        <w:b-cs/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="FromTo">
+      <w:name w:val="FromTo"/>
+      <w:rsid w:val="004E2103"/>
+      <w:rPr>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:b w:val="off"/>
+        <w:b-cs/>
+        <w:color w:val="AEAAAA"/>
+        <w:sz w:val="28"/>
+        <w:sz-cs w:val="28"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:default="on" w:styleId="DefaultParagraphFont">
+      <w:name w:val="Default Paragraph Font"/>
+    </w:style>
+    <w:style w:type="table" w:default="on" w:styleId="TableNormal">
+      <w:name w:val="Normal Table"/>
+      <wx:uiName wx:val="Table Normal"/>
+      <w:rPr>
+        <wx:font wx:val="Times New Roman"/>
+        <w:lang w:val="EN-US" w:fareast="EN-US" w:bidi="AR-SA"/>
+      </w:rPr>
+      <w:tblPr>
+        <w:tblInd w:w="0" w:type="dxa"/>
+        <w:tblCellMar>
+          <w:top w:w="0" w:type="dxa"/>
+          <w:left w:w="108" w:type="dxa"/>
+          <w:bottom w:w="0" w:type="dxa"/>
+          <w:right w:w="108" w:type="dxa"/>
+        </w:tblCellMar>
+      </w:tblPr>
+    </w:style>
+    <w:style w:type="list" w:default="on" w:styleId="NoList">
+      <w:name w:val="No List"/>
+    </w:style>
+    <w:style w:type="character" w:styleId="Hyperlink">
+      <w:name w:val="Hyperlink"/>
+      <w:rsid w:val="001B7422"/>
+      <w:rPr>
+        <w:strike w:val="off"/>
+        <w:dstrike w:val="off"/>
+        <w:color w:val="2F5496"/>
+        <w:u w:val="none"/>
+        <w:effect w:val="none"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="FollowedHyperlink">
+      <w:name w:val="FollowedHyperlink"/>
+      <w:rsid w:val="001B7422"/>
+      <w:rPr>
+        <w:strike w:val="off"/>
+        <w:dstrike w:val="off"/>
+        <w:color w:val="7B0796"/>
+        <w:u w:val="none"/>
+        <w:effect w:val="none"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="Heading2Char">
+      <w:name w:val="Heading 2 Char"/>
+      <w:link w:val="Heading2"/>
+      <w:rsid w:val="00505903"/>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:b/>
+        <w:b-cs/>
+        <!-- <w:caps/> -->
+        <w:sz-cs w:val="28"/>
+        <w:sz w:val="28"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="Heading3Char">
+      <w:name w:val="Heading 3 Char"/>
+      <w:link w:val="Heading3"/>
+      <w:rsid w:val="001B7422"/>
+      <w:rPr>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:color w:val="1F4D78"/>
+        <w:sz w:val="28"/>
+        <w:sz-cs w:val="28"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="NormalWeb">
+      <w:name w:val="Normal (Web)"/>
+      <w:basedOn w:val="Normal"/>
+      <w:rsid w:val="001B7422"/>
+      <w:pPr>
+        <w:spacing w:before="100" w:before-autospacing="on" w:after="100" w:after-autospacing="on"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="Heading1Char">
+      <w:name w:val="Heading 1 Char"/>
+      <w:link w:val="Heading1"/>
+      <w:rsid w:val="00505903"/>
+      <w:rPr>
+        <wx:font wx:val="Trebuchet MS"/>
+        <w:rFonts w:ascii="Trebuchet MS" w:h-ansi="Trebuchet MS"/>
+        <w:color w:val="AEAAAA"/>
+        <w:kern w:val="36"/>
+        <w:sz w:val="40"/>
+        <w:sz-cs w:val="40"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="Strong">
+      <w:name w:val="Strong"/>
+      <w:rsid w:val="001B7422"/>
+      <w:rPr>
+        <w:b/>
+        <w:b-cs/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="Emphasis">
+      <w:name w:val="Emphasis"/>
+      <w:rsid w:val="001B7422"/>
+      <w:rPr>
+        <w:i/>
+        <w:i-cs/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="tenure">
+      <w:name w:val="tenure"/>
+      <w:basedOn w:val="DefaultParagraphFont"/>
+      <w:rsid w:val="001B7422"/>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Title">
+      <w:name w:val="Title"/>
+      <w:basedOn w:val="Normal"/>
+      <w:next w:val="Normal"/>
+      <w:link w:val="TitleChar"/>
+      <w:rsid w:val="002D3B7B"/>
+      <w:pPr>
+        <w:contextualSpacing/>
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI"/>
+        <wx:font wx:val="Segoe UI"/>
+        <w:b/>
+        <w:spacing w:val="-10"/>
+        <w:kern w:val="28"/>
+        <w:sz w:val="48"/>
+        <w:sz-cs w:val="56"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="TitleChar">
+      <w:name w:val="Title Char"/>
+      <w:link w:val="Title"/>
+      <w:rsid w:val="002D3B7B"/>
+      <w:rPr>
+        <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI"/>
+        <w:spacing w:val="-10"/>
+        <w:kern w:val="28"/>
+        <w:sz w:val="48"/>
+        <w:sz-cs w:val="56"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="ListParagraph">
+      <w:name w:val="List Paragraph"/>
+      <w:basedOn w:val="Normal"/>
+      <w:rsid w:val="00C146CA"/>
+      <w:pPr>
+        <w:ind w:left="720"/>
+        <w:contextualSpacing/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Summary">
+      <w:name w:val="Summary"/>
+      <w:basedOn w:val="Normal"/>
+      <w:link w:val="SummaryChar"/>
+      <w:rsid w:val="00A210E1"/>
+      <w:pPr>
+        <w:spacing w:before="120"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+        <w:color w:val="767171"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="SummaryChar">
+      <w:name w:val="Summary Char"/>
+      <w:link w:val="Summary"/>
+      <w:rsid w:val="00A210E1"/>
+      <w:rPr>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:sz-cs w:val="24"/>
+      </w:rPr>
+    </w:style>
+  </w:styles>
+
+  <w:docPr>
+    <w:view w:val="print"/>
+    <w:zoom w:percent="98"/>
+    <w:doNotEmbedSystemFonts/>
+    <w:defaultTabStop w:val="720"/>
+    <w:characterSpacingControl w:val="DontCompress"/>
+    <w:webPageEncoding w:val="unicode"/>
+    <w:optimizeForBrowser/>
+    <w:allowPNG/>
+    <w:validateAgainstSchema/>
+    <w:saveInvalidXML w:val="off"/>
+    <w:ignoreMixedContent w:val="off"/>
+    <w:alwaysShowPlaceholderText w:val="off"/>
+    <w:compat>
+      <w:breakWrappedTables/>
+    </w:compat>
+    <wsp:rsids>
+      <wsp:rsidRoot wsp:val="00C146CA"/>
+      <wsp:rsid wsp:val="000A3AF0"/>
+      <wsp:rsid wsp:val="001B7422"/>
+      <wsp:rsid wsp:val="002743C8"/>
+      <wsp:rsid wsp:val="002865F0"/>
+      <wsp:rsid wsp:val="002D3B7B"/>
+      <wsp:rsid wsp:val="00397D4D"/>
+      <wsp:rsid wsp:val="00437135"/>
+      <wsp:rsid wsp:val="00505903"/>
+      <wsp:rsid wsp:val="00606071"/>
+      <wsp:rsid wsp:val="006C2CFB"/>
+      <wsp:rsid wsp:val="00771B3E"/>
+      <wsp:rsid wsp:val="007D096C"/>
+      <wsp:rsid wsp:val="009452CA"/>
+      <wsp:rsid wsp:val="00A210E1"/>
+      <wsp:rsid wsp:val="00B43FDC"/>
+      <wsp:rsid wsp:val="00C146CA"/>
+      <wsp:rsid wsp:val="00C77315"/>
+      <wsp:rsid wsp:val="00CD3781"/>
+      <wsp:rsid wsp:val="00E578D4"/>
+      <wsp:rsid wsp:val="00EA0B64"/>
+      <wsp:rsid wsp:val="00FE101B"/>
+    </wsp:rsids>
+  </w:docPr>
+
+
+  <w:body>
+    <wx:sect>
+
+
+      <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="007D096C" wsp:rsidP="00C146CA">
+        <w:pPr>
+          <w:pStyle w:val="Title"/>
+        </w:pPr>
+        <w:r>
+
+
+          <w:t>Teagan Glenn</w:t>
+        </w:r>
+      </w:p>
+
+
+      <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="00505903" wsp:rsidP="00C146CA">
+        <w:pPr>
+          <w:rPr>
+            <w:sz-cs w:val="20"/>
+          </w:rPr>
+        </w:pPr>
+        <w:hlink w:dest="mailto:that@teagantotally.rocks">
+          <w:r wsp:rsidRPr="003876BF">
+            <w:rPr>
+              <w:rStyle w:val="Hyperlink"/>
+              <w:sz w:val="16"/>
+            </w:rPr>
+            <w:t>that@teagantotally.rocks<w:br/></w:t>
+          </w:r>
+        </w:hlink>
+        <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0">
+          <w:rPr>
+            <w:sz w:val="16"/>
+          </w:rPr>
+          <w:t>(720) 432-5361<w:br/></w:t>
+        </w:r>
+        <w:hlink w:dest="https://blog.teagantotally.rocks">
+          <w:r wsp:rsidRPr="003876BF">
+            <w:rPr>
+              <w:rStyle w:val="Hyperlink"/>
+              <w:sz w:val="16"/>
+            </w:rPr>
+            <w:t>https://blog.teagantotally.rocks</w:t>
+          </w:r>
+        </w:hlink>
+      </w:p>
+
+
+      
+
+
+      
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+      <wx:sub-section>
+
+
+
+        <wx:pBdrGroup>
+          <wx:borders>
+            <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
+          </wx:borders>
+          <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
+            <w:pPr>
+              <w:pStyle w:val="Heading1"/>
+              <w:ind w:left="-720"/>      
+            </w:pPr>
+            <w:r>
+              <w:pict>
+                <w:binData w:name="wordml://03000003.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASZQTFRFv8HDv8HOv8HGv8LIv8TTv8zdv8LOv8bVv8LEv8HEv8HKv8rbv8LQv8HIv8jXv8HMv8LKv8TQz8bEw8LEw8LGydDfyczOz8jGw8jOz8zKw8HDwcbMz8zOycTDy8zOzcHD1cTDxcHDz8LD3crEwcHDwcLEw8LDycHDx8HD0cLDy8HD1drb3dTMy9Tb3drTycLDwcrV3drb1cjE29rb287Izdz/z9zsxdDky9r7ydbs2/X/2/H/1eXw79LG79zQ69bK7dLG487E897Q89bK/+3d///d/+nT8+vd//XZ/+fT//HZ/ePS8+XV8+/f//vb9///4f//7//////q4evw8+/s6+/w7f/////o/f//4+/w8+/w7+/w4fv/4//////59+/w8/P5////sDySyAAAAP9JREFUSMdjSCQaMIwqHZJKXYSEsQARUX9MpbYMWAFjAD2VMomJMzBISEoxSMvIMjDLieNRyhLoKs8YEKTAYArksia6KeJWyhZsJ8Vk5q7EYB6izMAeaq9CHW+pqjEwcAAxpzDQQFUVvG71UOeyArrVAuxWTzxuZQnzUueyDgcpdWDgjvCWoncU8ET6aPDa+GoyWEY5MvBFO0nh85afFn8MUVEADixVYEBBAkuNOm4V0NZR4dTV02cwMDRiEDQ2oU5yIcFUUpMLHOANAVC4wlXidysothg4wLlahUBsgQCXFQoXn1KoHJWVkuAAuLdwK3XGEQWxmErj4qOwgQS4AgDkC738cGCe/AAAAABJRU5ErkJggk==</w:binData>
+                <v:shape id="_x0000_i1026" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
+                  <v:imagedata src="wordml://03000003.png" o:title="fa-building"/>
+                </v:shape>
+              </w:pict>
+            </w:r>
+            <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+              <w:t>History</w:t>
+            </w:r>
+          </w:p>
+        </wx:pBdrGroup>
+
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Advanced Senior GraphQL Lead Engineer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.resideo.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Resideo</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>May 2022 — Jun 2024</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Led the implementation of technical and philosophical changes to Resideo&amp;apos;s core platform, enhancing the performance and user experience of professional and consumer-connected home products.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Migrated all subgraphs and gateways from Apollo Server 2 using NexusJs to Apollo Server v4 using NestJS, improving system efficiency and maintainability.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>As the GraphQL subject matter expered, initiated working sessions with engineers from various teams to improve their understanding and use of GraphQL, software design patterns, and SDLC.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented a self-validating, self-documenting pattern via GraphQL custom scalars and types, reducing documentation time by 30% and enhancing code reliability.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Led a team of 3 in developing new features and leading changes toward best practices, resulting in increased in code quality and and 22% increase in sprint velocity.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Instituted guidelines and tooling around the review process, testing patterns, and code style, leading to a 20-25% improvement in quality of team deliverables.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Initiated group and individual lessons that enabled a cohesive understanding of frameworks, tools, and patterns improving team cohesion and productivity.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Senior Delivery Engineer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.wwt.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>World Wide technology</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Jan 2021 — May 2022</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Built and maintained applications written using Java Spring Boot including JDBC, MVC, ORM and Security for a large financial client.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Initiated a working group to facilitate cross-functional best practices, improving quality of deliverables and reducing “imposter syndrome” in team members.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Worked on an internal sales tool that allows clients to assess their current state and where WWT can help improve or educate.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Designed and delivered tooling that generated auditable reports detailing the connections, ports and devices installed in racks, preserving a multimillion dollar client contract.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Built a tool to automate the critical supply chain process of validating, remediating, and verifying hundreds of devices resulting in a 2000% increase in throughput.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Senior Automation/DevOps Enginner for Charter Advanced Technologies, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.kforce.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>KForce</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Sep 2020 — Dec 2020</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Team was put together to demonstrate the feasibility of VR-as-a-Service using edge hardware.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented robust automation scripts and tools to enhance the efficiency and reliability of edge device operations in real-time service environments.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Senior Automation Enginner for Comcast Applied AI, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.turnberrysolutions.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Turnberry Solutions</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>May 2019 — Sep 2020</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Developed a Java-based NLP training application used by 80% of the ML teams, improving training efficiency by 40%.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created a prototype to demonstrate an algorithm for detecting deliveries, achieving an 85% accuracy rate in varied environments.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Developed Ansible playbooks and roles, facilitating provisioning and deployment, which reduced setup time by 50%.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Standardized automation and infrastructure configuration, increasing deployment consistency by 25% and reducing configuration errors by 30%.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Developed a universal library in Python for gathering internal application metrics, improving monitoring accuracy by 35% and reducing overhead by 20%.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Work alongside Comcast manager to improve a library, written in GoLang, that integrates with, essentially any and all Pub/Sub systems, including Kinesis, Kafka, MQTT, RabbitMQ.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Senior Staff Engineer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.aetna.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Aetna</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Apr 2019 — May 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Designed and implemented full vertical stack CI/CD for first feature integrating with CVS API.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Used Java to develop internal tooling.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Work closely with product to refine requirements and feasibility of feature sets.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Assisted with implementing features in React Javascript, iOS Swift and Kotlin Android.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Worked with the architecture team to refine and expand the unified architecture for the Android platform.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Senior Android Engineer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.aetna.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Aetna</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Nov 2017 — Apr 2019</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Developed and maintained features written in Java for the Android mobile application.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Responsible for mentoring and conducting engineering best practices lessons.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Championed campaign to transition Android mobile application from Java to Kotlin, reducing development time and improving user exprience around asynchronous tasks.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Introduced scalable and maintainable design pattern proof of concepts, including Decorator Pattern for moving meta data outside of code logic, self-binding RecyclerView, a universal Activity class that would build itself based on the meta data descriptors</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Together with the architecture team defined and implemented a unified architecture for the application.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Senior Android Engineer for Vail Resorts - EpicMix, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.teksystems.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>TEKSystems</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Sep 2017 — Nov 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented deep-linking in the EpicMix Java-based Android application using Uri interception, which allowed targeted marketing notifications to open up specific screens or features in the application.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Due to target SDK version change, added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK related changes.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Refactored project to get existing unit tests running and passing, implemented unit and integration tests around new features added</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Discovered and fixed application security issues, utilizing the operating system account manager for managing user accounts.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Bug fixes around concurrency issues with background threads, along with issues with Fragment and Activity lifecycle hooks being used incorrectly.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Native Team Lead, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.massroots.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>MassRoots, Inc.</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Sep 2016 — Jul 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Re-wrote the Android mobile application in Java, architected around an asynchronous event bus with highly optimized thread utilization and a single-activity router.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>The new android application made use of bi-directional data binding, single activity router and a home-grown live data system allowing all views saved to the backstack to update from any API request.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented my open source self-documenting, self-validating API library into Node.js backend services.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Worked closely with product, design and engineering teams to implement technical feasibility and product feedback sessions to improve communication and collaboration between them.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Acted to mentor and grew teams professionally, implementing better coding standards and engineering practices across the engineering department.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Salesforce Engineer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.aptotude.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Apto</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Mar 2015 — Feb 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Designed and built a plug-n-play integration system for push, pull and bi-directional synchronization with 3rd parties.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented a fully dynamic trigger handler factory with trigger execution control through custom settings.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Worked with designers to implement angular-based front-end pages on top of Salesforce.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>As a team, built out custom back-office and HR system for large commercial real estate brokerage.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Working with another developer, build out a node application to browse the Salesforce object model and meta data using the Tooling API</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Analyst - Business Applications Developer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.sourcegas.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>SourceGas</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Apr 2013 — Feb 2015</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Worked with business users to determine application requirements and specifications.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Designed and built web applications, using ASP.Net MVC 4 and 5 with a MS SQLServer backend, for tracking compliance testing and inspections of equipment as required by federal regulations.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Built a C# library for SourceGas developers to use that includes wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services from Bing, Yahoo and Google. As well as common datatypes and functionality used throughout the software development landscape.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Worked with other developers to design and build a time tracking and reporting site that is used company-wide using ASP.Net MVC 4, JQuery, Durandal, Knockout and MVC Web Api with a MS SQLServer backend.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Designed and built a C# application to poll data from an ADP (HR System) web service and sync with Active Directory.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Wrote python scripts for the GIS team using ArcGIS.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Maintained VisualBasic 6 codebase, rewriting in C# when appropriate.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Build complex Excel spreadsheets used throughout the company utilizing VBA macros, database connections and event triggers.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Software Engineer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.denverips.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Denver Integrated Printing Solutions</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Jul 2011 — Apr 2013</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Used PIC-C to develop an embedded application to provide on-the-fly QA on the production machines.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Used VB.Net and LINQ-SQL to build applications for converting customer data into machine-formatted data.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Updated legacy VB6 applications to the newer .NET framework.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented new stored procedures to increase productivity over the VB6 and VB.NET applications that were in use.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Worked with the SharePoint application for help-desk and ticket management.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Worked with QuickBase to help develop a customer and project manager portal.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Engineering Intern/Software Developer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://www.xcelenergy.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Xcel Engergy</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>May 2007 — Jan 2011</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Placed in charge of developing a program, T-Cycle, for modeling power plants using a graphical user interface, calculating performance, tracking performance history, alerting engineers to possible causes of problems in plant and calculation corrections for reporting to government agencies.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Developed a Microsoft Excel add-in for automating many of the day-to-day calculations of the team&amp;apos;s engineers that enabled them to release their reports quicker.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Worked with mechanical engineers and our lab technician to develop a mostly automated data acquisition system that alleviated some of the headaches and difficulties setting up and during performance tests.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Handled all troubleshooting, debugging and creating instruction manuals for all applications developed.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer including wiring and configuration.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Designed and built portable power supplies for use with Rosemount transmitters.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Took initiative to create a database for the lab technician for keeping track of equipment reservations and calibration tracking in an attempt to allow the lab to get more done in less time.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Assisted with conducting performance tests and verifying data acquisition system stability.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Assisted the asset management group with developing a database for tracking plant overhaul and other capital projects.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Responsible for training engineers in all three operating regions on how to T-Cycle&amp;apos;s use and calculations.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+</wx:sub-section>
+
+      
+      
+      <wx:sub-section>
+
+<wx:pBdrGroup>
+  <wx:borders>
+    <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
+  </wx:borders>
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
+    <w:pPr>
+      <w:pStyle w:val="Heading1"/>
+      <w:ind w:left="-720"/>      
+    </w:pPr>
+    <w:r>
+      <w:pict>
+        <w:binData w:name="wordml://03000004.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAaFQTFRFv8HDv8LIv8HGv8HEv8HKv8HMv8jXv8HOv8jZv8TT3dLS2c7Kw8HDwcbM08rIwcHDwcTKz9Lbz8jGy9DXy8bEyczTycTDxcrSx8LDw8jV2dDMxcHD3dLOw8jO1cTDx8rSwc7fzdLbz8LD1czK3dLTx8HD28jDy8HDy8zOz8rI0cLD3crD18jE0cjGyc7Z29LQz8rKxcLEw8LEw8TKy8zQ1djdzcHD1drk09bi09jm0dbizdz/xdLqy9jsxdTswc7i3ePs2eHo2+Ps2e3/z+H/3ev/2/X/3fn/2e//z+H71en/69zT6djS49LO/d7Q6drT4czD59TQ/97O/drM79LG5c7E8ePZ+eHS7eHX8+Pb/+/X/ePS8ePb//Xb9eXZ7+Pd///d/+nT/+HQ///7+evk8fX7///59+fi6/P5//v16ev1/f////nz5efz+////fXs+fv/+/Po9/n/6////evi9///8/n////q//nu4+fz///i+fHw9fX7///18//q4f/q8//i//nm6+/7///o+f//7///4///9+/w8+/w8/P5////rwMOhgAAAWBJREFUSMdj6CIaMIwqHVVKL6XJKVzmqUQoTUvn5mEAAl6LDLxKM8P4+BngQEAwKxu70hxvISR1EMAonJuHrjTfR4QBO2ASdShAKC30FWPAC8Qdi8BKwyUYiACSxUClJVLShFXyWpaCHZCcIoPXBbLmZUjeKpfDoYxZ3qkANQT8+FmcK/zRQ4tJtDIPPVyTAxgUQMGdGYGIA0ZF1BiAKq1SYnbpCgQHSVqkMjBmBawywJ5QcUVXGqXK4tYVAPQoOJ0kV9eAU4MUMBit0ZVG87C616pBYh5sXmaMMjjVYCiNVWdgYKuDBwKjhibcxehKg4Bi7PVYw8sGm6kNWsQo7QpmYPGo1cYWA57oSkMYmLy6GnUwVdpmoysNBbs/OU4XNbL0mjCiABROdpCsEK9vYGgEBMYmpmiRBVHaDPS8PXGZO8GMgYGjhSilicDEzdlKlNIkYOSwtxGlNK29o6OToFsBkPOxfsuGle0AAAAASUVORK5CYIJ=</w:binData>
+        <v:shape id="_x0000_i1026" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
+          <v:imagedata src="wordml://03000004.png" o:title="fa-mortar-board"/>
+        </v:shape>
+      </w:pict>
+    </w:r>
+    <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+      <w:t>Education</w:t>
+    </w:r>
+  </w:p>
+</wx:pBdrGroup>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:t>Metropolitan State University of Denver</w:t>
+        </w:r>
+      
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2005 — 2010</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="000A3AF0">
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+        <w:t>Applied Physics, Bachelor&amp;apos;s</w:t>
+      </w:r>
+    </w:p>
+
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:t>Metropolitan State University of Denver</w:t>
+        </w:r>
+      
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2005 — 2010</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="000A3AF0">
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+        <w:t>Applied Mathematics, Bachelor&amp;apos;s</w:t>
+      </w:r>
+    </w:p>
+
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:t>Metropolitan State University of Denver</w:t>
+        </w:r>
+      
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2005 — 2010</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="000A3AF0">
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+        <w:t>Computer Science, Bachelor&amp;apos;s</w:t>
+      </w:r>
+    </w:p>
+
+
+  </wx:sub-section>
+
+
+</wx:sub-section>
+
+      
+      
+      
+      
+      
+      
+      <wx:sub-section>
+
+<wx:pBdrGroup>
+  <wx:borders>
+    <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
+  </wx:borders>
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
+    <w:pPr>
+      <w:pStyle w:val="Heading1"/>
+      <w:ind w:left="-720"/>      
+    </w:pPr>
+    <w:r>
+      <w:pict>
+        <w:binData w:name="wordml://03000014.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5hJREFUeNrsmPtT2kAQx0M4DhJeAZFGqohBGdHal9PWdvrX94dOO1Pta2gtICLFgBQhhhDgOJLGii8khZBMpz9kh58y2c3n9na/e4dDVVXifzKS+M/MBrKBbCAbyAaygWwgG+gfG5jqLfSr/IOvyjImPb4AyyUXaDBlfCQcZEuNjoRJmvYvLnMRZoKnY+KJUaln977XpJtvOf2prUexwCQYfJLdzfO9m54uNrW9zgIzW/Yrm7tNo9mglc8V0CScWqZwm0azfjWX4bGZGipX6/1xaWufFoW/e1Z4cTDmsdoqH8gmaqiHddaD8WWKFFls1GtiT1sdFb43z/jgRTIUnVrAqE0Q9KxALlLLoTLOEWjfRZX9z8Vq5zoTpeND4Aom0ulFRj8H0Gtiy2KRsHPcc7c/Rhb23h/cpBkmoH+W/7K7X11k/Y5xnlRkiTYBBO5vJBk42ppeLj1XzvCiboOeF6+ylIi4Rj0D99c4eva2x0hWIA0V4Wc2x9e7WjmR0Def2lylj3bfVjoT1hJMvt6E5e/FsjD0ZFfSXBQqCBEQksaBcOPr7pdmH7iDieVkjKUvQ2AFE+WP7wqdSYrhCj9+lgoAQF5HPC4elsrtAemNPd/mPMaKWi4Wmucdj3tn+exePusAf0pCUUF0g1PQFCrd74mgVHhTkYe1pGL1SjVOCjVuI2qohurt23KhhTv/KYan09AR39qJgdSUjRU16iBFT4G6IR+cgsTlDsh6MnahRkaAZKQXShWbTZahJs9tOkQft/RUGaGWZccPJPD1lTjr+vvU9ibWPIV6x2hwXSAajq93SAVjrB+I/vXNWMChu1vs2tYigXyRaNTrHhsIAMoYEEzeyYHTv/pw5/kyQ8hn/GGuhOJPXyRZalTItdGx+nA75ans/+DrEvIspF7tJFm3YyR/8ZWFGYQRdasnfKt3gR64F0EHmWzralY46FD8QXrJg0aGKyHkMt8q7StlAO7IxpN5dDTsK0iFouyczgZMcUC7MiHz/tPp3bOIk6Z8DEP9ia90xbNGu3e3HTQl3NnmpmnNqYHk/IcPVWn2s7IzsvryQcy6Q7501DRBc66EjZOfFt465KrYM3mdUCShZh3QqYQIs6Z2RdkqIKHdteDfbIxEq4AQVszzEINu275K/yugMO2x4Ftu35xVQCCeCLnMLt07l2As2zIQ3kqvh9xgVhroZR8/snZ0DDtXlqW+0Y4DdNADp335twADAHYlmV3HkUP7AAAAAElFTkSuQmCC</w:binData>
+        <v:shape id="_x0000_i1026" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
+          <v:imagedata src="wordml://03000014.png" o:title="fa-group"/>
+        </v:shape>
+      </w:pict>
+    </w:r>
+    <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+      <w:t>Speaking Engagements</w:t>
+    </w:r>
+  </w:p>
+</wx:pBdrGroup>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:t>Presenter</w:t>
+        </w:r>
+      
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2017-07</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Popular request for an update to previous presentation that focused on the technical and security aspects of Internet-of-Things and Automation platforms.</w:t></w:r>
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Presented to an audience of over 100.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>IoT protocols, security, and mitigating risks.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Demonstrated implementing a Python-based rules engine.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Compared the various Voice Assistants available to the general public.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:t>Presenter</w:t>
+        </w:r>
+      
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2016-07</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Asked to present an introduction to home and life automation at Develop Denver, a conference for developers, by developers.</w:t></w:r>
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Presented to an audience of over 100.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Provided basic automated solutions to water and energy conservation.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Walked through improving home security using Internet-of-Things and automated tools.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+</wx:sub-section>
+
+      
+      
+
+
+      <w:sectPr wsp:rsidR="00B43FDC" wsp:rsidRPr="000A3AF0" wsp:rsidSect="001B7422">
+        <w:pgSz w:w="12240" w:h="15840"/>
+        <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/>
+        <w:cols w:space="720"/>
+        <w:docGrid w:line-pitch="360"/>
+      </w:sectPr>
+    </wx:sect>
+  </w:body>
+</w:wordDocument>

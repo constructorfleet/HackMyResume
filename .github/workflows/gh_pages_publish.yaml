@@ -1,0 +1,39 @@
+name: Publish to GitHub Pages
+
+permissions:
+  pages: write
+  contents: write
+  statuses: read
+  actions: write
+
+on:
+  # push:
+  #   branches:
+  #     - master
+  #     - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Install dependencies
+        run: |
+          npm install
+
+      - name: build html files
+        run: |
+          npm run generate:stackoverflow:html
+
+      - name: Deploy Docs
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          force_orphan: true

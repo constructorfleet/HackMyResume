@@ -31,15 +31,15 @@ module.exports = CreateVerb;
 
 
 /** Create a new empty resume in either FRESH or JRS format. */
-var _create = function( src, dst, opts ) {
+var _create = function (src, dst, opts) {
 
   if (!src || !src.length) {
     this.err(HMSTATUS.createNameMissing, { quit: true });
     return null;
   }
 
-  const results = _.map(src, function( t ) {
-    if (opts.assert && this.hasError()) { return { }; }
+  const results = _.map(src, function (t) {
+    if (opts.assert && this.hasError()) { return {}; }
     const r = _createOne.call(this, t, opts);
     if (r.fluenterror) {
       r.quit = opts.assert;
@@ -47,7 +47,7 @@ var _create = function( src, dst, opts ) {
     }
     return r;
   }
-  , this);
+    , this);
 
   if (this.hasError() && !opts.assert) {
     this.reject(this.errorCode);
@@ -60,13 +60,13 @@ var _create = function( src, dst, opts ) {
 
 
 /** Create a single new resume */
-var _createOne = function( t, opts ) {
+var _createOne = function (t, opts) {
   let ret, safeFmt;
   try {
     ret = null;
     safeFmt = opts.format.toUpperCase();
     this.stat(HMEVENT.beforeCreate, { fmt: safeFmt, file: t });
-    MKDIRP.sync(PATH.dirname( t )); // Ensure dest folder exists;
+    MKDIRP.sync(PATH.dirname(t), { recursive: true }); // Ensure dest folder exists;
     const RezClass = require(`../core/${safeFmt.toLowerCase()}-resume`);
     const newRez = RezClass.default();
     newRez.save(t);

@@ -1,0 +1,121 @@
+name: 'Teagan Glenn'
+info:
+  image: teagan-memoji-computer.png
+  label: 'Expert Software Engineer | Building Large-Scale, Distributed Systems'
+  brief: 'As an engineer with over 20 years in the industry, I leverage my extensive expertise in designing and building highly scalable, distributed systems. I have a robust background in software development, leading technical teams, and integrating complex systems across cloud environments. My proficiency in cloud infrastructure, automation, and security, along with experience in cross-discipline collaboration, ensures solutions that meet the security and compliance needs of global customers. I thrive in environments that require cutting-edge innovation to solve real-world challenges.'
+skills:
+  sets:
+    -
+      name: Languages
+      skills:
+        - Typescript
+        - Python
+        - Java
+        - 'C#'
+    -
+      name: Operations
+      skills:
+        - 'Cloud Services'
+        - 'Distributed Systems'
+        - DevOps
+    -
+      name: Soft
+      skills:
+        - 'Team Leadership'
+        - 'Cross-Discipline Collaboration'
+social:
+  -
+    network: LinkedIn
+    user: Teagan42
+    url: 'https://www.linkedin.com/in/teagan42'
+  -
+    network: GitHub
+    user: Teagan42
+    url: 'https://www.github.com/teagan42'
+  -
+    network: GitHub
+    user: ConstructorFleet
+    url: 'https://www.github.com/constructorfleet'
+contact:
+  email: that@teagantotally.rocks
+  phone: '(720) 432-5361'
+  website: 'https://blog.teagantotally.rocks'
+location:
+  address: '11838 W Marlowe Ave'
+  city: Morrison
+  region: CO
+  code: '80465'
+speaking:
+  -
+    event: 'Develop Denver'
+    title: Presenter
+    date: '2017-07-01'
+    location: 'Denver, CO'
+    summary: 'Discussed technical and security aspects of Internet-of-Things and automation platforms, focusing on mitigating security risks and enabling productivity.'
+    highlights:
+      - 'Presented to an audience of over 100.'
+      - 'Discussed protocols, security, and mitigation strategies.'
+employment:
+  history:
+    -
+      employer: Resideo
+      start: '2022-05-01'
+      end: '2024-06-28'
+      position: 'Advanced Senior GraphQL Lead Engineer'
+      url: 'https://www.resideo.com'
+      highlights:
+        - 'Led the design and migration of core platform services to improve performance, resilience, and security.'
+        - 'Integrated various cloud-based services, improving security and user productivity across distributed systems.'
+        - 'Collaborated across teams to enhance their expertise in GraphQL and cloud-based system architecture.'
+        - 'Implemented self-validating, self-documenting patterns to ensure code reliability and scalability.'
+    -
+      employer: 'World Wide Technology'
+      start: '2021-01-01'
+      end: '2022-05-01'
+      position: 'Senior Delivery Engineer'
+      url: 'https://www.wwt.com'
+      highlights:
+        - 'Led the design and implementation of cloud services for large-scale distributed systems, focusing on security and compliance.'
+        - 'Delivered a complex network validation system that ensured secure connections across in-band and out-of-band networks using Ansible and Python.'
+        - 'Built resilient cloud-based services supporting cross-functional teams for rapid deployment and integration.'
+    -
+      employer: 'Turnberry Solutions'
+      start: '2019-05-01'
+      end: '2020-09-14'
+      position: 'Senior Automation Engineer for Comcast Applied AI'
+      url: 'https://www.turnberrysolutions.com'
+      highlights:
+        - 'Led the development of automation solutions that powered machine learning operations, cloud provisioning, and security-focused integrations.'
+        - 'Created cloud-based services for ML teams, facilitating secure, scalable environments for rapid deployment and compliance.'
+    -
+      employer: Aetna
+      start: '2017-11-01'
+      end: '2019-05-01'
+      position: 'Senior Android Engineer'
+      url: 'https://www.aetna.com'
+      highlights:
+        - 'Spearheaded security-focused design patterns and scalable architecture for mobile applications, enabling compliance with enterprise requirements.'
+education:
+  level: 'Bachelor''s'
+  history:
+    -
+      institution: 'Metropolitan State University of Denver'
+      area: 'Applied Physics'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+    -
+      institution: 'Metropolitan State University of Denver'
+      area: 'Applied Mathematics'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+    -
+      institution: 'Metropolitan State University of Denver'
+      area: 'Computer Science'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+meta:
+  format: FRESH@0.6.1
+  version: 1.0.0

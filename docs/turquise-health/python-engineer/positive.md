@@ -1,0 +1,52 @@
+Teagan Glenn
+============
+Email: that@teagantotally.rocks
+Tel: (720) 432-5361
+Web: https://blog.teagantotally.rocks
+
+Highly skilled Software Engineer with over 20 years of experience, specializing in Python development, Django, and SQL databases. Extensive background in data processing, automation, and scalable solutions for web platforms. Proven expertise in developing high-impact, secure, and efficient applications. Passionate about solving complex problems with pragmatic solutions, particularly in healthcare technology. Adept at working remotely and leading teams to deliver transformative software solutions.
+
+## SKILLS
+
+  - Backend Development: Python (8+ years) Django (3+ years) REST API Development SQL (PostgreSQL, MySQL) Data Processing Large Datasets 
+  - Data Engineering & Tools: Apache Airflow Data Warehousing (Amazon Redshift) Pandas Numpy Redis Memcached Machine Learning Tools 
+  - Cloud & DevOps: AWS Heroku Docker Kubernetes CI/CD 
+  - Tools & Automation: Git GitHub Data Pipelines Automation Security & Data Protection 
+  - Soft: Remote Collaboration Problem-Solving Team Leadership Cross-Discipline Collaboration 
+
+## History
+
+### *Advanced Senior GraphQL Lead Engineer*, [Resideo](https://www.resideo.com) (2022-05 — 2024-06)
+
+
+  - Led backend development for consumer products, focusing on scalability and security using Python and GraphQL.
+  - Built and maintained data pipelines and processing tools using Apache Airflow and Amazon Redshift, ensuring the integrity and accessibility of large data sets.
+  - Managed PostgreSQL databases, optimizing queries for performance and scalability.
+
+### *Senior Delivery Engineer*, [World Wide Technology](https://www.wwt.com) (2021-01 — 2022-05)
+
+
+  - Developed backend services and REST APIs using Python, Django, and PostgreSQL for data-driven applications.
+  - Designed scalable data storage solutions for large healthcare datasets, working with cloud-based architectures on AWS.
+  - Integrated Redis and Memcached to optimize caching and data retrieval processes for web applications.
+
+### *Senior Automation Engineer for Comcast Applied AI*, [Turnberry Solutions](https://www.turnberrysolutions.com) (2019-05 — 2020-09)
+
+
+  - Implemented scalable data warehousing solutions and pipelines using Amazon Redshift and Apache Airflow for processing healthcare data.
+  - Designed and developed REST APIs using Python and Django for high-traffic, data-intensive web applications.
+  - Worked extensively with machine learning tools to process and classify large datasets, improving data accuracy and user experience.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

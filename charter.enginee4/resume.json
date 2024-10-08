@@ -1,0 +1,200 @@
+{
+  "name": "Teagan Glenn",
+  "info": {
+    "label": "Senior Software Engineer"
+  },
+  "contact": {
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2024-08-01T21:05:50.017Z"
+  },
+  "location": {
+    "city": "Morrison",
+    "region": "CO",
+    "country": "US",
+    "address": "Morrison, CO, US"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Advanced Senior GraphQL Lead Engineer",
+        "summary": "Lead the GraphQL Schema and Feature team, driving philosophical and innovative solutions to challenges presented by Resideo's core platform of professional and consumer connected products.",
+        "start": "2022-06",
+        "end": "2024-07",
+        "keywords": [],
+        "highlights": [
+          "Led the design and implementation of innovative schema configurations enhancing communication and functionality across IoT devices.",
+          "Mentored and guided teams in implementing GraphQL best practices.",
+          "Conducted training and workshops to elevate team capabilities in cutting-edge IoT solutions.",
+          "Facilitated the migration of all subgraphs and gateways from NexusJS Apollo Server v2 to NestJS using Apollo Server v4 federation 2.3.",
+          "Implemented patterns of self-validating, self-documenting domain driven data types using GraphQL scalars and type system."
+        ]
+      },
+      {
+        "position": "Senior Delivery Engineer",
+        "summary": "Built an award winning solution validating  inventory, connections and health of customer orders racks.",
+        "start": "2021-01",
+        "end": "2022-05",
+        "keywords": [],
+        "highlights": [
+          "Increasing rack validation througpught from less than 10 to over 60 daily, while completely removing the possibility of errors.",
+          "Built a framework to discover servers, switches, routers, and storage devices using mDNS, PXE, iPXE, and DHCP that generates detailed validation reports.",
+          "Initiated a weekly self-paced training session to explore concepts, terminology, and processes used in both software and DevOps.",
+          "Created custom Ansible plugins for simplifying complicated task logic, inventory, and logging requirements, reducing support requests to developers from 3 a day to once a week."
+        ]
+      },
+      {
+        "position": "Automation Engineer @ Charter Advanced Technologies",
+        "summary": "To demonstrate the feasibility of VR-as-a-Service, developed the infrastructure for deploying the proof-of-concept.",
+        "start": "2020-09",
+        "end": "2020-12",
+        "keywords": [],
+        "highlights": [
+          "Pioneered the design of a scalable network architecture for next-generation VR and gaming services.",
+          "Implemented robust automation scripts and tools to enhance the efficiency and reliability of edge device operations in real-time service environments."
+        ]
+      },
+      {
+        "position": "Automation Engineer @ Comcast Applied AI",
+        "summary": "Built the tooling and pipelines necessary to deliever better home security through the use of computer vision, audio analysis and anomaly detection.",
+        "start": "2019-05",
+        "end": "2020-09",
+        "keywords": [],
+        "highlights": [
+          "Created a prototype using Python 3.7 and Tensorflow 1.12 to demonstrate an algorithm for detecting deliveries of all types.",
+          "Developed tools empowering the research teams to rapidly develop, perform A/B testing, and deploy machine learning models with metrics collection, monitoring, and failover.",
+          "Worked with a small DevOps team to standardize automation, infrastructure, and the Automated Machine Learning Platform stack configuration using Amazon AWS, EKS, IAM, EC2, and more.",
+          "Improved a library, written in GoLang, that integrates with nearly any Pub/Sub system, including Kinesis, Kafka, MQTT, RabbitMQ."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "Metropolitan State University",
+        "start": "2004-06",
+        "end": "2010-01",
+        "summary": "",
+        "area": "Applied Physics",
+        "studyType": "Bachelor"
+      },
+      {
+        "institution": "Metropolitan State University",
+        "start": "2004-06",
+        "end": "2010-01",
+        "summary": "",
+        "area": "Applied Mathematics",
+        "studyType": "Bachelor"
+      },
+      {
+        "institution": "Metropolitan State University",
+        "start": "2004-06",
+        "end": "2010-01",
+        "summary": "",
+        "area": "Computer Science",
+        "studyType": "Bachelor"
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Programming Languages",
+        "level": "Expert",
+        "skills": [
+          "TypeScript",
+          "JavaScript",
+          "Python",
+          "Java",
+          "Kotlin",
+          "C#",
+          "C/C++",
+          "Embedded C",
+          "VB",
+          "VBA",
+          "VB.NET",
+          "F#",
+          "Scala",
+          "Haskell",
+          "Bash",
+          "PHP"
+        ]
+      },
+      {
+        "name": "IoT/Automation",
+        "level": "Expert",
+        "skills": [
+          "Z-Wave",
+          "X10",
+          "ZigBee",
+          "Thread",
+          "MQTT",
+          "Home-Assistant",
+          "OpenHAB",
+          "ioBroker"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "level": "Expert",
+        "skills": [
+          "Ansible",
+          "Salt",
+          "Consol",
+          "Chef",
+          "GitLab CI",
+          "GitHub Actions",
+          "Jenkins",
+          "AWX",
+          "Drone",
+          "Foreman",
+          "MaaS",
+          "ProxMox",
+          "VMWare"
+        ]
+      },
+      {
+        "name": "State Management",
+        "level": "Expert",
+        "skills": [
+          "CI/CD Pipelines",
+          "Docker",
+          "Kubernetes"
+        ]
+      },
+      {
+        "name": "Provisioning",
+        "level": "Expert",
+        "skills": [
+          "Foreman",
+          "AWX"
+        ]
+      }
+    ]
+  },
+  "social": [
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://linkedin.com/in/teagan42",
+      "user": "teagan42"
+    },
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/Teagan42",
+      "user": "Teagan42"
+    },
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/constructorfleet",
+      "user": "constructorfleet"
+    }
+  ]
+}

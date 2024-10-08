@@ -1,7 +1,7 @@
 
 var MKDIRP = require('mkdirp');
 var PATH = require('path');
-MKDIRP( PATH.join( __dirname, '/sandbox' ) );
+MKDIRP(PATH.join(__dirname, '/sandbox'), { recursive: true });
 
 require('./scripts/test-cli');
 require('./scripts/test-fresh-sheet');

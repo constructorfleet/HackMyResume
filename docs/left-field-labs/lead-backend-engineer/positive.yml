@@ -1,0 +1,138 @@
+name: 'Teagan Glenn'
+info:
+  image: teagan-memoji-computer.png
+  label: 'Lead Backend Software Developer | Python, Microservices, Cloud Architect'
+  brief: 'Expert Backend Software Developer with over 20 years of experience in designing, developing, and deploying scalable backend systems. Proven track record in creating robust APIs and microservices architecture, with deep expertise in Python, Flask, Django, and cloud platforms like Google Cloud Platform (GCP). Skilled in developing backend architecture, session management, authentication, and scaling systems with a focus on security and reliability. I thrive in collaborative environments, driving technical direction, and solving complex challenges through empathy and innovation.'
+skills:
+  sets:
+    -
+      name: 'Backend Development'
+      skills:
+        - Python
+        - Flask
+        - Django
+        - 'REST API Development'
+        - MySQL
+        - PostgreSQL
+    -
+      name: 'Cloud & DevOps'
+      skills:
+        - Docker
+        - Kubernetes
+        - Microservices
+        - DevOps
+        - CI/CD
+    -
+      name: 'Tools & Automation'
+      skills:
+        - Docker
+        - Kubernetes
+        - 'E2E Testing'
+        - 'Unit Testing'
+    -
+      name: Soft
+      skills:
+        - 'Team Leadership'
+        - Collaboration
+        - Problem-Solving
+social:
+  -
+    network: LinkedIn
+    user: Teagan42
+    url: 'https://www.linkedin.com/in/teagan42'
+  -
+    network: GitHub
+    user: Teagan42
+    url: 'https://www.github.com/teagan42'
+contact:
+  email: that@teagantotally.rocks
+  phone: '(720) 432-5361'
+  website: 'https://blog.teagantotally.rocks'
+location:
+  address: '11838 W Marlowe Ave'
+  city: Morrison
+  region: CO
+  code: '80465'
+employment:
+  history:
+    -
+      employer: Resideo
+      start: '2022-05-01'
+      end: '2024-06-28'
+      position: 'Advanced Senior GraphQL Lead Engineer'
+      url: 'https://www.resideo.com'
+      highlights:
+        - 'Led backend development initiatives, improving the architecture of a widely used platform with focus on GraphQL.'
+        - 'Implemented microservices and scalable architecture using Docker and Kubernetes, improving the platform''s resilience and scalability.'
+        - 'Guided cross-functional teams on implementing secure and testable backend systems.'
+        - 'Migrated critical components from monolithic to microservices architecture.'
+      keywords:
+        - Python
+        - GraphQL
+        - Microservices
+        - Docker
+        - Kubernetes
+        - 'Team Leadership'
+        - Cloud
+    -
+      employer: 'World Wide Technology'
+      start: '2021-01-01'
+      end: '2022-05-01'
+      position: 'Senior Delivery Engineer'
+      url: 'https://www.wwt.com'
+      highlights:
+        - 'Developed and deployed REST APIs and backend services using Python, enhancing system interoperability.'
+        - 'Architected a solution that integrated cloud platforms with on-premise services for large-scale data management.'
+        - 'Led the development of containerized applications using Docker and Kubernetes.'
+        - 'Deployed services on Google Cloud Platform (GCP) ensuring scalability and reliability.'
+      keywords:
+        - Python
+        - Flask
+        - Docker
+        - Kubernetes
+        - 'REST APIs'
+        - GCP
+        - 'SQL Databases'
+    -
+      employer: 'Turnberry Solutions'
+      start: '2019-05-01'
+      end: '2020-09-14'
+      position: 'Senior Automation Engineer for Comcast Applied AI'
+      url: 'https://www.turnberrysolutions.com'
+      highlights:
+        - 'Developed REST APIs and backend microservices using Python, Flask, and SQL databases.'
+        - 'Designed and deployed containerized environments using Docker and Kubernetes on Google Cloud Platform.'
+        - 'Created infrastructure automation solutions using Ansible, improving deployment efficiency.'
+        - 'Integrated NoSQL databases like MongoDB into backend services for real-time data handling.'
+      keywords:
+        - Python
+        - Flask
+        - Docker
+        - Kubernetes
+        - Ansible
+        - 'NoSQL (MongoDB)'
+        - 'Google Cloud Platform (GCP)'
+education:
+  level: 'Bachelor''s'
+  history:
+    -
+      institution: 'Metropolitan State University of Denver - Bachelor''s in Physics'
+      area: 'Computer Science'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+    -
+      institution: 'Metropolitan State University of Denver - Bachelor''s in Mathematics'
+      area: 'Computer Science'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+    -
+      institution: 'Metropolitan State University of Denver - Bachelor''s in Computer Science'
+      area: 'Computer Science'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+meta:
+  format: FRESH@0.6.1
+  version: 1.0.0
