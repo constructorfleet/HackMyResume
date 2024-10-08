@@ -1,0 +1,115 @@
+{
+  "basics": {
+    "label": "Senior Software Engineer | Python, Django, Data Engineering",
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "website": "https://blog.teagantotally.rocks",
+    "name": "Teagan Glenn",
+    "summary": "Highly skilled Software Engineer with over 20 years of experience, specializing in Python development, Django, and SQL databases. Extensive background in data processing, automation, and scalable solutions for web platforms. Proven expertise in developing high-impact, secure, and efficient applications. Passionate about solving complex problems with pragmatic solutions, particularly in healthcare technology. Adept at working remotely and leading teams to deliver transformative software solutions.",
+    "picture": "teagan-memoji-computer.png",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Teagan42",
+        "url": "https://www.linkedin.com/in/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "Teagan42",
+        "url": "https://www.github.com/teagan42"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Resideo",
+      "website": "https://www.resideo.com",
+      "position": "Advanced Senior GraphQL Lead Engineer",
+      "startDate": "2022-05-01",
+      "endDate": "2024-06-28",
+      "highlights": [
+        "Led backend development for consumer products, focusing on scalability and security using Python and GraphQL.",
+        "Built and maintained data pipelines and processing tools using Apache Airflow and Amazon Redshift, ensuring the integrity and accessibility of large data sets.",
+        "Managed PostgreSQL databases, optimizing queries for performance and scalability."
+      ]
+    },
+    {
+      "company": "World Wide Technology",
+      "website": "https://www.wwt.com",
+      "position": "Senior Delivery Engineer",
+      "startDate": "2021-01-01",
+      "endDate": "2022-05-01",
+      "highlights": [
+        "Developed backend services and REST APIs using Python, Django, and PostgreSQL for data-driven applications.",
+        "Designed scalable data storage solutions for large healthcare datasets, working with cloud-based architectures on AWS.",
+        "Integrated Redis and Memcached to optimize caching and data retrieval processes for web applications."
+      ]
+    },
+    {
+      "company": "Turnberry Solutions",
+      "website": "https://www.turnberrysolutions.com",
+      "position": "Senior Automation Engineer for Comcast Applied AI",
+      "startDate": "2019-05-01",
+      "endDate": "2020-09-14",
+      "highlights": [
+        "Implemented scalable data warehousing solutions and pipelines using Amazon Redshift and Apache Airflow for processing healthcare data.",
+        "Designed and developed REST APIs using Python and Django for high-traffic, data-intensive web applications.",
+        "Worked extensively with machine learning tools to process and classify large datasets, improving data accuracy and user experience."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "keywords": [
+        "Python (8+ years)",
+        "Django (3+ years)",
+        "REST API Development",
+        "SQL (PostgreSQL, MySQL)",
+        "Data Processing",
+        "Large Datasets"
+      ]
+    },
+    {
+      "name": "Data Engineering & Tools",
+      "keywords": [
+        "Apache Airflow",
+        "Data Warehousing (Amazon Redshift)",
+        "Pandas",
+        "Numpy",
+        "Redis",
+        "Memcached",
+        "Machine Learning Tools"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": [
+        "AWS",
+        "Heroku",
+        "Docker",
+        "Kubernetes",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Tools & Automation",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Data Pipelines",
+        "Automation",
+        "Security & Data Protection"
+      ]
+    },
+    {
+      "name": "Soft",
+      "keywords": [
+        "Remote Collaboration",
+        "Problem-Solving",
+        "Team Leadership",
+        "Cross-Discipline Collaboration"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "basics": {
+    "label": "Expert Software Engineer | Leading Scalable Data Solutions",
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "website": "https://blog.teagantotally.rocks",
+    "name": "Teagan Glenn",
+    "summary": "A highly experienced software engineer with over 20 years in the industry, I specialize in architecting and implementing\nlarge-scale, data-driven platforms. I bring a deep understanding of distributed systems and data infrastructure. \nKnown for my leadership and ability to drive high-performance teams, I am passionate about creating scalable, reliable, \nand maintainable systems. My focus is on delivering innovative solutions that drive business outcomes through cutting-edge\ntechnologies.",
+    "picture": "teagan-memoji-computer.png",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Teagan42",
+        "url": "https://www.linkedin.com/in/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "Teagan42",
+        "url": "https://www.github.com/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "ConstructorFleet",
+        "url": "https://www.github.com/constructorfleet"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Resideo",
+      "website": "https://www.resideo.com",
+      "position": "Advanced Senior GraphQL Lead Engineer",
+      "startDate": "2022-05-01",
+      "endDate": "2024-06-28",
+      "highlights": [
+        "Led innovative changes to Resideo's core platform and optimized data solutions.",
+        "Designed scalable microservices and improved cross-team data architecture using GraphQL.",
+        "Mentored engineers and elevated team practices, focusing on high-quality code and testing standards."
+      ]
+    },
+    {
+      "company": "World Wide Technology",
+      "website": "https://www.wwt.com",
+      "position": "Senior Delivery Engineer",
+      "startDate": "2021-01-01",
+      "endDate": "2022-05-01",
+      "highlights": [
+        "Developed data-driven solutions involving network automation and system processes.",
+        "Delivered high-impact solutions for internal platform development, focusing on data integrity."
+      ]
+    },
+    {
+      "company": "Turnberry Solutions",
+      "website": "https://www.turnberrysolutions.com",
+      "position": "Senior Automation Engineer for Comcast Applied AI",
+      "startDate": "2019-05-01",
+      "endDate": "2020-09-14",
+      "highlights": [
+        "Created and optimized data pipelines for machine learning and automation.",
+        "Worked with cloud-based data architecture and infrastructure (AWS EKS, Kinesis).",
+        "Led development of a universal plug-in library to optimize internal metrics collection."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Applied Physics",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Applied Physics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Applied Mathematics",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Applied Mathematics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Computer Science",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Computer Science",
+      "studyType": "Bachelor's"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "Java",
+        "Kotlin",
+        "C#"
+      ]
+    },
+    {
+      "name": "Data Technologies",
+      "keywords": [
+        "Distributed Systems",
+        "Data Management",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Automation & DevOps",
+      "keywords": [
+        "DevOps",
+        "CI/CD",
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": [
+        "Team Leadership",
+        "Mentoring",
+        "Cross-Discipline Collaboration",
+        "Strategic Alignment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# Function to slugify the input string (replace spaces and special chars with "-")
+slugify() {
+  echo "$1" | iconv -t ascii//TRANSLIT | sed -e 's/[^A-Za-z0-9 ]//g' -e 's/ /-/g' | tr '[:upper:]' '[:lower:]'
+}
+
+regen=0
+
+if [[ -z "$1" ]]; then
+# Prompt for company name, job title, and resume yaml
+    read -p "Enter the company name: " company_name
+    read -p "Enter the job title: " job_title
+
+    echo "$company_name" > .hack.comp
+    echo "$job_title" > .hack.title
+
+    echo "Enter the resume YAML (press Ctrl+D to end):"
+    resume_yaml=$(</dev/stdin)
+else
+    company_name="$(cat .hack.comp)"
+    job_title="$(cat .hack.title)"
+    regen=1
+fi
+
+# Create a slugified version of company name and job title
+company_slug=$(slugify "$company_name")
+job_slug=$(slugify "$job_title")
+
+# Ensure the 'resumes' directory exists
+mkdir -p resumes
+
+# Write the resume yaml to the appropriate file
+resume_file="resumes/resume.${company_slug}.${job_slug}.yaml"
+ 
+if [[ "${regen}" -eq "0" ]]; then
+    echo "$resume_yaml" > "$resume_file"
+    # yq eval '.education = load("edu.yaml")' -i "$resume_file"
+fi
+
+# Convert the YAML content to JSON using `yq` (ensure `yq` is installed)
+if command -v yq >/dev/null 2>&1; then
+  yq eval -o=json "$resume_file" > ./resume.json
+else
+  echo "Error: yq is not installed. Please install yq (https://github.com/mikefarah/yq) to continue."
+  exit 1
+fi
+
+# Run the build command
+node src/cli/index.js build resume.json to "docs/${company_slug}/${job_slug}/positive.all" --theme positive -o options.json
+
+echo "Resume process completed."
+open docs/$company_slug/$job_slug/positive.html

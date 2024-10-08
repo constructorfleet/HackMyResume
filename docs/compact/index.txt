@@ -63,41 +63,41 @@ Senior Android Engineer, Aetna (2017-11 — 2019-04)
 
 - Developed and maintained features written in Java for the Android mobile application.
 - Responsible for mentoring and conducting engineering best practices lessons.
-- Championed campaign to transition Android mobile application from Java to Kotlin, reducing development time and improving user exprience around asynchronous tasks.time and improving user exprience around asynchronous tasks.
-- Introduced scalable and maintainable design pattern proof of concepts, including Decorator Pattern for moving metadata outside of code logic, self-binding RecyclerView, a universal Activity class that would build itself based on the metadata descriptorsmoving meta data outside of code logic, self-binding RecyclerView, a universal Activity class that would build itself based on the meta data descriptors
-- Preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit APIle Fit API
+- Championed campaign to transition Android mobile application from Java to Kotlin, reducing development time and improving user experience around asynchronous tasks.
+- Introduced scalable and maintainable design pattern proof of concepts, including Decorator Pattern for moving metadata outside of code logic, self-binding RecyclerView, a universal Activity class that would build itself based on a declarative specification.
+- Preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API.
 - Together with the architecture team defined and implemented a unified architecture for the application.
 
 Senior Android Engineer for Vail Resorts - EpicMix, TEKSystems (2017-09 — 2017-11)
 
-- Implemented deep-linking in the EpicMix Java-based Android application using Uri interception, which allowed targeted marketing notifications to open up specific screens or features in the application.open up specific screens or features in the application.
-- Due to target SDK version change, added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK related changes. changes.
+- Implemented deep-linking in the EpicMix Java-based Android application using Uri interception, which allowed targeted marketing notifications to open up specific screens or features in the application.
+- Due to target SDK version change, added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK related changes.
 - Refactored project to get existing unit tests running and passing, implemented unit and integration tests around new features added.
 - Discovered and fixed application security issues, utilizing the operating system account manager to manage user accounts.
 - Bug fixes around concurrency issues with background threads and issues with Fragment and Activity lifecycle hooks.
 
 Native Team Lead, MassRoots, Inc. (2016-09 — 2017-07)
 
-- Re-wrote the Android mobile application in Java, architected around an asynchronous event bus with highly optimized thread utilization and a single-activity router.gle-activity router.
-- The new Android application used bidirectional data binding, a single activity router, and a home-grown live data system, which allowed all views saved to the back stack to be updated from any API request. saved to the backstack to update from any API request.
+- Re-wrote the Android mobile application in Java, architected around an asynchronous event bus with highly optimized thread utilization and a single-activity router.
+- The new Android application used bidirectional data binding, a single activity router, and a home-grown live data system, which allowed all views saved to the back stack to be updated from any API request.
 - Implemented my open source self-documenting, self-validating API library into Node.js backend services.
-- Worked closely with product, design, and engineering teams to implement technical feasibility and product feedback sessions to improve their communication and collaboration.ion and collaboration between them.
+- Worked closely with product, design, and engineering teams to implement technical feasibility and product feedback sessions to improve their communication and collaboration.
 - Acted as mentor to grow the team professionally, implementing better coding standards and engineering practices across the engineering department.
 
-Salesforce Engineer, Apto (2015-03 — 2017-02)
+Salesforce Engineer, Apto (2015-03 — 2016-08)
 
 - Designed and built a plug-and-play integration system for push, pull, and bi-directional synchronization with 3rd parties.
 - Implemented a fully dynamic trigger handler factory with trigger execution control through custom settings.
 - Worked with designers to implement angular-based front-end pages on top of Salesforce.
-- As a team, built custom back-office and HR systems for large commercial real estate brokerage.
-- Working with another developer, build out a node application to browse the Salesforce object model and metadata using the Tooling API
+- As a team, built custom back-office and HR systems for large commercial real estate brokerage firms.
+- Working with another developer, build out a node application to browse the Salesforce object model and metadata using the Tooling API.
 
 Analyst - Business Applications Developer, SourceGas (2013-04 — 2015-02)
 
 - Worked with business users to determine application requirements and specifications.
-- Designed and built web applications, using ASP.Net MVC 4 and 5 with an MS SQLServer backend, to track compliance testing and inspections of equipment as required by federal regulations. and inspections of equipment as required by federal regulations.
-- Built a C# library for SourceGas developers to use that includes wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services from Bing, Yahoo, and Google, as well as standard datatypes and functionality used throughout the software development landscape. (HR System), Geocoding Services from Bing, Yahoo and Google. As well as common datatypes and functionality used throughout the software development landscape.
-- Worked with other developers to design and build a time tracking and reporting site used company-wide using ASP.Net MVC 4, JQuery, Durandal, Knockout, and MVC Web API with an MS SQL server backend. MVC 4, JQuery, Durandal, Knockout and MVC Web Api with a MS SQLServer backend.
+- Designed and built web applications, using ASP.Net MVC 4 and 5 with an MS SQLServer backend, to track compliance testing and inspections of equipment as required by federal regulations.
+- Built a C# library for SourceGas developers to use that includes wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services from Bing, Yahoo, and Google, as well as standard datatypes and functionality used throughout the software development landscape.
+- Worked with other developers to design and build a time tracking and reporting site used company-wide using ASP.Net MVC 4, JQuery, Durandal, Knockout, and MVC Web API with an MS SQL server backend.
 - Designed and built a C# application to poll data from an ADP (HR System) web service and sync with Active Directory.
 - Wrote Python scripts for the GIS team using ArcGIS.
 - Maintained VisualBasic 6 codebase, rewriting in C# when appropriate.
@@ -105,24 +105,24 @@ Analyst - Business Applications Developer, SourceGas (2013-04 — 2015-02)
 
 Software Engineer, Denver Integrated Printing Solutions (2011-07 — 2013-04)
 
-- Used PIC-C to develop an embedded application to provide on-the-fly QA on the production machines.e production machines.
-- Used VB.Net and LINQ-SQL to build applications for converting customer data into machine-formatted data.into machine-formatted data.
+- Used PIC-C to develop an embedded application to provide on-the-fly QA on the production machines.
+- Used VB.Net and LINQ-SQL to build applications for converting customer data into machine-formatted data.
 - Updated legacy VB6 applications to the newer .NET framework.
-- Implemented new stored procedures to increase productivity over the VB6 and VB.NET applications that were in use.VB.NET applications that were in use.
+- Implemented new stored procedures to increase productivity over the VB6 and VB.NET applications that were in use.
 - Worked with the SharePoint application for help-desk and ticket management.
 - Worked with QuickBase to help develop a customer and project manager portal.
 
 Engineering Intern/Software Developer, Xcel Energy (2007-05 — 2011-01)
 
-- Placed in charge of developing a program, T-Cycle, for modeling power plants using a graphical user interface, calculating performance, tracking performance history, alerting engineers to possible causes of problems in the plant, and calculating corrections for reporting to government agencies.ce, calculating performance, tracking performance history, alerting engineers to possible causes of problems in plant and calculation corrections for reporting to government agencies.
-- Developed a Microsoft Excel add-in to automate many of the team's engineers' day-to-day calculations, enabling them to release their reports quickly.rs that enabled them to release their reports quicker.
-- Worked with mechanical engineers and our lab technician to develop a primarily automated data acquisition system that alleviated some of the headaches and difficulties setting up during performance tests.em that alleviated some of the headaches and difficulties setting up and during performance tests.
+- Placed in charge of developing a program, T-Cycle, for modeling power plants using a graphical user interface, calculating performance, tracking performance history, alerting engineers to possible causes of problems in the plant, and calculating corrections for reporting to government agencies.
+- Developed a Microsoft Excel add-in to automate many of the team's engineers' day-to-day calculations, enabling them to release their reports quickly.
+- Worked with mechanical engineers and our lab technician to develop a primarily automated data acquisition system that alleviated some of the headaches and difficulties setting up during performance tests.
 - Handled all troubleshooting, debugging, and creating instruction manuals for all developed applications.
-- Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer, including wiring and configuration.ing wiring and configuration.
+- Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer, including wiring and configuration.
 - Designed and built portable power supplies for use with Rosemount transmitters.
-- Took the initiative to create a database for the lab technician to track equipment reservations and calibration monitoring to allow the lab to complete more in less time. calibration tracking in an attempt to allow the lab to get more done in less time.
+- Took the initiative to create a database for the lab technician to track equipment reservations and calibration monitoring to allow the lab to complete more in less time.
 - Assisted with conducting performance tests and verifying data acquisition system stability.
-- Assisted the asset management group with developing a database for tracking plant overhaul and other capital projects.l projects.
+- Assisted the asset management group with developing a database for tracking plant overhaul and other capital projects.
 - Responsible for training engineers in all three operating regions on how to T-Cycle's use and calculations.
 
 

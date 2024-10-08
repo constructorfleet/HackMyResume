@@ -151,7 +151,7 @@
   </aside>
 
   <main>
-    <section class="profile" id="profile">
+    <section class="main profile" id="profile">
       <div class="heading">
         <img class="hex-icon" src="{{img64 'profile.hex.png'}}" />
           {{!-- <div class="hex hex-border"></div>
@@ -166,7 +166,7 @@
       {{/with}}
     </section>
 
-    <section class="work" id="work">
+    <section class="main work" id="work">
       <div class="heading">
         <img class="hex-icon" src="{{img64 'work.hex.png'}}" />
           {{!-- <div class="hex hex-border"></div>
@@ -181,7 +181,7 @@
 
         <div class="heading">
           <h4>
-            {{name}}
+            {{position}} @ {{name}}
             <a href="{{url}}" target="_blank">{{tiny url}}</a>
           </h4>
 
@@ -190,9 +190,16 @@
             {{date startDate}} - {{#if endDate}}{{date endDate}}{{else}}{{date }}{{/if}}
           </div>
         </div>
-
-        <div class="position">{{position}}</div>
+        {{#if summary}}
         <div class="summary">{{{md summary}}}</div>
+        {{/if}}
+        {{#if keywords}}
+        <ul class="keywords">
+          {{#each keywords as | keyword |}}
+          <li class="tag">{{loud keyword}}</li>
+          {{/each}}
+        </ul>
+        {{/if}}
 
         <ul class="bullets">
           {{#each highlights as | stack |}}
@@ -203,7 +210,7 @@
       {{/each}}
     </section>
 
-    <section class="education" id="education">
+    <section class="main education" id="education">
       <div class="heading">
         <img class="hex-icon" src="{{img64 'education.hex.png'}}" />
           {{!-- <div class="hex hex-border"></div>
@@ -226,13 +233,12 @@
             {{date startDate}}{{#if endDate}} - {{date endDate}}{{/if}}
           </div>
         </div>
-        {{!-- <div class="studyType">{{studyType}}</div> --}}
-        <div class="area">{{area}}</div>
+        <div><span class="studyType">{{studyType}}</span> in <span class="studyArea">{{area}}</span></div>
       </div>
       {{/each}}
     </section>
 
-    <section class="awards" id="awards">
+    <section class="main awards" id="awards">
       <div class="heading">
         <img class="hex-icon" src="{{img64 'awards.hex.png'}}" />
           {{!-- <div class="hex hex-border"></div>
@@ -254,7 +260,7 @@
             {{date date}}
           </div>
         </div>
-        <div class="position">{{{md awarder}}}</div>
+        <div class="position"><b>{{{md awarder}}}</b></div>
         <div class="description">{{{md summary}}}</div>
 
         <ul class="bullets">
@@ -266,7 +272,7 @@
       {{/each}}
     </section>
 
-    <section class="projects" id="projects">
+    <section class="main projects" id="projects">
       <div class="heading">
         <img class="hex-icon" src="{{img64 'projects.hex.png'}}" />
           {{!-- <div class="hex hex-border"></div>
@@ -295,7 +301,7 @@
       </div>
       {{/each}}
     </section>
-
+<!--
     <section class="testimonials" id="testimonials">
       <div class="heading">
         <img class="hex-icon" src="{{img64 'testimonial.hex.png'}}" />
@@ -321,7 +327,7 @@
         {{!-- </div> --}}
       </div>
       {{/each}}
-    </section>
+    </section> -->
   </main>
 </body>
 

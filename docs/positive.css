@@ -1,0 +1,277 @@
+html,
+body,
+main,
+section,
+header,
+ul,
+p,
+h1,
+h2,
+h3 {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+::selection {
+  color: #fff;
+  background: #e48a8a; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  color: #fff;
+  background: #e48a8a; /* Gecko Browsers */
+}
+
+p::selection {
+  color: #fff;
+}
+
+a {
+  color: #c00000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7b0796;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #898989;
+  font-size: 2em;
+  position: relative;
+  font-weight: 400;
+}
+
+h3,
+.tenure {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  /*width: 85%;*/
+  float: left;
+}
+
+h3 > a {
+  display: block;
+}
+
+table {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+td:first-child {
+  letter-spacing: 2px;
+  color: #bd5b5b;
+  font-size: 20px;
+}
+
+td:last-child {
+  text-align: justify; /* HTML justification sucks, but in this case... */
+}
+
+hr {
+  display: none;
+}
+
+main {
+  padding: 15px;
+  max-width: 87%;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 1.1em;
+}
+
+section > div {
+  margin-top: 12px;
+  overflow: hidden; /* Clear floated children */
+  page-break-inside: avoid;
+  -webkit-break-inside: avoid;
+  break-inside: avoid;
+
+  ul {
+    font-size: 0.9em;
+  }
+}
+
+section#education > div > h3 {
+  font-size: 0.9em;
+}
+
+section > div p {
+  clear: both;
+}
+
+section > header {
+  position: relative;
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+p + ul {
+  margin-left: 1em;
+  margin-top: 0.5em;
+  margin-right: 1em;
+  margin-bottom: 0.2em;
+}
+
+ul {
+  clear: both;
+}
+
+li {
+  margin-left: 2em;
+}
+
+p,
+li {
+  text-align: justify;
+}
+
+.tenure {
+  float: right;
+  color: #6f6f6f;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  padding: 4px 6px;
+  font-size: 85%;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.location {
+  border: #e2aaaa dashed 1px;
+  background-color: #ffffff;
+  padding: 3px 6px;
+  border-radius: 6px;
+  float: right;
+  margin-right: 5px;
+  float: right;
+  font-size: 85%;
+  color: #717171;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+span.keywords {
+  font-size: 12px;
+  color: #b16666;
+  margin-bottom: 0.8em;
+}
+
+thead {
+  display: none;
+}
+
+main > header {
+  width: 100%;
+  float: left;
+  margin-bottom: 1em;
+}
+
+h1 {
+  float: left;
+}
+
+h1,
+h2,
+.label {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Lato", "sans-serif";
+}
+
+#contact {
+  clear: both;
+  float: left;
+  margin-top: 2px;
+}
+
+#contact span + span {
+  margin-left: 10px;
+}
+
+main > header {
+  h1 {
+    font-size: 1.4em;
+  }
+  span.label {
+    font-size: 1.1em;
+    color: #6f6f6f;
+    margin-top: 0.2em;
+  }
+}
+
+header > span.fa {
+  text-align: center;
+  margin-right: 3px;
+  position: absolute;
+  width: 40px;
+  top: 14px;
+  font-size: 30px;
+  /*transform: translateX(-110%); PDF no likey */
+  margin-left: -50px;
+  color: #dadada;
+}
+
+header > h2 {
+  top: 6px;
+}
+
+.label {
+  float: right;
+  color: #dadada;
+}
+
+#summary {
+  color: #717171;
+  font-size: 1em;
+  margin-top: 4em;
+}
+
+#skills td {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+#references > p,
+#references > p > a {
+  color: #961e1e;
+  text-align: center;
+  margin: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+span.label {
+  color: #999;
+  float: left;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#testimonials {
+  display: none;
+}

@@ -1,0 +1,75 @@
+Teagan Glenn
+Email: that@teagantotally.rocks
+Tel: (720) 432-5361
+Web: https://blog.teagantotally.rocks
+================================================================================
+
+
+A Senior Software Architect with over 20 years of experience, specializing in designing and delivering scalable,
+cloud-based solutions. With a proven track record in software architecture, DevOps, and automation, I bring a blend of 
+technical expertise and visionary leadership to drive innovation. I have led cross-functional teams in high-profile 
+organizations, integrating complex systems and ensuring continuous delivery. My expertise spans cloud platforms, 
+architecture modeling, and modern development frameworks, ensuring top-quality results in fast-paced, Agile environments.
+
+
+SKILLS -------------------------------------------------------------------------
+
+- Languages: Typescript Python C# .NET 
+- Cloud & Architecture: AWS Azure Draw.io 
+- Version Control & CI/CD: Git GitHub Jenkins Infrastructure as Code (IaC) 
+- Design Patterns & Architectural Styles: Microservices MVC Event-Driven Architecture 
+- Product Development Tools: Jira Confluence Slack 
+- Soft: Team Leadership Cross-Discipline Collaboration Mentoring Agile Methodologies (Scrum) 
+
+
+History ---------------------------------------------------------------------
+
+Advanced Senior GraphQL Lead Engineer, Resideo (2022-05 — 2024-06)
+
+- Led architectural changes to Resideo's core platform for connected home products, including migration to Apollo Server v4 using NestJS.
+- Introduced automated, self-documenting patterns using GraphQL, optimizing microservices integration and scalability.
+- Mentored engineers on software design patterns and system architecture best practices.
+- Spearheaded DevOps practices for continuous integration and deployment, improving product development speed and reliability.
+
+Senior Delivery Engineer, World Wide Technology (2021-01 — 2022-05)
+
+- Developed automation frameworks and led cross-functional teams to deliver solutions for clients across multiple industries.
+- Delivered a network automation system for a multi-million dollar client, reducing manual intervention by 70% using Ansible and other infrastructure-as-code tools.
+- Worked closely with product and DevOps teams, ensuring scalable and secure deployment practices in cloud-based environments.
+
+Senior Automation Engineer for Comcast Applied AI, Turnberry Solutions (2019-05 — 2020-09)
+
+- Designed and deployed a fully automated machine learning platform (AMP) for rapid model deployment and monitoring in AWS.
+- Collaborated with ML teams to integrate AI-driven solutions using Python and TensorFlow.
+- Built infrastructure for monitoring, logging, and automated failover using AWS tools and Python.
+
+Senior Automation/DevOps Engineer for Charter Advanced Technologies, KForce (2020-09 — 2020-12)
+
+- Led efforts to implement VR-as-a-Service on edge devices, with robust automation scripts improving deployment times by 50%.
+- Deployed CI/CD pipelines and automated cloud provisioning using Ansible and Terraform.
+
+Senior Staff Engineer, Aetna (2019-04 — 2019-05)
+
+- Led the architecture and CI/CD implementation for Aetna's first cloud-integrated API feature.
+- Collaborated closely with the architecture team to implement an integrated platform architecture across multiple platforms (iOS, Android).
+
+
+
+
+Education ----------------------------------------------------------------------
+
+Metropolitan State University of Denver - Bachelor's in Applied Physics (2005-08 — 2010-04)
+
+Metropolitan State University of Denver - Bachelor's in Applied Mathematics (2005-08 — 2010-04)
+
+Metropolitan State University of Denver - Bachelor's in Computer Science (2005-08 — 2010-04)
+
+
+
+
+
+
+
+
+
+

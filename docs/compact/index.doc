@@ -1194,7 +1194,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Championed campaign to transition Android mobile application from Java to Kotlin, reducing development time and improving user exprience around asynchronous tasks.time and improving user exprience around asynchronous tasks.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Championed campaign to transition Android mobile application from Java to Kotlin, reducing development time and improving user experience around asynchronous tasks.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1209,7 +1209,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Introduced scalable and maintainable design pattern proof of concepts, including Decorator Pattern for moving metadata outside of code logic, self-binding RecyclerView, a universal Activity class that would build itself based on the metadata descriptorsmoving meta data outside of code logic, self-binding RecyclerView, a universal Activity class that would build itself based on the meta data descriptors</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Introduced scalable and maintainable design pattern proof of concepts, including Decorator Pattern for moving metadata outside of code logic, self-binding RecyclerView, a universal Activity class that would build itself based on a declarative specification.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1224,7 +1224,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit APIle Fit API</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1296,7 +1296,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Implemented deep-linking in the EpicMix Java-based Android application using Uri interception, which allowed targeted marketing notifications to open up specific screens or features in the application.open up specific screens or features in the application.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Implemented deep-linking in the EpicMix Java-based Android application using Uri interception, which allowed targeted marketing notifications to open up specific screens or features in the application.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1311,7 +1311,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Due to target SDK version change, added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK related changes. changes.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Due to target SDK version change, added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK related changes.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1413,7 +1413,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Re-wrote the Android mobile application in Java, architected around an asynchronous event bus with highly optimized thread utilization and a single-activity router.gle-activity router.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Re-wrote the Android mobile application in Java, architected around an asynchronous event bus with highly optimized thread utilization and a single-activity router.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1428,7 +1428,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>The new Android application used bidirectional data binding, a single activity router, and a home-grown live data system, which allowed all views saved to the back stack to be updated from any API request. saved to the backstack to update from any API request.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>The new Android application used bidirectional data binding, a single activity router, and a home-grown live data system, which allowed all views saved to the back stack to be updated from any API request.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1458,7 +1458,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Worked closely with product, design, and engineering teams to implement technical feasibility and product feedback sessions to improve their communication and collaboration.ion and collaboration between them.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Worked closely with product, design, and engineering teams to implement technical feasibility and product feedback sessions to improve their communication and collaboration.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1505,7 +1505,7 @@ to any forward-thinking organization.</w:t></w:r>
         <w:rPr>
           <w:rStyle w:val="FromTo"/>
         </w:rPr>
-        <w:t>Mar 2015 — Feb 2017</w:t>
+        <w:t>Mar 2015 — Aug 2016</w:t>
       </w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
@@ -1575,7 +1575,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>As a team, built custom back-office and HR systems for large commercial real estate brokerage.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>As a team, built custom back-office and HR systems for large commercial real estate brokerage firms.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1590,7 +1590,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Working with another developer, build out a node application to browse the Salesforce object model and metadata using the Tooling API</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Working with another developer, build out a node application to browse the Salesforce object model and metadata using the Tooling API.</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1662,7 +1662,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Designed and built web applications, using ASP.Net MVC 4 and 5 with an MS SQLServer backend, to track compliance testing and inspections of equipment as required by federal regulations. and inspections of equipment as required by federal regulations.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Designed and built web applications, using ASP.Net MVC 4 and 5 with an MS SQLServer backend, to track compliance testing and inspections of equipment as required by federal regulations.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1677,7 +1677,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Built a C# library for SourceGas developers to use that includes wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services from Bing, Yahoo, and Google, as well as standard datatypes and functionality used throughout the software development landscape. (HR System), Geocoding Services from Bing, Yahoo and Google. As well as common datatypes and functionality used throughout the software development landscape.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Built a C# library for SourceGas developers to use that includes wrappers around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding Services from Bing, Yahoo, and Google, as well as standard datatypes and functionality used throughout the software development landscape.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1692,7 +1692,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Worked with other developers to design and build a time tracking and reporting site used company-wide using ASP.Net MVC 4, JQuery, Durandal, Knockout, and MVC Web API with an MS SQL server backend. MVC 4, JQuery, Durandal, Knockout and MVC Web Api with a MS SQLServer backend.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Worked with other developers to design and build a time tracking and reporting site used company-wide using ASP.Net MVC 4, JQuery, Durandal, Knockout, and MVC Web API with an MS SQL server backend.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1809,7 +1809,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Used PIC-C to develop an embedded application to provide on-the-fly QA on the production machines.e production machines.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Used PIC-C to develop an embedded application to provide on-the-fly QA on the production machines.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1824,7 +1824,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Used VB.Net and LINQ-SQL to build applications for converting customer data into machine-formatted data.into machine-formatted data.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Used VB.Net and LINQ-SQL to build applications for converting customer data into machine-formatted data.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1854,7 +1854,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Implemented new stored procedures to increase productivity over the VB6 and VB.NET applications that were in use.VB.NET applications that were in use.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Implemented new stored procedures to increase productivity over the VB6 and VB.NET applications that were in use.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1941,7 +1941,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Placed in charge of developing a program, T-Cycle, for modeling power plants using a graphical user interface, calculating performance, tracking performance history, alerting engineers to possible causes of problems in the plant, and calculating corrections for reporting to government agencies.ce, calculating performance, tracking performance history, alerting engineers to possible causes of problems in plant and calculation corrections for reporting to government agencies.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Placed in charge of developing a program, T-Cycle, for modeling power plants using a graphical user interface, calculating performance, tracking performance history, alerting engineers to possible causes of problems in the plant, and calculating corrections for reporting to government agencies.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1956,7 +1956,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Developed a Microsoft Excel add-in to automate many of the team&amp;apos;s engineers&amp;apos; day-to-day calculations, enabling them to release their reports quickly.rs that enabled them to release their reports quicker.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Developed a Microsoft Excel add-in to automate many of the team&amp;apos;s engineers&amp;apos; day-to-day calculations, enabling them to release their reports quickly.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1971,7 +1971,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Worked with mechanical engineers and our lab technician to develop a primarily automated data acquisition system that alleviated some of the headaches and difficulties setting up during performance tests.em that alleviated some of the headaches and difficulties setting up and during performance tests.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Worked with mechanical engineers and our lab technician to develop a primarily automated data acquisition system that alleviated some of the headaches and difficulties setting up during performance tests.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -2001,7 +2001,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer, including wiring and configuration.ing wiring and configuration.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer, including wiring and configuration.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -2031,7 +2031,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Took the initiative to create a database for the lab technician to track equipment reservations and calibration monitoring to allow the lab to complete more in less time. calibration tracking in an attempt to allow the lab to get more done in less time.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Took the initiative to create a database for the lab technician to track equipment reservations and calibration monitoring to allow the lab to complete more in less time.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -2061,7 +2061,7 @@ to any forward-thinking organization.</w:t></w:r>
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Assisted the asset management group with developing a database for tracking plant overhaul and other capital projects.l projects.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Assisted the asset management group with developing a database for tracking plant overhaul and other capital projects.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>

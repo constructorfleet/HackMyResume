@@ -1,0 +1,147 @@
+name: 'Teagan Glenn'
+info:
+  image: teagan-memoji-computer.png
+  label: 'Senior Software Engineer | Python, Django, Data Engineering'
+  brief: 'Highly skilled Software Engineer with over 20 years of experience, specializing in Python development, Django, and SQL databases. Extensive background in data processing, automation, and scalable solutions for web platforms. Proven expertise in developing high-impact, secure, and efficient applications. Passionate about solving complex problems with pragmatic solutions, particularly in healthcare technology. Adept at working remotely and leading teams to deliver transformative software solutions.'
+skills:
+  sets:
+    -
+      name: 'Backend Development'
+      skills:
+        - 'Python (8+ years)'
+        - 'Django (3+ years)'
+        - 'REST API Development'
+        - 'SQL (PostgreSQL, MySQL)'
+        - 'Data Processing'
+        - 'Large Datasets'
+    -
+      name: 'Data Engineering & Tools'
+      skills:
+        - 'Apache Airflow'
+        - 'Data Warehousing (Amazon Redshift)'
+        - Pandas
+        - Numpy
+        - Redis
+        - Memcached
+        - 'Machine Learning Tools'
+    -
+      name: 'Cloud & DevOps'
+      skills:
+        - AWS
+        - Heroku
+        - Docker
+        - Kubernetes
+        - CI/CD
+    -
+      name: 'Tools & Automation'
+      skills:
+        - Git
+        - GitHub
+        - 'Data Pipelines'
+        - Automation
+        - 'Security & Data Protection'
+    -
+      name: Soft
+      skills:
+        - 'Remote Collaboration'
+        - Problem-Solving
+        - 'Team Leadership'
+        - 'Cross-Discipline Collaboration'
+social:
+  -
+    network: LinkedIn
+    user: Teagan42
+    url: 'https://www.linkedin.com/in/teagan42'
+  -
+    network: GitHub
+    user: Teagan42
+    url: 'https://www.github.com/teagan42'
+contact:
+  email: that@teagantotally.rocks
+  phone: '(720) 432-5361'
+  website: 'https://blog.teagantotally.rocks'
+location:
+  address: '11838 W Marlowe Ave'
+  city: Morrison
+  region: CO
+  code: '80465'
+employment:
+  history:
+    -
+      employer: Resideo
+      start: '2022-05-01'
+      end: '2024-06-28'
+      position: 'Advanced Senior GraphQL Lead Engineer'
+      url: 'https://www.resideo.com'
+      highlights:
+        - 'Led backend development for consumer products, focusing on scalability and security using Python and GraphQL.'
+        - 'Built and maintained data pipelines and processing tools using Apache Airflow and Amazon Redshift, ensuring the integrity and accessibility of large data sets.'
+        - 'Managed PostgreSQL databases, optimizing queries for performance and scalability.'
+      keywords:
+        - Python
+        - Django
+        - 'Data Pipelines'
+        - PostgreSQL
+        - 'Data Processing'
+        - AWS
+    -
+      employer: 'World Wide Technology'
+      start: '2021-01-01'
+      end: '2022-05-01'
+      position: 'Senior Delivery Engineer'
+      url: 'https://www.wwt.com'
+      highlights:
+        - 'Developed backend services and REST APIs using Python, Django, and PostgreSQL for data-driven applications.'
+        - 'Designed scalable data storage solutions for large healthcare datasets, working with cloud-based architectures on AWS.'
+        - 'Integrated Redis and Memcached to optimize caching and data retrieval processes for web applications.'
+      keywords:
+        - Python
+        - Django
+        - PostgreSQL
+        - Redis
+        - Memcached
+        - 'Large Datasets'
+        - 'Cloud Infrastructure'
+    -
+      employer: 'Turnberry Solutions'
+      start: '2019-05-01'
+      end: '2020-09-14'
+      position: 'Senior Automation Engineer for Comcast Applied AI'
+      url: 'https://www.turnberrysolutions.com'
+      highlights:
+        - 'Implemented scalable data warehousing solutions and pipelines using Amazon Redshift and Apache Airflow for processing healthcare data.'
+        - 'Designed and developed REST APIs using Python and Django for high-traffic, data-intensive web applications.'
+        - 'Worked extensively with machine learning tools to process and classify large datasets, improving data accuracy and user experience.'
+      keywords:
+        - Python
+        - Django
+        - 'Data Warehousing'
+        - 'Apache Airflow'
+        - 'Machine Learning'
+        - AWS
+        - PostgreSQL
+education:
+  education:
+    level: 'Bachelor''s'
+    history:
+      -
+        institution: 'Metropolitan State University of Denver - Bachelor''s in Applied Physics'
+        area: 'Applied Physics'
+        studyType: 'Bachelor''s'
+        start: '2005-08-01'
+        end: '2010-04-01'
+      -
+        institution: 'Metropolitan State University of Denver - Bachelor''s in Mathematics'
+        area: 'Applied Mathematics'
+        studyType: 'Bachelor''s'
+        start: '2005-08-01'
+        end: '2010-04-01'
+      -
+        institution: 'Metropolitan State University of Denver - Bachelor''s in Computer Science'
+        area: 'Computer Science'
+        studyType: 'Bachelor''s'
+        start: '2005-08-01'
+        end: '2010-04-01'
+meta:
+  format: FRESH@0.6.1
+  version: 1.0.0

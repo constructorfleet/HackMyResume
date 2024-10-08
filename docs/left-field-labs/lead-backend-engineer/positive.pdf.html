@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Teagan Glenn</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <style>html,
+body,
+main,
+section,
+header,
+ul,
+p,
+h1,
+h2,
+h3 {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+::selection {
+  color: #fff;
+  background: #e48a8a; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  color: #fff;
+  background: #e48a8a; /* Gecko Browsers */
+}
+
+p::selection {
+  color: #fff;
+}
+
+a {
+  color: #c00000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7b0796;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #898989;
+  font-size: 2em;
+  position: relative;
+  font-weight: 400;
+}
+
+h3,
+.tenure {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  /*width: 85%;*/
+  float: left;
+}
+
+h3 > a {
+  display: block;
+}
+
+table {
+  margin-top: 12px;
+  width: 75%;
+  text-transform: uppercase;
+}
+
+td:first-child {
+  letter-spacing: 2px;
+  color: #bd5b5b;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+td:last-child {
+  text-align: justify; 
+  font-size: 0.9em;/* HTML justification sucks, but in this case... */
+}
+
+hr {
+  display: none;
+}
+
+main {
+  padding: 15px;
+  max-width: 87%;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 1.1em;
+}
+
+section > div {
+  margin-top: 12px;
+  overflow: hidden; /* Clear floated children */
+  page-break-inside: avoid;
+  -webkit-break-inside: avoid;
+  break-inside: avoid;
+
+  ul {
+    font-size: 0.9em;
+  }
+}
+
+section#education > div > h3 {
+  font-size: 0.9em;
+}
+
+section > div p {
+  clear: both;
+}
+
+section > header {
+  position: relative;
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+p + ul {
+  margin-left: 1em;
+  margin-top: 0.5em;
+  margin-right: 1em;
+  margin-bottom: 0.2em;
+}
+
+ul {
+  clear: both;
+}
+
+li {
+  margin-left: 2em;
+}
+
+p,
+li {
+  text-align: justify;
+}
+
+.tenure {
+  float: right;
+  color: #6f6f6f;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  padding: 4px 6px;
+  font-size: 85%;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.location {
+  border: #e2aaaa dashed 1px;
+  background-color: #ffffff;
+  padding: 3px 6px;
+  border-radius: 6px;
+  float: right;
+  margin-right: 5px;
+  float: right;
+  font-size: 85%;
+  color: #717171;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+span.keywords {
+  font-size: 12px;
+  color: #b16666;
+  margin-bottom: 0.8em;
+}
+
+thead {
+  display: none;
+}
+
+main > header {
+  width: 100%;
+  float: left;
+  margin-bottom: 1em;
+}
+
+h1 {
+  float: left;
+}
+
+h1,
+h2,
+.label {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Lato", "sans-serif";
+}
+
+#contact {
+  clear: both;
+  float: left;
+  margin-top: 2px;
+}
+
+#contact span + span {
+  margin-left: 10px;
+}
+
+main > header {
+  h1 {
+    font-size: 1.4em;
+  }
+  span.label {
+    font-size: 1.1em;
+    color: #6f6f6f;
+    margin-top: 0.2em;
+  }
+}
+
+header > span.fa {
+  text-align: center;
+  margin-right: 3px;
+  position: absolute;
+  width: 40px;
+  top: 10px;
+  font-size: 30px;
+  /*transform: translateX(-110%); PDF no likey */
+  margin-left: -50px;
+  color: #dadada;
+}
+
+header > h2 {
+  top: 6px;
+}
+
+.label {
+  float: right;
+  color: #dadada;
+}
+
+#summary {
+  color: #717171;
+  font-size: 1em;
+  margin-top: 4em;
+}
+
+#references > p,
+#references > p > a {
+  color: #961e1e;
+  text-align: center;
+  margin: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+span.label {
+  color: #999;
+  float: left;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#testimonials {
+  display: none;
+}</style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Teagan <span style="color: #C00000;">Glenn</span></h1>
+        <span class="label">Lead Backend Software Developer | Python, Microservices, Cloud Architect</span>
+        <p id="contact">
+          <span class="email"><a href="mailto:that@teagantotally.rocks"><a href="mailto:that@teagantotally.rocks">that@teagantotally.rocks</a></a></span>
+          <span class="phone">(720) 432-5361</span>
+          <span class="website"><a href="https://blog.teagantotally.rocks"><a href="https://blog.teagantotally.rocks">https://blog.teagantotally.rocks</a></a></span>
+        </p>
+      </header>
+
+
+      <section id="summary">
+        Expert Backend Software Developer with over 20 years of experience in designing, developing, and deploying scalable backend systems. Proven track record in creating robust APIs and microservices architecture, with deep expertise in Python, Flask, Django, and cloud platforms like Google Cloud Platform (GCP). Skilled in developing backend architecture, session management, authentication, and scaling systems with a focus on security and reliability. I thrive in collaborative environments, driving technical direction, and solving complex challenges through empathy and innovation.
+      </section>
+
+
+
+      
+      <hr>
+      <section id="skills">
+          <header>
+            <span class="fa fa-lg fa-code"></span>  <h2>skills</h2>
+          </header>
+        <table>
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Keywords</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 25%;">Backend Development</td>
+              <td class="keywords">Python Flask Django REST API Development MySQL PostgreSQL </td>
+            </tr>
+            <tr>
+              <td style="width: 25%;">Cloud &amp; DevOps</td>
+              <td class="keywords">Docker Kubernetes Microservices DevOps CI/CD </td>
+            </tr>
+            <tr>
+              <td style="width: 25%;">Tools &amp; Automation</td>
+              <td class="keywords">Docker Kubernetes E2E Testing Unit Testing </td>
+            </tr>
+            <tr>
+              <td style="width: 25%;">Soft</td>
+              <td class="keywords">Team Leadership Collaboration Problem-Solving </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      
+      <hr>
+      <section id="employment">
+          <header>
+            <span class="fa fa-lg fa-building"></span>  <h2>History</h2>
+          </header>
+          <div>
+            <h3><em>Advanced Senior GraphQL Lead Engineer</em>,
+              <a href="https://www.resideo.com">Resideo</a>
+              </h3>
+              <span class="tenure">2022-05 — 2024-06</span>
+              
+            <p></p>
+            <ul>
+              <li>Led backend development initiatives, improving the architecture of a widely used platform with focus on GraphQL.</li>
+              <li>Implemented microservices and scalable architecture using Docker and Kubernetes, improving the platform&#39;s resilience and scalability.</li>
+              <li>Guided cross-functional teams on implementing secure and testable backend systems.</li>
+              <li>Migrated critical components from monolithic to microservices architecture.</li>
+            </ul>
+            <span class="keywords">Python GraphQL Microservices Docker Kubernetes Team Leadership Cloud </span>
+          </div>
+          <div>
+            <h3><em>Senior Delivery Engineer</em>,
+              <a href="https://www.wwt.com">World Wide Technology</a>
+              </h3>
+              <span class="tenure">2021-01 — 2022-05</span>
+              
+            <p></p>
+            <ul>
+              <li>Developed and deployed REST APIs and backend services using Python, enhancing system interoperability.</li>
+              <li>Architected a solution that integrated cloud platforms with on-premise services for large-scale data management.</li>
+              <li>Led the development of containerized applications using Docker and Kubernetes.</li>
+              <li>Deployed services on Google Cloud Platform (GCP) ensuring scalability and reliability.</li>
+            </ul>
+            <span class="keywords">Python Flask Docker Kubernetes REST APIs GCP SQL Databases </span>
+          </div>
+          <div>
+            <h3><em>Senior Automation Engineer for Comcast Applied AI</em>,
+              <a href="https://www.turnberrysolutions.com">Turnberry Solutions</a>
+              </h3>
+              <span class="tenure">2019-05 — 2020-09</span>
+              
+            <p></p>
+            <ul>
+              <li>Developed REST APIs and backend microservices using Python, Flask, and SQL databases.</li>
+              <li>Designed and deployed containerized environments using Docker and Kubernetes on Google Cloud Platform.</li>
+              <li>Created infrastructure automation solutions using Ansible, improving deployment efficiency.</li>
+              <li>Integrated NoSQL databases like MongoDB into backend services for real-time data handling.</li>
+            </ul>
+            <span class="keywords">Python Flask Docker Kubernetes Ansible NoSQL (MongoDB) Google Cloud Platform (GCP) </span>
+          </div>
+      </section>
+
+      
+
+      
+      <hr>
+      <section id="education">
+          <header>
+            <span class="fa fa-lg fa-mortar-board"></span>  <h2>Education</h2>
+          </header>
+          <div>
+            <h3>Metropolitan State University of Denver - Bachelor&#39;s in Physics</h3>
+            <span class="tenure">2005-08 — 2010-04</span>
+            
+            
+            
+          </div>
+          <div>
+            <h3>Metropolitan State University of Denver - Bachelor&#39;s in Mathematics</h3>
+            <span class="tenure">2005-08 — 2010-04</span>
+            
+            
+            
+          </div>
+          <div>
+            <h3>Metropolitan State University of Denver - Bachelor&#39;s in Computer Science</h3>
+            <span class="tenure">2005-08 — 2010-04</span>
+            
+            
+            
+          </div>
+      </section>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+
+    </main>
+  </body>
+</html>

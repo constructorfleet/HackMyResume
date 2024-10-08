@@ -1,0 +1,61 @@
+Teagan Glenn
+Email: that@teagantotally.rocks
+Tel: (720) 432-5361
+Web: https://blog.teagantotally.rocks
+================================================================================
+
+
+A highly experienced software engineer with over 20 years in the industry, I specialize in architecting and implementing
+large-scale, data-driven platforms. I bring a deep understanding of distributed systems and data infrastructure. 
+Known for my leadership and ability to drive high-performance teams, I am passionate about creating scalable, reliable, 
+and maintainable systems. My focus is on delivering innovative solutions that drive business outcomes through cutting-edge
+technologies.
+
+
+SKILLS -------------------------------------------------------------------------
+
+- Programming Languages: Python Java Kotlin C# 
+- Data Technologies: Distributed Systems Data Management Microservices 
+- Automation & DevOps: DevOps CI/CD Infrastructure as Code 
+- Soft Skills: Team Leadership Mentoring Cross-Discipline Collaboration Strategic Alignment 
+
+
+History ---------------------------------------------------------------------
+
+Advanced Senior GraphQL Lead Engineer, Resideo (2022-05 — 2024-06)
+
+- Led innovative changes to Resideo's core platform and optimized data solutions.
+- Designed scalable microservices and improved cross-team data architecture using GraphQL.
+- Mentored engineers and elevated team practices, focusing on high-quality code and testing standards.
+
+Senior Delivery Engineer, World Wide Technology (2021-01 — 2022-05)
+
+- Developed data-driven solutions involving network automation and system processes.
+- Delivered high-impact solutions for internal platform development, focusing on data integrity.
+
+Senior Automation Engineer for Comcast Applied AI, Turnberry Solutions (2019-05 — 2020-09)
+
+- Created and optimized data pipelines for machine learning and automation.
+- Worked with cloud-based data architecture and infrastructure (AWS EKS, Kinesis).
+- Led development of a universal plug-in library to optimize internal metrics collection.
+
+
+
+
+Education ----------------------------------------------------------------------
+
+Metropolitan State University of Denver - Bachelor's in Applied Physics (2005-08 — 2010-04)
+
+Metropolitan State University of Denver - Bachelor's in Applied Mathematics (2005-08 — 2010-04)
+
+Metropolitan State University of Denver - Bachelor's in Computer Science (2005-08 — 2010-04)
+
+
+
+
+
+
+
+
+
+

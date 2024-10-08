@@ -46,8 +46,28 @@ Handlebars.registerHelper("names", (text = "") => {
 
 Handlebars.registerHelper("levels", (level, options) => {
   let skills = "";
+  if (typeof level === 'string') {
+    switch (level.toLowerCase()) {
+      case 'expert':
+        level = 5;
+        break;
+      case 'master':
+        level = 4;
+        break;
+      case 'proficient':
+        level = 3;
+        break;
+      default:
+        level = 0;
+        break;
+    }
+  }
   for (let i = 1; i <= 5; ++i) skills += options.fn(i <= level ? "active" : "");
   return skills;
+});
+
+Handlebars.registerHelper('loud', function (aString) {
+  return aString.toUpperCase();
 });
 
 Handlebars.registerHelper("skills", (skills, options) => {
@@ -64,7 +84,7 @@ Handlebars.registerHelper("skills", (skills, options) => {
       Object.entries(mapper).find(([n, _]) => sk.name.includes(n)) ?? undefined;
     if (grp === undefined) return;
     let values = sks[grp[1]] || "";
-    values += options.fn({ name: sk.name.join(", "), level: sk.level });
+    values += options.fn({ name: (Array.isArray() ? sk.name.join(", ") : sk.name), level: sk.level });
     sks[grp[1]] = values;
   });
 

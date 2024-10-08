@@ -1,0 +1,189 @@
+{
+  "name": "Teagan Glenn",
+  "info": {
+    "image": "teagan-memoji-computer.png",
+    "label": "Expert in Scalable Systems & Automation",
+    "brief": "Senior Software Engineer with over 20 years of experience in building scalable, high-performance automated systems. \nI specialize in designing and delivering low-latency, high-throughput solutions across multiple industries. My expertise \nin system architecture, cloud infrastructure, and DevOps practices ensures continuous delivery and high availability of\ncomplex, large-scale applications."
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Programming Languages",
+        "skills": [
+          "Python",
+          "C#",
+          "Typescript"
+        ]
+      },
+      {
+        "name": "System Architecture & Automation",
+        "skills": [
+          "Low-Latency Systems",
+          "High-Throughput Systems",
+          "Distributed Systems",
+          "Continuous Availability",
+          "CI/CD",
+          "DevOps Practices"
+        ]
+      },
+      {
+        "name": "Scalability & Performance",
+        "skills": [
+          "Large-Scale Systems Optimization",
+          "Real-Time Data Processing",
+          "System Monitoring & Reliability"
+        ]
+      },
+      {
+        "name": "Cloud & Infrastructure",
+        "skills": [
+          "AWS",
+          "Azure",
+          "Infrastructure as Code (IaC)"
+        ]
+      },
+      {
+        "name": "Soft",
+        "skills": [
+          "Team Leadership",
+          "Cross-Discipline Collaboration",
+          "Attention to Detail",
+          "Agile Methodologies (Scrum)"
+        ]
+      }
+    ]
+  },
+  "social": [
+    {
+      "network": "LinkedIn",
+      "user": "Teagan42",
+      "url": "https://www.linkedin.com/in/teagan42"
+    },
+    {
+      "network": "GitHub",
+      "user": "Teagan42",
+      "url": "https://www.github.com/teagan42"
+    },
+    {
+      "network": "GitHub",
+      "user": "ConstructorFleet",
+      "url": "https://www.github.com/constructorfleet"
+    }
+  ],
+  "contact": {
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "website": "https://blog.teagantotally.rocks"
+  },
+  "location": {
+    "address": "11838 W Marlowe Ave",
+    "city": "Morrison",
+    "region": "CO",
+    "code": "80465"
+  },
+  "employment": {
+    "history": [
+      {
+        "employer": "Resideo",
+        "start": "2022-05-01",
+        "end": "2024-06-28",
+        "position": "Advanced Senior GraphQL Lead Engineer",
+        "url": "https://www.resideo.com",
+        "highlights": [
+          "Led the design and implementation of scalable systems capable of processing large volumes of real-time data, ensuring high availability and performance.",
+          "Developed automated systems within the connected home ecosystem, ensuring real-time data processing and integrations with external APIs.",
+          "Introduced self-validating patterns to enhance system reliability in a distributed, automated environment.",
+          "Collaborated with cross-functional teams to align system architecture with business objectives and technical requirements."
+        ],
+        "keywords": [
+          "Python",
+          "System Scalability",
+          "Real-Time Data",
+          "Distributed Systems"
+        ]
+      },
+      {
+        "employer": "World Wide Technology",
+        "start": "2021-01-01",
+        "end": "2022-05-01",
+        "position": "Senior Delivery Engineer",
+        "url": "https://www.wwt.com",
+        "highlights": [
+          "Built and optimized automated systems for handling complex data processing workflows, ensuring continuous availability and scaling for large user bases.",
+          "Led automation efforts by optimizing failover systems and implementing monitoring tools to ensure uninterrupted operations."
+        ],
+        "keywords": [
+          "Automation",
+          "System Optimization",
+          "Continuous Availability",
+          "Monitoring and Reliability"
+        ]
+      },
+      {
+        "employer": "KForce",
+        "start": "2020-09-15",
+        "end": "2020-12-31",
+        "position": "Senior Automation/DevOps Engineer for Charter Advanced Technologies",
+        "url": "https://www.kforce.com",
+        "highlights": [
+          "Led the development of automation systems for edge devices in environments requiring real-time processing and low latency.",
+          "Deployed CI/CD pipelines to ensure seamless integration of new system components with real-time monitoring."
+        ],
+        "keywords": [
+          "Automation",
+          "CI/CD Pipelines",
+          "Low-Latency Systems",
+          "Edge Device Management"
+        ]
+      },
+      {
+        "employer": "Turnberry Solutions",
+        "start": "2019-05-01",
+        "end": "2020-09-14",
+        "position": "Senior Automation Engineer for Comcast Applied AI",
+        "url": "https://www.turnberrysolutions.com",
+        "highlights": [
+          "Designed and implemented high-throughput, low-latency systems for handling large volumes of data in real-time, supporting automated decision-making processes.",
+          "Developed machine learning algorithms for pattern recognition and anomaly detection in real-time data streams.",
+          "Worked on scaling the data processing system to support high transaction volumes across multiple applications."
+        ],
+        "keywords": [
+          "High-Throughput Systems",
+          "Low-Latency Processing",
+          "Real-Time Data",
+          "System Scalability"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "Bachelor's",
+    "history": [
+      {
+        "institution": "Metropolitan State University of Denver - Bachelor's in Applied Physics",
+        "area": "Applied Physics",
+        "studyType": "Bachelor's",
+        "start": "2005-08-01",
+        "end": "2010-04-01"
+      },
+      {
+        "institution": "Metropolitan State University of Denver - Bachelor's in Applied Mathematics",
+        "area": "Applied Mathematics",
+        "studyType": "Bachelor's",
+        "start": "2005-08-01",
+        "end": "2010-04-01"
+      },
+      {
+        "institution": "Metropolitan State University of Denver - Bachelor's in Computer Science",
+        "area": "Computer Science",
+        "studyType": "Bachelor's",
+        "start": "2005-08-01",
+        "end": "2010-04-01"
+      }
+    ]
+  },
+  "meta": {
+    "format": "FRESH@0.6.1",
+    "version": "1.0.0"
+  }
+}

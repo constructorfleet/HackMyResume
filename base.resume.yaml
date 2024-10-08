@@ -21,6 +21,13 @@ disposition:
   relocation:
     willing: false
   authorization: citizen
+skills:
+  - Typescript
+  - Python
+  - Java
+  - C#
+  - Team Leadership
+  - Cross-Disicpline Collaboration
 social:
   - network: LinkedIn
     user: Teagan42
@@ -45,7 +52,7 @@ speaking:
     title: Presenter
     date: 2017-07-01
     location: Denver, CO
-    summary:  Popular request for an update to previous presentation that focused on the technical and security aspects of Internet-of-Things and Automation platforms.
+    summary: Popular request for an update to previous presentation that focused on the technical and security aspects of Internet-of-Things and Automation platforms.
     highlights:
       - Presented to an audience of over 100.
       - IoT protocols, security, and mitigating risks.
@@ -71,7 +78,7 @@ employment:
         - Leading innovative technical and philosophical changes to Resideo's core platform of widely used professional and consumer-connected home products.
         - Migrated all subgraphs and gateways from Apollo Server 2 using NexusJs to Apollo Server v4 using NestJS.
         - Worked with engineers from various teams to improve their understanding and use of GraphQL, software design patterns, and other SDLC areas.
-        - Implemented a self-validating, self-documenting pattern via GraphQL custom scalars and types. 
+        - Implemented a self-validating, self-documenting pattern via GraphQL custom scalars and types.
         - Led a team of 3 in developing new features and leading changes toward best practices.
         - To improve the quality of team deliverables, instituted guidelines and tooling around the review process, testing patterns and implementation, and code style.
         - Initiated group and individual lessons that enabled a cohesive understanding of frameworks, tools, and patterns.
@@ -92,7 +99,6 @@ employment:
         - Initiated a working group to facilitate cross-functional best practices and to reduce “imposter syndrome”.
         - Work on an internal sales tool that allows clients to assess their current state and where WWT can help improve/educate.
         - A top client, to keep the multi-million dollar per year contract, requested a verifiable report detailing the interconnections match the explicit specifications within 6 weeks. Tasked to me, as one of the few who had the skills and knowledge needed. I presented to the client, 5 weeks later, the solution I had designed, built, and deployed; which later received 3 separate awards for its success. - A service that utilized in-band and out-of-band connections matching source ports to their destination port through the use of IP tables, ARP tables, IPMI, Redfish, iLO, iDRAC, and LLDP automated validation of in-band and out-of-band network connections between servers, switches, and routers using Ansible to traverse the network connections.
-        - Performing validation, remediation, and verification on hundreds of devices a day is a major bottleneck in WWT's supply chain, made even worse due to the one-off solutions each ITC team seems to have come up with themselves. Working with a solutions architect, we built a framework to discover servers, switches, routers, and storage devices using services like mDNS, PXE, iPXE, and DHCP; and generate detailed reports using numerous CLI tools, BMC management tools, and on-board RedFish REST API. Facilitating fully automated validation of internal hardware against expected build configurations, remediation of firmware versions, and upgrading the operating system to match required specifications. Providing a single, fully automated solution that, for our test team, improved throughput from 10 a day to 60 devices a day without any errors.
       keywords:
         - DevOps
         - System Automation
@@ -163,8 +169,8 @@ employment:
       url: https://www.aetna.com
       highlights:
         - Responsible for mentoring and conducting engineering best practices lessons.
-        - Introduced scalable and maintainable design pattern proof of concepts, including Decorator Pattern for moving meta data outside of code logic, self-binding RecyclerView, a universal Activity class that would build itself based on the meta data descriptors
-        - Preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API
+        - Introduced scalable and maintainable design pattern proof of concepts, including Decorator Patterns for moving meta data outside of code logic, self-binding RecyclerView.
+        - Preliminary scoping and technical design for integrating the Aetna Health Android application with Google Fit API.
         - Together with the architecture team defined and implemented a unified architecture for the application.
       keywords:
         - Android
@@ -178,9 +184,9 @@ employment:
       position: Senior Android Engineer for Vail Resorts - EpicMix
       url: https://www.teksystems.com
       highlights:
-        - Implemented deep-linking in the EpicMix Android app using Uri interception and processing
+        - Implemented deep-linking in the EpicMix Android app using Uri interception and processing.
         - Due to target SDK version change, added permission handling for Android Marshmallow and above, fixed inherited theme issues and other SDK related changes.
-        - Refactored project to get existing unit tests running and passing, implemented unit and integration tests around new features added
+        - Refactored project to get existing unit tests running and passing, implemented unit and integration tests around new features added.
         - Discovered and fixed application security issues, utilizing the operating system account manager for managing user accounts.
         - Added new resort to the application.
         - Bug fixes around concurrency issues with background threads and issues with Fragment and Activity lifecycle hooks being used incorrectly.
@@ -216,7 +222,7 @@ employment:
         - Implemented a fully dynamic trigger handler factory with trigger execution control through custom settings.
         - Worked with designers to implement angular-based front-end pages on top of Salesforce.
         - As a team, built out custom back-office and HR system for large commercial real estate brokerage.
-        - Working with another developer, build out a node application to browse the Salesforce object model and meta data using the Tooling API
+        - Working with another developer, build out a node application to browse the Salesforce object model and meta data using the Tooling API.
       keywords:
         - Apex Programming
         - Salesforce.com Development
@@ -251,12 +257,12 @@ employment:
       position: Software Engineer
       url: https://www.denverips.com
       highlights:
-        - Using PIC-C, developed an embedded application to provide on-the-fly QA on the production machines
-        - Using VB.Net and LINQ-SQL, developed applications for converting customer data into machine-formatted data
-        - Updated legacy VB6 applications to the newer .Net framework
+        - Using PIC-C, developed an embedded application to provide on-the-fly QA on the production machines.
+        - Using VB.Net and LINQ-SQL, developed applications for converting customer data into machine-formatted data.
+        - Updated legacy VB6 applications to the newer .Net framework.
         - Using MS SQL, implemented new stored procedures to increase productivity over the VB6 and VB.Net applications currently in use.
-        - Worked with the SharePoint application for help-desk and ticket management
-        - Worked with QuickBase to help develop a customer and project manager portal
+        - Worked with the SharePoint application for help-desk and ticket management.
+        - Worked with QuickBase to help develop a customer and project manager portal.
       keywords:
         - C#
         - Visual Basic.NET
@@ -277,7 +283,7 @@ employment:
         - Handled all troubleshooting, debugging and creating instruction manuals for all applications developed.
         - Designed a step-by-step guide for converting Arcom Multiplexers into a modern Fisher ROC Multiplexer including wiring and configuration.
         - Designed and built portable power supplies for use with Rosemount transmitters.
-        - Took initiative to create a database for the lab technician for keeping track of equipment reservations and calibration tracking in an attempt to allow the lab to get more done in less time. 
+        - Took initiative to create a database for the lab technician for keeping track of equipment reservations and calibration tracking in an attempt to allow the lab to get more done in less time.
         - Assisted with conducting performance tests and verifying data acquisition system stability.
         - Assisted the asset management group with developing a database for tracking plant overhaul and other capital projects.
         - Responsible for training engineers in all three operating regions on how to T-Cycle's use and calculations.
@@ -313,13 +319,13 @@ testimonials:
       had designed and beta spec'ed the architecture for a commission/invoice
       integration with a financial system; it was approved by the client in ONE
       meeting. 
-      
+
       I have had the pleasure of knowing Teagan for the past three years now,
       and have worked side by side with her for the last year. I can say without
       a doubt that if she quit her current job, I'd likely be applying to her
       new job; She is that great to work with, always honest and always
       knowledgeable of the task at hand. 
-      
+
       Teagan is a relentless scholar, either from the academic perspective
       nearly having four degrees to the community side and her continual
       contribution to open source. Teagan also is enthralled with automation and

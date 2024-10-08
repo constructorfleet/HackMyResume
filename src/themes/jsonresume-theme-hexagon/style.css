@@ -30,6 +30,14 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
+.studyType {
+  font-weight: bold;
+}
+
+.studyArea {
+  font-weight: bolder;
+}
+
 /* Set core body defaults */
 body {
   line-height: 1.5;
@@ -96,9 +104,10 @@ select {
   }
 
   aside {
-    height: 100vp;
+    height: 100vh;
     page-break-inside: avoid;
     page-break-after: always;
+    padding-bottom: 0.75rem;
   }
 
   .summary a::after {
@@ -139,11 +148,16 @@ select {
     break-inside: avoid;
     break-after: auto;
   }
+
+  a > sup {
+    display: none;
+  }
 }
 
 html,
 body {
   font-size: 12px;
+  display: flexbox;
 }
 
 body {
@@ -154,22 +168,24 @@ body {
   font-family: Roboto, sans-serif;
   grid-template-columns: 20rem 2fr;
   grid-template-areas: "sidebar main";
+  --color-hexagon: var(--color-secondary);
+  --color-icon: var(--color-secondary);
 }
 
-main {
+/* main {
   border: none;
   grid-area: main;
   padding-bottom: 2rem;
   background-color: var(--color-bg);
-  --color-hexagon: var(--color-secondary);
-  --color-icon: var(--color-secondary);
-}
+} */
 
 aside {
   border: none;
   grid-area: sidebar;
   color: var(--color-primary);
   background-size: cover;
+  height: 100%;
+  display: block;
   background-color: var(--color-secondary);
   --color-hexagon: var(--color-primary);
   --color-icon: var(--color-secondary);
@@ -204,6 +220,11 @@ aside > div.photo > div.hex.hex-solid > img {
 section {
   padding-left: 1rem;
 }
+
+/* section.main {
+  display: flex;
+  height: max-content;
+} */
 
 summary {
   font-size: 1.3rem;
@@ -321,7 +342,7 @@ sup {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 0 1rem;
+  padding: 2rem 0 0.5rem;
 }
 
 .heading > h3 {
@@ -518,12 +539,69 @@ blockquote p {
   position: absolute;
 }
 
+.hex-background {
+  margin: 0 1rem;
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
 
+.hex-background::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  background: var(--color-secondary);
+  clip-path: polygon(
+    /* We first go around the pseudo element to recreate the hexagon */ 50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%,
+    /* We make sure to close the hexagon and go back to the start */ 50% 0%,
+    /* We then go down inside the hexagon (feel free to change the border size, here it is of 10px)*/
+      50% 0.5px,
+    /* We finally go around the pseudo element in reverse to carve a smaller hexagon inside */
+      /* 0.49999999999999994 is sin(30deg) as it's only supported in Safari for now */
+      0.5px calc(25% + 0.5px * 0.49999999999999994),
+    0.5px calc(75% + 0.5px * -0.49999999999999994),
+    50% calc(100% - 0.5px),
+    calc(100% - 0.5px) calc(75% + 0.5px * -0.49999999999999994),
+    calc(100% - 0.5px) calc(25% + 0.5px * 0.49999999999999994),
+    50% 10px
+  );
+}
 
+.hex-text {
+  position: absolute;
+  color: var(--color-primary);
+  font-size: 14px;
+  margin: 0.5rem;
+  text-align: center;
+}
 
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: normal;
+  vertical-align: baseline;
+  padding: 0px 1rem 0 0.5rem;
+}
 
-
-
-
-
-
+.keywords .tag {
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  letter-spacing: 1px;
+  width: fit-content;
+  background-color: var(--color-secondary-alpha);
+  color: var(--color-primary);
+  text-align: center;
+  border-radius: 0.25em;
+  padding: 0.33em;
+  margin: 0.5em 0.5em;
+  font-size: 0.5em;
+}

@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "label": "Delivering Scalable Solutions",
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "website": "https://blog.teagantotally.rocks",
+    "name": "Teagan Glenn",
+    "summary": "With over 20 years of experience in software engineering, I specialize in building and scaling backend services using \nmodern technologies like TypeScript and Node.js. My career has been marked by leading high-impact teams, architecting \nrobust solutions, and driving innovative projects from conception to deployment. I thrive in fast-paced, dynamic \nenvironments and have a passion for solving complex problems, mentoring teams, and delivering exceptional user-facing \nfeatures.",
+    "picture": "teagan-memoji-computer.png",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Teagan42",
+        "url": "https://www.linkedin.com/in/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "Teagan42",
+        "url": "https://www.github.com/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "ConstructorFleet",
+        "url": "https://www.github.com/constructorfleet"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Resideo",
+      "website": "https://www.resideo.com",
+      "position": "Advanced Senior GraphQL Lead Engineer",
+      "startDate": "2022-05-01",
+      "endDate": "2024-06-28",
+      "highlights": [
+        "Led critical backend initiatives, including migrating all subgraphs to Apollo Server v4 using NestJS and improving system performance, reliability, and scalability.",
+        "Implemented custom GraphQL solutions, ensuring self-validating and self-documenting patterns for seamless server/client communication.",
+        "Led architectural decisions, enhancing team productivity and codebase scalability across distributed services."
+      ]
+    },
+    {
+      "company": "World Wide Technology",
+      "website": "https://www.wwt.com",
+      "position": "Senior Delivery Engineer",
+      "startDate": "2021-01-01",
+      "endDate": "2022-05-01",
+      "highlights": [
+        "Delivered scalable solutions for high-impact projects, leading cross-functional teams across engineering, UX, QA, and DevOps.",
+        "Spearheaded critical architectural changes that significantly improved system reliability and efficiency."
+      ]
+    },
+    {
+      "company": "KForce",
+      "website": "https://www.kforce.com",
+      "position": "Senior Automation/DevOps Engineer for Charter Advanced Technologies",
+      "startDate": "2020-09-15",
+      "endDate": "2020-12-31",
+      "highlights": [
+        "Developed automation frameworks and improved infrastructure reliability for edge devices.",
+        "Collaborated with engineers and architects to refine backend systems deployed in AWS."
+      ]
+    },
+    {
+      "company": "Turnberry Solutions",
+      "website": "https://www.turnberrysolutions.com",
+      "position": "Senior Automation Engineer for Comcast Applied AI",
+      "startDate": "2019-05-01",
+      "endDate": "2020-09-14",
+      "highlights": [
+        "Designed and deployed scalable backend systems supporting machine learning and anomaly detection, leveraging AWS infrastructure.",
+        "Led efforts to integrate backend systems with RESTful and GraphQL APIs."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Applied Physics",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Applied Physics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Applied Mathematics",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Applied Mathematics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Computer Science",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Computer Science",
+      "studyType": "Bachelor's"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "C#"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Cloud Technologies",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "Operations",
+      "keywords": [
+        "DevOps",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "keywords": [
+        "Team Leadership",
+        "Cross-functional Collaboration"
+      ]
+    },
+    {
+      "name": "API & SDK Development",
+      "keywords": [
+        "GraphQL",
+        "RESTful APIs"
+      ]
+    }
+  ]
+}

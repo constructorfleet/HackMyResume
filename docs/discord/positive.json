@@ -1,0 +1,128 @@
+{
+  "basics": {
+    "label": "Senior Software Engineer | Large-Scale Systems & Automation Expert",
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "website": "https://blog.teagantotally.rocks",
+    "name": "Teagan Glenn",
+    "summary": "With over 20 years of experience in software engineering, I excel in building large-scale distributed systems and automation platforms. Skilled in leading cross-functional teams and driving product experimentation, I have a deep background in cloud computing, A/B testing, and data pipelines. My expertise spans Python, SQL, and Typescript, making me an asset to innovative technology companies looking to scale and improve their platforms.",
+    "picture": "teagan-memoji-computer.png",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Teagan42",
+        "url": "https://www.linkedin.com/in/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "Teagan42",
+        "url": "https://www.github.com/teagan42"
+      },
+      {
+        "network": "GitHub",
+        "username": "ConstructorFleet",
+        "url": "https://www.github.com/constructorfleet"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Resideo",
+      "website": "https://www.resideo.com",
+      "position": "Advanced Senior GraphQL Lead Engineer",
+      "startDate": "2022-05-01",
+      "endDate": "2024-06-28",
+      "highlights": [
+        "Migrated core platform to Apollo Server v4 using NestJS, improving system scalability.",
+        "Led a team to implement self-validating and self-documenting GraphQL patterns, increasing productivity and reducing errors.",
+        "Worked cross-functionally with engineering and product teams to enhance platform experimentation."
+      ]
+    },
+    {
+      "company": "World Wide Technology",
+      "website": "https://www.wwt.com",
+      "position": "Senior Delivery Engineer",
+      "startDate": "2021-01-01",
+      "endDate": "2022-05-01",
+      "highlights": [
+        "Delivered end-to-end solutions across UX, QA, DevOps, and engineering to streamline product development.",
+        "Led the development of automation systems for network and server validation using Python and Ansible.",
+        "Improved multi-million dollar projects through innovative automation and cross-functional collaboration."
+      ]
+    },
+    {
+      "company": "Turnberry Solutions",
+      "website": "https://www.turnberrysolutions.com",
+      "position": "Senior Automation Engineer for Comcast Applied AI",
+      "startDate": "2019-05-01",
+      "endDate": "2020-09-14",
+      "highlights": [
+        "Designed and implemented A/B testing frameworks integrated with ML platforms, supporting large-scale data experiments.",
+        "Built Python-based data pipelines, enabling fast deployment of models and experimentation.",
+        "Leveraged Airflow for complex data orchestration and machine learning workflows."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Applied Physics",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Applied Physics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Applied Mathematics",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Applied Mathematics",
+      "studyType": "Bachelor's"
+    },
+    {
+      "institution": "Metropolitan State University of Denver - Bachelor's in Computer Science",
+      "startDate": "2005-08-01",
+      "endDate": "2010-04-01",
+      "area": "Computer Science",
+      "studyType": "Bachelor's"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "Typescript",
+        "SQL",
+        "C#"
+      ]
+    },
+    {
+      "name": "Cloud & Data",
+      "keywords": [
+        "Google Cloud Platform",
+        "Relational Databases (SQL)",
+        "NoSQL Databases",
+        "Data Pipelines",
+        "A/B Testing"
+      ]
+    },
+    {
+      "name": "Software & Tools",
+      "keywords": [
+        "DevOps",
+        "CI/CD",
+        "Automation",
+        "Machine Learning",
+        "Airflow"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": [
+        "Leadership",
+        "Cross-Discipline Collaboration",
+        "Problem Solving in Ambiguous Environments"
+      ]
+    }
+  ]
+}

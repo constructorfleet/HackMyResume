@@ -1,0 +1,176 @@
+name: 'Teagan Glenn'
+info:
+  image: teagan-memoji-computer.png
+  label: 'Senior Software Architect | Expertise in Distributed Systems & Automation'
+  brief: "A Senior Software Architect with over 20 years of experience, specializing in designing and delivering scalable,\ncloud-based solutions. With a proven track record in software architecture, DevOps, and automation, I bring a blend of \ntechnical expertise and visionary leadership to drive innovation. I have led cross-functional teams in high-profile \norganizations, integrating complex systems and ensuring continuous delivery. My expertise spans cloud platforms, \narchitecture modeling, and modern development frameworks, ensuring top-quality results in fast-paced, Agile environments."
+skills:
+  sets:
+    -
+      name: Languages
+      skills:
+        - Typescript
+        - Python
+        - 'C#'
+        - .NET
+    -
+      name: 'Cloud & Architecture'
+      skills:
+        - AWS
+        - Azure
+        - Draw.io
+    -
+      name: 'Version Control & CI/CD'
+      skills:
+        - Git
+        - GitHub
+        - Jenkins
+        - 'Infrastructure as Code (IaC)'
+    -
+      name: 'Design Patterns & Architectural Styles'
+      skills:
+        - Microservices
+        - MVC
+        - 'Event-Driven Architecture'
+    -
+      name: 'Product Development Tools'
+      skills:
+        - Jira
+        - Confluence
+        - Slack
+    -
+      name: Soft
+      skills:
+        - 'Team Leadership'
+        - 'Cross-Discipline Collaboration'
+        - Mentoring
+        - 'Agile Methodologies (Scrum)'
+social:
+  -
+    network: LinkedIn
+    user: Teagan42
+    url: 'https://www.linkedin.com/in/teagan42'
+  -
+    network: GitHub
+    user: Teagan42
+    url: 'https://www.github.com/teagan42'
+  -
+    network: GitHub
+    user: ConstructorFleet
+    url: 'https://www.github.com/constructorfleet'
+contact:
+  email: that@teagantotally.rocks
+  phone: '(720) 432-5361'
+  website: 'https://blog.teagantotally.rocks'
+location:
+  address: '11838 W Marlowe Ave'
+  city: Morrison
+  region: CO
+  code: '80465'
+employment:
+  history:
+    -
+      employer: Resideo
+      start: '2022-05-01'
+      end: '2024-06-28'
+      position: 'Advanced Senior GraphQL Lead Engineer'
+      url: 'https://www.resideo.com'
+      highlights:
+        - 'Led architectural changes to Resideo''s core platform for connected home products, including migration to Apollo Server v4 using NestJS.'
+        - 'Introduced automated, self-documenting patterns using GraphQL, optimizing microservices integration and scalability.'
+        - 'Mentored engineers on software design patterns and system architecture best practices.'
+        - 'Spearheaded DevOps practices for continuous integration and deployment, improving product development speed and reliability.'
+      keywords:
+        - Typescript
+        - GraphQL
+        - Microservices
+        - 'Team Leadership'
+        - DevOps
+        - CI/CD
+    -
+      employer: 'World Wide Technology'
+      start: '2021-01-01'
+      end: '2022-05-01'
+      position: 'Senior Delivery Engineer'
+      url: 'https://www.wwt.com'
+      highlights:
+        - 'Developed automation frameworks and led cross-functional teams to deliver solutions for clients across multiple industries.'
+        - 'Delivered a network automation system for a multi-million dollar client, reducing manual intervention by 70% using Ansible and other infrastructure-as-code tools.'
+        - 'Worked closely with product and DevOps teams, ensuring scalable and secure deployment practices in cloud-based environments.'
+      keywords:
+        - DevOps
+        - 'System Automation'
+        - 'Network Automation'
+        - Python
+        - 'Infrastructure as Code (IaC)'
+        - Ansible
+    -
+      employer: 'Turnberry Solutions'
+      start: '2019-05-01'
+      end: '2020-09-14'
+      position: 'Senior Automation Engineer for Comcast Applied AI'
+      url: 'https://www.turnberrysolutions.com'
+      highlights:
+        - 'Designed and deployed a fully automated machine learning platform (AMP) for rapid model deployment and monitoring in AWS.'
+        - 'Collaborated with ML teams to integrate AI-driven solutions using Python and TensorFlow.'
+        - 'Built infrastructure for monitoring, logging, and automated failover using AWS tools and Python.'
+      keywords:
+        - AWS
+        - TensorFlow
+        - 'Machine Learning'
+        - Python
+        - Automation
+        - DevOps
+    -
+      employer: KForce
+      start: '2020-09-15'
+      end: '2020-12-31'
+      position: 'Senior Automation/DevOps Engineer for Charter Advanced Technologies'
+      url: 'https://www.kforce.com'
+      highlights:
+        - 'Led efforts to implement VR-as-a-Service on edge devices, with robust automation scripts improving deployment times by 50%.'
+        - 'Deployed CI/CD pipelines and automated cloud provisioning using Ansible and Terraform.'
+      keywords:
+        - OpenShift
+        - Ansible
+        - 'Infrastructure as Code'
+        - 'Linux KVM'
+    -
+      employer: Aetna
+      start: '2019-04-01'
+      end: '2019-05-01'
+      position: 'Senior Staff Engineer'
+      url: 'https://www.aetna.com'
+      highlights:
+        - 'Led the architecture and CI/CD implementation for Aetna''s first cloud-integrated API feature.'
+        - 'Collaborated closely with the architecture team to implement an integrated platform architecture across multiple platforms (iOS, Android).'
+      keywords:
+        - CI/CD
+        - 'Cloud Architecture'
+        - Docker
+        - Jenkins
+        - Kotlin
+        - Java
+education:
+  level: 'Bachelor''s'
+  history:
+    -
+      institution: 'Metropolitan State University of Denver - Bachelor''s in Applied Physics'
+      area: 'Applied Physics'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+    -
+      institution: 'Metropolitan State University of Denver - Bachelor''s in Applied Mathematics'
+      area: 'Applied Mathematics'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+    -
+      institution: 'Metropolitan State University of Denver - Bachelor''s in Computer Science'
+      area: 'Computer Science'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+meta:
+  format: FRESH@0.6.1
+  version: 1.0.0

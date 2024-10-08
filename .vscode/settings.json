@@ -15,5 +15,10 @@
     ],
     "json-yaml-schema-selector.additionalSchemas": [
         "/Users/tglenn/src/HackMyResume/assets/fresh-resume-schema.json"
+    ],
+    "markdown-pdf.omitBackground": true,
+    "markdown-pdf.styles": [
+        "docs/compact.css",
+        "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
     ]
 }

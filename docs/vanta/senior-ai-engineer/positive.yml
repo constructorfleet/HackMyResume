@@ -1,0 +1,147 @@
+name: 'Teagan Glenn'
+info:
+  image: teagan-memoji-computer.png
+  label: 'Senior AI Platform Engineer | AI/ML Infrastructure Expert'
+  brief: 'Accomplished Senior Software Engineer with over 20 years of experience, specializing in AI and machine learning infrastructure, platform engineering, and data pipeline development. Proven success in building scalable ML solutions and optimizing AI services for performance and reliability. Strong leadership skills with a focus on improving developer experience and collaborative engineering culture. Adept at designing, implementing, and scaling AI systems, driving innovation, and delivering high-quality AI products.'
+skills:
+  sets:
+    -
+      name: 'AI/ML Engineering'
+      skills:
+        - 'Machine Learning Development'
+        - 'ML Pipelines'
+        - 'Data Pipelines'
+        - 'Model Training and Evaluation'
+        - 'AI Infrastructure'
+        - 'AI Developer Tools'
+    -
+      name: 'Software Development'
+      skills:
+        - Python
+        - Docker
+        - Kubernetes
+        - Microservices
+        - CI/CD
+        - 'API Development'
+    -
+      name: 'Data Engineering & Tools'
+      skills:
+        - 'Apache Airflow'
+        - 'Data Warehousing (Amazon Redshift)'
+        - Pandas
+        - Numpy
+        - 'SQL Databases (PostgreSQL, MySQL)'
+        - 'NoSQL Databases'
+    -
+      name: 'Cloud & DevOps'
+      skills:
+        - AWS
+        - 'Google Cloud Platform (GCP)'
+        - Heroku
+        - Kubernetes
+        - Terraform
+    -
+      name: Soft
+      skills:
+        - 'Team Leadership'
+        - 'Cross-Discipline Collaboration'
+        - Problem-Solving
+        - Mentoring
+social:
+  -
+    network: LinkedIn
+    user: Teagan42
+    url: 'https://www.linkedin.com/in/teagan42'
+  -
+    network: GitHub
+    user: Teagan42
+    url: 'https://www.github.com/teagan42'
+contact:
+  email: that@teagantotally.rocks
+  phone: '(720) 432-5361'
+  website: 'https://blog.teagantotally.rocks'
+location:
+  address: '11838 W Marlowe Ave'
+  city: Morrison
+  region: CO
+  code: '80465'
+employment:
+  history:
+    -
+      employer: Resideo
+      start: '2022-05-01'
+      end: '2024-06-28'
+      position: 'Advanced Senior GraphQL Lead Engineer'
+      url: 'https://www.resideo.com'
+      highlights:
+        - 'Spearheaded the development of scalable AI and ML services, improving automation and data analysis capabilities for home automation systems.'
+        - 'Designed and deployed ML pipelines for model training and real-time inference, using Python and cloud-based platforms.'
+        - 'Improved developer experience by implementing tools and frameworks that streamlined AI development and testing.'
+        - 'Led cross-functional teams in deploying AI-powered features into production.'
+      keywords:
+        - Python
+        - 'AI Infrastructure'
+        - 'ML Pipelines'
+        - 'Cloud Infrastructure'
+        - 'AI Developer Tools'
+        - Leadership
+    -
+      employer: 'World Wide Technology'
+      start: '2021-01-01'
+      end: '2022-05-01'
+      position: 'Senior Delivery Engineer'
+      url: 'https://www.wwt.com'
+      highlights:
+        - 'Developed and scaled machine learning platforms to process and analyze large datasets.'
+        - 'Owned the full ML lifecycle, from model training to production deployment, ensuring reliability and performance.'
+        - 'Improved AI infrastructure and developer tooling, enabling faster and more efficient AI model delivery.'
+        - 'Integrated AI solutions with cloud-based systems, prioritizing security and performance.'
+      keywords:
+        - 'Machine Learning'
+        - 'AI Platform Engineering'
+        - Python
+        - AWS
+        - 'Data Pipelines'
+        - 'Developer Tooling'
+    -
+      employer: 'Turnberry Solutions'
+      start: '2019-05-01'
+      end: '2020-09-14'
+      position: 'Senior Automation Engineer for Comcast Applied AI'
+      url: 'https://www.turnberrysolutions.com'
+      highlights:
+        - 'Designed and built a machine learning platform for natural language processing and data classification tasks.'
+        - 'Developed scalable data pipelines for training and evaluating machine learning models using Python and cloud-based technologies.'
+        - 'Collaborated with engineers and product managers to improve AI-powered solutions for customer-facing applications.'
+        - 'Led the deployment of AI systems, focusing on improving reliability, scalability, and performance.'
+      keywords:
+        - 'AI/ML Platform'
+        - Python
+        - 'Machine Learning'
+        - 'Data Pipelines'
+        - 'Google Cloud Platform (GCP)'
+        - AWS
+meta:
+  format: FRESH@0.6.1
+  version: 1.0.0
+education:
+  level: 'Bachelor''s'
+  history:
+    -
+      institution: 'Metropolitan State University of Denver - Bachelor''s in Applied Physics'
+      area: 'Applied Physics'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+    -
+      institution: 'Metropolitan State University of Denver - Bachelor''s in Mathematics'
+      area: 'Applied Mathematics'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'
+    -
+      institution: 'Metropolitan State University of Denver - Bachelor''s in Computer Science'
+      area: 'Computer Science'
+      studyType: 'Bachelor''s'
+      start: '2005-08-01'
+      end: '2010-04-01'

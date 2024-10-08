@@ -1,0 +1,161 @@
+{
+  "name": "Teagan Glenn",
+  "info": {
+    "image": "teagan-memoji-computer.png",
+    "label": "Expert Software Engineer | Leading Scalable Data Solutions",
+    "brief": "A highly experienced software engineer with over 20 years in the industry, I specialize in architecting and implementing\nlarge-scale, data-driven platforms. I bring a deep understanding of distributed systems and data infrastructure. \nKnown for my leadership and ability to drive high-performance teams, I am passionate about creating scalable, reliable, \nand maintainable systems. My focus is on delivering innovative solutions that drive business outcomes through cutting-edge\ntechnologies."
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Programming Languages",
+        "skills": [
+          "Python",
+          "Java",
+          "Kotlin",
+          "C#"
+        ]
+      },
+      {
+        "name": "Data Technologies",
+        "skills": [
+          "Distributed Systems",
+          "Data Management",
+          "Microservices"
+        ]
+      },
+      {
+        "name": "Automation & DevOps",
+        "skills": [
+          "DevOps",
+          "CI/CD",
+          "Infrastructure as Code"
+        ]
+      },
+      {
+        "name": "Soft Skills",
+        "skills": [
+          "Team Leadership",
+          "Mentoring",
+          "Cross-Discipline Collaboration",
+          "Strategic Alignment"
+        ]
+      }
+    ]
+  },
+  "social": [
+    {
+      "network": "LinkedIn",
+      "user": "Teagan42",
+      "url": "https://www.linkedin.com/in/teagan42"
+    },
+    {
+      "network": "GitHub",
+      "user": "Teagan42",
+      "url": "https://www.github.com/teagan42"
+    },
+    {
+      "network": "GitHub",
+      "user": "ConstructorFleet",
+      "url": "https://www.github.com/constructorfleet"
+    }
+  ],
+  "contact": {
+    "email": "that@teagantotally.rocks",
+    "phone": "(720) 432-5361",
+    "website": "https://blog.teagantotally.rocks"
+  },
+  "location": {
+    "address": "11838 W Marlowe Ave",
+    "city": "Morrison",
+    "region": "CO",
+    "code": "80465"
+  },
+  "employment": {
+    "history": [
+      {
+        "employer": "Resideo",
+        "start": "2022-05-01",
+        "end": "2024-06-28",
+        "position": "Advanced Senior GraphQL Lead Engineer",
+        "url": "https://www.resideo.com",
+        "highlights": [
+          "Led innovative changes to Resideo's core platform and optimized data solutions.",
+          "Designed scalable microservices and improved cross-team data architecture using GraphQL.",
+          "Mentored engineers and elevated team practices, focusing on high-quality code and testing standards."
+        ],
+        "keywords": [
+          "Team Leadership",
+          "Scalable Data Platforms",
+          "GraphQL",
+          "Microservices"
+        ]
+      },
+      {
+        "employer": "World Wide Technology",
+        "start": "2021-01-01",
+        "end": "2022-05-01",
+        "position": "Senior Delivery Engineer",
+        "url": "https://www.wwt.com",
+        "highlights": [
+          "Developed data-driven solutions involving network automation and system processes.",
+          "Delivered high-impact solutions for internal platform development, focusing on data integrity."
+        ],
+        "keywords": [
+          "System Automation",
+          "Data Processing",
+          "Python",
+          "Ansible"
+        ]
+      },
+      {
+        "employer": "Turnberry Solutions",
+        "start": "2019-05-01",
+        "end": "2020-09-14",
+        "position": "Senior Automation Engineer for Comcast Applied AI",
+        "url": "https://www.turnberrysolutions.com",
+        "highlights": [
+          "Created and optimized data pipelines for machine learning and automation.",
+          "Worked with cloud-based data architecture and infrastructure (AWS EKS, Kinesis).",
+          "Led development of a universal plug-in library to optimize internal metrics collection."
+        ],
+        "keywords": [
+          "Data Pipelines",
+          "MLOps",
+          "Machine Learning",
+          "Cloud Infrastructure"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "Bachelor's",
+    "history": [
+      {
+        "institution": "Metropolitan State University of Denver - Bachelor's in Applied Physics",
+        "area": "Applied Physics",
+        "studyType": "Bachelor's",
+        "start": "2005-08-01",
+        "end": "2010-04-01"
+      },
+      {
+        "institution": "Metropolitan State University of Denver - Bachelor's in Applied Mathematics",
+        "area": "Applied Mathematics",
+        "studyType": "Bachelor's",
+        "start": "2005-08-01",
+        "end": "2010-04-01"
+      },
+      {
+        "institution": "Metropolitan State University of Denver - Bachelor's in Computer Science",
+        "area": "Computer Science",
+        "studyType": "Bachelor's",
+        "start": "2005-08-01",
+        "end": "2010-04-01"
+      }
+    ]
+  },
+  "meta": {
+    "format": "FRESH@0.6.1",
+    "version": "1.0.0"
+  }
+}

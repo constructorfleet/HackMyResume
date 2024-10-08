@@ -1,0 +1,67 @@
+Teagan Glenn
+Email: that@teagantotally.rocks
+Tel: (720) 432-5361
+Web: https://blog.teagantotally.rocks
+================================================================================
+
+
+With over 20 years of experience in software engineering, I specialize in building and scaling backend services using 
+modern technologies like TypeScript and Node.js. My career has been marked by leading high-impact teams, architecting 
+robust solutions, and driving innovative projects from conception to deployment. I thrive in fast-paced, dynamic 
+environments and have a passion for solving complex problems, mentoring teams, and delivering exceptional user-facing 
+features.
+
+
+SKILLS -------------------------------------------------------------------------
+
+- Languages: TypeScript Node.js Python C# 
+- Databases: PostgreSQL Redis 
+- Cloud Technologies: AWS Docker Kubernetes 
+- Operations: DevOps CI/CD 
+- Leadership: Team Leadership Cross-functional Collaboration 
+- API & SDK Development: GraphQL RESTful APIs 
+
+
+History ---------------------------------------------------------------------
+
+Advanced Senior GraphQL Lead Engineer, Resideo (2022-05 — 2024-06)
+
+- Led critical backend initiatives, including migrating all subgraphs to Apollo Server v4 using NestJS and improving system performance, reliability, and scalability.
+- Implemented custom GraphQL solutions, ensuring self-validating and self-documenting patterns for seamless server/client communication.
+- Led architectural decisions, enhancing team productivity and codebase scalability across distributed services.
+
+Senior Delivery Engineer, World Wide Technology (2021-01 — 2022-05)
+
+- Delivered scalable solutions for high-impact projects, leading cross-functional teams across engineering, UX, QA, and DevOps.
+- Spearheaded critical architectural changes that significantly improved system reliability and efficiency.
+
+Senior Automation/DevOps Engineer for Charter Advanced Technologies, KForce (2020-09 — 2020-12)
+
+- Developed automation frameworks and improved infrastructure reliability for edge devices.
+- Collaborated with engineers and architects to refine backend systems deployed in AWS.
+
+Senior Automation Engineer for Comcast Applied AI, Turnberry Solutions (2019-05 — 2020-09)
+
+- Designed and deployed scalable backend systems supporting machine learning and anomaly detection, leveraging AWS infrastructure.
+- Led efforts to integrate backend systems with RESTful and GraphQL APIs.
+
+
+
+
+Education ----------------------------------------------------------------------
+
+Metropolitan State University of Denver - Bachelor's in Applied Physics (2005-08 — 2010-04)
+
+Metropolitan State University of Denver - Bachelor's in Applied Mathematics (2005-08 — 2010-04)
+
+Metropolitan State University of Denver - Bachelor's in Computer Science (2005-08 — 2010-04)
+
+
+
+
+
+
+
+
+
+

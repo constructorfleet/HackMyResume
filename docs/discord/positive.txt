@@ -1,0 +1,58 @@
+Teagan Glenn
+Email: that@teagantotally.rocks
+Tel: (720) 432-5361
+Web: https://blog.teagantotally.rocks
+================================================================================
+
+
+With over 20 years of experience in software engineering, I excel in building large-scale distributed systems and automation platforms. Skilled in leading cross-functional teams and driving product experimentation, I have a deep background in cloud computing, A/B testing, and data pipelines. My expertise spans Python, SQL, and Typescript, making me an asset to innovative technology companies looking to scale and improve their platforms.
+
+
+SKILLS -------------------------------------------------------------------------
+
+- Programming Languages: Python Typescript SQL C# 
+- Cloud & Data: Google Cloud Platform Relational Databases (SQL) NoSQL Databases Data Pipelines A/B Testing 
+- Software & Tools: DevOps CI/CD Automation Machine Learning Airflow 
+- Soft Skills: Leadership Cross-Discipline Collaboration Problem Solving in Ambiguous Environments 
+
+
+History ---------------------------------------------------------------------
+
+Advanced Senior GraphQL Lead Engineer, Resideo (2022-05 — 2024-06)
+
+- Migrated core platform to Apollo Server v4 using NestJS, improving system scalability.
+- Led a team to implement self-validating and self-documenting GraphQL patterns, increasing productivity and reducing errors.
+- Worked cross-functionally with engineering and product teams to enhance platform experimentation.
+
+Senior Delivery Engineer, World Wide Technology (2021-01 — 2022-05)
+
+- Delivered end-to-end solutions across UX, QA, DevOps, and engineering to streamline product development.
+- Led the development of automation systems for network and server validation using Python and Ansible.
+- Improved multi-million dollar projects through innovative automation and cross-functional collaboration.
+
+Senior Automation Engineer for Comcast Applied AI, Turnberry Solutions (2019-05 — 2020-09)
+
+- Designed and implemented A/B testing frameworks integrated with ML platforms, supporting large-scale data experiments.
+- Built Python-based data pipelines, enabling fast deployment of models and experimentation.
+- Leveraged Airflow for complex data orchestration and machine learning workflows.
+
+
+
+
+Education ----------------------------------------------------------------------
+
+Metropolitan State University of Denver - Bachelor's in Applied Physics (2005-08 — 2010-04)
+
+Metropolitan State University of Denver - Bachelor's in Applied Mathematics (2005-08 — 2010-04)
+
+Metropolitan State University of Denver - Bachelor's in Computer Science (2005-08 — 2010-04)
+
+
+
+
+
+
+
+
+
+

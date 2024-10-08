@@ -267,7 +267,7 @@ var _single = function (targInfo, theme, finished) {
     // Fluent/FRESH themes are handled here.
     if (targInfo.fmt.files && targInfo.fmt.files.length) {
       theFormat = _fmts.filter((fmt) => fmt.name === targInfo.fmt.outFormat)[0];
-      MKDIRP.sync(PATH.dirname(f));
+      MKDIRP.sync(PATH.dirname(f), { recursive: true });
       ret = theFormat.gen.generate(_rezObj, f, _opts);
 
       // Otherwise this is an ad-hoc format (JSON, YML, or PNG) that every theme
@@ -275,7 +275,7 @@ var _single = function (targInfo, theme, finished) {
     } else {
       theFormat = _fmts.filter((fmt) => fmt.name === targInfo.fmt.outFormat)[0];
       const outFolder = PATH.dirname(f);
-      MKDIRP.sync(outFolder); // Ensure dest folder exists;
+      MKDIRP.sync(outFolder, { recursive: true }); // Ensure dest folder exists;
       ret = theFormat.gen.generate(_rezObj, f, _opts);
     }
   } catch (e) {
@@ -375,9 +375,9 @@ var _expand = function (dst, theTheme) {
       targets,
       fmat === ".all"
         ? Object.keys(theTheme.formats).map(function (k) {
-            const z = theTheme.formats[k];
-            return { file: to.replace(/all$/g, z.outFormat), fmt: z };
-          })
+          const z = theTheme.formats[k];
+          return { file: to.replace(/all$/g, z.outFormat), fmt: z };
+        })
         : [{ file: to, fmt: theTheme.getFormat(fmat.slice(1)) }],
     );
   });

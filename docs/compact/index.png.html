@@ -6,20 +6,35 @@
         <title>Teagan Glenn</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <style>
-            html, body, main, section, header, ul, p, h1, h2, h3 {
-              font-family: 'Calibri', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'sans-serif';
+            html,
+            body,
+            main,
+            section,
+            header,
+            ul,
+            p,
+            h1,
+            h2,
+            h3 {
+              font-family: "Calibri", "Helvetica Neue", "Helvetica", "Segoe UI",
+                "sans-serif";
               font-size: 12px;
-              margin: 0; padding: 0;
+              margin: 0;
+              padding: 0;
               display: block;
             }
             
+            h1 {
+              font-size: 18px;
+            }
+            
             a {
-              color: #0064BD;
+              color: #0064bd;
               text-decoration: none;
             }
             
             a:visited {
-              color: #7B0796;
+              color: #7b0796;
             }
             
             a:hover {
@@ -36,12 +51,12 @@
             
             hr {
               border: none;
-              border-top: 1px solid #B3B3B3;
+              border-top: 1px solid #b3b3b3;
             }
             
             main {
               padding: 15px;
-              max-width: 700px;
+              max-width: 90%;
               margin: 0 auto;
             }
             
@@ -53,7 +68,8 @@
               margin-left: 2em;
             }
             
-            p, li {
+            p,
+            li {
               text-align: justify;
               clear: both;
             }
@@ -69,10 +85,17 @@
             main > header {
               width: 100%;
               float: left;
-              margin-bottom: 0;
+              margin-bottom: 8px;
               position: relative;
             }
             
+            header {
+              margin-bottom: 8px;
+            }
+            
+            main > header > div {
+              font-size: 14px;
+            }
             
             h3 {
               display: inline-block;
@@ -90,7 +113,7 @@
               margin-left: 5px;
             }
             
-            span.fa {
+            span.fa div.fa {
               text-align: left;
               margin-right: 3px;
               float: left;
@@ -105,6 +128,14 @@
               font-size: 10px;
               color: gray;
               text-align: right;
+            }
+            
+            div {
+              break-inside: avoid;
+            }
+            
+            section#testimonials {
+              display: none;
             }
         </style>
     </head>
@@ -258,17 +289,14 @@
                             application.</li>
                         <li>Responsible for mentoring and conducting engineering best practices lessons.</li>
                         <li>Championed campaign to transition Android mobile application from Java
-                            to Kotlin, reducing development time and improving user exprience around
-                            asynchronous tasks.time and improving user exprience around asynchronous
-                            tasks.</li>
+                            to Kotlin, reducing development time and improving user experience around
+                            asynchronous tasks.</li>
                         <li>Introduced scalable and maintainable design pattern proof of concepts,
                             including Decorator Pattern for moving metadata outside of code logic,
                             self-binding RecyclerView, a universal Activity class that would build
-                            itself based on the metadata descriptorsmoving meta data outside of code
-                            logic, self-binding RecyclerView, a universal Activity class that would
-                            build itself based on the meta data descriptors</li>
+                            itself based on a declarative specification.</li>
                         <li>Preliminary scoping and technical design for integrating the Aetna Health
-                            Android application with Google Fit APIle Fit API</li>
+                            Android application with Google Fit API.</li>
                         <li>Together with the architecture team defined and implemented a unified
                             architecture for the application.</li>
                     </ul> <span class="keywords">Android • Java • Software Architecture • Kotlin • Mentoring </span>
@@ -283,11 +311,10 @@
                     <ul>
                         <li>Implemented deep-linking in the EpicMix Java-based Android application
                             using Uri interception, which allowed targeted marketing notifications
-                            to open up specific screens or features in the application.open up specific
-                            screens or features in the application.</li>
+                            to open up specific screens or features in the application.</li>
                         <li>Due to target SDK version change, added permission handling for Android
                             Marshmallow and above, fixed inherited theme issues and other SDK related
-                            changes. changes.</li>
+                            changes.</li>
                         <li>Refactored project to get existing unit tests running and passing, implemented
                             unit and integration tests around new features added.</li>
                         <li>Discovered and fixed application security issues, utilizing the operating
@@ -306,16 +333,15 @@
                     <ul>
                         <li>Re-wrote the Android mobile application in Java, architected around an
                             asynchronous event bus with highly optimized thread utilization and a single-activity
-                            router.gle-activity router.</li>
+                            router.</li>
                         <li>The new Android application used bidirectional data binding, a single
                             activity router, and a home-grown live data system, which allowed all views
-                            saved to the back stack to be updated from any API request. saved to the
-                            backstack to update from any API request.</li>
+                            saved to the back stack to be updated from any API request.</li>
                         <li>Implemented my open source self-documenting, self-validating API library
                             into Node.js backend services.</li>
                         <li>Worked closely with product, design, and engineering teams to implement
                             technical feasibility and product feedback sessions to improve their communication
-                            and collaboration.ion and collaboration between them.</li>
+                            and collaboration.</li>
                         <li>Acted as mentor to grow the team professionally, implementing better coding
                             standards and engineering practices across the engineering department.</li>
                     </ul> <span class="keywords">Team Leadership • Android • Java • Mentoring • Inter-departmental collaboration • Feature Planning </span>
@@ -325,7 +351,7 @@
 
     <a href="https://www.aptotude.com">Apto</a>
 
-    </h3> <span class="tenure">2015-03 — 2017-02</span>
+    </h3> <span class="tenure">2015-03 — 2016-08</span>
                     <p></p>
                     <ul>
                         <li>Designed and built a plug-and-play integration system for push, pull,
@@ -335,9 +361,9 @@
                         <li>Worked with designers to implement angular-based front-end pages on top
                             of Salesforce.</li>
                         <li>As a team, built custom back-office and HR systems for large commercial
-                            real estate brokerage.</li>
+                            real estate brokerage firms.</li>
                         <li>Working with another developer, build out a node application to browse
-                            the Salesforce object model and metadata using the Tooling API</li>
+                            the Salesforce object model and metadata using the Tooling API.</li>
                     </ul> <span class="keywords">Apex Programming • Salesforce.com Development • Node.js • Ionic Framework • SOAP </span>
                 </div>
                 <div>
@@ -351,18 +377,14 @@
                         <li>Worked with business users to determine application requirements and specifications.</li>
                         <li>Designed and built web applications, using ASP.Net MVC 4 and 5 with an
                             MS SQLServer backend, to track compliance testing and inspections of equipment
-                            as required by federal regulations. and inspections of equipment as required
-                            by federal regulations.</li>
+                            as required by federal regulations.</li>
                         <li>Built a C# library for SourceGas developers to use that includes wrappers
                             around EntityFramework 6.1, Active Directory, ADP (HR System), Geocoding
                             Services from Bing, Yahoo, and Google, as well as standard datatypes and
-                            functionality used throughout the software development landscape. (HR System),
-                            Geocoding Services from Bing, Yahoo and Google. As well as common datatypes
-                            and functionality used throughout the software development landscape.</li>
+                            functionality used throughout the software development landscape.</li>
                         <li>Worked with other developers to design and build a time tracking and reporting
                             site used company-wide using ASP.Net MVC 4, JQuery, Durandal, Knockout,
-                            and MVC Web API with an MS SQL server backend. MVC 4, JQuery, Durandal,
-                            Knockout and MVC Web Api with a MS SQLServer backend.</li>
+                            and MVC Web API with an MS SQL server backend.</li>
                         <li>Designed and built a C# application to poll data from an ADP (HR System)
                             web service and sync with Active Directory.</li>
                         <li>Wrote Python scripts for the GIS team using ArcGIS.</li>
@@ -380,13 +402,12 @@
                     <p></p>
                     <ul>
                         <li>Used PIC-C to develop an embedded application to provide on-the-fly QA
-                            on the production machines.e production machines.</li>
+                            on the production machines.</li>
                         <li>Used VB.Net and LINQ-SQL to build applications for converting customer
-                            data into machine-formatted data.into machine-formatted data.</li>
+                            data into machine-formatted data.</li>
                         <li>Updated legacy VB6 applications to the newer .NET framework.</li>
                         <li>Implemented new stored procedures to increase productivity over the VB6
-                            and VB.NET applications that were in use.VB.NET applications that were
-                            in use.</li>
+                            and VB.NET applications that were in use.</li>
                         <li>Worked with the SharePoint application for help-desk and ticket management.</li>
                         <li>Worked with QuickBase to help develop a customer and project manager portal.</li>
                     </ul> <span class="keywords">C# • Visual Basic.NET • Embedded C • Microsoft SQL Server • Windows Presentation Foundation (WPF) • Windows Communication Foundation (WCF) • Subversion </span>
@@ -402,32 +423,25 @@
                         <li>Placed in charge of developing a program, T-Cycle, for modeling power
                             plants using a graphical user interface, calculating performance, tracking
                             performance history, alerting engineers to possible causes of problems
-                            in the plant, and calculating corrections for reporting to government agencies.ce,
-                            calculating performance, tracking performance history, alerting engineers
-                            to possible causes of problems in plant and calculation corrections for
-                            reporting to government agencies.</li>
+                            in the plant, and calculating corrections for reporting to government agencies.</li>
                         <li>Developed a Microsoft Excel add-in to automate many of the team&#39;s
                             engineers&#39; day-to-day calculations, enabling them to release their
-                            reports quickly.rs that enabled them to release their reports quicker.</li>
+                            reports quickly.</li>
                         <li>Worked with mechanical engineers and our lab technician to develop a primarily
                             automated data acquisition system that alleviated some of the headaches
-                            and difficulties setting up during performance tests.em that alleviated
-                            some of the headaches and difficulties setting up and during performance
-                            tests.</li>
+                            and difficulties setting up during performance tests.</li>
                         <li>Handled all troubleshooting, debugging, and creating instruction manuals
                             for all developed applications.</li>
                         <li>Designed a step-by-step guide for converting Arcom Multiplexers into a
-                            modern Fisher ROC Multiplexer, including wiring and configuration.ing wiring
-                            and configuration.</li>
+                            modern Fisher ROC Multiplexer, including wiring and configuration.</li>
                         <li>Designed and built portable power supplies for use with Rosemount transmitters.</li>
                         <li>Took the initiative to create a database for the lab technician to track
                             equipment reservations and calibration monitoring to allow the lab to complete
-                            more in less time. calibration tracking in an attempt to allow the lab
-                            to get more done in less time.</li>
+                            more in less time.</li>
                         <li>Assisted with conducting performance tests and verifying data acquisition
                             system stability.</li>
                         <li>Assisted the asset management group with developing a database for tracking
-                            plant overhaul and other capital projects.l projects.</li>
+                            plant overhaul and other capital projects.</li>
                         <li>Responsible for training engineers in all three operating regions on how
                             to T-Cycle&#39;s use and calculations.</li>
                     </ul> <span class="keywords">VBA • Microsoft Excel • Microsoft Access • Process Engineering </span>
